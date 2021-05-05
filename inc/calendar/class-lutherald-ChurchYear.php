@@ -43,7 +43,8 @@ class ChurchYear{
     }
 
     public function load_moveable_feasts(){
-        $json = file_get_contents("moveable_feasts.json");
+        
+        $json = file_get_contents(plugin_dir_path(__FILE__) ."moveable_feasts.json");
 
         $seasons_records = json_decode($json, true);
 
