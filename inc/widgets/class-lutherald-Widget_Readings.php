@@ -43,17 +43,15 @@ class Widget_Readings extends \WP_Widget{
         <div>
         <h2><?php echo $day_info['display']?></h2>
 
-        <h3>First Reading</h3>
-        <p><?php echo $day_info['readings'][0];?></p>
+        <h3>First Reading: <?php echo $day_info['readings'][0];?></h3>
+        <?php 
+            echo BibleGateway::get_verse($day_info['readings'][0]);
+        ?> 
+        <h3>Second Reading: <?php echo $day_info['readings'][1];?></h3>
+        <?php 
+            echo BibleGateway::get_verse($day_info['readings'][1]);
+        ?> 
 
-        <h3>Second Reading</h3>
-        <p><?php echo $day_info['readings'][1];?></p>
-
-        <script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-        <script type="text/javascript">
-        BGLinks.version = "NKJV";
-        BGLinks.linkVerses();
-        </script>
         
         </div>
         <?php
