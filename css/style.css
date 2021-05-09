@@ -1,0 +1,40 @@
+.violet{
+    background-color: #CBAACB;
+    color:black;
+    font-weight: 600;
+}
+
+.red{
+    background-color: #FF968A;
+    color:black;
+    font-weight: 600;
+}
+
+.green{
+    background-color: #97C1A9;
+    color:black;
+    font-weight: 600;
+}
+
+.white{
+    background-color: white;
+    color:black;
+    font-weight: 600;
+}
+
+.black{
+    background-color: black;
+    color:white;
+    font-weight: 600;
+;
+}
+
+.tlh-lectionary .pagination{
+    padding: 1em 0;
+    display: flex;
+}
+
+.tlh-lectionary .pagination div{
+    display: inline-block;
+    width: 50%;
+}

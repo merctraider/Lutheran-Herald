@@ -104,7 +104,9 @@ class ChurchYear{
     public function retrieve_day_info($date){
         $seasons = $this->seasons;
         $season_of_day = $this->find_season($date);
-
+        if(!$season_of_day){
+            return false; 
+        }
         return $seasons[$season_of_day]->get_day($date->format('Y-m-d'));
     }
 
@@ -112,6 +114,9 @@ class ChurchYear{
     
 
     public function find_season($date){
+        if(\is_string($date)){
+            $date = new \DateTime($date);
+        }
         $seasons = $this->seasons;
         foreach($seasons as $season_id => $season){
             if($season->in_season($date)){
@@ -189,7 +194,7 @@ class ChurchYear{
 
     public function get_advent_sundays(){
         $sundays =[];
-        for($i =0; $i<4;$i++){
+        for($i =1; $i<=4;$i++){
             $sundays[$i] = $this->get_advent_sunday($i);
         }
         return $sundays;
