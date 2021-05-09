@@ -70,12 +70,12 @@ class Widget_Readings extends \WP_Widget{
 
             echo "<$readings_tag>First Reading: $first_reading</$readings_tag>";
             if($display_verse){
-                echo BibleGateway::get_verse($first_reading);
+                echo '<p>'. BibleGateway::get_verse($first_reading) . '</p>';
             }
 
             echo "<$readings_tag>Second Reading: $second_reading</$readings_tag>";
             if($display_verse){
-                echo BibleGateway::get_verse($second_reading);
+                echo '<p>' . BibleGateway::get_verse($second_reading) . '</p>';
             }
 
             if($pagination_position === 'bottom'){
