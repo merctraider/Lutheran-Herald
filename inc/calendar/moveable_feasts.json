@@ -19,8 +19,14 @@
                 "saturday":["Deuteronomy 18:15-19","Ephesians 3:1-12"]
             }, 
             "weekday_display":"WEEKDAY of the First Week of Advent",
-            "color":"violet"
-            
+            "color":"violet",
+            "collect":"Stir up, we beseech Thee, Thy power, O Lord, and come, that by Thy protection we may be rescued from the threatening perils of our sins and saved by Thy mighty deliverance; Who livest and reignest with the Father and the Holy Ghost, ever one God, world without end.",
+            "introit":"Unto thee, O Lord, do I lift up my soul: O my God, I trust in thee; let me not be ashamed: let not mine enemies triumph over me; yea let none that wait on thee: be ashamed. Show me thy ways, O Lord: teach me thy paths. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
+            "gradual":"Let none that wait on thee: be ashamed. <br>Show me thy ways, O Lord: teach me thy paths.<br>Alleluia, alleluia. Show us thy mercy, O Lord: and grant us thy salvation. Alleluia.",
+            "psalm":{
+                "matins":"Psalms 1",
+                "vespers":"Psalms 143"
+            }
         }, 
         {
             "display":"Populus Sion, Second Sunday of Advent",
@@ -41,7 +47,14 @@
                 "saturday":["Jeremiah 33:14-26","Colossians 3:1-11"]
             }, 
             "weekday_display":"WEEKDAY of the Second Week of Advent",
-            "color":"violet"
+            "color":"violet",
+            "collect":"Stir up our hearts, O Lord, to make ready the way of thine only-begotten Son, so that by his coming we may be enabled to serve thee with pure minds; through the same thy Son, Jesus Christ our Lord, who liveth and reigneth with thee and the Holy Ghost, one true God, world without end. Amen.",
+            "introit":"Daughter of Zion: behold thy salvation cometh. The Lord shall cause His glorious voice to be heard: and ye shall have gladness of heart. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
+            "gradual":"Out of Zion, the perfection of beauty, God hath shined: our God shall come.<br> Gather my saints together with me: those that have made a covenant with me by sacrifice.",
+            "psalm":{
+                "matins":"Psalms 42",
+                "vespers":"Psalms 91"
+            }
         },
         {
             "display":"Gaudete, Third Sunday of Advent",
@@ -62,7 +75,14 @@
                 "saturday":["Isaiah 52:1-12","Luke 1:26-38"]
             }, 
             "weekday_display":"WEEKDAY of the Third Week of Advent",
-            "color":"violet" 
+            "color":"violet",
+            "collect":"Lord, we beseech thee, give ear to our prayers, and lighten the darkness of our hearts by thy gracious visitation; who livest and reignest with the Father and the Holy Ghost, one true God, world without end. Amen.",
+            "introit":"Rejoice in the Lord alway: and again I say, Rejoice. Let your moderation be known unto all men: the Lord is at hand. Be careful for nothing: but in everything by prayer and supplication with thanksgiving let your requests be made known unto God. Lord, thou hast been favourable unto thy land: thou hast brought back the captivity of Jacob. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
+            "gradual":"Thou that dwellest between the Cherubim, shine forth: stir up thy strength and come. Give ear, O Shepherd of Israel: thou that leadest Joseph like a flock.",
+            "psalm":{
+                "matins":"",
+                "vespers":""
+            }
         },
         {
             "display":"Rorate Coeli, Fourth Sunday of Advent",
@@ -82,8 +102,15 @@
                 "friday":["Isaiah 7:1-17","Luke 1:67-80"],
                 "saturday":["Micah 5:1-5","Matthew 1:1-17"]
             }, 
-            "weekday_display":"WEEKDAY of the Third Week of Advent",
-            "color":"violet" 
+            "weekday_display":"WEEKDAY of the Fourth Week of Advent",
+            "color":"violet",
+            "collect":"Stir up, O Lord, we beseech thee, thy power, and come, and with great might succour us, that by the help of thy grace whatsoever is hindered by our sins may be speedily accomplished through thy mercy and satisfaction; who livest and reignest with the Father and the Holy Ghost, one true God, world without end. Amen.",
+            "introit":"Drop down, ye heavens, from above: and let the skies pour down righteousness. Let the earth open: and let them bring forth salvation. The heavens declare the glory of God: and the firmament showeth his handiwork. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
+            "gradual":"The Lord is nigh unto all them that call upon him: to all that call upon him: to all that call upon him in truth. My mouth shall speak the praise of the Lord: and let all flesh bless his holy name.",
+            "psalm":{
+                "matins":"",
+                "vespers":""
+            }
         },
         {
             "display": "Christmas Eve",
@@ -108,7 +135,14 @@
                 "epistle":"Heb 1:1-12",
                 "gospel":"John 1:1-14"
             },
-            "color": "white"
+            "color": "white",
+            "collect":"Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
+            "introit":"For unto us a Child is born, Unto us a Son is given; And the government will be upon His shoulder. And His name will be called Wonderful, Counselor, Mighty God, Everlasting Father, Prince of Peace. O sing unto the lord a new song: for he hath done marvelous things.",
+            "gradual":"All the ends of the earth have seen the salvation of our God. <br><strong>Shout joyfully to the Lord, all the earth.</strong><br>The Lord has made known His salvation; <br><strong>His righteousness He has revealed in the sight of the nations.</strong>",
+            "psalm":{
+                "matins":"",
+                "vespers":""
+            }
         }, 
         {
             "display": "Second Christmas Day",
@@ -120,7 +154,10 @@
                 "epistle":"Titus 3:4-7",
                 "gospel":"Luke 2:15-20"
             },
-            "color": "white"
+            "color": "white",
+            "collect":"Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
+            "introit":"For unto us a Child is born, Unto us a Son is given; And the government will be upon His shoulder. And His name will be called Wonderful, Counselor, Mighty God, Everlasting Father, Prince of Peace. O sing unto the lord a new song: for he hath done marvelous things.",
+            "gradual":"Blessed is He that cometh in the name of the Lord: God is the Lord which hath showed us light. <br> This is the Lord's doing: it is marvelous in our eyes. Hallelujah! Hallelujah! "
         },
         {
             "display": "Third Day after Christmas",
@@ -132,7 +169,8 @@
                 "epistle":"Micah 4:1-8",
                 "gospel":"John 1:15-18"
             },
-            "color": "white"
+            "color": "white",
+            "collect":"Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
         },
         {
             "display": "Fourth Day after Christmas",
@@ -144,7 +182,8 @@
                 "epistle":"Isaiah 32:1-8",
                 "gospel":"Luke 2:15-20"
             },
-            "color": "white"
+            "color": "white",
+            "collect":"Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
         },
         {
             "display": "Fifth Day after Christmas",
@@ -156,7 +195,8 @@
                 "epistle":"Isaiah 32:1-8",
                 "gospel":"Luke 2:15-20"
             },
-            "color": "white"
+            "color": "white",
+            "collect":"Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
         },
         {
             "display": "Sixth Day after Christmas",
@@ -168,7 +208,8 @@
                 "epistle":"Isaiah 32:1-8",
                 "gospel":"Luke 2:15-20"
             },
-            "color": "white"
+            "color": "white",
+            "collect":"Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
         },
 
         {
@@ -181,7 +222,8 @@
                 "epistle":"Isaiah 55:1-13",
                 "gospel":"Matthew 2:13-15"
             },
-            "color": "white"
+            "color": "white",
+            "collect":"Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
         },
 
         {
@@ -194,7 +236,8 @@
                 "epistle":"Galatians 3:23-29",
                 "gospel":"Luke 2:21"
             },
-            "color": "white"
+            "color": "white",
+            "collect":"Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
         },
         {
             "display": "Ninth Day after Christmas",
@@ -206,7 +249,8 @@
                 "epistle":"Isaiah 42:1-9",
                 "gospel":"Matthew 2:16-18"
             },
-            "color": "white"
+            "color": "white",
+            "collect":"Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
         },
         {
             "display": "Tenth Day after Christmas",
@@ -218,7 +262,8 @@
                 "epistle":"Isaiah 61:1-11",
                 "gospel":"Matthew 2:19-23"
             },
-            "color": "white"
+            "color": "white",
+            "collect":"Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
         },
         {
             "display": "Eleventh Day after Christmas",
@@ -230,7 +275,8 @@
                 "epistle":"Isaiah 56:1-8",
                 "gospel":"Matthew 3:1-12"
             },
-            "color": "white"
+            "color": "white",
+            "collect":"Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
         },
         {
             "display": "Twelfth Day after Christmas",
@@ -242,7 +288,8 @@
                 "epistle":"Isaiah 12:1-6",
                 "gospel":"Luke 3:1-9"
             },
-            "color": "white"
+            "color": "white",
+            "collect":"Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
         },
 
         {
@@ -255,7 +302,10 @@
                 "epistle":"Gal 4:1-7",
                 "gospel":"Luke 2:33-40"
             },
-            "color":"white"
+            "color":"white",
+            "collect":"Almighty and everlasting God, direct our actions according to thy good pleasure, that in the Name of thy beloved Son, we may be made to abound in good works; through the same thy Son, Jesus Christ our Lord, who liveth and reigneth with thee and the Holy Ghost, one true God, world without end. Amen.",
+            "introit":"Thy testimonies are very sure: holiness becometh thine house, O Lord, forever. Thy throne is established of old: thou art from everlasting. The Lord reigneth, he is clothed with majesty: the Lord is clothed with strength, wherewith he hath girded himself. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
+            "gradual":"Thou art fairer than the children of men: grace is poured into thy lips. My heart is inditing a good matter, I speak of the things which I have made touching the king: my tongue is the pen of a ready writer."
         }, 
         {
             "display":"The Second Sunday after Christmas",
@@ -267,7 +317,10 @@
                 "epistle":"1 Pet. 4:12-19",
                 "gospel":"Matt. 2:13-23"
             },
-            "color":"white"
+            "color":"white",
+            "collect":"Almighty and everlasting God, direct our actions according to thy good pleasure, that in the Name of thy beloved Son, we may be made to abound in good works; through the same thy Son, Jesus Christ our Lord, who liveth and reigneth with thee and the Holy Ghost, one true God, world without end. Amen.",
+            "introit":"Thy testimonies are very sure: holiness becometh thine house, O Lord, forever. Thy throne is established of old: thou art from everlasting. The Lord reigneth, he is clothed with majesty: the Lord is clothed with strength, wherewith he hath girded himself. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
+            "gradual":"Thou art fairer than the children of men: grace is poured into thy lips. My heart is inditing a good matter, I speak of the things which I have made touching the king: my tongue is the pen of a ready writer."
         }
     ],
 
@@ -289,7 +342,10 @@
                 "saturday":["Genesis 7:1-24","Luke 3:23-28"]
             }, 
             "weekday_display":"WEEKDAY after Epiphany", 
-            "color":"white"
+            "color":"white",
+            "collect":"O God, who on this day by the leading of a star didst reveal thine only-begotten Son to the Gentiles: Mercifully grant that we, who know thee now by faith, may be brought to contemplate the beauty of thy Majesty; through the same thy Son, Jesus Christ our Lord, who liveth and reigneth with thee and the Holy Ghost, one true God, world without end. Amen.",
+            "introit":"Behold the Lord, the Ruler, hath come: and the kingdom, and the power, and the glory are in His hand. Give the King thy judgements, O God: and thy righteousness unto the King's Son. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
+            "gradual":"All they from Sheba shall come, they shall bring gold and incense: and they shall show forth the praises of the Lord. Arise, shine, for thy light is come: and the glory of the Lord is risen upon thee. Alleluia, alleluia. We have seen his star in the east: and are come to worship him. Alleluia."
         },
         {
             "display":"The First Sunday After Epiphany",
@@ -309,7 +365,10 @@
                 "saturday":["Genesis 15:1-21", "Matthew 4:12-17"]
             }, 
             "weekday_display":"WEEKDAY of Epiphany 1", 
-            "color":"green"
+            "color":"green",
+            "collect":"O Lord, we beseech Thee mercifully to receive the prayers of Thy people who call upon Thee, and grant that they may both perceive and know what things they ought to do and also may have grace and power faithfully to fulfill the same; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
+            "introit":"On a Throne, high and lifted up, I saw a Man sitting, whom the multitude of angels adores, singing together: <br><strong>Behold, His dominion endures forever. </strong><br>Make a joyful shout to the Lord, all you lands! <br><strong>Serve the Lord with gladness;</strong><br>Know that the Lord, He is God; <br><strong>It is He who has made us, and not we ourselves;</strong><br>Enter into His gates with thanksgiving, <br><strong>And into His courts with praise.</strong><br>For the Lord is good; His mercy is everlasting,<br><strong>And His truth endures to all generations.</strong>",
+            "gradual":"Blessed be the Lord God, the God of Israel, who only  does  wondrous  things! And blessed be His glorious  name  forever! The mountains will bring peace to the people, And the little  hills  righteousness. "
         },
         {
             "display":"The Second Sunday After Epiphany",
