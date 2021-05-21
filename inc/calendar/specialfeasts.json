@@ -7,6 +7,13 @@
         "readings":{
             "epistle":"",
             "gospel":""
+        },
+        "collect":"",
+        "introit":"",
+        "gradual":"",
+        "psalm":{
+            "matins":"",
+            "vespers":""
         }
     }
 ]

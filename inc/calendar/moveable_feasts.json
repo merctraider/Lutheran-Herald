@@ -1,1450 +1,2562 @@
 {
-    "advent":[
+    "advent": [
         {
-            "display":"Ad te levavi, First Sunday of Advent",
-            "callback":{
+            "display": "Ad te levavi, First Sunday of Advent",
+            "callback": {
                 "function": "get_advent_sunday",
                 "value": 1
             },
-            "sunday_readings":{
-                "epistle":"Rom 13:11-14",
-                "gospel":"Matt 21:1-9"
+            "sunday_readings": {
+                "epistle": "Rom 13:11-14",
+                "gospel": "Matt 21:1-9"
             },
-            "weekday_readings":{
-                "monday":["Genesis 3:1-24", "Matthew 11:25-30"],
-                "tuesday":["Genesis 9:1-19", "Acts 3:22-26"],
-                "wednesday":["Genesis 22:1-19", "Colossians 1:15-29"],
-                "thursday":["Genesis 49:1-28", "Hebrews 1:1-4"],
-                "friday":["Numbers 24:14-25", "Hebrews 2:1-14"],
-                "saturday":["Deuteronomy 18:15-19","Ephesians 3:1-12"]
-            }, 
-            "weekday_display":"WEEKDAY of the First Week of Advent",
-            "color":"violet",
-            "collect":"Stir up, we beseech Thee, Thy power, O Lord, and come, that by Thy protection we may be rescued from the threatening perils of our sins and saved by Thy mighty deliverance; Who livest and reignest with the Father and the Holy Ghost, ever one God, world without end.",
-            "introit":"Unto thee, O Lord, do I lift up my soul: O my God, I trust in thee; let me not be ashamed: let not mine enemies triumph over me; yea let none that wait on thee: be ashamed. Show me thy ways, O Lord: teach me thy paths. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
-            "gradual":"Let none that wait on thee: be ashamed. <br>Show me thy ways, O Lord: teach me thy paths.<br>Alleluia, alleluia. Show us thy mercy, O Lord: and grant us thy salvation. Alleluia.",
-            "psalm":{
-                "matins":"Psalms 1",
-                "vespers":"Psalms 143"
+            "weekday_readings": {
+                "monday": [
+                    "Genesis 3:1-24",
+                    "Matthew 11:25-30"
+                ],
+                "tuesday": [
+                    "Genesis 9:1-19",
+                    "Acts 3:22-26"
+                ],
+                "wednesday": [
+                    "Genesis 22:1-19",
+                    "Colossians 1:15-29"
+                ],
+                "thursday": [
+                    "Genesis 49:1-28",
+                    "Hebrews 1:1-4"
+                ],
+                "friday": [
+                    "Numbers 24:14-25",
+                    "Hebrews 2:1-14"
+                ],
+                "saturday": [
+                    "Deuteronomy 18:15-19",
+                    "Ephesians 3:1-12"
+                ]
+            },
+            "weekday_display": "WEEKDAY of the First Week of Advent",
+            "color": "violet",
+            "collect": "Stir up, we beseech Thee, Thy power, O Lord, and come, that by Thy protection we may be rescued from the threatening perils of our sins and saved by Thy mighty deliverance; Who livest and reignest with the Father and the Holy Ghost, ever one God, world without end.",
+            "introit": "Unto thee, O Lord, do I lift up my soul: O my God, I trust in thee; let me not be ashamed: let not mine enemies triumph over me; yea let none that wait on thee: be ashamed. Show me thy ways, O Lord: teach me thy paths. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
+            "gradual": "Let none that wait on thee: be ashamed. <br>Show me thy ways, O Lord: teach me thy paths.<br>Alleluia, alleluia. Show us thy mercy, O Lord: and grant us thy salvation. Alleluia.",
+            "psalm": {
+                "matins": "Psalm 1",
+                "vespers": "Psalm 143"
             }
-        }, 
+        },
         {
-            "display":"Populus Sion, Second Sunday of Advent",
-            "callback":{
+            "display": "Populus Sion, Second Sunday of Advent",
+            "callback": {
                 "function": "get_advent_sunday",
                 "value": 2
             },
-            "sunday_readings":{
-                "epistle":"Rom 15:4-13",
-                "gospel":"Luke 21:25-36"
+            "sunday_readings": {
+                "epistle": "Rom 15:4-13",
+                "gospel": "Luke 21:25-36"
             },
-            "weekday_readings":{
-                "monday":["1 Chronicles 17:1-27", "Acts 17:16-34"],
-                "tuesday":["1 Chronicles 7:11-22", "1 John 4:9-16"],
-                "wednesday":["Isaiah 11:1-10", "Colossians 1:1-8"],
-                "thursday":["Jeremiah 23:2-8", "Philippians 2:12-18"],
-                "friday":["Jeremiah 30:1-22", "Philippians 3:12-16"],
-                "saturday":["Jeremiah 33:14-26","Colossians 3:1-11"]
-            }, 
-            "weekday_display":"WEEKDAY of the Second Week of Advent",
-            "color":"violet",
-            "collect":"Stir up our hearts, O Lord, to make ready the way of thine only-begotten Son, so that by his coming we may be enabled to serve thee with pure minds; through the same thy Son, Jesus Christ our Lord, who liveth and reigneth with thee and the Holy Ghost, one true God, world without end. Amen.",
-            "introit":"Daughter of Zion: behold thy salvation cometh. The Lord shall cause His glorious voice to be heard: and ye shall have gladness of heart. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
-            "gradual":"Out of Zion, the perfection of beauty, God hath shined: our God shall come.<br> Gather my saints together with me: those that have made a covenant with me by sacrifice.",
-            "psalm":{
-                "matins":"Psalms 42",
-                "vespers":"Psalms 91"
+            "weekday_readings": {
+                "monday": [
+                    "1 Chronicles 17:1-27",
+                    "Acts 17:16-34"
+                ],
+                "tuesday": [
+                    "1 Chronicles 7:11-22",
+                    "1 John 4:9-16"
+                ],
+                "wednesday": [
+                    "Isaiah 11:1-10",
+                    "Colossians 1:1-8"
+                ],
+                "thursday": [
+                    "Jeremiah 23:2-8",
+                    "Philippians 2:12-18"
+                ],
+                "friday": [
+                    "Jeremiah 30:1-22",
+                    "Philippians 3:12-16"
+                ],
+                "saturday": [
+                    "Jeremiah 33:14-26",
+                    "Colossians 3:1-11"
+                ]
+            },
+            "weekday_display": "WEEKDAY of the Second Week of Advent",
+            "color": "violet",
+            "collect": "Stir up our hearts, O Lord, to make ready the way of thine only-begotten Son, so that by his coming we may be enabled to serve thee with pure minds; through the same thy Son, Jesus Christ our Lord, who liveth and reigneth with thee and the Holy Ghost, one true God, world without end. Amen.",
+            "introit": "Daughter of Zion: behold thy salvation cometh. The Lord shall cause His glorious voice to be heard: and ye shall have gladness of heart. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
+            "gradual": "Out of Zion, the perfection of beauty, God hath shined: our God shall come.<br> Gather my saints together with me: those that have made a covenant with me by sacrifice.",
+            "psalm": {
+                "matins": "Psalm 42",
+                "vespers": "Psalm 91"
             }
         },
         {
-            "display":"Gaudete, Third Sunday of Advent",
-            "callback":{
+            "display": "Gaudete, Third Sunday of Advent",
+            "callback": {
                 "function": "get_advent_sunday",
                 "value": 3
             },
-            "sunday_readings":{
-                "epistle":"1 Cor 4:1-5",
-                "gospel":"Matt 11:2-10"
+            "sunday_readings": {
+                "epistle": "1 Cor 4:1-5",
+                "gospel": "Matt 11:2-10"
             },
-            "weekday_readings":{
-                "monday":["Isaiah 2:1-5","Hebrews 10:35-39"],
-                "tuesday":["Isaiah 24:21-25:5","Luke 21:5-24"],
-                "wednesday":["Isaiah 25:6-10","Luke 12:35-39"],
-                "thursday":["Isaiah 26:1-21","James 5:7-11"],
-                "friday":["Isaiah 51:1-16","Luke 1:1-25"],
-                "saturday":["Isaiah 52:1-12","Luke 1:26-38"]
-            }, 
-            "weekday_display":"WEEKDAY of the Third Week of Advent",
-            "color":"violet",
-            "collect":"Lord, we beseech thee, give ear to our prayers, and lighten the darkness of our hearts by thy gracious visitation; who livest and reignest with the Father and the Holy Ghost, one true God, world without end. Amen.",
-            "introit":"Rejoice in the Lord alway: and again I say, Rejoice. Let your moderation be known unto all men: the Lord is at hand. Be careful for nothing: but in everything by prayer and supplication with thanksgiving let your requests be made known unto God. Lord, thou hast been favourable unto thy land: thou hast brought back the captivity of Jacob. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
-            "gradual":"Thou that dwellest between the Cherubim, shine forth: stir up thy strength and come. Give ear, O Shepherd of Israel: thou that leadest Joseph like a flock.",
-            "psalm":{
-                "matins":"",
-                "vespers":""
+            "weekday_readings": {
+                "monday": [
+                    "Isaiah 2:1-5",
+                    "Hebrews 10:35-39"
+                ],
+                "tuesday": [
+                    "Isaiah 24:21-25:5",
+                    "Luke 21:5-24"
+                ],
+                "wednesday": [
+                    "Isaiah 25:6-10",
+                    "Luke 12:35-39"
+                ],
+                "thursday": [
+                    "Isaiah 26:1-21",
+                    "James 5:7-11"
+                ],
+                "friday": [
+                    "Isaiah 51:1-16",
+                    "Luke 1:1-25"
+                ],
+                "saturday": [
+                    "Isaiah 52:1-12",
+                    "Luke 1:26-38"
+                ]
+            },
+            "weekday_display": "WEEKDAY of the Third Week of Advent",
+            "color": "violet",
+            "collect": "Lord, we beseech thee, give ear to our prayers, and lighten the darkness of our hearts by thy gracious visitation; who livest and reignest with the Father and the Holy Ghost, one true God, world without end. Amen.",
+            "introit": "Rejoice in the Lord alway: and again I say, Rejoice. Let your moderation be known unto all men: the Lord is at hand. Be careful for nothing: but in everything by prayer and supplication with thanksgiving let your requests be made known unto God. Lord, thou hast been favourable unto thy land: thou hast brought back the captivity of Jacob. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
+            "gradual": "Thou that dwellest between the Cherubim, shine forth: stir up thy strength and come. Give ear, O Shepherd of Israel: thou that leadest Joseph like a flock.",
+            "psalm": {
+                "matins": "Psalm 4",
+                "vespers": "Psalm 98"
             }
         },
         {
-            "display":"Rorate Coeli, Fourth Sunday of Advent",
-            "callback":{
+            "display": "Rorate Coeli, Fourth Sunday of Advent",
+            "callback": {
                 "function": "get_advent_sunday",
                 "value": 4
             },
-            "sunday_readings":{
-                "epistle":"Phil 4:4-7", 
-                "gospel":"John 1:19-28"
+            "sunday_readings": {
+                "epistle": "Phil 4:4-7",
+                "gospel": "John 1:19-28"
             },
-            "weekday_readings":{
-                "monday":["Isaiah 40:1-11","Matthew 1:18-25"],
-                "tuesday":["Malachi 3:1-7","Luke 1:39-45"],
-                "wednesday":["Malachi 4:1-6","Luke 1:46-56"],
-                "thursday":["Isaiah 28:14-19","Luke 1:57-66"],
-                "friday":["Isaiah 7:1-17","Luke 1:67-80"],
-                "saturday":["Micah 5:1-5","Matthew 1:1-17"]
-            }, 
-            "weekday_display":"WEEKDAY of the Fourth Week of Advent",
-            "color":"violet",
-            "collect":"Stir up, O Lord, we beseech thee, thy power, and come, and with great might succour us, that by the help of thy grace whatsoever is hindered by our sins may be speedily accomplished through thy mercy and satisfaction; who livest and reignest with the Father and the Holy Ghost, one true God, world without end. Amen.",
-            "introit":"Drop down, ye heavens, from above: and let the skies pour down righteousness. Let the earth open: and let them bring forth salvation. The heavens declare the glory of God: and the firmament showeth his handiwork. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
-            "gradual":"The Lord is nigh unto all them that call upon him: to all that call upon him: to all that call upon him in truth. My mouth shall speak the praise of the Lord: and let all flesh bless his holy name.",
-            "psalm":{
-                "matins":"",
-                "vespers":""
+            "weekday_readings": {
+                "monday": [
+                    "Isaiah 40:1-11",
+                    "Matthew 1:18-25"
+                ],
+                "tuesday": [
+                    "Malachi 3:1-7",
+                    "Luke 1:39-45"
+                ],
+                "wednesday": [
+                    "Malachi 4:1-6",
+                    "Luke 1:46-56"
+                ],
+                "thursday": [
+                    "Isaiah 28:14-19",
+                    "Luke 1:57-66"
+                ],
+                "friday": [
+                    "Isaiah 7:1-17",
+                    "Luke 1:67-80"
+                ],
+                "saturday": [
+                    "Micah 5:1-5",
+                    "Matthew 1:1-17"
+                ]
+            },
+            "weekday_display": "WEEKDAY of the Fourth Week of Advent",
+            "color": "violet",
+            "collect": "Stir up, O Lord, we beseech thee, thy power, and come, and with great might succour us, that by the help of thy grace whatsoever is hindered by our sins may be speedily accomplished through thy mercy and satisfaction; who livest and reignest with the Father and the Holy Ghost, one true God, world without end. Amen.",
+            "introit": "Drop down, ye heavens, from above: and let the skies pour down righteousness. Let the earth open: and let them bring forth salvation. The heavens declare the glory of God: and the firmament showeth his handiwork. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
+            "gradual": "The Lord is nigh unto all them that call upon him: to all that call upon him: to all that call upon him in truth. My mouth shall speak the praise of the Lord: and let all flesh bless his holy name.",
+            "psalm": {
+                "matins": "Psalm 5",
+                "vespers": "Psalm 145"
             }
         },
         {
             "display": "Christmas Eve",
-            "callback":{
+            "callback": {
                 "function": "get_christmas",
                 "value": "-1 days"
             },
-            "sunday_readings":{
-                "epistle":"Is 9:2-7",
-                "gospel":"Luke 2:1-14"
-            },
-            "color": "white"
-        }
-    ],
-    "christmas":[
-        {
-            "display": "Christmas Day, The Feast of the Nativity of Our Lord",
-            "callback":{
-                "function": "get_christmas"
-            },
-            "sunday_readings":{
-                "epistle":"Heb 1:1-12",
-                "gospel":"John 1:1-14"
+            "sunday_readings": {
+                "epistle": "Is 9:2-7",
+                "gospel": "Luke 2:1-14"
             },
             "color": "white",
-            "collect":"Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
-            "introit":"For unto us a Child is born, Unto us a Son is given; And the government will be upon His shoulder. And His name will be called Wonderful, Counselor, Mighty God, Everlasting Father, Prince of Peace. O sing unto the lord a new song: for he hath done marvelous things.",
-            "gradual":"All the ends of the earth have seen the salvation of our God. <br><strong>Shout joyfully to the Lord, all the earth.</strong><br>The Lord has made known His salvation; <br><strong>His righteousness He has revealed in the sight of the nations.</strong>",
-            "psalm":{
-                "matins":"",
-                "vespers":""
+            "collect": "O God, Who hast made this most holy night to shine with the brightness of the true Light, grant, we beseech Thee, that, as we have known on Earth the mysteries of that Light, we may also come to the fullness of its joys in Heaven; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
+            "introit": "THE LORD has said to Me, “You are My Son, today I have begotten You.”<br>The Lord reigns, He is clothed with majesty; The Lord is clothed; He has girded Himself with strength. <br>Surely the world is established, So that it cannot be moved.<br>Your throne is established from of old; You are from everlasting. <br>The floods have lifted up, O Lord, the floods have lifted up their voice; The floods lift up their waves.<br>The Lord on high is mightier than the noise of many waters, Than the mighty waves of the sea.<br>Your testimonies are very  sure; Holiness adorns Your house, O Lord,  forever. <br>Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
+            "gradual": "Your people shall be volunteers in the day of Your power; <br>In the beauties of holiness, from the womb of the morning,<br>The Lord said to my Lord, “Sit at My right hand,<br>Till I make Your enemies Your footstool.”<br>Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
+            "psalm": {
+                "matins": "Psalm 19",
+                "vespers": "Psalm 89"
             }
-        }, 
+        }
+    ],
+    "christmas": [
+        {
+            "display": "Christmas Day, The Feast of the Nativity of Our Lord",
+            "callback": {
+                "function": "get_christmas"
+            },
+            "sunday_readings": {
+                "epistle": "Heb 1:1-12",
+                "gospel": "John 1:1-14"
+            },
+            "color": "white",
+            "collect": "Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
+            "introit": "For unto us a Child is born, Unto us a Son is given; And the government will be upon His shoulder. And His name will be called Wonderful, Counselor, Mighty God, Everlasting Father, Prince of Peace. O sing unto the lord a new song: for he hath done marvelous things.",
+            "gradual": "All the ends of the earth have seen the salvation of our God. <br><strong>Shout joyfully to the Lord, all the earth.</strong><br>The Lord has made known His salvation; <br><strong>His righteousness He has revealed in the sight of the nations.</strong>",
+            "psalm": {
+                "matins": "Psalm 45",
+                "vespers": "Psalm 110"
+            }
+        },
         {
             "display": "Second Christmas Day",
-            "callback":{
+            "callback": {
                 "function": "get_christmas_day",
                 "value": "+1 days"
             },
-            "sunday_readings":{
-                "epistle":"Titus 3:4-7",
-                "gospel":"Luke 2:15-20"
+            "sunday_readings": {
+                "epistle": "Titus 3:4-7",
+                "gospel": "Luke 2:15-20"
             },
             "color": "white",
-            "collect":"Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
-            "introit":"For unto us a Child is born, Unto us a Son is given; And the government will be upon His shoulder. And His name will be called Wonderful, Counselor, Mighty God, Everlasting Father, Prince of Peace. O sing unto the lord a new song: for he hath done marvelous things.",
-            "gradual":"Blessed is He that cometh in the name of the Lord: God is the Lord which hath showed us light. <br> This is the Lord's doing: it is marvelous in our eyes. Hallelujah! Hallelujah! "
+            "collect": "Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
+            "introit": "For unto us a Child is born, Unto us a Son is given; And the government will be upon His shoulder. And His name will be called Wonderful, Counselor, Mighty God, Everlasting Father, Prince of Peace. O sing unto the lord a new song: for he hath done marvelous things.",
+            "gradual": "Blessed is He that cometh in the name of the Lord: God is the Lord which hath showed us light. <br> This is the Lord's doing: it is marvelous in our eyes. Hallelujah! Hallelujah! ",
+            "psalm": {
+                "matins": "Psalm 85",
+                "vespers": "Psalm 132"
+            }
         },
         {
             "display": "Third Day after Christmas",
-            "callback":{
+            "callback": {
                 "function": "get_christmas_day",
                 "value": "+2 days"
             },
-            "sunday_readings":{
-                "epistle":"Micah 4:1-8",
-                "gospel":"John 1:15-18"
+            "sunday_readings": {
+                "epistle": "Micah 4:1-8",
+                "gospel": "John 1:15-18"
             },
             "color": "white",
-            "collect":"Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
+            "collect": "Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
+            "psalm": {
+                "matins": "Psalm 85",
+                "vespers": "Psalm 132"
+            }
         },
         {
             "display": "Fourth Day after Christmas",
-            "callback":{
+            "callback": {
                 "function": "get_christmas_day",
                 "value": "+3 days"
             },
-            "sunday_readings":{
-                "epistle":"Isaiah 32:1-8",
-                "gospel":"Luke 2:15-20"
+            "sunday_readings": {
+                "epistle": "Isaiah 32:1-8",
+                "gospel": "Luke 2:15-20"
             },
             "color": "white",
-            "collect":"Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
+            "collect": "Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
+            "psalm": {
+                "matins": "Psalm 85",
+                "vespers": "Psalm 132"
+            }
         },
         {
             "display": "Fifth Day after Christmas",
-            "callback":{
+            "callback": {
                 "function": "get_christmas_day",
                 "value": "+4 days"
             },
-            "sunday_readings":{
-                "epistle":"Isaiah 32:1-8",
-                "gospel":"Luke 2:15-20"
+            "sunday_readings": {
+                "epistle": "Isaiah 32:1-8",
+                "gospel": "Luke 2:15-20"
             },
             "color": "white",
-            "collect":"Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
+            "collect": "Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
+            "psalm": {
+                "matins": "Psalm 85",
+                "vespers": "Psalm 132"
+            }
         },
         {
             "display": "Sixth Day after Christmas",
-            "callback":{
+            "callback": {
                 "function": "get_christmas_day",
                 "value": "+5 days"
             },
-            "sunday_readings":{
-                "epistle":"Isaiah 32:1-8",
-                "gospel":"Luke 2:15-20"
+            "sunday_readings": {
+                "epistle": "Isaiah 32:1-8",
+                "gospel": "Luke 2:15-20"
             },
             "color": "white",
-            "collect":"Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
+            "collect": "Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
+            "psalm": {
+                "matins": "Psalm 85",
+                "vespers": "Psalm 132"
+            }
         },
-
         {
             "display": "Seventh Day after Christmas",
-            "callback":{
+            "callback": {
                 "function": "get_christmas_day",
                 "value": "+6 days"
             },
-            "sunday_readings":{
-                "epistle":"Isaiah 55:1-13",
-                "gospel":"Matthew 2:13-15"
+            "sunday_readings": {
+                "epistle": "Isaiah 55:1-13",
+                "gospel": "Matthew 2:13-15"
             },
             "color": "white",
-            "collect":"Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
+            "collect": "Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
+            "psalm": {
+                "matins": "Psalm 85",
+                "vespers": "Psalm 132"
+            }
         },
-
         {
             "display": "Eighth Day after Christmas",
-            "callback":{
+            "callback": {
                 "function": "get_christmas_day",
                 "value": "+7 days"
             },
-            "sunday_readings":{
-                "epistle":"Galatians 3:23-29",
-                "gospel":"Luke 2:21"
+            "sunday_readings": {
+                "epistle": "Galatians 3:23-29",
+                "gospel": "Luke 2:21"
             },
             "color": "white",
-            "collect":"Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
+            "collect": "Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
+            "psalm": {
+                "matins": "Psalm 85",
+                "vespers": "Psalm 132"
+            }
         },
         {
             "display": "Ninth Day after Christmas",
-            "callback":{
+            "callback": {
                 "function": "get_christmas_day",
                 "value": "+8 days"
             },
-            "sunday_readings":{
-                "epistle":"Isaiah 42:1-9",
-                "gospel":"Matthew 2:16-18"
+            "sunday_readings": {
+                "epistle": "Isaiah 42:1-9",
+                "gospel": "Matthew 2:16-18"
             },
             "color": "white",
-            "collect":"Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
+            "collect": "Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
+            "psalm": {
+                "matins": "Psalm 85",
+                "vespers": "Psalm 132"
+            }
         },
         {
             "display": "Tenth Day after Christmas",
-            "callback":{
+            "callback": {
                 "function": "get_christmas_day",
                 "value": "+9 days"
             },
-            "sunday_readings":{
-                "epistle":"Isaiah 61:1-11",
-                "gospel":"Matthew 2:19-23"
+            "sunday_readings": {
+                "epistle": "Isaiah 61:1-11",
+                "gospel": "Matthew 2:19-23"
             },
             "color": "white",
-            "collect":"Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
+            "collect": "Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
+            "psalm": {
+                "matins": "Psalm 85",
+                "vespers": "Psalm 132"
+            }
         },
         {
             "display": "Eleventh Day after Christmas",
-            "callback":{
+            "callback": {
                 "function": "get_christmas_day",
                 "value": "+10 days"
             },
-            "sunday_readings":{
-                "epistle":"Isaiah 56:1-8",
-                "gospel":"Matthew 3:1-12"
+            "sunday_readings": {
+                "epistle": "Isaiah 56:1-8",
+                "gospel": "Matthew 3:1-12"
             },
             "color": "white",
-            "collect":"Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
+            "collect": "Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
+        ,"psalm": {
+            "matins": "Psalm 85",
+            "vespers": "Psalm 132"
+        }
         },
         {
             "display": "Twelfth Day after Christmas",
-            "callback":{
+            "callback": {
                 "function": "get_christmas_day",
                 "value": "+11 days"
             },
-            "sunday_readings":{
-                "epistle":"Isaiah 12:1-6",
-                "gospel":"Luke 3:1-9"
+            "sunday_readings": {
+                "epistle": "Isaiah 12:1-6",
+                "gospel": "Luke 3:1-9"
             },
             "color": "white",
-            "collect":"Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
+            "collect": "Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
+            "psalm": {
+                "matins": "Psalm 85",
+                "vespers": "Psalm 132"
+            }
         },
-
         {
-            "display":"The First Sunday after Christmas",
-            "callback":{
-                "function":"get_christmas", 
-                "value":"next Sunday"
+            "display": "The First Sunday after Christmas",
+            "callback": {
+                "function": "get_christmas",
+                "value": "next Sunday"
             },
-            "sunday_readings":{
-                "epistle":"Gal 4:1-7",
-                "gospel":"Luke 2:33-40"
+            "sunday_readings": {
+                "epistle": "Gal 4:1-7",
+                "gospel": "Luke 2:33-40"
             },
-            "color":"white",
-            "collect":"Almighty and everlasting God, direct our actions according to thy good pleasure, that in the Name of thy beloved Son, we may be made to abound in good works; through the same thy Son, Jesus Christ our Lord, who liveth and reigneth with thee and the Holy Ghost, one true God, world without end. Amen.",
-            "introit":"Thy testimonies are very sure: holiness becometh thine house, O Lord, forever. Thy throne is established of old: thou art from everlasting. The Lord reigneth, he is clothed with majesty: the Lord is clothed with strength, wherewith he hath girded himself. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
-            "gradual":"Thou art fairer than the children of men: grace is poured into thy lips. My heart is inditing a good matter, I speak of the things which I have made touching the king: my tongue is the pen of a ready writer."
-        }, 
+            "color": "white",
+            "collect": "Almighty and everlasting God, direct our actions according to thy good pleasure, that in the Name of thy beloved Son, we may be made to abound in good works; through the same thy Son, Jesus Christ our Lord, who liveth and reigneth with thee and the Holy Ghost, one true God, world without end. Amen.",
+            "introit": "Thy testimonies are very sure: holiness becometh thine house, O Lord, forever. Thy throne is established of old: thou art from everlasting. The Lord reigneth, he is clothed with majesty: the Lord is clothed with strength, wherewith he hath girded himself. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
+            "gradual": "Thou art fairer than the children of men: grace is poured into thy lips. My heart is inditing a good matter, I speak of the things which I have made touching the king: my tongue is the pen of a ready writer.",
+            "psalm": {
+                "matins": "Psalm 121",
+                "vespers": "Psalm 111"
+            }
+        },
         {
-            "display":"The Second Sunday after Christmas",
-            "callback":{
-                "function":"get_christmas", 
-                "value":"+1 Weeks Sunday"
+            "display": "The Second Sunday after Christmas",
+            "callback": {
+                "function": "get_christmas",
+                "value": "+1 Weeks Sunday"
             },
-            "sunday_readings":{
-                "epistle":"1 Pet. 4:12-19",
-                "gospel":"Matt. 2:13-23"
+            "sunday_readings": {
+                "epistle": "1 Pet. 4:12-19",
+                "gospel": "Matt. 2:13-23"
             },
-            "color":"white",
-            "collect":"Almighty and everlasting God, direct our actions according to thy good pleasure, that in the Name of thy beloved Son, we may be made to abound in good works; through the same thy Son, Jesus Christ our Lord, who liveth and reigneth with thee and the Holy Ghost, one true God, world without end. Amen.",
-            "introit":"Thy testimonies are very sure: holiness becometh thine house, O Lord, forever. Thy throne is established of old: thou art from everlasting. The Lord reigneth, he is clothed with majesty: the Lord is clothed with strength, wherewith he hath girded himself. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
-            "gradual":"Thou art fairer than the children of men: grace is poured into thy lips. My heart is inditing a good matter, I speak of the things which I have made touching the king: my tongue is the pen of a ready writer."
+            "color": "white",
+            "collect": "Almighty and everlasting God, direct our actions according to thy good pleasure, that in the Name of thy beloved Son, we may be made to abound in good works; through the same thy Son, Jesus Christ our Lord, who liveth and reigneth with thee and the Holy Ghost, one true God, world without end. Amen.",
+            "introit": "Thy testimonies are very sure: holiness becometh thine house, O Lord, forever. Thy throne is established of old: thou art from everlasting. The Lord reigneth, he is clothed with majesty: the Lord is clothed with strength, wherewith he hath girded himself. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
+            "gradual": "Thou art fairer than the children of men: grace is poured into thy lips. My heart is inditing a good matter, I speak of the things which I have made touching the king: my tongue is the pen of a ready writer.",
+            "psalm": {
+                "matins": "Psalm 122",
+                "vespers": "Psalm 90"
+            }
         }
     ],
-
-    "epiphany":[
-        {
-            "display":"The Epiphany of our Lord",
-            "callback":{
-                "function":"get_epiphany"
+    "epiphany": [
+            {
+            "display": "The Epiphany of our Lord",
+            "callback": {
+                "function": "get_epiphany"
             },
-            "sunday_readings":{
-                "epistle":"Is. 60:1-6",
-                "gospel":"Matt. 2:1-12"
-            },"weekday_readings":{
-                "monday":["Genesis 1:1-31","Luke 3:10-14"],
-                "tuesday":["Genesis 2:1-25","Luke 3:15-20"],
-                "wednesday":["Genesis 4:1-26","Mark 1:1-8"],
-                "thursday":["Genesis 5:1-32","Mark 1:9-11"],
-                "friday":["Genesis 6:9-22","Luke 3:21-22"],
-                "saturday":["Genesis 7:1-24","Luke 3:23-28"]
-            }, 
-            "weekday_display":"WEEKDAY after Epiphany", 
-            "color":"white",
-            "collect":"O God, who on this day by the leading of a star didst reveal thine only-begotten Son to the Gentiles: Mercifully grant that we, who know thee now by faith, may be brought to contemplate the beauty of thy Majesty; through the same thy Son, Jesus Christ our Lord, who liveth and reigneth with thee and the Holy Ghost, one true God, world without end. Amen.",
-            "introit":"Behold the Lord, the Ruler, hath come: and the kingdom, and the power, and the glory are in His hand. Give the King thy judgements, O God: and thy righteousness unto the King's Son. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
-            "gradual":"All they from Sheba shall come, they shall bring gold and incense: and they shall show forth the praises of the Lord. Arise, shine, for thy light is come: and the glory of the Lord is risen upon thee. Alleluia, alleluia. We have seen his star in the east: and are come to worship him. Alleluia."
+            "sunday_readings": {
+                "epistle": "Is. 60:1-6",
+                "gospel": "Matt. 2:1-12"
+            },
+            "weekday_readings": {
+                "monday": ["Genesis 1:1-31","Luke 3:10-14"],
+                "tuesday": ["Genesis 2:1-25","Luke 3:15-20"],
+                "wednesday": [
+                    "Genesis 4:1-26",
+                    "Mark 1:1-8"
+                ],
+                "thursday": [
+                    "Genesis 5:1-32",
+                    "Mark 1:9-11"
+                ],
+                "friday": [
+                    "Genesis 6:9-22",
+                    "Luke 3:21-22"
+                ],
+                "saturday": [
+                    "Genesis 7:1-24",
+                    "Luke 3:23-28"
+                ]
+            },
+            "weekday_display": "WEEKDAY after Epiphany",
+            "color": "white",
+            "collect": "O God, who on this day by the leading of a star didst reveal thine only-begotten Son to the Gentiles: Mercifully grant that we, who know thee now by faith, may be brought to contemplate the beauty of thy Majesty; through the same thy Son, Jesus Christ our Lord, who liveth and reigneth with thee and the Holy Ghost, one true God, world without end. Amen.",
+            "introit": "Behold the Lord, the Ruler, hath come: and the kingdom, and the power, and the glory are in His hand. Give the King thy judgements, O God: and thy righteousness unto the King's Son. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
+            "gradual": "All they from Sheba shall come, they shall bring gold and incense: and they shall show forth the praises of the Lord. Arise, shine, for thy light is come: and the glory of the Lord is risen upon thee. Alleluia, alleluia. We have seen his star in the east: and are come to worship him. Alleluia.",
+            "psalm": {
+                "matins": "Psalm 96",
+                "vespers": "Psalm 72"
+            }
         },
         {
-            "display":"The First Sunday After Epiphany",
-            "callback":{
-                "function":"check_epiphany_sunday",
-                "value":1
-            },
-            "sunday_readings":{
-                "epistle":"Rom. 12:1-5",
-                "gospel":"Luke 2:41-52"
-            },"weekday_readings":{
-                "monday":["Genesis 8:1-22","John 1:29-34"],
-                "tuesday":["Genesis 11:1-9","John 1:35-42"],
-                "wednesday":["Genesis 12:1-20","John 1:43-51"],
-                "thursday":["Genesis 13:1-18","Luke 4:1-13"],
-                "friday":["Genesis 14:8-24","Mark 1:12-15"],
-                "saturday":["Genesis 15:1-21", "Matthew 4:12-17"]
-            }, 
-            "weekday_display":"WEEKDAY of Epiphany 1", 
-            "color":"green",
-            "collect":"O Lord, we beseech Thee mercifully to receive the prayers of Thy people who call upon Thee, and grant that they may both perceive and know what things they ought to do and also may have grace and power faithfully to fulfill the same; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
-            "introit":"On a Throne, high and lifted up, I saw a Man sitting, whom the multitude of angels adores, singing together: <br><strong>Behold, His dominion endures forever. </strong><br>Make a joyful shout to the Lord, all you lands! <br><strong>Serve the Lord with gladness;</strong><br>Know that the Lord, He is God; <br><strong>It is He who has made us, and not we ourselves;</strong><br>Enter into His gates with thanksgiving, <br><strong>And into His courts with praise.</strong><br>For the Lord is good; His mercy is everlasting,<br><strong>And His truth endures to all generations.</strong>",
-            "gradual":"Blessed be the Lord God, the God of Israel, who only  does  wondrous  things! And blessed be His glorious  name  forever! The mountains will bring peace to the people, And the little  hills  righteousness. "
-        },
-        {
-            "display":"The Second Sunday After Epiphany",
-            "callback":{
-                "function":"check_epiphany_sunday",
-                "value":2
-            },
-            "sunday_readings":{
-                "epistle":"Rom. 12:6-16",
-                "gospel":"John 2:1-11"
-            },"weekday_readings":{
-                "monday":["Genesis 17:1-22","Matthew 4:18-25"],
-                "tuesday":["Genesis 18:1-33","Matthew 5:1-9"],
-                "wednesday":["Genesis 19:1-29","Matthew 5:27-48"],
-                "thursday":["Genesis 21:1-8","Matthew 6:1-23"],
-                "friday":["Genesis 24:1-28","Matthew 7:1-14"],
-                "saturday":["Genesis 24:29-67","Matthew 7:24-29"]
-            }, 
-            "weekday_display":"WEEKDAY of Epiphany 2", 
-            "color":"green"
-        },
-        {
-            "display":"The Third Sunday After Epiphany",
-            "callback":{
-                "function":"check_epiphany_sunday",
-                "value":3
-            },
-            "sunday_readings":{
-                "epistle":"Rom. 12:16-21",
-                "gospel":"Matt. 8:1-13"
-            },"weekday_readings":{
-                "monday":["Genesis 25:19-34","Matthew 8:14-22"],
-                "tuesday":["Genesis 27:1-45","Matthew 8:28-34"],
-                "wednesday":["Genesis 27:46-28:22","Matthew 9:9-17"],
-                "thursday":["Genesis 29:1-20","Matthew 9:27-38"],
-                "friday":["Genesis 31:1-18","Matthew 10:1-16"],
-                "saturday":["Genesis 32:3-32","Matthew 10:17-11:1"]
-            }, 
-            "weekday_display":"WEEKDAY of Epiphany 3", 
-            "color":"green"
-        },
-        {
-            "display":"The Fourth Sunday After Epiphany",
-            "callback":{
-                "function":"check_epiphany_sunday",
-                "value":4
-            },
-            "sunday_readings":{
-                "epistle":"Rom. 13:8-10",
-                "gospel":"Matt. 8:23-27"
-            },"weekday_readings":{
-                "monday":["Genesis 33:1-20","Matthew 11:11-24"],
-                "tuesday":["Genesis 35:1-21","Matthew 12:1-21"],
-                "wednesday":["Genesis 37:1-36","Matthew 12:22-50"],
-                "thursday":["Genesis 39:1-23","Matthew 13:1-23"],
-                "friday":["Genesis 40:1-23","Matthew 14:1-36"],
-                "saturday":["Genesis 41:1-37","Matthew 15:1-20"]
-            }, 
-            "weekday_display":"WEEKDAY of Epiphany 4", 
-            "color":"green"
-        },
-        {
-            "display":"The Fifth Sunday After Epiphany",
-            "callback":{
-                "function":"check_epiphany_sunday",
-                "value":5
-            },
-            "sunday_readings":{
-                "epistle":"Col. 3:12-17",
-                "gospel":"Matt. 13:24-30"
-            },"weekday_readings":{
-                "monday":["Genesis 41:38-57","Matthew 15:29-39"],
-                "tuesday":["Genesis 42:1-28","Matthew 16:1-12"],
-                "wednesday":["Genesis 43:1-34","Matthew 16:21-28"],
-                "thursday":["Genesis 44:1-34","Matthew 17:9-27"],
-                "friday":["Genesis 45:1-28","Matthew 19:1-15"],
-                "saturday":["Genesis 46:1-34","Matthew 20:17-34"]
-            }, 
-            "weekday_display":"WEEKDAY of Epiphany 5", 
-            "color":"green"
-        },
-        {
-            "display":"The Festival of the Transfiguration of Our Lord",
-            "callback":{
-                "function":"get_transfiguration"
-            },
-            "sunday_readings":{
-                "epistle":"2 Peter 1:16-21",
-                "gospel":"Matt. 17:1-9"
-            },"weekday_readings":{
-                "monday":["Genesis 47:1-31","Matthew 21:10-46"],
-                "tuesday":["Genesis 48:1-22","Matthew 23:1-39"],
-                "wednesday":["Exodus 1:1-22","Mark 1:16-45"],
-                "thursday":["Exodus 2:1-25","Mark 2:1-28"],
-                "friday":["Exodus 3:1-22","Mark 3:1-35"],
-                "saturday":["Exodus 4:1-31","Mark 5:1-20"]
-            }, 
-            "weekday_display":"WEEKDAY after the Transfiguration of our Lord", 
-            "color":"white"
-        }            
-        
-    ],
-    "lententide":[
-        {
-            "display":"Septuagesima Sunday",
-            "callback":{
-                "function":"get_gesima",
-                "value": "septuagesima"
-            },
-            "sunday_readings":{
-                "epistle":"1 Cor. 9:24–10:5",
-                "gospel":"Matt. 20:1-16"
-            },"weekday_readings":{
-                "monday":["Exodus 5:1-23","Mark 5:21-43"],
-                "tuesday":["Exodus 6:1-13","Mark 6:1-29"],
-                "wednesday":["Exodus 11:1-10","Mark 6:30-56"],
-                "thursday":["Exodus 12:1-28","Mark 7:1-30"],
-                "friday":["Exodus 12:29-42","Mark 8:10-9:1"],
-                "saturday":["Exodus 13:1-22","Mark 9:2-32"]
-            }, 
-            "weekday_display":"WEEKDAY in Septuagesima", 
-            "color":"violet"
-        },
-        {
-            "display":"Sexagesima Sunday",
-            "callback":{
-                "function":"get_gesima",
-                "value": "sexagesima"
-            },
-            "sunday_readings":{
-                "epistle":"2 Cor. 11:19–12:9",
-                "gospel":"Luke 8:4-15"
-            },"weekday_readings":{
-                "monday":["Exodus 14:1-31","Mark 10:1-31"],
-                "tuesday":["Exodus 15:1-21","Mark 10:32-53"],
-                "wednesday":["Exodus 15:22-16:36","Mark 11:1-33"],
-                "thursday":["Exodus 17:1-16","Mark 12:13-44"],
-                "friday":["Exodus 19:1-25","Luke 4:14-44"],
-                "saturday":["Exodus 20:1-23","Luke 5:12-39"]
-            }, 
-            "weekday_display":"WEEKDAY in Sexagesima", 
-            "color":"violet"
-        },
-
-
-        {
-            "display":"Quinquagesima Sunday",
-            "callback":{
-                "function":"get_gesima",
-                "value": "quinquagesima"
-            },
-            "sunday_readings":{
-                "epistle":"1 Cor. 13",
-                "gospel":"Luke 18:31-43"
-            },"weekday_readings":{
-                "monday":["Luke 6:1-35","Exodus 24:1 – 25:9"],
-                "tuesday":["Luke 6:33-49","Exodus 31:18 – 32:35"]
-            }, 
-            "weekday_display":"WEEKDAY in Quinquagesima", 
-            "color":"violet"
-        },
-        {
-            "display":"Ash Wednesday",
-            "callback":{
-                "function":"get_lent_start"
-            },
-            "sunday_readings":{
-                "epistle":"Joel 2:12-19",
-                "gospel":"Matt. 6:16-21"
-            },"weekday_readings":{
-                "thursday":["Luke 7:18 – 8:3","Exodus 34:1-10"],
-                "friday":["Luke 8:16-56","Exodus 34:27-35"],
-                "saturday":["Luke 9:1-27","Exodus 40:1-38"]
-            }, 
-            "weekday_display":"WEEKDAY after Ash Wednesday", 
-            "color":"violet"
-        },
-        {
-            "display":"Invocavit, First Week of Lent",
-            "callback":{
-                "function":"get_lent",
+            "display": "The First Sunday After Epiphany",
+            "callback": {
+                "function": "check_epiphany_sunday",
                 "value": 1
             },
-            "sunday_readings":{
-                "epistle":"2 Cor. 6:1-10",
-                "gospel":"Matt. 4:1-11"
-            },"weekday_readings":{
-                "monday":["Luke 9:28-62","Numbers 3:5-13"],
-                "tuesday":["Luke 10:1-22","Numbers 10:11-36"],
-                "wednesday":["Luke 10:38-11:13","Numbers 11:1-35"],
-                "thursday":["Luke 11:29-36","Numbers 12:1-15"],
-                "friday":["Luke 11:37-54","Numbers 13:1-25"],
-                "saturday":["Luke 12:1-34","Numbers 13:26-33"]
-            }, 
-            "weekday_display":"WEEKDAY of the First Week of Lent", 
-            "color":"violet"
+            "sunday_readings": {
+                "epistle": "Rom. 12:1-5",
+                "gospel": "Luke 2:41-52"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "Genesis 8:1-22",
+                    "John 1:29-34"
+                ],
+                "tuesday": [
+                    "Genesis 11:1-9",
+                    "John 1:35-42"
+                ],
+                "wednesday": [
+                    "Genesis 12:1-20",
+                    "John 1:43-51"
+                ],
+                "thursday": [
+                    "Genesis 13:1-18",
+                    "Luke 4:1-13"
+                ],
+                "friday": [
+                    "Genesis 14:8-24",
+                    "Mark 1:12-15"
+                ],
+                "saturday": [
+                    "Genesis 15:1-21",
+                    "Matthew 4:12-17"
+                ]
+            },
+            "weekday_display": "WEEKDAY of Epiphany 1",
+            "color": "green",
+            "collect": "O Lord, we beseech Thee mercifully to receive the prayers of Thy people who call upon Thee, and grant that they may both perceive and know what things they ought to do and also may have grace and power faithfully to fulfill the same; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
+            "introit": "On a Throne, high and lifted up, I saw a Man sitting, whom the multitude of angels adores, singing together: <br><strong>Behold, His dominion endures forever. </strong><br>Make a joyful shout to the Lord, all you lands! <br><strong>Serve the Lord with gladness;</strong><br>Know that the Lord, He is God; <br><strong>It is He who has made us, and not we ourselves;</strong><br>Enter into His gates with thanksgiving, <br><strong>And into His courts with praise.</strong><br>For the Lord is good; His mercy is everlasting,<br><strong>And His truth endures to all generations.</strong>",
+            "gradual": "Blessed be the Lord God, the God of Israel, who only  does  wondrous  things! And blessed be His glorious  name  forever! The mountains will bring peace to the people, And the little  hills  righteousness. ",
+            "psalm": {
+                "matins": "Psalm 13",
+                "vespers": "Psalm 86"
+            }
         },
-
         {
-            "display":"Reminiscere, Second Week of Lent",
-            "callback":{
-                "function":"get_lent",
+            "display": "The Second Sunday After Epiphany",
+            "callback": {
+                "function": "check_epiphany_sunday",
                 "value": 2
             },
-            "sunday_readings":{
-                "epistle":"1 Thess. 4:1-7",
-                "gospel":"Matt. 15:21-28"
-            },"weekday_readings":{
-                "monday":["Luke 13:1-17","Numbers 14:1-45"],
-                "tuesday":["Luke 14:25-35","Numbers 16:1-22"],
-                "wednesday":["Luke 15:11-32","Numbers 16:23-50"],
-                "thursday":["Luke 16:10-18","Numbers 17:1-13"],
-                "friday":["Luke 17:1-10","Numbers 20:1-29"],
-                "saturday":["Luke 18:1-8","Numbers 21:1-22:1"]
-            }, 
-            "weekday_display":"WEEKDAY of the Second Week of Lent", 
-            "color":"violet"
+            "sunday_readings": {
+                "epistle": "Rom. 12:6-16",
+                "gospel": "John 2:1-11"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "Genesis 17:1-22",
+                    "Matthew 4:18-25"
+                ],
+                "tuesday": [
+                    "Genesis 18:1-33",
+                    "Matthew 5:1-9"
+                ],
+                "wednesday": [
+                    "Genesis 19:1-29",
+                    "Matthew 5:27-48"
+                ],
+                "thursday": [
+                    "Genesis 21:1-8",
+                    "Matthew 6:1-23"
+                ],
+                "friday": [
+                    "Genesis 24:1-28",
+                    "Matthew 7:1-14"
+                ],
+                "saturday": [
+                    "Genesis 24:29-67",
+                    "Matthew 7:24-29"
+                ]
+            },
+            "weekday_display": "WEEKDAY of Epiphany 2",
+            "color": "green",
+            "psalm": {
+                "matins": "Psalm 14",
+                "vespers": "Psalm 16"
+            }
         },
-
         {
-            "display":"Oculi, Third Week of Lent",
-            "callback":{
-                "function":"get_lent",
+            "display": "The Third Sunday After Epiphany",
+            "callback": {
+                "function": "check_epiphany_sunday",
                 "value": 3
             },
-            "sunday_readings":{
-                "epistle":"Eph. 5:1-9",
-                "gospel":"Luke 11:14-28"
-            },"weekday_readings":{
-                "monday":["Luke 18:15-30","Numbers 22:2-41"],
-                "tuesday":["Luke 19:1-40","Numbers 23:1-30"],
-                "wednesday":["Luke 20:1-21:4","Numbers 24:1-13"],
-                "thursday":["Luke 21:37-22:38","Numbers 27:12-23"],
-                "friday":["Luke 22:39-71","Deuteronomy 5:1-33"],
-                "saturday":["Luke 23:1-25","Deuteronomy 8:1-20"]
-            }, 
-            "weekday_display":"WEEKDAY of the Third Week of Lent", 
-            "color":"violet"
+            "sunday_readings": {
+                "epistle": "Rom. 12:16-21",
+                "gospel": "Matt. 8:1-13"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "Genesis 25:19-34",
+                    "Matthew 8:14-22"
+                ],
+                "tuesday": [
+                    "Genesis 27:1-45",
+                    "Matthew 8:28-34"
+                ],
+                "wednesday": [
+                    "Genesis 27:46-28:22",
+                    "Matthew 9:9-17"
+                ],
+                "thursday": [
+                    "Genesis 29:1-20",
+                    "Matthew 9:27-38"
+                ],
+                "friday": [
+                    "Genesis 31:1-18",
+                    "Matthew 10:1-16"
+                ],
+                "saturday": [
+                    "Genesis 32:3-32",
+                    "Matthew 10:17-11:1"
+                ]
+            },
+            "weekday_display": "WEEKDAY of Epiphany 3",
+            "color": "green",
+            "psalm": {
+                "matins": "Psalm 15",
+                "vespers": "Psalm 33"
+            }
         },
         {
-            "display":"Laetare, Fourth Week of Lent",
-            "callback":{
-                "function":"get_lent",
+            "display": "The Fourth Sunday After Epiphany",
+            "callback": {
+                "function": "check_epiphany_sunday",
                 "value": 4
             },
-            "sunday_readings":{
-                "epistle":"Gal. 4:21-31",
-                "gospel":"John 6:1-15"
-            },"weekday_readings":{
-                "monday":["Luke 23:26-56","Deuteronomy 9:1-29"],
-                "tuesday":["Matthew 26:1-35","Deuteronomy 10:1-22"],
-                "wednesday":["Matthew 26:36-75","Deuteronomy 11:1-32"],
-                "thursday":["Matthew 27:1-38","Deuteronomy 28:1-14"],
-                "friday":["Matthew 27:39-66","Deuteronomy 28:15-68"],
-                "saturday":["Mark 14:1-31","Deuteronomy 34:1-12"]
-            }, 
-            "weekday_display":"WEEKDAY of the Fourth Week of Lent", 
-            "color":"violet"
+            "sunday_readings": {
+                "epistle": "Rom. 13:8-10",
+                "gospel": "Matt. 8:23-27"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "Genesis 33:1-20",
+                    "Matthew 11:11-24"
+                ],
+                "tuesday": [
+                    "Genesis 35:1-21",
+                    "Matthew 12:1-21"
+                ],
+                "wednesday": [
+                    "Genesis 37:1-36",
+                    "Matthew 12:22-50"
+                ],
+                "thursday": [
+                    "Genesis 39:1-23",
+                    "Matthew 13:1-23"
+                ],
+                "friday": [
+                    "Genesis 40:1-23",
+                    "Matthew 14:1-36"
+                ],
+                "saturday": [
+                    "Genesis 41:1-37",
+                    "Matthew 15:1-20"
+                ]
+            },
+            "weekday_display": "WEEKDAY of Epiphany 4",
+            "color": "green",
+            "psalm": {
+                "matins": "Psalm 2",
+                "vespers": "Psalm 97"
+            }
         },
-        
         {
-            "display":"Judica, Fifth Week of Lent",
-            "callback":{
-                "function":"get_lent",
+            "display": "The Fifth Sunday After Epiphany",
+            "callback": {
+                "function": "check_epiphany_sunday",
                 "value": 5
             },
-            "sunday_readings":{
-                "epistle":"Heb 9:11-15",
-                "gospel":"John 8:46-59"
-            },"weekday_readings":{
-                "monday":["Mark 14:32-72","Jeremiah 2:1-19"],
-                "tuesday":["Mark 15:1-19","Hosea 13:9-14"],
-                "wednesday":["Mark 15:20-47","Zephaniah 3:1-8"],
-                "thursday":["John 12:1-19","Micah 3:9-12"],
-                "friday":["John 12:20-50","Isaiah 66:1-9"],
-                "saturday":["John 13:16-38","Zechariah 9:1-17"]
-            }, 
-            "weekday_display":"WEEKDAY of the Fourth Week of Lent", 
-            "color":"violet"
+            "sunday_readings": {
+                "epistle": "Col. 3:12-17",
+                "gospel": "Matt. 13:24-30"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "Genesis 41:38-57",
+                    "Matthew 15:29-39"
+                ],
+                "tuesday": [
+                    "Genesis 42:1-28",
+                    "Matthew 16:1-12"
+                ],
+                "wednesday": [
+                    "Genesis 43:1-34",
+                    "Matthew 16:21-28"
+                ],
+                "thursday": [
+                    "Genesis 44:1-34",
+                    "Matthew 17:9-27"
+                ],
+                "friday": [
+                    "Genesis 45:1-28",
+                    "Matthew 19:1-15"
+                ],
+                "saturday": [
+                    "Genesis 46:1-34",
+                    "Matthew 20:17-34"
+                ]
+            },
+            "weekday_display": "WEEKDAY of Epiphany 5",
+            "color": "green",
+            "psalm": {
+                "matins": "Psalm 20",
+                "vespers": "Psalm 86"
+            }
         },
-        
         {
-            "display":"Palm Sunday",
-            "callback":{
-                "function":"get_lent",
+            "display": "The Festival of the Transfiguration of Our Lord",
+            "callback": {
+                "function": "get_transfiguration"
+            },
+            "sunday_readings": {
+                "epistle": "2 Peter 1:16-21",
+                "gospel": "Matt. 17:1-9"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "Genesis 47:1-31",
+                    "Matthew 21:10-46"
+                ],
+                "tuesday": [
+                    "Genesis 48:1-22",
+                    "Matthew 23:1-39"
+                ],
+                "wednesday": [
+                    "Exodus 1:1-22",
+                    "Mark 1:16-45"
+                ],
+                "thursday": [
+                    "Exodus 2:1-25",
+                    "Mark 2:1-28"
+                ],
+                "friday": [
+                    "Exodus 3:1-22",
+                    "Mark 3:1-35"
+                ],
+                "saturday": [
+                    "Exodus 4:1-31",
+                    "Mark 5:1-20"
+                ]
+            },
+            "weekday_display": "WEEKDAY after the Transfiguration of our Lord",
+            "color": "white",
+            "psalm": {
+                "matins": "Psalm 87",
+                "vespers": "Psalm 8"
+            }
+        }
+    ],
+    "lententide": [
+        {
+            "display": "Septuagesima Sunday",
+            "callback": {
+                "function": "get_gesima",
+                "value": "septuagesima"
+            },
+            "sunday_readings": {
+                "epistle": "1 Cor. 9:24–10:5",
+                "gospel": "Matt. 20:1-16"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "Exodus 5:1-23",
+                    "Mark 5:21-43"
+                ],
+                "tuesday": [
+                    "Exodus 6:1-13",
+                    "Mark 6:1-29"
+                ],
+                "wednesday": [
+                    "Exodus 11:1-10",
+                    "Mark 6:30-56"
+                ],
+                "thursday": [
+                    "Exodus 12:1-28",
+                    "Mark 7:1-30"
+                ],
+                "friday": [
+                    "Exodus 12:29-42",
+                    "Mark 8:10-9:1"
+                ],
+                "saturday": [
+                    "Exodus 13:1-22",
+                    "Mark 9:2-32"
+                ]
+            },
+            "weekday_display": "WEEKDAY in Septuagesima",
+            "color": "violet",
+            "collect":"O Lord, we beseech Thee favorably to hear the prayers of Thy people that we, who are justly punished for our offenses, may be mercifully delivered by Thy goodness, for the glory of Thy Name; through Jesus Christ, Thy Son, our Savior, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
+            "introit":"",
+            "gradual":"",
+            "psalm": {
+                "matins": "Psalm 23",
+                "vespers": "Psalm 114"
+            }
+        },
+        {
+            "display": "Sexagesima Sunday",
+            "callback": {
+                "function": "get_gesima",
+                "value": "sexagesima"
+            },
+            "sunday_readings": {
+                "epistle": "2 Cor. 11:19–12:9",
+                "gospel": "Luke 8:4-15"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "Exodus 14:1-31",
+                    "Mark 10:1-31"
+                ],
+                "tuesday": [
+                    "Exodus 15:1-21",
+                    "Mark 10:32-53"
+                ],
+                "wednesday": [
+                    "Exodus 15:22-16:36",
+                    "Mark 11:1-33"
+                ],
+                "thursday": [
+                    "Exodus 17:1-16",
+                    "Mark 12:13-44"
+                ],
+                "friday": [
+                    "Exodus 19:1-25",
+                    "Luke 4:14-44"
+                ],
+                "saturday": [
+                    "Exodus 20:1-23",
+                    "Luke 5:12-39"
+                ]
+            },
+            "weekday_display": "WEEKDAY in Sexagesima",
+            "color": "violet"
+        },
+        {
+            "display": "Quinquagesima Sunday",
+            "callback": {
+                "function": "get_gesima",
+                "value": "quinquagesima"
+            },
+            "sunday_readings": {
+                "epistle": "1 Cor. 13",
+                "gospel": "Luke 18:31-43"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "Luke 6:1-35",
+                    "Exodus 24:1 – 25:9"
+                ],
+                "tuesday": [
+                    "Luke 6:33-49",
+                    "Exodus 31:18 – 32:35"
+                ]
+            },
+            "weekday_display": "WEEKDAY in Quinquagesima",
+            "color": "violet"
+        },
+        {
+            "display": "Ash Wednesday",
+            "callback": {
+                "function": "get_lent_start"
+            },
+            "sunday_readings": {
+                "epistle": "Joel 2:12-19",
+                "gospel": "Matt. 6:16-21"
+            },
+            "weekday_readings": {
+                "thursday": [
+                    "Luke 7:18 – 8:3",
+                    "Exodus 34:1-10"
+                ],
+                "friday": [
+                    "Luke 8:16-56",
+                    "Exodus 34:27-35"
+                ],
+                "saturday": [
+                    "Luke 9:1-27",
+                    "Exodus 40:1-38"
+                ]
+            },
+            "weekday_display": "WEEKDAY after Ash Wednesday",
+            "color": "violet"
+        },
+        {
+            "display": "Invocavit, First Week of Lent",
+            "callback": {
+                "function": "get_lent",
+                "value": 1
+            },
+            "sunday_readings": {
+                "epistle": "2 Cor. 6:1-10",
+                "gospel": "Matt. 4:1-11"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "Luke 9:28-62",
+                    "Numbers 3:5-13"
+                ],
+                "tuesday": [
+                    "Luke 10:1-22",
+                    "Numbers 10:11-36"
+                ],
+                "wednesday": [
+                    "Luke 10:38-11:13",
+                    "Numbers 11:1-35"
+                ],
+                "thursday": [
+                    "Luke 11:29-36",
+                    "Numbers 12:1-15"
+                ],
+                "friday": [
+                    "Luke 11:37-54",
+                    "Numbers 13:1-25"
+                ],
+                "saturday": [
+                    "Luke 12:1-34",
+                    "Numbers 13:26-33"
+                ]
+            },
+            "weekday_display": "WEEKDAY of the First Week of Lent",
+            "color": "violet"
+        },
+        {
+            "display": "Reminiscere, Second Week of Lent",
+            "callback": {
+                "function": "get_lent",
+                "value": 2
+            },
+            "sunday_readings": {
+                "epistle": "1 Thess. 4:1-7",
+                "gospel": "Matt. 15:21-28"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "Luke 13:1-17",
+                    "Numbers 14:1-45"
+                ],
+                "tuesday": [
+                    "Luke 14:25-35",
+                    "Numbers 16:1-22"
+                ],
+                "wednesday": [
+                    "Luke 15:11-32",
+                    "Numbers 16:23-50"
+                ],
+                "thursday": [
+                    "Luke 16:10-18",
+                    "Numbers 17:1-13"
+                ],
+                "friday": [
+                    "Luke 17:1-10",
+                    "Numbers 20:1-29"
+                ],
+                "saturday": [
+                    "Luke 18:1-8",
+                    "Numbers 21:1-22:1"
+                ]
+            },
+            "weekday_display": "WEEKDAY of the Second Week of Lent",
+            "color": "violet"
+        },
+        {
+            "display": "Oculi, Third Week of Lent",
+            "callback": {
+                "function": "get_lent",
+                "value": 3
+            },
+            "sunday_readings": {
+                "epistle": "Eph. 5:1-9",
+                "gospel": "Luke 11:14-28"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "Luke 18:15-30",
+                    "Numbers 22:2-41"
+                ],
+                "tuesday": [
+                    "Luke 19:1-40",
+                    "Numbers 23:1-30"
+                ],
+                "wednesday": [
+                    "Luke 20:1-21:4",
+                    "Numbers 24:1-13"
+                ],
+                "thursday": [
+                    "Luke 21:37-22:38",
+                    "Numbers 27:12-23"
+                ],
+                "friday": [
+                    "Luke 22:39-71",
+                    "Deuteronomy 5:1-33"
+                ],
+                "saturday": [
+                    "Luke 23:1-25",
+                    "Deuteronomy 8:1-20"
+                ]
+            },
+            "weekday_display": "WEEKDAY of the Third Week of Lent",
+            "color": "violet"
+        },
+        {
+            "display": "Laetare, Fourth Week of Lent",
+            "callback": {
+                "function": "get_lent",
+                "value": 4
+            },
+            "sunday_readings": {
+                "epistle": "Gal. 4:21-31",
+                "gospel": "John 6:1-15"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "Luke 23:26-56",
+                    "Deuteronomy 9:1-29"
+                ],
+                "tuesday": [
+                    "Matthew 26:1-35",
+                    "Deuteronomy 10:1-22"
+                ],
+                "wednesday": [
+                    "Matthew 26:36-75",
+                    "Deuteronomy 11:1-32"
+                ],
+                "thursday": [
+                    "Matthew 27:1-38",
+                    "Deuteronomy 28:1-14"
+                ],
+                "friday": [
+                    "Matthew 27:39-66",
+                    "Deuteronomy 28:15-68"
+                ],
+                "saturday": [
+                    "Mark 14:1-31",
+                    "Deuteronomy 34:1-12"
+                ]
+            },
+            "weekday_display": "WEEKDAY of the Fourth Week of Lent",
+            "color": "violet"
+        },
+        {
+            "display": "Judica, Fifth Week of Lent",
+            "callback": {
+                "function": "get_lent",
+                "value": 5
+            },
+            "sunday_readings": {
+                "epistle": "Heb 9:11-15",
+                "gospel": "John 8:46-59"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "Mark 14:32-72",
+                    "Jeremiah 2:1-19"
+                ],
+                "tuesday": [
+                    "Mark 15:1-19",
+                    "Hosea 13:9-14"
+                ],
+                "wednesday": [
+                    "Mark 15:20-47",
+                    "Zephaniah 3:1-8"
+                ],
+                "thursday": [
+                    "John 12:1-19",
+                    "Micah 3:9-12"
+                ],
+                "friday": [
+                    "John 12:20-50",
+                    "Isaiah 66:1-9"
+                ],
+                "saturday": [
+                    "John 13:16-38",
+                    "Zechariah 9:1-17"
+                ]
+            },
+            "weekday_display": "WEEKDAY of the Fourth Week of Lent",
+            "color": "violet"
+        },
+        {
+            "display": "Palm Sunday",
+            "callback": {
+                "function": "get_lent",
                 "value": 6
             },
-            "sunday_readings":{
-                "epistle":"Phil. 2:5-11",
-                "gospel":"Matt. 21:1-9"
-            },"weekday_readings":{
-                "monday":["John 18:1-18","Jeremiah 7:1-5"],
-                "tuesday":["John 18:19-40","Isaiah 50:4-11"],
-                "wednesday":["John 19:1-12","Jeremiah 11:18-23"],
-                "thursday":["John 9:13-24","Zechariah 3:1-10"],
-                "friday":["John 19:25-37","Lamentations 2:8-15"],
-                "saturday":["John 19:38-42","Isaiah 52:13-15"]
-            }, 
-            "weekday_display":"Holy WEEKDAY", 
-            "color":"violet"
+            "sunday_readings": {
+                "epistle": "Phil. 2:5-11",
+                "gospel": "Matt. 21:1-9"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "John 18:1-18",
+                    "Jeremiah 7:1-5"
+                ],
+                "tuesday": [
+                    "John 18:19-40",
+                    "Isaiah 50:4-11"
+                ],
+                "wednesday": [
+                    "John 19:1-12",
+                    "Jeremiah 11:18-23"
+                ],
+                "thursday": [
+                    "John 9:13-24",
+                    "Zechariah 3:1-10"
+                ],
+                "friday": [
+                    "John 19:25-37",
+                    "Lamentations 2:8-15"
+                ],
+                "saturday": [
+                    "John 19:38-42",
+                    "Isaiah 52:13-15"
+                ]
+            },
+            "weekday_display": "Holy WEEKDAY",
+            "color": "violet"
         },
         {
             "display": "Maundy Thursday",
-            "callback":{
+            "callback": {
                 "function": "get_maundy_thursday"
             },
-            "sunday_readings":{
-                "epistle":"1 Cor. 11:23-32",
-                "gospel":"John 13:1-15"
+            "sunday_readings": {
+                "epistle": "1 Cor. 11:23-32",
+                "gospel": "John 13:1-15"
             },
             "color": "white"
         },
-        
         {
             "display": "Good Friday",
-            "callback":{
+            "callback": {
                 "function": "get_goodfriday"
             },
-            "sunday_readings":{
-                "epistle":"Is 52:13–53:12",
-                "gospel":"John 18:1–19:42"
+            "sunday_readings": {
+                "epistle": "Is 52:13–53:12",
+                "gospel": "John 18:1–19:42"
             },
             "color": "black"
         }
-
     ],
-    "easter":[
+    "easter": [
         {
-            "display":"Easter, the Feast of the Resurrection of our Lord",
-            "callback":{
-                "function":"get_easter"
+            "display": "Easter, the Feast of the Resurrection of our Lord",
+            "callback": {
+                "function": "get_easter"
             },
-            "sunday_readings":{
-                "epistle":"1 Cor. 5:6-8",
-                "gospel":"Mark 16:1-8"
-            },"weekday_readings":{
-                "monday":["Luke 24:13-35","Acts 10:34-41"],
-                "tuesday":["Matthew 28:1-15","Ezekiel 21:25-27"],
-                "wednesday":["John 20:1-18","Haggai 2:20-23"],
-                "thursday":["Luke 24:1-12","Zechariah 6:9-15"],
-                "friday":["Luke 24:36-49","Ezekiel 7:22-24"],
-                "saturday":["Mark 16:9-14","Isaiah 44:21-28"]
-            }, 
-            "weekday_display":"Easter WEEKDAY", 
-            "color":"white"
+            "sunday_readings": {
+                "epistle": "1 Cor. 5:6-8",
+                "gospel": "Mark 16:1-8"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "Luke 24:13-35",
+                    "Acts 10:34-41"
+                ],
+                "tuesday": [
+                    "Matthew 28:1-15",
+                    "Ezekiel 21:25-27"
+                ],
+                "wednesday": [
+                    "John 20:1-18",
+                    "Haggai 2:20-23"
+                ],
+                "thursday": [
+                    "Luke 24:1-12",
+                    "Zechariah 6:9-15"
+                ],
+                "friday": [
+                    "Luke 24:36-49",
+                    "Ezekiel 7:22-24"
+                ],
+                "saturday": [
+                    "Mark 16:9-14",
+                    "Isaiah 44:21-28"
+                ]
+            },
+            "weekday_display": "Easter WEEKDAY",
+            "color": "white"
         },
         {
-            "display":"Quasimodogeniti, First Sunday of Easter",
-            "callback":{
-                "function":"get_eastertide",
+            "display": "Quasimodogeniti, First Sunday of Easter",
+            "callback": {
+                "function": "get_eastertide",
                 "value": 1
             },
-            "sunday_readings":{
-                "epistle":"1 John 5:4-10",
-                "gospel":"John 20:19-31"
-            },"weekday_readings":{
-                "monday":["John 21:1-25","Jonah 1:1-16"],
-                "tuesday":["John 2:12-25","Jonah 1:17-2:10"],
-                "wednesday":["John 3:22-36","Jonah 3:1-10"],
-                "thursday":["John 4:1-27","Jonah 4:1-11"],
-                "friday":["John 4:28-38","Isaiah 33:2-6"],
-                "saturday":["John 4:39-45","Isaiah 42:10-17"]
-            }, 
-            "weekday_display":"WEEKDAY of the First Sunday of Easter", 
-            "color":"white"
+            "sunday_readings": {
+                "epistle": "1 John 5:4-10",
+                "gospel": "John 20:19-31"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "John 21:1-25",
+                    "Jonah 1:1-16"
+                ],
+                "tuesday": [
+                    "John 2:12-25",
+                    "Jonah 1:17-2:10"
+                ],
+                "wednesday": [
+                    "John 3:22-36",
+                    "Jonah 3:1-10"
+                ],
+                "thursday": [
+                    "John 4:1-27",
+                    "Jonah 4:1-11"
+                ],
+                "friday": [
+                    "John 4:28-38",
+                    "Isaiah 33:2-6"
+                ],
+                "saturday": [
+                    "John 4:39-45",
+                    "Isaiah 42:10-17"
+                ]
+            },
+            "weekday_display": "WEEKDAY of the First Sunday of Easter",
+            "color": "white"
         },
         {
-            "display":"Misericordias Domini, Second Sunday of Easter",
-            "callback":{
-                "function":"get_eastertide",
+            "display": "Misericordias Domini, Second Sunday of Easter",
+            "callback": {
+                "function": "get_eastertide",
                 "value": 2
             },
-            "sunday_readings":{
-                "epistle":"1 Peter 2:21-25",
-                "gospel":"John 10:11-16"
-            },"weekday_readings":{
-                "monday":["John 5:1-17","Micah 2:12-13"],
-                "tuesday":["John 5:18-30","Isaiah 30:19-26"],
-                "wednesday":["John 5:31-47","Jeremiah 3:1-10"],
-                "thursday":["John 6:16-29","Ezekiel 34:1-11"],
-                "friday":["John 6:30-40","Ezekiel 34:12-22"],
-                "saturday":["John 6:41-59","Ezekiel 34:23-31"]
-            }, 
-            "weekday_display":"WEEKDAY of the Second Sunday of Easter", 
-            "color":"white"
-        }, 
+            "sunday_readings": {
+                "epistle": "1 Peter 2:21-25",
+                "gospel": "John 10:11-16"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "John 5:1-17",
+                    "Micah 2:12-13"
+                ],
+                "tuesday": [
+                    "John 5:18-30",
+                    "Isaiah 30:19-26"
+                ],
+                "wednesday": [
+                    "John 5:31-47",
+                    "Jeremiah 3:1-10"
+                ],
+                "thursday": [
+                    "John 6:16-29",
+                    "Ezekiel 34:1-11"
+                ],
+                "friday": [
+                    "John 6:30-40",
+                    "Ezekiel 34:12-22"
+                ],
+                "saturday": [
+                    "John 6:41-59",
+                    "Ezekiel 34:23-31"
+                ]
+            },
+            "weekday_display": "WEEKDAY of the Second Sunday of Easter",
+            "color": "white"
+        },
         {
-            "display":"Jubilate, Third Sunday of Easter",
-            "callback":{
-                "function":"get_eastertide",
+            "display": "Jubilate, Third Sunday of Easter",
+            "callback": {
+                "function": "get_eastertide",
                 "value": 3
             },
-            "sunday_readings":{
-                "epistle":"1 Pet. 2:11-20",
-                "gospel":"John 16:16-23a"
-            },"weekday_readings":{
-                "monday":["John 6:60-71","Ezekiel 36:1-15"],
-                "tuesday":["John 7:1-13","Ezekiel 36:16-32"],
-                "wednesday":["John 7:14-24","Ezekiel 36:33-38"],
-                "thursday":["John 7:25-36","Haggai 2:2-9"],
-                "friday":["John 7:37-53","Zechariah 2:1-13"],
-                "saturday":["John 8:1-11","Zechariah 11:1-17"]
-            }, 
-            "weekday_display":"WEEKDAY of the Third Sunday of Easter", 
-            "color":"white"
+            "sunday_readings": {
+                "epistle": "1 Pet. 2:11-20",
+                "gospel": "John 16:16-23a"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "John 6:60-71",
+                    "Ezekiel 36:1-15"
+                ],
+                "tuesday": [
+                    "John 7:1-13",
+                    "Ezekiel 36:16-32"
+                ],
+                "wednesday": [
+                    "John 7:14-24",
+                    "Ezekiel 36:33-38"
+                ],
+                "thursday": [
+                    "John 7:25-36",
+                    "Haggai 2:2-9"
+                ],
+                "friday": [
+                    "John 7:37-53",
+                    "Zechariah 2:1-13"
+                ],
+                "saturday": [
+                    "John 8:1-11",
+                    "Zechariah 11:1-17"
+                ]
+            },
+            "weekday_display": "WEEKDAY of the Third Sunday of Easter",
+            "color": "white"
         },
         {
-            "display":"Cantate, Fourth Sunday of Easter",
-            "callback":{
-                "function":"get_eastertide",
+            "display": "Cantate, Fourth Sunday of Easter",
+            "callback": {
+                "function": "get_eastertide",
                 "value": 4
             },
-            "sunday_readings":{
-                "epistle":"James 1:16-21",
-                "gospel":"John 16:5-15"
-            },"weekday_readings":{
-                "monday":["John 8:12-20","Zechariah 12:1-14"],
-                "tuesday":["John 8:21-29","Isaiah 64:1-7"],
-                "wednesday":["John 8:30-45","Isaiah 65:1-7"],
-                "thursday":["John 9:1-13","Jeremiah 8:4-13"],
-                "friday":["John 9:14-34","Zechariah 8:18-23"],
-                "saturday":["John 9:35-41","Isaiah 49:22-26"]
-            }, 
-            "weekday_display":"WEEKDAY of the Fourth Sunday of Easter", 
-            "color":"white"
+            "sunday_readings": {
+                "epistle": "James 1:16-21",
+                "gospel": "John 16:5-15"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "John 8:12-20",
+                    "Zechariah 12:1-14"
+                ],
+                "tuesday": [
+                    "John 8:21-29",
+                    "Isaiah 64:1-7"
+                ],
+                "wednesday": [
+                    "John 8:30-45",
+                    "Isaiah 65:1-7"
+                ],
+                "thursday": [
+                    "John 9:1-13",
+                    "Jeremiah 8:4-13"
+                ],
+                "friday": [
+                    "John 9:14-34",
+                    "Zechariah 8:18-23"
+                ],
+                "saturday": [
+                    "John 9:35-41",
+                    "Isaiah 49:22-26"
+                ]
+            },
+            "weekday_display": "WEEKDAY of the Fourth Sunday of Easter",
+            "color": "white"
         },
         {
-            "display":"Rogate, Fifth Sunday of Easter",
-            "callback":{
-                "function":"get_eastertide",
+            "display": "Rogate, Fifth Sunday of Easter",
+            "callback": {
+                "function": "get_eastertide",
                 "value": 5
             },
-            "sunday_readings":{
-                "epistle":"James 1:22-27",
-                "gospel":"John 16:23-30"
-            },"weekday_readings":{
-                "monday":["John 10:1-5","Amos 9:8-15"],
-                "tuesday":["John 10:6-10","Isaiah 4:2-6"],
-                "wednesday":["Matthew 18:16-20","Isaiah 29:18-24"],
-                "thursday":["Mark 16:14-20","Acts 1:1-11"],
-                "friday":["Luke 24:50-53","Micah 7:7-13"],
-                "saturday":["Acts 1:12-26","Micah 7:14-20"]
-            }, 
-            "weekday_display":"WEEKDAY of the Fifth Sunday of Easter", 
-            "color":"white"
+            "sunday_readings": {
+                "epistle": "James 1:22-27",
+                "gospel": "John 16:23-30"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "John 10:1-5",
+                    "Amos 9:8-15"
+                ],
+                "tuesday": [
+                    "John 10:6-10",
+                    "Isaiah 4:2-6"
+                ],
+                "wednesday": [
+                    "Matthew 18:16-20",
+                    "Isaiah 29:18-24"
+                ],
+                "thursday": [
+                    "Mark 16:14-20",
+                    "Acts 1:1-11"
+                ],
+                "friday": [
+                    "Luke 24:50-53",
+                    "Micah 7:7-13"
+                ],
+                "saturday": [
+                    "Acts 1:12-26",
+                    "Micah 7:14-20"
+                ]
+            },
+            "weekday_display": "WEEKDAY of the Fifth Sunday of Easter",
+            "color": "white"
         },
         {
-            "display":"The Festival of the Ascension of our Lord",
-            "callback":{
-                "function":"get_ascension"            
+            "display": "The Festival of the Ascension of our Lord",
+            "callback": {
+                "function": "get_ascension"
             },
-            "sunday_readings":{
-                "epistle":"Acts 1:1-11",
-                "gospel":"Mark 16:14-20"
+            "sunday_readings": {
+                "epistle": "Acts 1:1-11",
+                "gospel": "Mark 16:14-20"
             },
-            "color":"white"
+            "color": "white"
         },
         {
-            "display":"Exaudi, Sunday after the Ascension",
-            "callback":{
-                "function":"get_eastertide",
+            "display": "Exaudi, Sunday after the Ascension",
+            "callback": {
+                "function": "get_eastertide",
                 "value": 6
             },
-            "sunday_readings":{
-                "epistle":"1 Pet. 4:7-11",
-                "gospel":"John 15:26–16:4"
-            },"weekday_readings":{
-                "monday":["John 10:17-21","Zechariah 13:7-9"],
-                "tuesday":["John 10:22-31","Zechariah 14:1-21"],
-                "wednesday":["John 10:32-42","Isaiah 66:10-24"],
-                "thursday":["John 11:1-27","Jeremiah 46:27-28"],
-                "friday":["John 11:28-44","Isaiah 32:9-20"],
-                "saturday":["John 11:45-57","Isaiah 57:15-21"]
-            }, 
-            "weekday_display":"WEEKDAY of the Sixth Sunday of Easter", 
-            "color":"white"
+            "sunday_readings": {
+                "epistle": "1 Pet. 4:7-11",
+                "gospel": "John 15:26–16:4"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "John 10:17-21",
+                    "Zechariah 13:7-9"
+                ],
+                "tuesday": [
+                    "John 10:22-31",
+                    "Zechariah 14:1-21"
+                ],
+                "wednesday": [
+                    "John 10:32-42",
+                    "Isaiah 66:10-24"
+                ],
+                "thursday": [
+                    "John 11:1-27",
+                    "Jeremiah 46:27-28"
+                ],
+                "friday": [
+                    "John 11:28-44",
+                    "Isaiah 32:9-20"
+                ],
+                "saturday": [
+                    "John 11:45-57",
+                    "Isaiah 57:15-21"
+                ]
+            },
+            "weekday_display": "WEEKDAY of the Sixth Sunday of Easter",
+            "color": "white"
         }
     ],
-    "ordinary_time":[
+    "ordinary_time": [
         {
-            "display":"Whitsunday, the Feast of Pentecost",
-            "callback":{
-                "function":"get_pentecost"
+            "display": "Whitsunday, the Feast of Pentecost",
+            "callback": {
+                "function": "get_pentecost"
             },
-            "sunday_readings":{
-                "epistle":"Acts 2:1-13",
-                "gospel":"John 14:23-31"
-            },"weekday_readings":{
-                "monday":["John 3:16-21","Acts 10:42-28"],
-                "tuesday":["Acts 2:14-36","Ezekiel 47:1-12"],
-                "wednesday":["Acts 2:37-47","Isaiah 45:18-21"],
-                "thursday":["John 14:1-22","Isaiah 45:22-25"],
-                "friday":["John 15:1-25","Jeremiah 9:23-26"],
-                "saturday":["John 16:31-17:26","Isaiah 44:6-8"]
-            }, 
-            "weekday_display":"WEEKDAY of the week of Pentecost", 
-            "color":"red"
+            "sunday_readings": {
+                "epistle": "Acts 2:1-13",
+                "gospel": "John 14:23-31"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "John 3:16-21",
+                    "Acts 10:42-28"
+                ],
+                "tuesday": [
+                    "Acts 2:14-36",
+                    "Ezekiel 47:1-12"
+                ],
+                "wednesday": [
+                    "Acts 2:37-47",
+                    "Isaiah 45:18-21"
+                ],
+                "thursday": [
+                    "John 14:1-22",
+                    "Isaiah 45:22-25"
+                ],
+                "friday": [
+                    "John 15:1-25",
+                    "Jeremiah 9:23-26"
+                ],
+                "saturday": [
+                    "John 16:31-17:26",
+                    "Isaiah 44:6-8"
+                ]
+            },
+            "weekday_display": "WEEKDAY of the week of Pentecost",
+            "color": "red"
         },
         {
-            "display":"The Feast of the Holy Trinity",
-            "callback":{
-                "function":"get_trinity_sunday"
+            "display": "The Feast of the Holy Trinity",
+            "callback": {
+                "function": "get_trinity_sunday"
             },
-            "sunday_readings":{
-                "epistle":"Rom. 11:33-36",
-                "gospel":"John 3:1-15"
-            },"weekday_readings":{
-                "monday":["Acts 3:1-21","Joshua 1:1-18"],
-                "tuesday":["Acts 4:1-37","Joshua 3:1-17"],
-                "wednesday":["Acts 5:1-42","Joshua 4:1-24"],
-                "thursday":["Acts 6:1-15","Joshua 6:1-27"],
-                "friday":["Acts 7:1-60","Joshua 8:1-35"],
-                "saturday":["Acts 8:1-40","Joshua 9:1-27"]
-            }, 
-            "weekday_display":"WEEKDAY in the week of Trinity Sunday", 
-            "color":"white"
+            "sunday_readings": {
+                "epistle": "Rom. 11:33-36",
+                "gospel": "John 3:1-15"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "Acts 3:1-21",
+                    "Joshua 1:1-18"
+                ],
+                "tuesday": [
+                    "Acts 4:1-37",
+                    "Joshua 3:1-17"
+                ],
+                "wednesday": [
+                    "Acts 5:1-42",
+                    "Joshua 4:1-24"
+                ],
+                "thursday": [
+                    "Acts 6:1-15",
+                    "Joshua 6:1-27"
+                ],
+                "friday": [
+                    "Acts 7:1-60",
+                    "Joshua 8:1-35"
+                ],
+                "saturday": [
+                    "Acts 8:1-40",
+                    "Joshua 9:1-27"
+                ]
+            },
+            "weekday_display": "WEEKDAY in the week of Trinity Sunday",
+            "color": "white"
         },
         {
-            "display":"First Sunday after Trinity Sunday",
-            "callback":{
-                "function":"check_ordinary_time",
-                "value":1
+            "display": "First Sunday after Trinity Sunday",
+            "callback": {
+                "function": "check_ordinary_time",
+                "value": 1
             },
-            "sunday_readings":{
-                "epistle":"1 John 4:16-21",
-                "gospel":"Luke 16:19-31"
-            },"weekday_readings":{
-                "monday":["Acts 9:1-43","Joshua 10:1-15"],
-                "tuesday":["Acts 10:1-33","Joshua 11:1-23"],
-                "wednesday":["Acts 11:1-30","Joshua 23:1-16"],
-                "thursday":["Acts 12:1-25","Joshua 24:1-31"],
-                "friday":["Acts 13:1-52","Judges 2:1-23"],
-                "saturday":["Acts 14:1-28","Judges 6:1-40"]
-            }, 
-            "weekday_display":"WEEKDAY in the week of Trinity 1", 
-            "color":"green"
-        },
-
-        {
-            "display":"Second Sunday after Trinity Sunday",
-            "callback":{
-                "function":"check_ordinary_time",
-                "value":2
+            "sunday_readings": {
+                "epistle": "1 John 4:16-21",
+                "gospel": "Luke 16:19-31"
             },
-            "sunday_readings":{
-                "epistle":"1 John 3:13-18",
-                "gospel":"Luke 14:16-24"
-            },"weekday_readings":{
-                "monday":["Acts 15:1-41","Judges 7:1-25"],
-                "tuesday":["Acts 16:1-40","Judges 13:1-25"],
-                "wednesday":["Acts 17:1-15","Judges 14:1-20"],
-                "thursday":["Acts 18:1-28","Judges 15:1-20"],
-                "friday":["Acts 19:1-41","Judges 16:4-31"],
-                "saturday":["Acts 20:1-38","1 Samuel 1:1-28"]
-            }, 
-
-            "weekday_display":"WEEKDAY in the week of Trinity 2", 
-            "color":"green"
+            "weekday_readings": {
+                "monday": [
+                    "Acts 9:1-43",
+                    "Joshua 10:1-15"
+                ],
+                "tuesday": [
+                    "Acts 10:1-33",
+                    "Joshua 11:1-23"
+                ],
+                "wednesday": [
+                    "Acts 11:1-30",
+                    "Joshua 23:1-16"
+                ],
+                "thursday": [
+                    "Acts 12:1-25",
+                    "Joshua 24:1-31"
+                ],
+                "friday": [
+                    "Acts 13:1-52",
+                    "Judges 2:1-23"
+                ],
+                "saturday": [
+                    "Acts 14:1-28",
+                    "Judges 6:1-40"
+                ]
+            },
+            "weekday_display": "WEEKDAY in the week of Trinity 1",
+            "color": "green"
         },
         {
-            "display":"Third Sunday after Trinity Sunday",
-            "callback":{
-                "function":"check_ordinary_time",
-                "value":3
+            "display": "Second Sunday after Trinity Sunday",
+            "callback": {
+                "function": "check_ordinary_time",
+                "value": 2
             },
-            "sunday_readings":{
-                "epistle":"1 Peter 5:6-11",
-                "gospel":"Luke 15:1-10"
-            },"weekday_readings":{
-                "monday":["Acts 21:1-39","1 Samuel 2:1-21"],
-                "tuesday":["Acts 21:40-22:29","1 Samuel 3:1-21"],
-                "wednesday":["Acts 22:30-23:35","1 Samuel 4:1-22"],
-                "thursday":["Acts 24:1-27","1 Samuel 5:1-12"],
-                "friday":["Acts 25:1-27","1 Samuel 7:1-17"],
-                "saturday":["Acts 26:1-32","1 Samuel 8:1-22"]
-            }, 
-            "weekday_display":"WEEKDAY in the week of Trinity 3", 
-            "color":"green"
-        },
-
-
-        {
-            "display":"4th Sunday after Trinity Sunday",
-            "callback":{
-                "function":"check_ordinary_time",
-                "value":4
+            "sunday_readings": {
+                "epistle": "1 John 3:13-18",
+                "gospel": "Luke 14:16-24"
             },
-            "sunday_readings":{
-                "epistle":"Rom. 8:18-23",
-                "gospel":"Luke 6:36-42"
-            },"weekday_readings":{
-                "monday":["Acts 27:1-44","1 Samuel 9:1-27"],
-                "tuesday":["Acts 28:1-31","1 Samuel 10:1-27"],
-                "wednesday":["Romans 1:1-15","1 Samuel 12:1-25"],
-                "thursday":["Romans 1:16-32","1 Samuel 13:1-14"],
-                "friday":["Romans 2:1-29","1 Samuel 15:1-35"],
-                "saturday":["Romans 3:1-31","1 Samuel 16:1-23"]
-            }, 
-            "weekday_display":"WEEKDAY in the week of Trinity 4", 
-            "color":"green"
-        },
-
-        {
-            "display":"5th Sunday after Trinity Sunday",
-            "callback":{
-                "function":"check_ordinary_time",
-                "value":5
+            "weekday_readings": {
+                "monday": [
+                    "Acts 15:1-41",
+                    "Judges 7:1-25"
+                ],
+                "tuesday": [
+                    "Acts 16:1-40",
+                    "Judges 13:1-25"
+                ],
+                "wednesday": [
+                    "Acts 17:1-15",
+                    "Judges 14:1-20"
+                ],
+                "thursday": [
+                    "Acts 18:1-28",
+                    "Judges 15:1-20"
+                ],
+                "friday": [
+                    "Acts 19:1-41",
+                    "Judges 16:4-31"
+                ],
+                "saturday": [
+                    "Acts 20:1-38",
+                    "1 Samuel 1:1-28"
+                ]
             },
-            "sunday_readings":{
-                "epistle":"1 Peter 3:8-15",
-                "gospel":"Luke 5:1-11"
-            },"weekday_readings":{
-                "monday":["Romans 4:1-25","1 Samuel 17:1-58"],
-                "tuesday":["Romans 5:1-6:2","1 Samuel 18:1-21"],
-                "wednesday":["Romans 6:12-18","1 Samuel 19:1-24"],
-                "thursday":["Romans 7:1-25","1 Samuel 20:1-42"],
-                "friday":["Romans 8:1-29","1 Samuel 22:1-23"],
-                "saturday":["Romans 13:1-7","1 Samuel 24:1-22"]
-            }, 
-            "weekday_display":"WEEKDAY in the week of Trinity 5", 
-            "color":"green"
-        },     
-        {
-            "display":"6th Sunday after Trinity Sunday",
-            "callback":{
-                "function":"check_ordinary_time",
-                "value":6
-            },
-            "sunday_readings":{
-                "epistle":"Rom. 6:3-11",
-                "gospel":"Matt. 5:20-26"
-            },"weekday_readings":{
-                "monday":["Romans 14:1-15:3","1 Samuel 26:1-25"],
-                "tuesday":["Romans 15:14-33","1 Samuel 28:3-25"],
-                "wednesday":["Romans 16:1-27","1 Samuel 31:1-13"],
-                "thursday":["1 Corinthians 1:10-31","2 Samuel 1:1-27"],
-                "friday":["1 Corinthians 2:1-16","2 Samuel 5:1-25"],
-                "saturday":["1 Corinthians 4:6-5:5","2 Samuel 6:1-23"]
-            }, 
-            "weekday_display":"WEEKDAY in the week of Trinity 6", 
-            "color":"green"
-        },
-
-        {
-            "display":"7th Sunday after Trinity Sunday",
-            "callback":{
-                "function":"check_ordinary_time",
-                "value":7
-            },
-            "sunday_readings":{
-                "epistle":"Rom. 6:19-23",
-                "gospel":"Mark 8:1-9"
-            },"weekday_readings":{
-                "monday":["1 Corinthians 5:9-6:20","1 Chronicles 16:1-43"],
-                "tuesday":["1 Corinthians 7:1-40","2 Samuel 7:1-29"],
-                "wednesday":["1 Corinthians 8:1-13","2 Samuel 12:1-23"],
-                "thursday":["1 Corinthians 9:1-23","2 Samuel 15:1-15"],
-                "friday":["1 Corinthians 10:14-33","2 Samuel 16:5-35"],
-                "saturday":["1 Corinthians 11:1-22","2 Samuel 18:1-13"]
-            }, 
-            "weekday_display":"WEEKDAY in the week of Trinity 7", 
-            "color":"green"
+            "weekday_display": "WEEKDAY in the week of Trinity 2",
+            "color": "green"
         },
         {
-            "display":"8th Sunday after Trinity Sunday",
-            "callback":{
-                "function":"check_ordinary_time",
-                "value":8
+            "display": "Third Sunday after Trinity Sunday",
+            "callback": {
+                "function": "check_ordinary_time",
+                "value": 3
             },
-            "sunday_readings":{
-                "epistle":"Rom. 8:12-17",
-                "gospel":"Matt. 7:15-23"
-            },"weekday_readings":{
-                "monday":["1 Corinthians 12:12-31","2 Samuel 19:1-23"],
-                "tuesday":["1 Corinthians 14:1-40","1 Chronicles 21:1-30"],
-                "wednesday":["1 Corinthians 15:58-16:24","1 Chronicles 22:1-19"],
-                "thursday":["2 Corinthians 1:1-24","1 Chronicles 28:1-21"],
-                "friday":["2 Corinthians 2:1-3:13","2 Chronicles 29:1-23"],
-                "saturday":["2 Corinthians 6:11-7:16","2 Chronicles 1:1-13"]
-            }, 
-            "weekday_display":"WEEKDAY in the week of Trinity 8", 
-            "color":"green"
-        },
-
-        {
-            "display":"9th Sunday after Trinity Sunday",
-            "callback":{
-                "function":"check_ordinary_time",
-                "value":9
+            "sunday_readings": {
+                "epistle": "1 Peter 5:6-11",
+                "gospel": "Luke 15:1-10"
             },
-            "sunday_readings":{
-                "epistle":"1 Cor. 10:6-13",
-                "gospel":"Luke 16:1-9"
-            },"weekday_readings":{
-                "monday":["2 Corinthians","1 Kings 3:16-28"],
-                "tuesday":["2 Corinthians","1 Kings 4:22-34"],
-                "wednesday":["2 Corinthians","1 Kings 5:1-18"],
-                "thursday":["2 Corinthians","2 Chronicles 3:1-17"],
-                "friday":["2 Corinthians","1 Kings 8:1-66"],
-                "saturday":["Galatians 1:1-24","1 Kings 7:1-12"]
-            }, 
-            "weekday_display":"WEEKDAY in the week of Trinity 9", 
-            "color":"green"
-        },
-
-        {
-            "display":"10th Sunday after Trinity Sunday",
-            "callback":{
-                "function":"check_ordinary_time",
-                "value":10
+            "weekday_readings": {
+                "monday": [
+                    "Acts 21:1-39",
+                    "1 Samuel 2:1-21"
+                ],
+                "tuesday": [
+                    "Acts 21:40-22:29",
+                    "1 Samuel 3:1-21"
+                ],
+                "wednesday": [
+                    "Acts 22:30-23:35",
+                    "1 Samuel 4:1-22"
+                ],
+                "thursday": [
+                    "Acts 24:1-27",
+                    "1 Samuel 5:1-12"
+                ],
+                "friday": [
+                    "Acts 25:1-27",
+                    "1 Samuel 7:1-17"
+                ],
+                "saturday": [
+                    "Acts 26:1-32",
+                    "1 Samuel 8:1-22"
+                ]
             },
-            "sunday_readings":{
-                "epistle":"1 Cor. 12:1-11",
-                "gospel":"Luke 19:41-48"
-            },"weekday_readings":{
-                "monday":["Galatians 2:1-21","1 Kings 9:1-28"],
-                "tuesday":["Galatians 3:1-14","1 Kings 10:1-29"],
-                "wednesday":["Galatians 4:8-20","1 Kings 11:1-43"],
-                "thursday":["Galatians 5:1-15","1 Kings 12:1-33"],
-                "friday":["Galatians 6:11-18","1 Kings 13:1-34"],
-                "saturday":["Ephesians 6:1-9","1 Kings 14:1-31"]
-            }, 
-            "weekday_display":"WEEKDAY in the week of Trinity 10", 
-            "color":"green"
+            "weekday_display": "WEEKDAY in the week of Trinity 3",
+            "color": "green"
         },
         {
-            "display":"11th Sunday after Trinity Sunday",
-            "callback":{
-                "function":"check_ordinary_time",
-                "value":11
+            "display": "4th Sunday after Trinity Sunday",
+            "callback": {
+                "function": "check_ordinary_time",
+                "value": 4
             },
-            "sunday_readings":{
-                "epistle":"1 Cor. 15:1-10",
-                "gospel":"Luke 18:9-14"
-            },"weekday_readings":{
-                "monday":["Ephesians 6:18-24","1 Kings 16:29 – 17:24"],
-                "tuesday":["Philippians 1:12-2:4","1 Kings 18:1-46"],
-                "wednesday":["Philippians 2:19-30","1 Kings 19:1-21"],
-                "thursday":["Philippians 3:1-11","1 Kings 21:1-29"],
-                "friday":["Philippians 4:1-3","1 Kings 22:51; 2 Kings 1:17"],
-                "saturday":["Philippians 4:8-23","2 Kings 2:1-25"]
-            }, 
-            "weekday_display":"WEEKDAY in the week of Trinity 11", 
-            "color":"green"
+            "sunday_readings": {
+                "epistle": "Rom. 8:18-23",
+                "gospel": "Luke 6:36-42"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "Acts 27:1-44",
+                    "1 Samuel 9:1-27"
+                ],
+                "tuesday": [
+                    "Acts 28:1-31",
+                    "1 Samuel 10:1-27"
+                ],
+                "wednesday": [
+                    "Romans 1:1-15",
+                    "1 Samuel 12:1-25"
+                ],
+                "thursday": [
+                    "Romans 1:16-32",
+                    "1 Samuel 13:1-14"
+                ],
+                "friday": [
+                    "Romans 2:1-29",
+                    "1 Samuel 15:1-35"
+                ],
+                "saturday": [
+                    "Romans 3:1-31",
+                    "1 Samuel 16:1-23"
+                ]
+            },
+            "weekday_display": "WEEKDAY in the week of Trinity 4",
+            "color": "green"
         },
         {
-            "display":"12th Sunday after Trinity Sunday",
-            "callback":{
-                "function":"check_ordinary_time",
-                "value":12
+            "display": "5th Sunday after Trinity Sunday",
+            "callback": {
+                "function": "check_ordinary_time",
+                "value": 5
             },
-            "sunday_readings":{
-                "epistle":"2 Cor. 3:4-11",
-                "gospel":"Mark 7:31-37"
-            },"weekday_readings":{
-                "monday":["Colossians 2:1-23","2 Kings 4:1-44"],
-                "tuesday":["Colossians 3:18 – 4:18","2 Kings 5:1-27"],
-                "wednesday":["1 Thessalonians 1:1-10","2 Kings 6:1-23"],
-                "thursday":["1 Thessalonians 2:1-20","2 Kings 6:24 – 7:20"],
-                "friday":["1 Thessalonians 3:1-13","2 Kings 8:1-15"],
-                "saturday":["1 Thessalonians 4:8-12","2 Kings 9:1-37"]
-            }, 
-            "weekday_display":"WEEKDAY in the week of Trinity 12", 
-            "color":"green"
-        },
-        
-        
-        {
-            "display":"13th Sunday after Trinity Sunday",
-            "callback":{
-                "function":"check_ordinary_time",
-                "value":13
+            "sunday_readings": {
+                "epistle": "1 Peter 3:8-15",
+                "gospel": "Luke 5:1-11"
             },
-            "sunday_readings":{
-                "epistle":"Gal. 3:15-22",
-                "gospel":"Luke 10:23-37"
-            },"weekday_readings":{
-                "monday":["1 Thessalonians 5:12-28","2 Kings 10:1-36"],
-                "tuesday":["1 Timothy 1:1-20","2 Chronicles 22:1-12"],
-                "wednesday":["1 Timothy 2:1-15","2 Chronicles 23:1-21"],
-                "thursday":["1 Timothy 3:1-16","2 Chronicles 24:1-27"],
-                "friday":["1 Timothy 4:1-16","2 Kings 14:1-29"],
-                "saturday":["1 Timothy 5:1-25","2 Kings 15:1-38"]
-            }, 
-            "weekday_display":"WEEKDAY in the week of Trinity 13", 
-            "color":"green"
-        },
-
-        {
-            "display":"14th Sunday after Trinity Sunday",
-            "callback":{
-                "function":"check_ordinary_time",
-                "value":14
+            "weekday_readings": {
+                "monday": [
+                    "Romans 4:1-25",
+                    "1 Samuel 17:1-58"
+                ],
+                "tuesday": [
+                    "Romans 5:1-6:2",
+                    "1 Samuel 18:1-21"
+                ],
+                "wednesday": [
+                    "Romans 6:12-18",
+                    "1 Samuel 19:1-24"
+                ],
+                "thursday": [
+                    "Romans 7:1-25",
+                    "1 Samuel 20:1-42"
+                ],
+                "friday": [
+                    "Romans 8:1-29",
+                    "1 Samuel 22:1-23"
+                ],
+                "saturday": [
+                    "Romans 13:1-7",
+                    "1 Samuel 24:1-22"
+                ]
             },
-            "sunday_readings":{
-                "epistle":"Gal. 5:16-24",
-                "gospel":"Luke 17:11-19"
-            },"weekday_readings":{
-                "monday":["1 Timothy 6:1-21","Isaiah 6:1-13"],
-                "tuesday":["2 Timothy 1:1-18","Amos 7:7-17"],
-                "wednesday":["2 Timothy 2:1-26","2 Kings 16:1-20"],
-                "thursday":["Titus 1:1-16","2 Kings 17:1-23"],
-                "friday":["Titus 2:1-10","2 Kings 18:1-37"],
-                "saturday":["Titus 2:15 – 3:3","2 Kings 19:1-37"]
-            }, 
-            "weekday_display":"WEEKDAY in the week of Trinity 14", 
-            "color":"green"
+            "weekday_display": "WEEKDAY in the week of Trinity 5",
+            "color": "green"
         },
         {
-            "display":"15th Sunday after Trinity Sunday",
-            "callback":{
-                "function":"check_ordinary_time",
-                "value":15
+            "display": "6th Sunday after Trinity Sunday",
+            "callback": {
+                "function": "check_ordinary_time",
+                "value": 6
             },
-            "sunday_readings":{
-                "epistle":"Gal. 5:25-6:10",
-                "gospel":"Matt. 6:24-34"
-            },"weekday_readings":{
-                "monday":["Titus 3:8-15","2 Kings 20:1-21"],
-                "tuesday":["Philemon 1-25","2 Kings 21:1-26 "],
-                "wednesday":["Hebrews 1:1-14","2 Chronicles 34:1-33"],
-                "thursday":["Hebrews 2:5 – 3:6","2 Chronicles 35:20 – 36:10"],
-                "friday":["Hebrews 4:14-5:14","Jeremiah 22:1-30"],
-                "saturday":["Hebrews 6:1-20","Jeremiah 25:1-14"]
-            }, 
-            "weekday_display":"WEEKDAY in the week of Trinity 15", 
-            "color":"green"
+            "sunday_readings": {
+                "epistle": "Rom. 6:3-11",
+                "gospel": "Matt. 5:20-26"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "Romans 14:1-15:3",
+                    "1 Samuel 26:1-25"
+                ],
+                "tuesday": [
+                    "Romans 15:14-33",
+                    "1 Samuel 28:3-25"
+                ],
+                "wednesday": [
+                    "Romans 16:1-27",
+                    "1 Samuel 31:1-13"
+                ],
+                "thursday": [
+                    "1 Corinthians 1:10-31",
+                    "2 Samuel 1:1-27"
+                ],
+                "friday": [
+                    "1 Corinthians 2:1-16",
+                    "2 Samuel 5:1-25"
+                ],
+                "saturday": [
+                    "1 Corinthians 4:6-5:5",
+                    "2 Samuel 6:1-23"
+                ]
+            },
+            "weekday_display": "WEEKDAY in the week of Trinity 6",
+            "color": "green"
         },
         {
-            "display":"16th Sunday after Trinity Sunday",
-            "callback":{
-                "function":"check_ordinary_time",
-                "value":16
+            "display": "7th Sunday after Trinity Sunday",
+            "callback": {
+                "function": "check_ordinary_time",
+                "value": 7
             },
-            "sunday_readings":{
-                "epistle":"Eph. 3:13-21",
-                "gospel":"Luke 7:11-17"
-            },"weekday_readings":{
-                "monday":["Hebrews 7:1-28","Jeremiah 37:1-12"],
-                "tuesday":["Hebrews 8:1-13","Jeremiah 38:1-28"],
-                "wednesday":["Hebrews 9:1-10","Jeremiah 32:1-44"],
-                "thursday":["Hebrews 9:16-28","Jeremiah 39:1-18"],
-                "friday":["Hebrews 10:1-34","Jeremiah 29:1-23"],
-                "saturday":["Hebrews 11:1-7","Daniel 1:1-21"]
-            }, 
-            "weekday_display":"WEEKDAY in the week of Trinity 16", 
-            "color":"green"
+            "sunday_readings": {
+                "epistle": "Rom. 6:19-23",
+                "gospel": "Mark 8:1-9"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "1 Corinthians 5:9-6:20",
+                    "1 Chronicles 16:1-43"
+                ],
+                "tuesday": [
+                    "1 Corinthians 7:1-40",
+                    "2 Samuel 7:1-29"
+                ],
+                "wednesday": [
+                    "1 Corinthians 8:1-13",
+                    "2 Samuel 12:1-23"
+                ],
+                "thursday": [
+                    "1 Corinthians 9:1-23",
+                    "2 Samuel 15:1-15"
+                ],
+                "friday": [
+                    "1 Corinthians 10:14-33",
+                    "2 Samuel 16:5-35"
+                ],
+                "saturday": [
+                    "1 Corinthians 11:1-22",
+                    "2 Samuel 18:1-13"
+                ]
+            },
+            "weekday_display": "WEEKDAY in the week of Trinity 7",
+            "color": "green"
         },
         {
-            "display":"17th Sunday after Trinity Sunday",
-            "callback":{
-                "function":"check_ordinary_time",
-                "value":17
+            "display": "8th Sunday after Trinity Sunday",
+            "callback": {
+                "function": "check_ordinary_time",
+                "value": 8
             },
-            "sunday_readings":{
-                "epistle":"Eph. 4:1-6",
-                "gospel":"Luke 14:1-11"
-            },"weekday_readings":{
-                "monday":["Hebrews 11:17-40","Daniel 3:1-30"],
-                "tuesday":["Hebrews 12:1-17","Daniel 4:1-37"],
-                "wednesday":["Hebrews 13:1-25","Daniel 5:1-30"],
-                "thursday":["James 1:1-15","Daniel 5:31-6:28"],
-                "friday":["James 2:1-13","Ezra 1:1-11"],
-                "saturday":["James 2:14-26","Ezra 3:1-13"]
-            }, 
-            "weekday_display":"WEEKDAY in the week of Trinity 12", 
-            "color":"green"
+            "sunday_readings": {
+                "epistle": "Rom. 8:12-17",
+                "gospel": "Matt. 7:15-23"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "1 Corinthians 12:12-31",
+                    "2 Samuel 19:1-23"
+                ],
+                "tuesday": [
+                    "1 Corinthians 14:1-40",
+                    "1 Chronicles 21:1-30"
+                ],
+                "wednesday": [
+                    "1 Corinthians 15:58-16:24",
+                    "1 Chronicles 22:1-19"
+                ],
+                "thursday": [
+                    "2 Corinthians 1:1-24",
+                    "1 Chronicles 28:1-21"
+                ],
+                "friday": [
+                    "2 Corinthians 2:1-3:13",
+                    "2 Chronicles 29:1-23"
+                ],
+                "saturday": [
+                    "2 Corinthians 6:11-7:16",
+                    "2 Chronicles 1:1-13"
+                ]
+            },
+            "weekday_display": "WEEKDAY in the week of Trinity 8",
+            "color": "green"
         },
         {
-            "display":"18th Sunday after Trinity Sunday",
-            "callback":{
-                "function":"check_ordinary_time",
-                "value":18
+            "display": "9th Sunday after Trinity Sunday",
+            "callback": {
+                "function": "check_ordinary_time",
+                "value": 9
             },
-            "sunday_readings":{
-                "epistle":"1 Cor. 1:4-9",
-                "gospel":"Matt. 22:34-46"
-            },"weekday_readings":{
-                "monday":["James 3:1-18","Ezra 4:1-24"],
-                "tuesday":["James 4:1-5:6","Haggai 1:1-15"],
-                "wednesday":["James 5:12-20","Ezra 5:1-17"],
-                "thursday":["1 Peter 3:1-7","Ezra 6:1-22"],
-                "friday":["1 Peter 3:15-22","Ezra 7:1-28"],
-                "saturday":["1 Peter 5:1-5","Ezra 8:81-9:15"]
-            }, 
-            "weekday_display":"WEEKDAY in the week of Trinity 18", 
-            "color":"green"
+            "sunday_readings": {
+                "epistle": "1 Cor. 10:6-13",
+                "gospel": "Luke 16:1-9"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "2 Corinthians",
+                    "1 Kings 3:16-28"
+                ],
+                "tuesday": [
+                    "2 Corinthians",
+                    "1 Kings 4:22-34"
+                ],
+                "wednesday": [
+                    "2 Corinthians",
+                    "1 Kings 5:1-18"
+                ],
+                "thursday": [
+                    "2 Corinthians",
+                    "2 Chronicles 3:1-17"
+                ],
+                "friday": [
+                    "2 Corinthians",
+                    "1 Kings 8:1-66"
+                ],
+                "saturday": [
+                    "Galatians 1:1-24",
+                    "1 Kings 7:1-12"
+                ]
+            },
+            "weekday_display": "WEEKDAY in the week of Trinity 9",
+            "color": "green"
         },
         {
-            "display":"19th Sunday after Trinity Sunday",
-            "callback":{
-                "function":"check_ordinary_time",
-                "value":19
+            "display": "10th Sunday after Trinity Sunday",
+            "callback": {
+                "function": "check_ordinary_time",
+                "value": 10
             },
-            "sunday_readings":{
-                "epistle":"Eph. 4:22-28",
-                "gospel":"Matt. 9:1-8"
-            },"weekday_readings":{
-                "monday":["1 John 1:1-10","Nehemiah 1:1-11"],
-                "tuesday":["1 John 2:1-17","Nehemiah 2:1-20"],
-                "wednesday":["1 John 5:1-3","Nehemiah 4:1-23"],
-                "thursday":["1 John 5:10-21","Nehemiah 8:1-18"],
-                "friday":["2 John 1-13","Nehemiah 9:1-38"],
-                "saturday":["3 John 1-14","Zechariah 8:1-23"]
-            }, 
-            "weekday_display":"WEEKDAY in the week of Trinity 19", 
-            "color":"green"
-        },
-
-        {
-            "display":"20th Sunday after Trinity Sunday",
-            "callback":{
-                "function":"check_ordinary_time",
-                "value":20
+            "sunday_readings": {
+                "epistle": "1 Cor. 12:1-11",
+                "gospel": "Luke 19:41-48"
             },
-            "sunday_readings":{
-                "epistle":"Eph. 5:15-21",
-                "gospel":"Matt. 22:1-14"
-            },"weekday_readings":{
-                "monday":["Mark 4:1-41","Isaiah 43:1-13"],
-                "tuesday":["Luke 13:18-35","Isaiah 41:1-20"],
-                "wednesday":["Matthew 13:31-58","Habakkuk 2:1-4"],
-                "thursday":["Matthew 16:13-20","Isaiah 63:7-9"],
-                "friday":["2 Corinthians 3:10 - 4:18","Isaiah 64:1-12"],
-                "saturday":["2 Corinthians 5:1-21","Isaiah 5:1-7"]
-            }, 
-            "weekday_display":"WEEKDAY in the week of Trinity 20", 
-            "color":"green"
+            "weekday_readings": {
+                "monday": [
+                    "Galatians 2:1-21",
+                    "1 Kings 9:1-28"
+                ],
+                "tuesday": [
+                    "Galatians 3:1-14",
+                    "1 Kings 10:1-29"
+                ],
+                "wednesday": [
+                    "Galatians 4:8-20",
+                    "1 Kings 11:1-43"
+                ],
+                "thursday": [
+                    "Galatians 5:1-15",
+                    "1 Kings 12:1-33"
+                ],
+                "friday": [
+                    "Galatians 6:11-18",
+                    "1 Kings 13:1-34"
+                ],
+                "saturday": [
+                    "Ephesians 6:1-9",
+                    "1 Kings 14:1-31"
+                ]
+            },
+            "weekday_display": "WEEKDAY in the week of Trinity 10",
+            "color": "green"
         },
         {
-            "display":"21st Sunday after Trinity Sunday",
-            "callback":{
-                "function":"check_ordinary_time",
-                "value":21
+            "display": "11th Sunday after Trinity Sunday",
+            "callback": {
+                "function": "check_ordinary_time",
+                "value": 11
             },
-            "sunday_readings":{
-                "epistle":"Eph. 6:10-17",
-                "gospel":"John 4:46-54"
-            },"weekday_readings":{
-                "monday":["Ephesians 1:1-23","Micah 6:1-9"],
-                "tuesday":["Ephesians 2:1-22","Isaiah 58:1-14"],
-                "wednesday":["Ephesians 4:7-21","Isaiah 59:1-21"],
-                "thursday":["Ephesians 4:29-32","Jeremiah 31:1-22"],
-                "friday":["Ephesians 5:10-14","Jeremiah 31:23-40"],
-                "saturday":["Ephesians 5:22-23","Isaiah 48:1-22"]
-            }, 
-            "weekday_display":"WEEKDAY in the week of Trinity 21", 
-            "color":"green"
-        },
-
-        {
-            "display":"22nd Sunday after Trinity Sunday",
-            "callback":{
-                "function":"check_ordinary_time",
-                "value":22
+            "sunday_readings": {
+                "epistle": "1 Cor. 15:1-10",
+                "gospel": "Luke 18:9-14"
             },
-            "sunday_readings":{
-                "epistle":"Phil. 1:3-11",
-                "gospel":"Matt. 18:23-35"
-            },"weekday_readings":{
-                "monday":["Matthew 18:1-22","Micah 4:9 – 5:1"],
-                "tuesday":["Mark 9:33-50","Isaiah 49:14-21"],
-                "wednesday":["Luke 17:20-37","Isaiah 2:10-21"],
-                "thursday":["Romans 8:24-39","Isaiah 63:1-6"],
-                "friday":["Mark 12:1-12","Joel 2:1-11"],
-                "saturday":["Matthew 25:14-30","Joel 2:12-27"]
-            }, 
-            "weekday_display":"WEEKDAY in the week of Trinity 22", 
-            "color":"green"
+            "weekday_readings": {
+                "monday": [
+                    "Ephesians 6:18-24",
+                    "1 Kings 16:29 – 17:24"
+                ],
+                "tuesday": [
+                    "Philippians 1:12-2:4",
+                    "1 Kings 18:1-46"
+                ],
+                "wednesday": [
+                    "Philippians 2:19-30",
+                    "1 Kings 19:1-21"
+                ],
+                "thursday": [
+                    "Philippians 3:1-11",
+                    "1 Kings 21:1-29"
+                ],
+                "friday": [
+                    "Philippians 4:1-3",
+                    "1 Kings 22:51; 2 Kings 1:17"
+                ],
+                "saturday": [
+                    "Philippians 4:8-23",
+                    "2 Kings 2:1-25"
+                ]
+            },
+            "weekday_display": "WEEKDAY in the week of Trinity 11",
+            "color": "green"
         },
         {
-            "display":"23rd Sunday after Trinity Sunday",
-            "callback":{
-                "function":"check_ordinary_time",
-                "value":23
+            "display": "12th Sunday after Trinity Sunday",
+            "callback": {
+                "function": "check_ordinary_time",
+                "value": 12
             },
-            "sunday_readings":{
-                "epistle":"Phil. 3:17-21",
-                "gospel":"Matt. 22:15-22"
-            },"weekday_readings":{
-                "monday":["1 Corinthians 3:1-23","Joel 3:1-13"],
-                "tuesday":["Matthew 19:16-30","Joel 3:14-21"],
-                "wednesday":["Luke 14:12-15","Obadiah 1-21"],
-                "thursday":["Mark 13:1-37","Nahum 1:1-14"],
-                "friday":["Romans 9:1-23","Nahum 1:15-3:19"],
-                "saturday":["Romans 10:1-21","Isaiah 10:5-27"]
-            }, 
-            "weekday_display":"WEEKDAY in the week of Trinity 23", 
-            "color":"green"
-        },
-
-        {
-            "display":"24th Sunday after Trinity Sunday",
-            "callback":{
-                "function":"check_ordinary_time",
-                "value":24
+            "sunday_readings": {
+                "epistle": "2 Cor. 3:4-11",
+                "gospel": "Mark 7:31-37"
             },
-            "sunday_readings":{
-                "epistle":"Col. 1:9-14",
-                "gospel":"Matt. 9:18-26"
-            },"weekday_readings":{
-                "monday":["Romans 11:1-33","Isaiah 13:1-22"],
-                "tuesday":["2 Thessalonians 1:11 – 2:17","Isaiah 14:1-27"],
-                "wednesday":["2 Thessalonians 3:1-18","Isaiah 47:1-15"],
-                "thursday":["2 Timothy 3:1-17","Daniel 2:27-45"],
-                "friday":["2 Timothy 4:1-22","Daniel 7:1-28"],
-                "saturday":["Matthew 24:1-14","Daniel 9:1-27"]
-            }, 
-            "weekday_display":"WEEKDAY in the week of Trinity 24", 
-            "color":"green"
+            "weekday_readings": {
+                "monday": [
+                    "Colossians 2:1-23",
+                    "2 Kings 4:1-44"
+                ],
+                "tuesday": [
+                    "Colossians 3:18 – 4:18",
+                    "2 Kings 5:1-27"
+                ],
+                "wednesday": [
+                    "1 Thessalonians 1:1-10",
+                    "2 Kings 6:1-23"
+                ],
+                "thursday": [
+                    "1 Thessalonians 2:1-20",
+                    "2 Kings 6:24 – 7:20"
+                ],
+                "friday": [
+                    "1 Thessalonians 3:1-13",
+                    "2 Kings 8:1-15"
+                ],
+                "saturday": [
+                    "1 Thessalonians 4:8-12",
+                    "2 Kings 9:1-37"
+                ]
+            },
+            "weekday_display": "WEEKDAY in the week of Trinity 12",
+            "color": "green"
         },
         {
-            "display":"Third to Last Sunday of the Church Year",
-            "callback":{
-                "function":"get_last_sunday",
-                "value":"-2 weeks Sunday"
+            "display": "13th Sunday after Trinity Sunday",
+            "callback": {
+                "function": "check_ordinary_time",
+                "value": 13
             },
-            "sunday_readings":{
-                "epistle":"1 Thess. 4:13-18",
-                "gospel":"Matt. 24:15-28"
-            },"weekday_readings":{
-                "monday":["Matthew 24:29-51","Daniel 11:36 – 12:13"],
-                "tuesday":["Matthew 22:23-33","Ezekiel 38:1-23"],
-                "wednesday":["1 Corinthians 15:11-50","Ezekiel 39:1-29"],
-                "thursday":["Hebrews 3:7 – 4:13","Isaiah 43:14-25"],
-                "friday":["Hebrews 11:8-16","Isaiah 33:17-24"],
-                "saturday":["Hebrews 12:18-29","Ezekiel 37:1-14"]
-            }, 
-            "weekday_display":"WEEKDAY in the week of Trinity 25", 
-            "color":"green"
+            "sunday_readings": {
+                "epistle": "Gal. 3:15-22",
+                "gospel": "Luke 10:23-37"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "1 Thessalonians 5:12-28",
+                    "2 Kings 10:1-36"
+                ],
+                "tuesday": [
+                    "1 Timothy 1:1-20",
+                    "2 Chronicles 22:1-12"
+                ],
+                "wednesday": [
+                    "1 Timothy 2:1-15",
+                    "2 Chronicles 23:1-21"
+                ],
+                "thursday": [
+                    "1 Timothy 3:1-16",
+                    "2 Chronicles 24:1-27"
+                ],
+                "friday": [
+                    "1 Timothy 4:1-16",
+                    "2 Kings 14:1-29"
+                ],
+                "saturday": [
+                    "1 Timothy 5:1-25",
+                    "2 Kings 15:1-38"
+                ]
+            },
+            "weekday_display": "WEEKDAY in the week of Trinity 13",
+            "color": "green"
         },
         {
-            "display":"Second to Last Sunday of the Church Year",
-            "callback":{
-                "function":"get_last_sunday",
-                "value":"-1 week Sunday"
+            "display": "14th Sunday after Trinity Sunday",
+            "callback": {
+                "function": "check_ordinary_time",
+                "value": 14
             },
-            "sunday_readings":{
-                "epistle":"2 Peter 3:3-14",
-                "gospel":"2 Thess. 1:3-10"
-            },"weekday_readings":{
-                "monday":["1 Peter 1:1-12","Zephaniah 3:9-20"],
-                "tuesday":["1 Peter 1:13 – 2:10","Isaiah 34:1-17"],
-                "wednesday":["1 Peter 4:1-7","Isaiah 35:1-10"],
-                "thursday":["1 Peter 4:12-19","Isaiah 54:1-17"],
-                "friday":["2 Peter 1:1-15","Isaiah 60:7-22"],
-                "saturday":["2 Peter 2:1-22","Isaiah 62:1-12"]
-            }, 
-            "weekday_display":"WEEKDAY in the week of Trinity 26", 
-            "color":"green"
+            "sunday_readings": {
+                "epistle": "Gal. 5:16-24",
+                "gospel": "Luke 17:11-19"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "1 Timothy 6:1-21",
+                    "Isaiah 6:1-13"
+                ],
+                "tuesday": [
+                    "2 Timothy 1:1-18",
+                    "Amos 7:7-17"
+                ],
+                "wednesday": [
+                    "2 Timothy 2:1-26",
+                    "2 Kings 16:1-20"
+                ],
+                "thursday": [
+                    "Titus 1:1-16",
+                    "2 Kings 17:1-23"
+                ],
+                "friday": [
+                    "Titus 2:1-10",
+                    "2 Kings 18:1-37"
+                ],
+                "saturday": [
+                    "Titus 2:15 – 3:3",
+                    "2 Kings 19:1-37"
+                ]
+            },
+            "weekday_display": "WEEKDAY in the week of Trinity 14",
+            "color": "green"
         },
         {
-            "display":"Last Sunday of the Church Year",
-            "callback":{
-                "function":"get_last_sunday"
+            "display": "15th Sunday after Trinity Sunday",
+            "callback": {
+                "function": "check_ordinary_time",
+                "value": 15
             },
-            "sunday_readings":{
-                "epistle":"1 Thess. 5:1-11",
-                "gospel":"Matt. 25:1-13"
-            },"weekday_readings":{
-                "monday":["2 Peter 3:1-18","Isaiah 65:17-25"],
-                "tuesday":["Jude 1-25","Ezekiel 37:15-28"],
-                "wednesday":["1 John 2:18-29","Habakkuk 3:1-19"],
-                "thursday":["1 John 3:1-12","Isaiah 40:27-31"],
-                "friday":["1 John 3:19-24","Jeremiah 14:7-9"],
-                "saturday":["1 John 4:1-8","Malachi 3:7-18"]
-            }, 
-            "weekday_display":"WEEKDAY in the last week of the Church Year", 
-            "color":"green"
+            "sunday_readings": {
+                "epistle": "Gal. 5:25-6:10",
+                "gospel": "Matt. 6:24-34"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "Titus 3:8-15",
+                    "2 Kings 20:1-21"
+                ],
+                "tuesday": [
+                    "Philemon 1-25",
+                    "2 Kings 21:1-26 "
+                ],
+                "wednesday": [
+                    "Hebrews 1:1-14",
+                    "2 Chronicles 34:1-33"
+                ],
+                "thursday": [
+                    "Hebrews 2:5 – 3:6",
+                    "2 Chronicles 35:20 – 36:10"
+                ],
+                "friday": [
+                    "Hebrews 4:14-5:14",
+                    "Jeremiah 22:1-30"
+                ],
+                "saturday": [
+                    "Hebrews 6:1-20",
+                    "Jeremiah 25:1-14"
+                ]
+            },
+            "weekday_display": "WEEKDAY in the week of Trinity 15",
+            "color": "green"
+        },
+        {
+            "display": "16th Sunday after Trinity Sunday",
+            "callback": {
+                "function": "check_ordinary_time",
+                "value": 16
+            },
+            "sunday_readings": {
+                "epistle": "Eph. 3:13-21",
+                "gospel": "Luke 7:11-17"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "Hebrews 7:1-28",
+                    "Jeremiah 37:1-12"
+                ],
+                "tuesday": [
+                    "Hebrews 8:1-13",
+                    "Jeremiah 38:1-28"
+                ],
+                "wednesday": [
+                    "Hebrews 9:1-10",
+                    "Jeremiah 32:1-44"
+                ],
+                "thursday": [
+                    "Hebrews 9:16-28",
+                    "Jeremiah 39:1-18"
+                ],
+                "friday": [
+                    "Hebrews 10:1-34",
+                    "Jeremiah 29:1-23"
+                ],
+                "saturday": [
+                    "Hebrews 11:1-7",
+                    "Daniel 1:1-21"
+                ]
+            },
+            "weekday_display": "WEEKDAY in the week of Trinity 16",
+            "color": "green"
+        },
+        {
+            "display": "17th Sunday after Trinity Sunday",
+            "callback": {
+                "function": "check_ordinary_time",
+                "value": 17
+            },
+            "sunday_readings": {
+                "epistle": "Eph. 4:1-6",
+                "gospel": "Luke 14:1-11"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "Hebrews 11:17-40",
+                    "Daniel 3:1-30"
+                ],
+                "tuesday": [
+                    "Hebrews 12:1-17",
+                    "Daniel 4:1-37"
+                ],
+                "wednesday": [
+                    "Hebrews 13:1-25",
+                    "Daniel 5:1-30"
+                ],
+                "thursday": [
+                    "James 1:1-15",
+                    "Daniel 5:31-6:28"
+                ],
+                "friday": [
+                    "James 2:1-13",
+                    "Ezra 1:1-11"
+                ],
+                "saturday": [
+                    "James 2:14-26",
+                    "Ezra 3:1-13"
+                ]
+            },
+            "weekday_display": "WEEKDAY in the week of Trinity 12",
+            "color": "green"
+        },
+        {
+            "display": "18th Sunday after Trinity Sunday",
+            "callback": {
+                "function": "check_ordinary_time",
+                "value": 18
+            },
+            "sunday_readings": {
+                "epistle": "1 Cor. 1:4-9",
+                "gospel": "Matt. 22:34-46"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "James 3:1-18",
+                    "Ezra 4:1-24"
+                ],
+                "tuesday": [
+                    "James 4:1-5:6",
+                    "Haggai 1:1-15"
+                ],
+                "wednesday": [
+                    "James 5:12-20",
+                    "Ezra 5:1-17"
+                ],
+                "thursday": [
+                    "1 Peter 3:1-7",
+                    "Ezra 6:1-22"
+                ],
+                "friday": [
+                    "1 Peter 3:15-22",
+                    "Ezra 7:1-28"
+                ],
+                "saturday": [
+                    "1 Peter 5:1-5",
+                    "Ezra 8:81-9:15"
+                ]
+            },
+            "weekday_display": "WEEKDAY in the week of Trinity 18",
+            "color": "green"
+        },
+        {
+            "display": "19th Sunday after Trinity Sunday",
+            "callback": {
+                "function": "check_ordinary_time",
+                "value": 19
+            },
+            "sunday_readings": {
+                "epistle": "Eph. 4:22-28",
+                "gospel": "Matt. 9:1-8"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "1 John 1:1-10",
+                    "Nehemiah 1:1-11"
+                ],
+                "tuesday": [
+                    "1 John 2:1-17",
+                    "Nehemiah 2:1-20"
+                ],
+                "wednesday": [
+                    "1 John 5:1-3",
+                    "Nehemiah 4:1-23"
+                ],
+                "thursday": [
+                    "1 John 5:10-21",
+                    "Nehemiah 8:1-18"
+                ],
+                "friday": [
+                    "2 John 1-13",
+                    "Nehemiah 9:1-38"
+                ],
+                "saturday": [
+                    "3 John 1-14",
+                    "Zechariah 8:1-23"
+                ]
+            },
+            "weekday_display": "WEEKDAY in the week of Trinity 19",
+            "color": "green"
+        },
+        {
+            "display": "20th Sunday after Trinity Sunday",
+            "callback": {
+                "function": "check_ordinary_time",
+                "value": 20
+            },
+            "sunday_readings": {
+                "epistle": "Eph. 5:15-21",
+                "gospel": "Matt. 22:1-14"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "Mark 4:1-41",
+                    "Isaiah 43:1-13"
+                ],
+                "tuesday": [
+                    "Luke 13:18-35",
+                    "Isaiah 41:1-20"
+                ],
+                "wednesday": [
+                    "Matthew 13:31-58",
+                    "Habakkuk 2:1-4"
+                ],
+                "thursday": [
+                    "Matthew 16:13-20",
+                    "Isaiah 63:7-9"
+                ],
+                "friday": [
+                    "2 Corinthians 3:10 - 4:18",
+                    "Isaiah 64:1-12"
+                ],
+                "saturday": [
+                    "2 Corinthians 5:1-21",
+                    "Isaiah 5:1-7"
+                ]
+            },
+            "weekday_display": "WEEKDAY in the week of Trinity 20",
+            "color": "green"
+        },
+        {
+            "display": "21st Sunday after Trinity Sunday",
+            "callback": {
+                "function": "check_ordinary_time",
+                "value": 21
+            },
+            "sunday_readings": {
+                "epistle": "Eph. 6:10-17",
+                "gospel": "John 4:46-54"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "Ephesians 1:1-23",
+                    "Micah 6:1-9"
+                ],
+                "tuesday": [
+                    "Ephesians 2:1-22",
+                    "Isaiah 58:1-14"
+                ],
+                "wednesday": [
+                    "Ephesians 4:7-21",
+                    "Isaiah 59:1-21"
+                ],
+                "thursday": [
+                    "Ephesians 4:29-32",
+                    "Jeremiah 31:1-22"
+                ],
+                "friday": [
+                    "Ephesians 5:10-14",
+                    "Jeremiah 31:23-40"
+                ],
+                "saturday": [
+                    "Ephesians 5:22-23",
+                    "Isaiah 48:1-22"
+                ]
+            },
+            "weekday_display": "WEEKDAY in the week of Trinity 21",
+            "color": "green"
+        },
+        {
+            "display": "22nd Sunday after Trinity Sunday",
+            "callback": {
+                "function": "check_ordinary_time",
+                "value": 22
+            },
+            "sunday_readings": {
+                "epistle": "Phil. 1:3-11",
+                "gospel": "Matt. 18:23-35"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "Matthew 18:1-22",
+                    "Micah 4:9 – 5:1"
+                ],
+                "tuesday": [
+                    "Mark 9:33-50",
+                    "Isaiah 49:14-21"
+                ],
+                "wednesday": [
+                    "Luke 17:20-37",
+                    "Isaiah 2:10-21"
+                ],
+                "thursday": [
+                    "Romans 8:24-39",
+                    "Isaiah 63:1-6"
+                ],
+                "friday": [
+                    "Mark 12:1-12",
+                    "Joel 2:1-11"
+                ],
+                "saturday": [
+                    "Matthew 25:14-30",
+                    "Joel 2:12-27"
+                ]
+            },
+            "weekday_display": "WEEKDAY in the week of Trinity 22",
+            "color": "green"
+        },
+        {
+            "display": "23rd Sunday after Trinity Sunday",
+            "callback": {
+                "function": "check_ordinary_time",
+                "value": 23
+            },
+            "sunday_readings": {
+                "epistle": "Phil. 3:17-21",
+                "gospel": "Matt. 22:15-22"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "1 Corinthians 3:1-23",
+                    "Joel 3:1-13"
+                ],
+                "tuesday": [
+                    "Matthew 19:16-30",
+                    "Joel 3:14-21"
+                ],
+                "wednesday": [
+                    "Luke 14:12-15",
+                    "Obadiah 1-21"
+                ],
+                "thursday": [
+                    "Mark 13:1-37",
+                    "Nahum 1:1-14"
+                ],
+                "friday": [
+                    "Romans 9:1-23",
+                    "Nahum 1:15-3:19"
+                ],
+                "saturday": [
+                    "Romans 10:1-21",
+                    "Isaiah 10:5-27"
+                ]
+            },
+            "weekday_display": "WEEKDAY in the week of Trinity 23",
+            "color": "green"
+        },
+        {
+            "display": "24th Sunday after Trinity Sunday",
+            "callback": {
+                "function": "check_ordinary_time",
+                "value": 24
+            },
+            "sunday_readings": {
+                "epistle": "Col. 1:9-14",
+                "gospel": "Matt. 9:18-26"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "Romans 11:1-33",
+                    "Isaiah 13:1-22"
+                ],
+                "tuesday": [
+                    "2 Thessalonians 1:11 – 2:17",
+                    "Isaiah 14:1-27"
+                ],
+                "wednesday": [
+                    "2 Thessalonians 3:1-18",
+                    "Isaiah 47:1-15"
+                ],
+                "thursday": [
+                    "2 Timothy 3:1-17",
+                    "Daniel 2:27-45"
+                ],
+                "friday": [
+                    "2 Timothy 4:1-22",
+                    "Daniel 7:1-28"
+                ],
+                "saturday": [
+                    "Matthew 24:1-14",
+                    "Daniel 9:1-27"
+                ]
+            },
+            "weekday_display": "WEEKDAY in the week of Trinity 24",
+            "color": "green"
+        },
+        {
+            "display": "Third to Last Sunday of the Church Year",
+            "callback": {
+                "function": "get_last_sunday",
+                "value": "-2 weeks Sunday"
+            },
+            "sunday_readings": {
+                "epistle": "1 Thess. 4:13-18",
+                "gospel": "Matt. 24:15-28"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "Matthew 24:29-51",
+                    "Daniel 11:36 – 12:13"
+                ],
+                "tuesday": [
+                    "Matthew 22:23-33",
+                    "Ezekiel 38:1-23"
+                ],
+                "wednesday": [
+                    "1 Corinthians 15:11-50",
+                    "Ezekiel 39:1-29"
+                ],
+                "thursday": [
+                    "Hebrews 3:7 – 4:13",
+                    "Isaiah 43:14-25"
+                ],
+                "friday": [
+                    "Hebrews 11:8-16",
+                    "Isaiah 33:17-24"
+                ],
+                "saturday": [
+                    "Hebrews 12:18-29",
+                    "Ezekiel 37:1-14"
+                ]
+            },
+            "weekday_display": "WEEKDAY in the week of Trinity 25",
+            "color": "green"
+        },
+        {
+            "display": "Second to Last Sunday of the Church Year",
+            "callback": {
+                "function": "get_last_sunday",
+                "value": "-1 week Sunday"
+            },
+            "sunday_readings": {
+                "epistle": "2 Peter 3:3-14",
+                "gospel": "2 Thess. 1:3-10"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "1 Peter 1:1-12",
+                    "Zephaniah 3:9-20"
+                ],
+                "tuesday": [
+                    "1 Peter 1:13 – 2:10",
+                    "Isaiah 34:1-17"
+                ],
+                "wednesday": [
+                    "1 Peter 4:1-7",
+                    "Isaiah 35:1-10"
+                ],
+                "thursday": [
+                    "1 Peter 4:12-19",
+                    "Isaiah 54:1-17"
+                ],
+                "friday": [
+                    "2 Peter 1:1-15",
+                    "Isaiah 60:7-22"
+                ],
+                "saturday": [
+                    "2 Peter 2:1-22",
+                    "Isaiah 62:1-12"
+                ]
+            },
+            "weekday_display": "WEEKDAY in the week of Trinity 26",
+            "color": "green"
+        },
+        {
+            "display": "Last Sunday of the Church Year",
+            "callback": {
+                "function": "get_last_sunday"
+            },
+            "sunday_readings": {
+                "epistle": "1 Thess. 5:1-11",
+                "gospel": "Matt. 25:1-13"
+            },
+            "weekday_readings": {
+                "monday": [
+                    "2 Peter 3:1-18",
+                    "Isaiah 65:17-25"
+                ],
+                "tuesday": [
+                    "Jude 1-25",
+                    "Ezekiel 37:15-28"
+                ],
+                "wednesday": [
+                    "1 John 2:18-29",
+                    "Habakkuk 3:1-19"
+                ],
+                "thursday": [
+                    "1 John 3:1-12",
+                    "Isaiah 40:27-31"
+                ],
+                "friday": [
+                    "1 John 3:19-24",
+                    "Jeremiah 14:7-9"
+                ],
+                "saturday": [
+                    "1 John 4:1-8",
+                    "Malachi 3:7-18"
+                ]
+            },
+            "weekday_display": "WEEKDAY in the last week of the Church Year",
+            "color": "green"
         }
-
-        
-    ]	
-    
-    
-
+    ]
 }
-
-
