@@ -792,8 +792,8 @@
             "weekday_display": "WEEKDAY in Septuagesima",
             "color": "violet",
             "collect":"O Lord, we beseech Thee favorably to hear the prayers of Thy people that we, who are justly punished for our offenses, may be mercifully delivered by Thy goodness, for the glory of Thy Name; through Jesus Christ, Thy Son, our Savior, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
-            "introit":"",
-            "gradual":"",
+            "introit":"THE sorrows of Sheol surrounded me; The snares of death confronted me. In my distress I called upon the Lord, He heard my voice from His temple. I will love You, O Lord, my strength. The Lord is my rock and my fortress. For You will save the humble people, But will bring down haughty looks. It is God who arms me with strength, And makes my way perfect.Therefore I will give thanks to You, O Lord, And sing praises to Your name. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.", 
+            "gradual":"The Lord also will be a refuge for the oppressed, a refuge in times of trouble. And those who know Your name will put their trust in You; for You, Lord, have not forsaken those who seek You. For the needy shall not always be for got ten; The expectation of the poor shall not perish forever. Arise, O Lord, do not let man prevail.",
             "psalm": {
                 "matins": "Psalm 23",
                 "vespers": "Psalm 114"
@@ -836,7 +836,10 @@
                 ]
             },
             "weekday_display": "WEEKDAY in Sexagesima",
-            "color": "violet"
+            "color": "violet",
+            "introit": "AWAKE! Why do You sleep, O Lord? Arise! Do not cast us off forever. Why do You hide Your face, And forget our affliction? For our soul is bowed down to the dust; Arise for our help and redeem us. We have heard with our ears, O God,  Our fathers have told us, the deeds You did in their days. You drove out the nations with Your hand, But them You planted, because you  favored them. You have saved us from our enemies, And have put to shame those who hated us. In God we boast all day long, And praise Your name forever. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
+            "collect": "O God, Who seest that we put not our trust in anything that we do, mercifully grant that by Thy power we may be defended against all adversity; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
+            "gradual": "Let the nations know that Your Name is the Lord,  You alone are the Most High over all the earth.O my God, make them like a wheel, Like the chaff before the wind!"
         },
         {
             "display": "Quinquagesima Sunday",
@@ -885,7 +888,10 @@
                 ]
             },
             "weekday_display": "WEEKDAY after Ash Wednesday",
-            "color": "violet"
+            "color": "violet",
+            "introit":"BE MY rock of refuge, A fortress of defense to save me.For You are my rock and my fortress. Therefore, for Your name’s sake, lead me and guide me.In You, O Lord, I put my trust; let me never be a shamed;  Deliver me in Your righteousness.Into Your hand I commit my spirit;  You have redeemed me, O Lord God of truth.Have mercy on me, O Lord, for I am in trouble;  My eye wastes a way with grief.Make Your face shine upon Your servant;  Save me for Your mercies’sake. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
+            "collect":"O Lord, we beseech Thee, mercifully hear our prayers and, having set us free from the bonds of sin, defend us from all evil; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with the Thee and the Holy Ghost, ever one God, world without end.",
+            "gradual":"You are the God who does wonders; You have declared Your strength among the peoples.You have with Your arm redeemed Your people, The sons of Jacob and Joseph. "
         },
         {
             "display": "Invocavit, First Week of Lent",
