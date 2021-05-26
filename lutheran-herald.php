@@ -3,7 +3,7 @@
  * Plugin Name: Lutheran Herald
  * Description: A plugin made for ELDoNA.
  * Author: merctraider
- * Version: 0.3.0
+ * Version: 0.4.0
  * Requires PHP: 5.4
  * Author URI: http://merctraider.me
  */

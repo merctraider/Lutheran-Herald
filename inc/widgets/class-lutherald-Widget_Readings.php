@@ -24,6 +24,7 @@ class Widget_Readings extends \WP_Widget{
         $display_header = isset($instance['display_header'])? $instance['display_header'] : 'h2';
         $readings_tag = isset($instance['readings_tag'])? $instance['readings_tag'] : 'h3';
         $display_verse = isset($instance['display_verse'])? $instance['display_verse'] : true;
+        $display_devotions = isset($instance['display_devotions'])? $instance['display_devotions'] : false;
         $pagination_position = isset($instance['pagination_position'])? $instance['pagination_position'] : 'bottom';
 
         //determine which calendar to use
@@ -78,6 +79,15 @@ class Widget_Readings extends \WP_Widget{
                 echo '<p>' . BibleGateway::get_verse($second_reading) . '</p>';
             }
 
+            if($display_devotions){
+                $devotions = BibleGateway::get_devotions($current_date);
+                if($devotions != false){
+                    echo "<$readings_tag>Devotion from the Lutheran Herald</$readings_tag>";
+                    echo "<p>$devotions</p>";
+                }
+                
+            }
+
             if($pagination_position === 'bottom'){
                 $this->draw_pagination($current_date);
             }
@@ -127,6 +137,10 @@ class Widget_Readings extends \WP_Widget{
         $display_verse_field = new \Field($this->get_field_name( 'display_verse' ), 'Display Bible Verses?', $display_verse);
         $display_verse_field->draw_checkbox();
 
+        $display_devotions = isset($instance['display_devotions'])? $instance['display_devotions'] : false;
+        $display_devotions = new \Field($this->get_field_name( 'display_devotions' ), 'Display Lutheran Herald Devotions?', $display_verse);
+        $display_devotions->draw_checkbox();
+
         $pagination_position = isset($instance['pagination_position'])? $instance['pagination_position'] : 'bottom';
         $pagination_position_field  = new \Field($this->get_field_name( 'pagination_position' ), 'Pagination Position', $pagination_position);
         $pagination_position_field->draw_dropdown(
@@ -138,6 +152,8 @@ class Widget_Readings extends \WP_Widget{
         ); 
 
 
+
+
     }
 
     // Updating widget replacing old instances with new
@@ -147,7 +163,7 @@ class Widget_Readings extends \WP_Widget{
         $instance['readings_tag'] = $new_instance['readings_tag'];
         $instance['pagination_position'] = $new_instance['pagination_position'];
         $instance['display_verse'] = ! empty( $new_instance['display_verse'] ) ? true : false;
-
+        $instance['display_devotions'] = ! empty( $new_instance['display_devotions'] ) ? true : false;
         return $instance;
     }
 

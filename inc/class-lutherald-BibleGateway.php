@@ -44,4 +44,27 @@ class BibleGateway{
         return false;      
         
     }
+
+    public static function get_devotions($date){
+        $timestamp = $date->format('Y-m-d');
+        $devotions_json = file_get_contents('http://eldona.org/wp-json/wp/v2/posts');
+       
+        if($devotions_json == null || $devotions_json === ''){
+            return false; 
+        }
+        
+        $devotions_arr = json_decode($devotions_json, true);
+        foreach ($devotions_arr as $entry){
+            $entry_date = strtotime($entry['date']);
+            $entry_date = date('Y-m-d', $entry_date); 
+
+            if($timestamp == $entry_date){
+                $content = $entry['content']['rendered'];
+                $content_array = explode("<strong>Devotion</strong>", $content);
+                return $content_array[1];
+            }
+        }
+        return false;
+        
+    }
 }
