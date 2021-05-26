@@ -60,8 +60,25 @@ class BibleGateway{
 
             if($timestamp == $entry_date){
                 $content = $entry['content']['rendered'];
+                //Find the devotional content
                 $content_array = explode("<strong>Devotion</strong>", $content);
-                return $content_array[1];
+                $devotion = $content_array[1];
+                //Strip the first spacing
+                $html = str_get_html($devotion);
+                $html->find('div._1mf span', 0)->innertext = '';
+
+                $output = '';
+
+                foreach($html->find('div._1mf span') as $paragraph){
+                    $p = $paragraph->plaintext;
+                    if(strlen($p) > 6)
+                    {
+                        $output .= "<p>$p</p>";
+                    }
+                   
+                }
+
+                return $output;
             }
         }
         return false;
