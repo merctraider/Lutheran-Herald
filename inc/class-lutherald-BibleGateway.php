@@ -47,8 +47,9 @@ class BibleGateway{
 
     public static function get_devotions($date){
         $timestamp = $date->format('Y-m-d');
-        $devotions_json = file_get_contents('http://eldona.org/wp-json/wp/v2/posts');
-       
+        $url = 'http://eldona.org/wp-json/wp/v2/posts?before='. $timestamp . 'T23:59:00';
+        $devotions_json = file_get_contents($url);
+        
         if($devotions_json == null || $devotions_json === ''){
             return false; 
         }
