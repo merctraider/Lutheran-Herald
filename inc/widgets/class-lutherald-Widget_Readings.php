@@ -73,10 +73,13 @@ class Widget_Readings extends \WP_Widget
             $devotions = BibleGateway::get_devotions($current_date);
             if ($devotions != false) {
                 echo "<$readings_tag>Devotion from the Lutheran Herald</$readings_tag>";
-                echo "<p>$devotions</p>";
+                echo "<div>$devotions</div>";
             }
         }
-
+        if(BibleGateway::$version === 'NKJV'){
+            echo '<p><i>Scripture taken from the New King James Version®. Copyright © 1982 by Thomas Nelson. Used by permission. All rights reserved.</i></p>';
+        }
+        
         if ($pagination_position === 'bottom') {
             $this->draw_pagination($current_date);
         }
