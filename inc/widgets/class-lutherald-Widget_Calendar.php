@@ -36,7 +36,7 @@ class Widget_Calendar extends \WP_Widget
             $timestamp = strtotime($current_date . '-01');
         }
 
-        $year = date('Y');
+        $year = date('Y', $timestamp);
 
         $last_year = new ChurchYear($year - 1);
         $this_year = new ChurchYear($year);

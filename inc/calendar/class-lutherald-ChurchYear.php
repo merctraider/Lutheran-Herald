@@ -8,11 +8,39 @@ class ChurchYear{
 
     private $easter; 
 
+    public static function create_church_year($current_date){
+
+        //Create variables to work with
+        if(\is_string($current_date)){
+            $timestamp = strtotime($current_date . '-01');
+            $year = date('Y', $timestamp);
+        } else {
+            $year = $current_date->format('Y');
+        }
+
+        
+        $last_year = new ChurchYear($year - 1);
+        $this_year = new ChurchYear($year);
+        $calendar_to_use = null;
+
+        if ($last_year->find_season($current_date) != false) {
+            $calendar_to_use = $last_year;
+        }
+
+        if ($this_year->find_season($current_date) != false) {
+            $calendar_to_use = $this_year;
+        }
+
+       
+        return $calendar_to_use;
+    }
+
     public function __construct($year){
         $this->year = $year; 
         $this->easter = $this->get_easter_datetime($this->year+1);
         $this->set_up_seasons();
     }
+
 
     function set_up_seasons(){
         require_once 'class-lutherald-Season.php';        

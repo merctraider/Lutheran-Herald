@@ -27,6 +27,8 @@ class Widget_Readings extends \WP_Widget{
         $display_devotions = isset($instance['display_devotions'])? $instance['display_devotions'] : false;
         $pagination_position = isset($instance['pagination_position'])? $instance['pagination_position'] : 'bottom';
 
+        
+
         //determine which calendar to use
         $current_date = new \DateTime('now');
 
@@ -40,22 +42,8 @@ class Widget_Readings extends \WP_Widget{
             
         }
 
-        $year=$current_date->format('Y');
+        $day_info = $this->get_day_info($current_date);
 
-        $last_year = new ChurchYear($year-1);
-        $this_year = new ChurchYear($year);
-        $calendar_to_use = null;
-
-        if($last_year->find_season($current_date)!= false){
-            $calendar_to_use = $last_year;
-        } 
-
-        if($this_year->find_season($current_date) != false){
-            $calendar_to_use = $this_year;
-        }
-
-
-        $day_info = $calendar_to_use->retrieve_day_info($current_date);
         $title = $day_info['display'];
 
         $first_reading = $day_info['readings'][0];
@@ -94,6 +82,37 @@ class Widget_Readings extends \WP_Widget{
         echo '</div>';
 
         
+    }
+
+    public function get_day_info($current_date){
+
+        $date_string = $current_date->format('Y-m-d');
+
+        $cache_path = dirname(__FILE__) . '/cache.json';
+
+        $cached_array = []; 
+        if(file_exists($cache_path)){
+            $json = file_get_contents($cache_path);
+            $cached_array = json_decode($json, true);
+            if(key_exists($date_string, $cached_array)){
+                $day_info = $cached_array[$date_string];
+                return $day_info;
+            }            
+        } 
+
+
+        //Create a new Church Year 
+        $calendar_to_use = ChurchYear::create_church_year($current_date);
+        $day_info = $calendar_to_use->retrieve_day_info($current_date);
+
+        //Cache it
+        $cache_file_handler = fopen($cache_path, 'w'); 
+        $cached_array[$date_string] = $day_info;
+        $json = json_encode($cached_array);
+        fwrite($cache_file_handler, $json);
+        fclose($cache_file_handler);
+
+        return $day_info;
     }
 
     public function draw_pagination($current_date){
