@@ -38,3 +38,7 @@
     display: inline-block;
     width: 50%;
 }
+
+td.today{
+    border: solid #0f5298;
+}
