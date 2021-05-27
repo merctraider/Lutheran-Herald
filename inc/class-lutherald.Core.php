@@ -15,9 +15,10 @@ class Core{
     public static function widgets_init(){
         require_once plugin_dir_path(__FILE__) . 'widgets/class-lutherald-Widget_Readings.php';
         require_once plugin_dir_path(__FILE__) . 'widgets/class-lutherald-Widget_Lectionary.php';
-
+        require_once plugin_dir_path(__FILE__) . 'widgets/class-lutherald-Widget_Calendar.php';
         register_widget('Lutherald\Widget_Readings');
         register_widget('Lutherald\Widget_Lectionary');
+        register_widget('Lutherald\Widget_Calendar');
     }
 
     public static function enqueue(){

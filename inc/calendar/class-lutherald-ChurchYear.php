@@ -102,6 +102,9 @@ class ChurchYear{
     }
 
     public function retrieve_day_info($date){
+        if(\is_string($date)){
+            $date = new \DateTime($date);
+        }
         $seasons = $this->seasons;
         $season_of_day = $this->find_season($date);
         if(!$season_of_day){
