@@ -1607,8 +1607,8 @@
             "weekday_display": "WEEKDAY in the week of Trinity Sunday",
             "color": "white",
             "collect": "Almighty and Everlasting God, Who hast given unto us, Thy servants, grace, by the confession of a true faith, to acknowledge the glory of the Eternal Trinity and in the power of the Divine Majesty to worship the Unity, we beseech Thee that Thou wouldst keep us steadfast in this faith and evermore defend us from all adversities; Who livest and reignest, Father, Son, and Holy Ghost, ever one God, world without end.",
-            "introit": "<p>BLESSED be the Holy Trinity and the Undivided Unity: <br>Let us give glory to Him for He has shown mercy un to us.<\/p><p> O Lord, our Lord,<br>How excellent is Your name in all the earth,<\/p><p> You have set Your glory above the heavens! *<br>Out of the mouth of babes and nursing infants, You have ordained strength.<\/p><p> What is man that You are mindful of him, *<br>And the son of man that You visit him?<\/p><p> For You have made him a little lower than the angels, *<br>And You have crowned him with glory and honor. <\/p><p>Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.<\/p>",
-            "gradual": ""
+            "introit": "<p>BLESS- <strong>ED<\/strong> - || be the Holy Trinity and the Undi- | vid- | ed | <em>U-ni-<\/em> <strong>\u2219<\/strong> | <\/p> <p>ty: *<\/p> <p>Let us give glory to Him for He has shown mercy un- | to | us. (Liturgical Text based on Tobit 13:1-2)<\/p> <p>|| O | Lord, | our | Lord, | - *<\/p> <p>How excellent is Your name in all | the | earth,<\/p> <p>|| You have set Your glory a- | bove | the | heav- | ens! *<\/p> <p>Out of the mouth of babes and nursing infants, You have or- | dained | strength.<\/p> <p>|| What is man that You are | mind- | ful | of | him, *<\/p> <p>And the son of man that You vi- | sit | him?<\/p> <p>|| For You have made him a little lower | than | the | an- | gels, *<\/p> <p>And You have crowned him with glory and | hon- | or. (Psalm 8:1-2a, 4\u20135)<\/p> <p><strong>GLORIA PATRI (From Hymnal)<\/strong><\/p> <p>|| Blessed be the Holy Trinity and the Undi- | vid- | ed | <em>U-ni-<\/em> <strong>\u2219<\/strong> | ty: *<\/p> <p>Let us give glory to Him for He has shown mercy un- | to | us. (Liturgical Text based on Tobit 13:1-2)<\/p>",
+            "gradual": "<p>|| Blessed are You, O Lord, who be- | holds | the | deep, | - *<\/p>  <p>And who dwells between the che- | ru- | bim.<\/p>  <p>|| Blessed are You, O Lord, in the firma- | ment | of | heav- | en, *<\/p>  <p>And greatly to be praised for- | ev- | er. (Prayer of Azariah 1:32, 34)<\/p>  <p><strong>Verse<\/strong><\/p>  <p>|| Al- | \u2014 | le- | lu- | ia! *<\/p>  <p>Alle- | lu- | ia!<\/p>  <p>|| Bless\u00e8d are You, O Lord God | of | our | fa- | thers, *<\/p>  <p>And greatly to be praised and glorified forever. Alle- | lu- | ia! (Prayer of Azariah 1:29)<\/p>"
         },
         {
             "display": "First Sunday after Trinity Sunday",
@@ -1649,8 +1649,8 @@
             "weekday_display": "WEEKDAY in the week of Trinity 1",
             "color": "green",
             "collect": "O God, the Strength of all them that put their trust in Thee, mercifully accept our prayers; and because through the weakness of our mortal nature we can do no good thing without Thee, grant us the help of Thy grace that in keeping Thy Commandments we may please Thee both in will and deed; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee, and the Holy Ghost, ever one God, world without end.",
-            "introit": "",
-            "gradual": ""
+            "introit": "<p>O <strong>LORD,<\/strong> - || I have trusted | in | Your | mer- | cy; *<\/p> <p>My heart shall rejoice in Your sal- | va- | tion.<\/p> <p>|| I will sing | to | the | Lord, | - *<\/p> <p>Because He has dealt bountifully | with | me. (Psalm 13:5\u20136)<\/p> <p>|| How long, O Lord? Will You forget | me | for- | ev- | er? *<\/p> <p>How long will You hide Your face | from | me?<\/p> <p>|| How long shall I take counsel | in | my | soul, | - *<\/p> <p>How long will my enemy be exalted o- | ver | me?<\/p> <p>|| Consider and hear me, O | Lord | my | God; | - *<\/p> <p>Enlighten my eyes, lest I sleep the sleep | of | death;<\/p> <p>|| Lest my enemy say, \u201cI have pre- | vailed | a- | gainst | him\u201d; *<\/p> <p>Lest those who trouble me rejoice when I | am | moved. (Psalm 13:1, 2\u20134)<\/p> <p><strong>GLORIA PATRI (From Hymnal)<\/strong><\/p> <p>|| O Lord, I have trusted | in | Your | mer- | cy; *<\/p> <p>My heart shall rejoice in Your sal- | va- | tion.<\/p> <p>|| I will sing | to | the | Lord, | - *<\/p> <p>Because He has dealt bountifully | with | me. (Psalm 13:5\u20136)<\/p>",
+            "gradual": "<p>|| I said, \u201cLord, be merci- | ful | to | me; | - *<\/p>  <p>Heal my soul, for I have sinned a- | gainst | You.\u201d<\/p>  <p>|| Blessed is he who consi- | ders | the | poor; | - *<\/p>  <p>The Lord will deliver him in time of | trou- | ble. (Psalm 41:4, 1)<\/p>  <p><strong>Verse<\/strong><\/p>  <p>|| Al- | \u2014 | le- | lu- | ia! *<\/p>  <p>Alle- | lu- | ia!<\/p>  <p>|| Give ear to my | words, | O | Lord, | - *<\/p>  <p>Consider my meditation. Alle- | lu- | ia! <em>(Psalm 5:1)<\/em><\/p>"
         },
         {
             "display": "Second Sunday after Trinity Sunday",
@@ -1690,9 +1690,9 @@
             },
             "weekday_display": "WEEKDAY in the week of Trinity 2",
             "color": "green",
-            "collect": "",
-            "introit": "",
-            "gradual": ""
+            "collect": "O Lord, Who never failest to help and govern those whom Thou dost bring up in Thy steadfast fear and love, make us to have a perpetual fear and love of Thy holy Name; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee, and the Holy Ghost, ever one God, world without end.",
+            "introit": "<p>THE <strong>LORD<\/strong> - || was | my | sup- | port. | - *<\/p>  <p>He brought me out into a | broad | place;<\/p>  <p>|| He de- | liv- | ered | me | - *<\/p>  <p>Because He delighted | in | me. (Psalm 18:18b\u201319)<\/p>  <p>|| I will love You, O | Lord, | my | strength. | - *<\/p>  <p>The Lord is my rock and my | for- | tress.<\/p>  <p>|| For You will save the | hum- | ble | peo- | ple, *<\/p>  <p>But will bring down haugh- | ty | looks.<\/p>  <p>|| As for God, His | way | is | per- | fect; *<\/p>  <p>The word of the Lord is | prov- | en;<\/p>  <p>|| Therefore I will give thanks to You, O Lord, a- | mong | the | Gen- | tiles, *<\/p>  <p>And sing praises to | Your | name. (Psalm 18:1-2a, 27, 30, and 49)<\/p>  <p><strong>GLORIA PATRI (From Hymnal)<\/strong><\/p>  <p>|| The Lord was | my | sup- | port. | - *<\/p>  <p>He brought me out into a | broad | place;<\/p>  <p>|| He de- | liv- | ered | me | - *<\/p>  <p>Because He delighted | in | me. (Psalm 18:18\u201319)<\/p>",
+            "gradual": "<p>|| In my distress I cried | to | the | Lord, | - *<\/p>  <p>And He | heard | me.<\/p>  <p>|| Deliver my soul, O Lord, from | ly- | ing | lips | - *<\/p>  <p>And from a deceit- | ful | tongue. (Psalm 120:1\u20132)<\/p>  <p><strong>Verse<\/strong><\/p>  <p>|| Al- | \u2014 | le- | lu- | ia!<\/p>  <p>Alle- | lu- | ia!<\/p>  <p>|| God is | a | just | judge, | - *<\/p>  <p>And God is angry with the wicked every day. Alle- | lu- | ia! <em>(Psalm 7:11)<\/em><\/p>"
         },
         {
             "display": "Third Sunday after Trinity Sunday",
@@ -1732,9 +1732,9 @@
             },
             "weekday_display": "WEEKDAY in the week of Trinity 3",
             "color": "green",
-            "collect": "",
-            "introit": "",
-            "gradual": ""
+            "collect": "O God, the Protector of all that trust in Thee, without Whom nothing is strong, nothing is holy, increase and multiply upon us Thy mercy that, Thou being our Ruler and Guide, we may so pass through things temporal that we finally lose not the things eternal; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee, and the Holy Ghost, ever one God, world without end.",
+            "introit": "<p>TURN <strong>YOUR<\/strong>- - || self to me, and have | mer- | cy | on | me, *<\/p>  <p>For I am desolate and af- | flict- | ed.<\/p>  <p>|| Look on my affliction | and | my | pain, | - *<\/p>  <p>And forgive all | my | sins. (Psalm 25:16, 18)<\/p>  <p>|| To You, O Lord, I lift | up | my | soul. | - *<\/p>  <p>O my God, I trust in You; Let me not be | a- | shamed.<\/p>  <p>|| For You are the God of | my | sal- | va- | tion; *<\/p>  <p>On You I wait all | the | day.<\/p>  <p>|| My eyes are ever | <em>to-ward<\/em> <strong>\u2219<\/strong> | the | Lord, | - *<\/p>  <p>For He shall pluck my feet out of | the | net.<\/p>  <p>|| Keep my soul, | and | de- | <em>liv-er<\/em> <strong>\u2219<\/strong> | me; *<\/p>  <p>Let me not be ashamed, for I put my trust | in | You. (Psalm 25:1\u20132a, 5, 15, 20)<\/p>  <p><strong>GLORIA PATRI (From Hymnal)<\/strong><\/p>  <p>|| Turn Yourself to me, and have | mer- | cy | on | me, *<\/p>  <p>For I am desolate and af- | flict- | ed.<\/p>  <p>|| Look on my affliction | and | my | pain, | - *<\/p>  <p>And forgive all | my | sins. (Psalm 25:16, 18)<\/p>",
+            "gradual": "<p>|| Cast your burden | on | the | Lord, | - *<\/p> <p>And He shall sus- | tain | you;<\/p> <p>|| I will call upon God, and the | Lord | shall | save | me. *<\/p> <p>He has redeemed my soul | in | peace. (Psalm 55:22a, 16, 18a)<\/p> <p><strong>Verse<\/strong><\/p> <p>|| Al- | \u2014 | le- | lu- | ia! *<\/p> <p>Alle- | lu- | ia!<\/p> <p>|| I will love You, O | Lord, | my | strength. | - *<\/p> <p>The Lord is my rock and my fortress and my deliverer. Alle- | lu- | ia! (Psalm 18:1\u20132a)<\/p>"
         },
         {
             "display": "4th Sunday after Trinity Sunday",
@@ -1774,9 +1774,9 @@
             },
             "weekday_display": "WEEKDAY in the week of Trinity 4",
             "color": "green",
-            "collect": "",
-            "introit": "",
-            "gradual": ""
+            "collect": "Grant, O Lord, we beseech Thee, that the course of this world may be so peaceably ordered by Thy governance, that Thy Church may joyfully serve Thee in all godly quietness; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee, and the Holy Ghost, ever one God, world without end.",
+            "introit": "<p>THE <strong>LORD<\/strong> - || is my light and my Salvation; whom | shall | I | fear? | - *<\/p>  <p>The Lord is the strength of my life; of whom shall I be | a- | fraid?<\/p>  <p>|| When the wicked | came | a- | gainst | me, *<\/p>  <p>My enemies and foes, they stumbled | and | fell. (Psalm 27:1\u20132)<\/p>  <p>|| Though an army may en- | camp | a- | gainst | me, *<\/p>  <p>My heart shall | not | fear;<\/p>  <p>|| Though war should | rise | a- | gainst | me, *<\/p>  <p>In this I will be con- | fi- | dent.<\/p>  <p>|| One thing I have desired of the Lord, that | will | I | seek: | - *<\/p>  <p>That I may dwell in the house of the Lord all the days of | my | life,<\/p>  <p>|| For in the time of trouble He shall hide me in | His | pa- | vil- | ion; *<\/p>  <p>He shall set me high upon | a | rock. (Psalm 27:3a, 3b\u20135)<\/p>  <p><strong>GLORIA PATRI (From Hymnal)<\/strong><\/p>  <p>|| The Lord is my light and my Salvation; whom | shall | I | fear? | - *<\/p>  <p>The Lord is the strength of my life; of whom shall I be | a- | fraid?<\/p>  <p>|| When the wicked | came | a- | gainst | me, *<\/p>  <p>My enemies and foes, they stumbled | and | fell. (Psalm 27:1\u20132)<\/p>",
+            "gradual": "<p>|| Provide atonement for our | sins, | O | Lord | - *<\/p>  <p>Why should the nations say, \u201cWhere is | their | God?\u201d<\/p>  <p>|| Help us, O God of | our | sal- | va- | tion, *<\/p>  <p>For the glory of Your name, deliv- | er | us. (Psalm 79:9b, 10a, 9a)<\/p>  <h1>Verse<\/h1>  <p>|| Al- | \u2014 | le- | lu- | ia! *<\/p>  <p>Alle- | lu- | ia!<\/p>  <p>|| O God, You sat on the throne judg- | ing | in | <em>right-eous-<\/em> <strong>\u2219<\/strong> | ness; *<\/p>  <p>Be a Refuge for the oppressed in times of trouble. Alle- | lu- | ia! (Psalm 9:4b, 9b)<\/p>"
         },
         {
             "display": "5th Sunday after Trinity Sunday",
@@ -1816,9 +1816,9 @@
             },
             "weekday_display": "WEEKDAY in the week of Trinity 5",
             "color": "green",
-            "collect": "",
-            "introit": "",
-            "gradual": ""
+            "collect": "O God, Who hast prepared for them that love Thee such good things as pass man\u2019s understanding, pour into our hearts such love toward Thee that we, loving Thee above all things, may obtain Thy promises, which exceed all that we can desire; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee, and the Holy Ghost, ever one God, world without end.",
+            "introit": "<p>HEAR, O || Lord, when I cry with my | voice! | - *<\/p>  <p>You | have | been | my | help;<\/p>  <p>|| Do not leave me nor for- | sake | me, *<\/p>  <p>O God of | my | sal- | va- | tion. (Psalm 27:7a, 9b)<\/p>  <p>|| The Lord is my light and my Sal- | va- | tion; *<\/p>  <p>Whom | \u2014 | shall | I | fear?<\/p>  <p>|| Teach me Your way, O | Lord, | - *<\/p>  <p>And lead me in a smooth path, because of | my | en- | e- | mies.<\/p>  <p>|| Do not deliver me to the will of my adver- | sa- | ries; *<\/p>  <p>For false witnesses have risen against me, and such as breathe | out | vi- | o- | lence<\/p>  <p>|| Wait on the Lord; be of good | cour- | age, *<\/p>  <p>And He shall strengthen your heart; Wait, I | say, | on | the | Lord! (Psalm 27:1a, 11\u201312, 14)<\/p>  <p><strong>GLORIA PATRI (From Hymnal)<\/strong><\/p>  <p>|| Hear, O Lord, when I cry with my | voice! | - *<\/p>  <p>You | have | been | my | help;<\/p>  <p>|| Do not leave me nor for- | sake | me, *<\/p>  <p>O God of | my | sal- | va- | tion. (Psalm 27:7a, 9b)<\/p>",
+            "gradual": "<p>|| O God, behold our | shield, | - *<\/p>  <p>And look upon the face | of | Your | ser- | vants.<\/p>  <p>|| O Lord God of | hosts, | - *<\/p>  <p>Hear | \u2014 | our | \u2014 | <em>pray-er.<\/em><strong> \u2219<\/strong> (Psalm 84:9, 8a paraphrase)<\/p>  <p><strong>Verse<\/strong><\/p>  <p>|| Alle- | lu- | ia! *<\/p>  <p>Al- | \u2014 | le- | lu- | ia!<\/p>  <p>|| The king shall have joy in Your | strength, | - *<\/p>  <p>And in Your salvation how greatly shall he rejoice! | Al- | le- | lu- | ia! (Psalm 21:1)<\/p>"
         },
         {
             "display": "6th Sunday after Trinity Sunday",
@@ -1858,9 +1858,9 @@
             },
             "weekday_display": "WEEKDAY in the week of Trinity 6",
             "color": "green",
-            "collect": "",
-            "introit": "",
-            "gradual": ""
+            "collect": "Lord of All Power and Might, Who art the Author and Giver of all good things, graft in our hearts the love of Thy Name, increase in us true religion, nourish us with all goodness, and of Thy great mercy keep us in the same; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee, and the Holy Ghost, ever one God, world without end.",
+            "introit": "<p>THE LORD || is the strength of His | peo- | ple *<\/p>  <p>He is the saving Refuge of | His | a- | noint- | ed.<\/p>  <p>|| Save Your people, and bless Your in- | <em>her-i-<\/em> <strong>\u2219<\/strong> | tance; *<\/p>  <p>Shepherd them also, and bear them | up | for- | ev- | er. (Psalm 28:8 paraphrase, 9)<\/p>  <p>|| To You I will cry, O Lord my Rock; do not be silent to | me, | - *<\/p>  <p>Lest, if You are silent to me, I become like those who go | down | to | the | pit.<\/p>  <p>|| Hear the voice of my supplications when I cry to | You, | - *<\/p>  <p>When I lift up my hands toward Your holy | sanc- | tu- | ar- | y.<\/p>  <p>|| The Lord is my strength and my | shield; | - *<\/p>  <p>My heart trusted in Him, | and | I | am | helped. (Psalm 28:1, 2, 7a)<\/p>  <p><strong>GLORIA PATRI (From Hymnal)<\/strong><\/p>  <p>|| The Lord is the strength of His | peo- | ple *<\/p>  <p>He is the saving Refuge of | His | a- | noint- | ed.<\/p>  <p>|| Save Your people, and bless Your in- | <em>her-i-<\/em> <strong>\u2219<\/strong> | tance; *<\/p>  <p>Shepherd them also, and bear them | up | for- | ev- | er. (Psalm 28:8 paraphrase, 9)<\/p>",
+            "gradual": "<p>|| Return, O Lord! How | long? | - *<\/p>  <p>And have compassion | on | Your | ser- | vants.<\/p>  <p>|| Lord, You have been our | <em>dwell-ing<\/em> <strong>\u2219<\/strong> | place *<\/p>  <p>In all | gen- | er- | a- | tions. (Psalm 90:13, 1)<\/p>  <p><strong>Verse<\/strong><\/p>  <h2>|| Alle- | lu- | ia! *<\/h2>  <p>Al- | \u2014 | le- | lu- | ia!<\/p>  <p>|| In You, O Lord, I put my trust; Let me never be a- | shamed; | - *<\/p>  <p>Deliver me in Your righteousness. Bow down thine ear to me; deliver me speedily. | Al- | le- | lu- | ia! <em>(Psalm 31:1, 2a)<\/em><\/p>"
         },
         {
             "display": "7th Sunday after Trinity Sunday",
@@ -1900,9 +1900,9 @@
             },
             "weekday_display": "WEEKDAY in the week of Trinity 7",
             "color": "green",
-            "collect": "",
-            "introit": "",
-            "gradual": ""
+            "collect": "O God, Whose never-failing providence ordereth all things both in Heaven and Earth, we humbly beseech Thee to put away from us all hurtful things and give to us those things which be profitable for us; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
+            "introit": "<p>OH, CLAP || your hands, all you | peo- | ples! *<\/p>  <p>Shout to God with the | voice | of | tri- | umph! (Psalm 47:1)<\/p>  <p>|| He will subdue the peoples | <em>un-der<\/em> <strong>\u2219<\/strong> | us, *<\/p>  <p>And the nations | un- | der | our | feet.<\/p>  <p>|| Sing praises to God, sing | prais- | es! *<\/p>  <p>Sing praises to our | King, | sing | prais- | es!<\/p>  <p>|| For God is the King of all the | earth; | - *<\/p>  <p>Sing praises with | un- | der- | stand- | ing.<\/p>  <p>|| God reigns over the | na- | tions; *<\/p>  <p>God sits on | His | ho- | ly | throne. (Psalm 47:3, 6\u20138)<\/p>  <p><strong>GLORIA PATRI (From Hymnal)<\/strong><\/p>  <p>|| Oh, clap your hands, all you | peo- | ples! *<\/p>  <p>Shout to God with the | voice | of | tri- | umph! (Psalm 47:1)<\/p>",
+            "gradual": "<p>|| Come, you children, listen to | me; | - *<\/p>  <p>I will teach you the | fear | of | the | Lord.<\/p>  <p>|| Look to Him and be | <em>rad-i-<\/em> <strong>\u2219<\/strong> | ant, *<\/p>  <p>And let your faces | not | be | a- | shamed. (Psalm 34:11, 5 paraphrase)<\/p>  <p><strong>Verse<\/strong><\/p>  <p>|| Alle- | lu- | ia! *<\/p>  <p>Al- | \u2014 | le- | lu- | ia!<\/p>  <p>|| Oh, clap your hands, all you | peo- | ples! *<\/p>  <p>Shout to God with the voice of triumph! | Al- | le- | lu- | ia! <em>(Psalm 47:1)<\/em><\/p>"
         },
         {
             "display": "8th Sunday after Trinity Sunday",
@@ -1942,9 +1942,9 @@
             },
             "weekday_display": "WEEKDAY in the week of Trinity 8",
             "color": "green",
-            "collect": "",
-            "introit": "",
-            "gradual": ""
+            "collect": "Grant to us, Lord, we beseech Thee, the Spirit to think and do always such things as are right, that we, who cannot do anything that is good without Thee, may by Thee be enabled to live according to Thy will; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
+            "introit": "<p>WE HAVE || thought, O God, on Your loving- | kind- | ness, *<\/p>  <p>In the midst | of | Your | tem- | ple.<\/p>  <p>|| According to Your name, O God, so is Your praise to the ends of the | earth; | - *<\/p>  <p>Your right hand is full | of | right- | eous- | ness. (Psalm 48:9\u201310)<\/p>  <p>|| Great is the Lord, and greatly to be | praised | - *<\/p>  <p>In the city of our God, in His | ho- | ly | moun- | tain.<\/p>  <p>|| God is in her | <em>pa-la-<\/em> <strong>\u2219 <\/strong>| ces; *<\/p>  <p>He is known | as | her | re- | fuge.<\/p>  <p>|| Let Mount Zion rejoice, let the daughters of Judah be | glad, | - *<\/p>  <p>Because | of | Your | judg- | ments.<\/p>  <p>|| For this is God, our God forever and | ev- | er; *<\/p>  <p>He will be our guide ev- | en | un- | to | death. (Ps. 48:1, 3, 11, and 14)<\/p>  <p><strong>GLORIA PATRI (From Hymnal)<\/strong><\/p>  <p>|| We have thought, O God, on Your loving- | kind- | ness, *<\/p>  <p>In the midst | of | Your | tem- | ple.<\/p>  <p>|| According to Your name, O God, so is Your praise to the ends of the | earth; | - *<\/p>  <p>Your right hand is full | of | right- | eous- | ness. (Psalm 48:9\u201310)<\/p>",
+            "gradual": "<p>|| Be my Rock of | re- | fuge, *<\/p>  <p>A fortress of de- | fense | to | save | me.<\/p>  <p>|| In You, O Lord, I put my | trust; | - *<\/p>  <p>Let me nev- | er | be | a- | shamed. (Psalm 31:2b, 1a)<\/p>  <p><strong>Verse<\/strong><\/p>  <p>Alle- | lu- | ia! *<\/p>  <p>Al- | \u2014 | le- | lu- | ia!<\/p>  <p>|| Give ear, O my people, to my | Law; | - *<\/p>  <p>Incline your ears to the words of my mouth. | Al- | le- | lu- | ia! <em>(Psalm 78:1)<\/em><\/p>"
         },
         {
             "display": "9th Sunday after Trinity Sunday",
@@ -1984,9 +1984,9 @@
             },
             "weekday_display": "WEEKDAY in the week of Trinity 9",
             "color": "green",
-            "collect": "",
-            "introit": "",
-            "gradual": ""
+            "collect": "Let Thy merciful ears, O Lord, be open to the prayers of Thy humble servants; and that they may obtain their petitions, make them to ask such things as shall please Thee; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
+            "introit": "<p>BE- HOLD, || God is my | help- | er; *<\/p> <p>The Lord is with those who up- | hold | my | life.<\/p> <p>|| He will repay my enemies for their | ev- | il. *<\/p> <p>Cut them off in Your | truth, | O | Lord. (Psalm 54:4\u20135)<\/p> <p>|| Save me, O God, by Your | name, | - *<\/p> <p>And vindicate me | by | Your | strength.<\/p> <p>|| Hear my prayer, O | God; | - *<\/p> <p>Give ear to the words | of | my | mouth.<\/p> <p>|| For strangers have risen up a- | gainst | me, *<\/p> <p>They have not set God | be- | fore | them.<\/p> <p>|| For He has delivered me out of all | trou- | ble; *<\/p> <p>And my eye has seen its desire upon my | en- | e- | mies. (Psalm 54:1, 2-3, 7)<\/p> <p><strong>GLORIA PATRI (From Hymnal)<\/strong><\/p> <p>|| Behold, God is my | help- | er; *<\/p> <p>The Lord is with those who up- | hold | my | life.<\/p> <p>|| He will repay my enemies for their | ev- | il. *<\/p> <p>Cut them off in Your | truth, | O | Lord. (Psalm 54:4\u20135)<\/p>",
+            "gradual": "<p>|| O Lord, our Lord, how excellent is Your name in all the | earth, | - *<\/p>  <p>Who have set Your glory above | the | heav- | ens! (Psalm 8:1)<\/p>  <p><strong>Verse<\/strong><\/p>  <h1>|| Alle- | lu- | ia! *<\/h1>  <p>Al- | le- | lu- | ia!<\/p>  <p>|| Blessed is the man who fears the | Lord, | - *<\/p>  <p>Who delights greatly in His commandments. Al- | le- | lu- | ia! <em>(Psalm 112:1b)<\/em><\/p>"
         },
         {
             "display": "10th Sunday after Trinity Sunday",
@@ -2026,9 +2026,9 @@
             },
             "weekday_display": "WEEKDAY in the week of Trinity 10",
             "color": "green",
-            "collect": "",
-            "introit": "",
-            "gradual": ""
+            "collect": "O God, Who declarest Thine almighty power chiefly in showing mercy and pity, mercifully grant unto us such a measure of Thy grace that we, running the way of Thy commandments, may obtain Thy gracious promises and be made partakers of Thy heavenly treasure; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
+            "introit": "<p>AS FOR || me, I will call upon God, and He shall hear my | voice. | - *<\/p>  <p>He has redeemed my soul in peace from the battle that was | a- | gainst | me.<\/p>  <p>|| God will hear, and afflict them, even He who abides from of | old. | - *<\/p>  <p>Cast your burden on the Lord, and He shall | sus- | tain | you. (Psalm 55:16a, 17b, 18b, 19a, 22a)<\/p>  <p>|| Give ear to my prayer, O | God, | - *<\/p>  <p>And do not hide Yourself from my sup- | pli- | ca- | tion.<\/p>  <p>|| My heart is severely pained with- | in | me, *<\/p>  <p>And the terrors of death have fallen | up- | on | me.<\/p>  <p>|| Fearfulness and trembling have come up- | on | me, *<\/p>  <p>And horror has ov- | er- | whelmed | me.<\/p>  <p>|| I will pray, and cry a- | loud, | - *<\/p>  <p>And the Lord | shall | save | me. (Psalm 55:1, 4\u20135, 17b, and 16b)<\/p>  <p><strong>GLORIA PATRI (From Hymnal)<\/strong><\/p>  <p>|| As for me, I will call upon God, and He shall hear my | voice. | - *<\/p>  <p>He has redeemed my soul in peace from the battle that was | a- | gainst | me.<\/p>  <p>|| God will hear, and afflict them, even He who abides from of | old. | - *<\/p>  <p>Cast your burden on the Lord, and He shall | sus- | tain | you. (Psalm 55:16a, 17b, 18b, 19a, 22a)<\/p>",
+            "gradual": "<p>|| Keep me, O Lord, as the apple of Your | eye; | - *<\/p> <p>Hide me under the shadow | of | Your | wings.<\/p> <p>|| Let my vindication come from Your | pre- | sence; *<\/p> <p>Let Your eyes look on the things that | are | up- | right. (Psalm 17:8, 2)<\/p> <h1>Verse<\/h1> <h1>|| Alle- | lu- | ia! *<\/h1> <p>Al- | le- | lu- | ia!<\/p> <p>|| O Lord, God of my sal- | va- | tion, *<\/p> <p>I have cried out day and night before You. Al- | le- | lu- | ia! <em>(Psalm 88:1)<\/em><\/p>"
         },
         {
             "display": "11th Sunday after Trinity Sunday",
@@ -2068,9 +2068,9 @@
             },
             "weekday_display": "WEEKDAY in the week of Trinity 11",
             "color": "green",
-            "collect": "",
-            "introit": "",
-            "gradual": ""
+            "collect": "Almighty and Everlasting God, Who art always more ready to hear than we to pray and wont to give more than either we desire or deserve, pour down upon us the abundance of Thy mercy, forgiving us those things whereof our conscience is afraid, and giving us those good things which we are not worthy to ask but through the merits and mediation of Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
+            "introit": "<p>GOD IS || in His holy habi- | ta- | tion. *<\/p> <p>God sets the solitary in | fam- | i- | lies.<\/p> <p>|| The God of Israel is He who gives | strength | - *<\/p> <p>And power to | His | peo- | ple. (Psalm 68:5b, 6a, 35b)<\/p> <p>|| Let God arise, Let His enemies be | scat- | tered; *<\/p> <p>Let those also who hate Him flee | be- | fore | Him.<\/p> <p>|| But let the righteous be glad; let them rejoice before | God; | - *<\/p> <p>Yes, let them rejoice ex- | ceed- | ing- | ly.<\/p> <p>|| O God, when you went out before Your | peo- | ple, *<\/p> <p>You, O God, provided from Your goodness | for | the | poor.<\/p> <p>|| Bless\u00e8d be the Lord, who daily loads us with | <em>bene-<\/em> <strong>\u2219<\/strong> | fits, *<\/p> <p>The God of our | sal- | va- | tion! (Psalm 68:1, 3, 7, 10, and 19)<\/p> <p><strong>GLORIA PATRI (From Hymnal)<\/strong><\/p> <p>|| God is in His holy habi- | ta- | tion. *<\/p> <p>God sets the solitary in | fam- | i- | lies.<\/p> <p>|| The God of Israel is He who gives | strength | - *<\/p> <p>And power to | His | peo- | ple. (Psalm 68:5b, 6a, 35b)<\/p>",
+            "gradual": "<p>|| My heart trusted in God, and I am | helped; | - *<\/p>  <p>Therefore my heart greatly rejoices; And with my song I | will | praise | Him.<\/p>  <p>|| To You I will cry, O Lord, my | Rock; | - *<\/p>  <p>Do not be silent to me, hear the voice of my sup- | pli- | ca- | tions. (Psalm 28:7b, 1b, 2a)<\/p>  <p><strong>Verse<\/strong><\/p>  <p>|| Alle- | lu- | ia! *<\/p>  <p>Al- | le- | lu- | ia!<\/p>  <p>|| Lord, You have been our dwelling place in all gener- | a- | tions. *<\/p>  <p>Al- | le- | lu- | ia! (Psalm 90:1)<\/p>"
         },
         {
             "display": "12th Sunday after Trinity Sunday",
