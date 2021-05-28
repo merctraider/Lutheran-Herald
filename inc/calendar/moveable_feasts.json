@@ -389,11 +389,11 @@
                 "gospel": "Matthew 3:1-12"
             },
             "color": "white",
-            "collect": "Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
-        ,"psalm": {
-            "matins": "Psalm 85",
-            "vespers": "Psalm 132"
-        }
+            "collect": "Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
+            "psalm": {
+                "matins": "Psalm 85",
+                "vespers": "Psalm 132"
+            }
         },
         {
             "display": "Twelfth Day after Christmas",
@@ -452,7 +452,7 @@
         }
     ],
     "epiphany": [
-            {
+        {
             "display": "The Epiphany of our Lord",
             "callback": {
                 "function": "get_epiphany"
@@ -462,8 +462,14 @@
                 "gospel": "Matt. 2:1-12"
             },
             "weekday_readings": {
-                "monday": ["Genesis 1:1-31","Luke 3:10-14"],
-                "tuesday": ["Genesis 2:1-25","Luke 3:15-20"],
+                "monday": [
+                    "Genesis 1:1-31",
+                    "Luke 3:10-14"
+                ],
+                "tuesday": [
+                    "Genesis 2:1-25",
+                    "Luke 3:15-20"
+                ],
                 "wednesday": [
                     "Genesis 4:1-26",
                     "Mark 1:1-8"
@@ -791,9 +797,9 @@
             },
             "weekday_display": "WEEKDAY in Septuagesima",
             "color": "violet",
-            "collect":"O Lord, we beseech Thee favorably to hear the prayers of Thy people that we, who are justly punished for our offenses, may be mercifully delivered by Thy goodness, for the glory of Thy Name; through Jesus Christ, Thy Son, our Savior, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
-            "introit":"THE sorrows of Sheol surrounded me; The snares of death confronted me. In my distress I called upon the Lord, He heard my voice from His temple. I will love You, O Lord, my strength. The Lord is my rock and my fortress. For You will save the humble people, But will bring down haughty looks. It is God who arms me with strength, And makes my way perfect.Therefore I will give thanks to You, O Lord, And sing praises to Your name. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.", 
-            "gradual":"The Lord also will be a refuge for the oppressed, a refuge in times of trouble. And those who know Your name will put their trust in You; for You, Lord, have not forsaken those who seek You. For the needy shall not always be for got ten; The expectation of the poor shall not perish forever. Arise, O Lord, do not let man prevail.",
+            "collect": "O Lord, we beseech Thee favorably to hear the prayers of Thy people that we, who are justly punished for our offenses, may be mercifully delivered by Thy goodness, for the glory of Thy Name; through Jesus Christ, Thy Son, our Savior, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
+            "introit": "THE sorrows of Sheol surrounded me; The snares of death confronted me. In my distress I called upon the Lord, He heard my voice from His temple. I will love You, O Lord, my strength. The Lord is my rock and my fortress. For You will save the humble people, But will bring down haughty looks. It is God who arms me with strength, And makes my way perfect.Therefore I will give thanks to You, O Lord, And sing praises to Your name. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
+            "gradual": "The Lord also will be a refuge for the oppressed, a refuge in times of trouble. And those who know Your name will put their trust in You; for You, Lord, have not forsaken those who seek You. For the needy shall not always be for got ten; The expectation of the poor shall not perish forever. Arise, O Lord, do not let man prevail.",
             "psalm": {
                 "matins": "Psalm 23",
                 "vespers": "Psalm 114"
@@ -863,9 +869,9 @@
             },
             "weekday_display": "WEEKDAY in Quinquagesima",
             "color": "violet",
-            "introit":"BE MY rock of refuge, A fortress of defense to save me.For You are my rock and my fortress. Therefore, for Your name’s sake, lead me and guide me.In You, O Lord, I put my trust; let me never be a shamed;  Deliver me in Your righteousness.Into Your hand I commit my spirit;  You have redeemed me, O Lord God of truth.Have mercy on me, O Lord, for I am in trouble;  My eye wastes a way with grief.Make Your face shine upon Your servant;  Save me for Your mercies’sake. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
-            "collect":"O Lord, we beseech Thee, mercifully hear our prayers and, having set us free from the bonds of sin, defend us from all evil; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with the Thee and the Holy Ghost, ever one God, world without end.",
-            "gradual":"You are the God who does wonders; You have declared Your strength among the peoples.You have with Your arm redeemed Your people, The sons of Jacob and Joseph. "
+            "introit": "BE MY rock of refuge, A fortress of defense to save me.For You are my rock and my fortress. Therefore, for Your name’s sake, lead me and guide me.In You, O Lord, I put my trust; let me never be a shamed;  Deliver me in Your righteousness.Into Your hand I commit my spirit;  You have redeemed me, O Lord God of truth.Have mercy on me, O Lord, for I am in trouble;  My eye wastes a way with grief.Make Your face shine upon Your servant;  Save me for Your mercies’sake. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
+            "collect": "O Lord, we beseech Thee, mercifully hear our prayers and, having set us free from the bonds of sin, defend us from all evil; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with the Thee and the Holy Ghost, ever one God, world without end.",
+            "gradual": "You are the God who does wonders; You have declared Your strength among the peoples.You have with Your arm redeemed Your people, The sons of Jacob and Joseph. "
         },
         {
             "display": "Ash Wednesday",
@@ -892,9 +898,9 @@
             },
             "weekday_display": "WEEKDAY after Ash Wednesday",
             "color": "violet",
-            "introit":"I WILL cry out to God Most High, To God who performs all things for me.And in the shadow of Your wings I will make my refuge, Until these calamities have passed by.Be merciful to me, O God, be merciful to me! For my soul trusts in You;And in the shadow of Your wings I will make my refuge, Until these calamities have passed by.I will cry out to God Most High, To God who performs all things for me.He shall send from heaven and save me;  God shall send forth His mercy and His truth. GLORIA PATRI (From Hymnal)I will cry out to God Most High, To God who performs all things for me.And in the shadow of Your wings I will make my refuge, Until these calamities have passed by. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
-            "collect":"Almighty and Everlasting God, our Father, Who hatest nothing that Thou hast made and dost forgive the sins of all those who are penitent, create and make in us new and contrite hearts, that we, worthily lamenting our sins and acknowledging our wretchedness, may obtain of Thee, the God of all mercy, perfect remission and forgiveness; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with the Thee and the Holy Ghost, ever one God, world without end.",
-            "gradual":"Be merciful to me, O God, be merciful to me! For my soul trusts in You;He shall send from heaven And save me; He reproaches the one who would swallow me up. "
+            "introit": "I WILL cry out to God Most High, To God who performs all things for me.And in the shadow of Your wings I will make my refuge, Until these calamities have passed by.Be merciful to me, O God, be merciful to me! For my soul trusts in You;And in the shadow of Your wings I will make my refuge, Until these calamities have passed by.I will cry out to God Most High, To God who performs all things for me.He shall send from heaven and save me;  God shall send forth His mercy and His truth. GLORIA PATRI (From Hymnal)I will cry out to God Most High, To God who performs all things for me.And in the shadow of Your wings I will make my refuge, Until these calamities have passed by. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
+            "collect": "Almighty and Everlasting God, our Father, Who hatest nothing that Thou hast made and dost forgive the sins of all those who are penitent, create and make in us new and contrite hearts, that we, worthily lamenting our sins and acknowledging our wretchedness, may obtain of Thee, the God of all mercy, perfect remission and forgiveness; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with the Thee and the Holy Ghost, ever one God, world without end.",
+            "gradual": "Be merciful to me, O God, be merciful to me! For my soul trusts in You;He shall send from heaven And save me; He reproaches the one who would swallow me up. "
         },
         {
             "display": "Invocavit, First Week of Lent",
@@ -934,9 +940,9 @@
             },
             "weekday_display": "WEEKDAY of the First Week of Lent",
             "color": "violet",
-            "introit":"HE SHALL call upon Me, and I will answer him; I will deliver him and honor him. With long life I will satisfy him, And show him My salvation. He who dwells in the secret place of the Most High Shall abide under the shadow of the Almighty. I will say of the Lord, “He is my refuge and my fortress; My God, In Him I will trust.”Because you have made the Lord, who is my refuge, Even the Most High, your dwelling place, No evil shall befall you, Nor shall any plague come near your dwelling. You shall tread upon the lion and the cobra,The young lion and the serpent you shall trample under foot. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
-            "collect":"O Lord, mercifully hear our prayer and stretch forth the right hand of Thy majesty to defend us from them that rise up against us; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
-            "gradual":"For He shall give His angels charge over you, To keep you in all your ways. In their hands they shall bear you up, Lest you dash your foot against a stone. "
+            "introit": "HE SHALL call upon Me, and I will answer him; I will deliver him and honor him. With long life I will satisfy him, And show him My salvation. He who dwells in the secret place of the Most High Shall abide under the shadow of the Almighty. I will say of the Lord, “He is my refuge and my fortress; My God, In Him I will trust.”Because you have made the Lord, who is my refuge, Even the Most High, your dwelling place, No evil shall befall you, Nor shall any plague come near your dwelling. You shall tread upon the lion and the cobra,The young lion and the serpent you shall trample under foot. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
+            "collect": "O Lord, mercifully hear our prayer and stretch forth the right hand of Thy majesty to defend us from them that rise up against us; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
+            "gradual": "For He shall give His angels charge over you, To keep you in all your ways. In their hands they shall bear you up, Lest you dash your foot against a stone. "
         },
         {
             "display": "Reminiscere, Second Week of Lent",
@@ -976,9 +982,9 @@
             },
             "weekday_display": "WEEKDAY of the Second Week of Lent",
             "color": "violet",
-            "introit":"REMEMber, O Lord, Your tender mercies and Your loving kindnesses,For they are from of old. Let not my enemies triumph over me. God of Israel, deliver us out of all our troubles! To You, O Lord, I lift up my soul.  O my God, I trust in You; let me not be ashamed; Do not remember the sins of my youth; According to Your mercy remember me for Your goodness’ sake.Good and upright is the Lord; Therefore He teaches sinners in the way. For Your name’s sake, O Lord,  Pardon my iniquity, for it is great. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
-            "gradual":"The troubles of my heart have enlarged; Bring me out of my distresses! Look on my afflicttion and my pain,And forgive all my sins.",
-            "collect":"O God, Who seest that of ourselves we have no strength, keep us both outwardly and inwardly that we may be defended from all adversities which may happen to the body and from all evil thoughts which may assault and hurt the soul; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
+            "introit": "REMEMber, O Lord, Your tender mercies and Your loving kindnesses,For they are from of old. Let not my enemies triumph over me. God of Israel, deliver us out of all our troubles! To You, O Lord, I lift up my soul.  O my God, I trust in You; let me not be ashamed; Do not remember the sins of my youth; According to Your mercy remember me for Your goodness’ sake.Good and upright is the Lord; Therefore He teaches sinners in the way. For Your name’s sake, O Lord,  Pardon my iniquity, for it is great. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
+            "gradual": "The troubles of my heart have enlarged; Bring me out of my distresses! Look on my afflicttion and my pain,And forgive all my sins.",
+            "collect": "O God, Who seest that of ourselves we have no strength, keep us both outwardly and inwardly that we may be defended from all adversities which may happen to the body and from all evil thoughts which may assault and hurt the soul; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
         },
         {
             "display": "Oculi, Third Week of Lent",
@@ -1018,9 +1024,9 @@
             },
             "weekday_display": "WEEKDAY of the Third Week of Lent",
             "color": "violet",
-            "introit":"MY EYES are ever to ward the Lord, For He shall pluck my feet out of the net. Turn Yourself to me, and have mercy on me, For I am desolate and afflicted. To You, O Lord, I lift up my soul. O my God, I trust in You; let me not be ashamed; The troubles of my heart have enlarged; Bring me out of my distresses! Look on my afflicttion and my pain, And forgive all my sins. Keep my soul, and deliver me; Let me not be ashamed, for I put my trust in You. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
-            "gradual":"Arise, O Lord, do not let man prevail; Let the nations be judged in Your sight. When my enemies turn back, They shall fall and perish at Your presence. ",
-            "collect":"We beseech Thee, Almighty God, look upon the hearty desires of Thy humble servants and stretch forth the right hand of Thy majesty to be our defense against all our enemies; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
+            "introit": "MY EYES are ever to ward the Lord, For He shall pluck my feet out of the net. Turn Yourself to me, and have mercy on me, For I am desolate and afflicted. To You, O Lord, I lift up my soul. O my God, I trust in You; let me not be ashamed; The troubles of my heart have enlarged; Bring me out of my distresses! Look on my afflicttion and my pain, And forgive all my sins. Keep my soul, and deliver me; Let me not be ashamed, for I put my trust in You. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
+            "gradual": "Arise, O Lord, do not let man prevail; Let the nations be judged in Your sight. When my enemies turn back, They shall fall and perish at Your presence. ",
+            "collect": "We beseech Thee, Almighty God, look upon the hearty desires of Thy humble servants and stretch forth the right hand of Thy majesty to be our defense against all our enemies; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
         },
         {
             "display": "Laetare, Fourth Week of Lent",
@@ -1060,9 +1066,9 @@
             },
             "weekday_display": "WEEKDAY of the Fourth Week of Lent",
             "color": "violet",
-            "introit":"REJOICE with Jerusalem, and be glad with her, All you who love her; Rejoice for joy with her, All you who mourn for her. I was glad when they said to me, “Let us go into the house  of the Lord.” Our feet  have  been  standing Within your gates, O Jerusalem! Pray for the peace of Jerusalem: “May they prosper who love you.” For the sake of my brethren and companions,  I will  now  say, “Peace be within you.” Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
-            "gradual":"I was glad when they said to me, “Let us go into the  house of the Lord.” Peace be with in your walls, Prosperity within your palaces.",
-            "collect":"Grant, we beseech Thee, Almighty God, that we, who for our evil deeds do worthily deserve to be punished, by the comfort of Thy grace may mercifully be relieved; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
+            "introit": "REJOICE with Jerusalem, and be glad with her, All you who love her; Rejoice for joy with her, All you who mourn for her. I was glad when they said to me, “Let us go into the house  of the Lord.” Our feet  have  been  standing Within your gates, O Jerusalem! Pray for the peace of Jerusalem: “May they prosper who love you.” For the sake of my brethren and companions,  I will  now  say, “Peace be within you.” Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
+            "gradual": "I was glad when they said to me, “Let us go into the  house of the Lord.” Peace be with in your walls, Prosperity within your palaces.",
+            "collect": "Grant, we beseech Thee, Almighty God, that we, who for our evil deeds do worthily deserve to be punished, by the comfort of Thy grace may mercifully be relieved; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
         },
         {
             "display": "Judica, Fifth Week of Lent",
@@ -1102,9 +1108,9 @@
             },
             "weekday_display": "WEEKDAY of the Fourth Week of Lent",
             "color": "violet",
-            "introit":"VINDicate me, O God,  And plead my cause against an ungodly nation; Oh, deliver me from the deceitful and unjust man! For You are the God of my strength;  Oh, send out Your light and Your truth! Let them lead me; let them bring me to Your  holy  hill. Then I will go to the altar  of  God,  To God my  exceeding joy.  Why are you cast down,  O my soul? And why are you disquieted  with  in  me? Hope in God; for I  shall yet  praise  Him,  The help of my counte  nance  and  my  God.  (From Judica through Holy Saturday the Gloria Patri is omitted.) Vindicate me, O God, And plead my cause against an un  godly  nation; Oh, deliver me from the deceitful  and  unjust man! For You are the  God of my strength; ",
-            "gradual":"Deliver me, O Lord, from my enemies;  Teach me to do Your will. He delivers me from my enemies. You also lift me up above those who rise against me;  You have delivered me from the violent man. ",
-            "collect":"We beseech Thee, Almighty God, mercifully to look upon Thy people, that by Thy great goodness they may be governed and preserved evermore in body and soul; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
+            "introit": "VINDicate me, O God,  And plead my cause against an ungodly nation; Oh, deliver me from the deceitful and unjust man! For You are the God of my strength;  Oh, send out Your light and Your truth! Let them lead me; let them bring me to Your  holy  hill. Then I will go to the altar  of  God,  To God my  exceeding joy.  Why are you cast down,  O my soul? And why are you disquieted  with  in  me? Hope in God; for I  shall yet  praise  Him,  The help of my counte  nance  and  my  God.  (From Judica through Holy Saturday the Gloria Patri is omitted.) Vindicate me, O God, And plead my cause against an un  godly  nation; Oh, deliver me from the deceitful  and  unjust man! For You are the  God of my strength; ",
+            "gradual": "Deliver me, O Lord, from my enemies;  Teach me to do Your will. He delivers me from my enemies. You also lift me up above those who rise against me;  You have delivered me from the violent man. ",
+            "collect": "We beseech Thee, Almighty God, mercifully to look upon Thy people, that by Thy great goodness they may be governed and preserved evermore in body and soul; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
         },
         {
             "display": "Palm Sunday",
@@ -1144,9 +1150,9 @@
             },
             "weekday_display": "Holy WEEKDAY",
             "color": "violet",
-            "introit":"O LORD, do not be far from Me;  O My Strength, hasten to help Me!Save Me from  the lion’s mouth And from the horns of the wild oxen! My God, My God, why have You forsaken Me? Why are You so far  from   helping  Me?All those who see Me  ridicule   Me; They shoot out the lip, they shake the head.They say “He trusted in the Lord, let  Him rescue Him; Let Him deliver Him, since He delights in Him!”Be not far from Me, for trouble is near; For there  is none to help. (From Judica through Holy Saturday the Gloria Patri is omitted).O Lord, do not be far from Me; O My Strength, hasten to help  Me! Save Me from the lion’s mouth And from the horns of the wild oxen! ",
-            "gradual":"You hold me by my right hand. You will guide me with Your counsel, and afterward receive me to glory.Truly God is good to Israel, to such as are pure in heart. But as for me, my feet had almost stumbled; My steps had nearly slipped. For I was envious of the boastful.",
-            "collect":"Almighty and Everlasting God, Who hast sent Thy Son, our Savior Jesus Christ, to take upon Him our flesh and to suffer death upon the cross that all mankind should follow the example of His great humility, mercifully grant that we may both follow the example of His patience and also be made partakers of His Resurrection; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
+            "introit": "O LORD, do not be far from Me;  O My Strength, hasten to help Me!Save Me from  the lion’s mouth And from the horns of the wild oxen! My God, My God, why have You forsaken Me? Why are You so far  from   helping  Me?All those who see Me  ridicule   Me; They shoot out the lip, they shake the head.They say “He trusted in the Lord, let  Him rescue Him; Let Him deliver Him, since He delights in Him!”Be not far from Me, for trouble is near; For there  is none to help. (From Judica through Holy Saturday the Gloria Patri is omitted).O Lord, do not be far from Me; O My Strength, hasten to help  Me! Save Me from the lion’s mouth And from the horns of the wild oxen! ",
+            "gradual": "You hold me by my right hand. You will guide me with Your counsel, and afterward receive me to glory.Truly God is good to Israel, to such as are pure in heart. But as for me, my feet had almost stumbled; My steps had nearly slipped. For I was envious of the boastful.",
+            "collect": "Almighty and Everlasting God, Who hast sent Thy Son, our Savior Jesus Christ, to take upon Him our flesh and to suffer death upon the cross that all mankind should follow the example of His great humility, mercifully grant that we may both follow the example of His patience and also be made partakers of His Resurrection; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
         },
         {
             "display": "Maundy Thursday",
@@ -1158,10 +1164,9 @@
                 "gospel": "John 13:1-15"
             },
             "color": "white",
-            "introit":"God forbid that I should boast: Except in the cross of our Lord Jesus Christ.<br>In Him is salvation, life, and resurrection from the dead. <br>By Him we are redeemed and set at liberty. <br>God be merciful to  us  and  bless us, And cause His face to  shine up on  us.<br>That Your way may be  known  on earth, Your salvation among all nations.<br>Let the peoples  praise  You,  O God; Let all the  peo ples praise  You.<br>God, our own  God,  shall  bless us. God shall bless us, and all the ends of the  earth shall fear  Him.",
-            "collect":"O Lord God, Who hast left unto us in a wonderful Sacrament a memorial of Thy Passion, grant, we beseech Thee, that we may so use this Sacrament of Thy Body and Blood that the fruits of Thy redemption may continually be manifest in us; Thou, Who livest and reignest with the Father and the Holy Ghost, ever one God, world without end.",
-            "gradual":"<p>Christ humbled Himself and became obedient to the  point  of death, Even the  death of the cross.</p><p>Therefore God also has highly exalted Him And given Him the name which is above every name.</p>"
-        
+            "introit": "God forbid that I should boast: Except in the cross of our Lord Jesus Christ.<br>In Him is salvation, life, and resurrection from the dead. <br>By Him we are redeemed and set at liberty. <br>God be merciful to  us  and  bless us, And cause His face to  shine up on  us.<br>That Your way may be  known  on earth, Your salvation among all nations.<br>Let the peoples  praise  You,  O God; Let all the  peo ples praise  You.<br>God, our own  God,  shall  bless us. God shall bless us, and all the ends of the  earth shall fear  Him.",
+            "collect": "O Lord God, Who hast left unto us in a wonderful Sacrament a memorial of Thy Passion, grant, we beseech Thee, that we may so use this Sacrament of Thy Body and Blood that the fruits of Thy redemption may continually be manifest in us; Thou, Who livest and reignest with the Father and the Holy Ghost, ever one God, world without end.",
+            "gradual": "<p>Christ humbled Himself and became obedient to the  point  of death, Even the  death of the cross.</p><p>Therefore God also has highly exalted Him And given Him the name which is above every name.</p>"
         },
         {
             "display": "Good Friday",
@@ -1173,9 +1178,9 @@
                 "gospel": "John 18:1–19:42"
             },
             "color": "black",
-            "introit":"<p>SURELY He has borne our griefs and carried our sorrows;<br>He was wounded for our transgressions, He was bruised for our iniquities.</p><p>All we like sheep have gone astray;<br>And the Lord has laid on Him the iniquity of us all. </p><p>Hear my prayer, O Lord, <br>And let my cry come to You.</p><p>Do not hide Your face from me <br> In the day of my trouble;</p><p>Incline Your ear to me; <br>In the day that I call, answer me speedily.</p><p>But You, O Lord, shall endure forever, <br>And the remembrance of Your name to all generations.</p>",
-            "collect":"Almighty God, we beseech Thee graciously to behold this Thy family, for which our Lord Jesus Christ was contented to be betrayed and given up into the hands of wicked men and to suffer death upon the Cross; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
-            "gradual":"<p>Reproach has broken my heart, and I am full of heaviness <br>I looked for someone to take pity, but there was none; And for comforters, but I  found  none.</p><p>Is it nothing to you, all  you  who  pass  by?<br> Behold and see if there is any sorrow like my sorrow, which has been brought on me, which the Lord has inflicted in the day of His fierce anger.</p><p>But He was wounded for our transgressions, He was bruised for our  iniquities;<br>The chastisement for our peace was upon Him, and by His  stripes  we  are  healed.</p>"
+            "introit": "<p>SURELY He has borne our griefs and carried our sorrows;<br>He was wounded for our transgressions, He was bruised for our iniquities.</p><p>All we like sheep have gone astray;<br>And the Lord has laid on Him the iniquity of us all. </p><p>Hear my prayer, O Lord, <br>And let my cry come to You.</p><p>Do not hide Your face from me <br> In the day of my trouble;</p><p>Incline Your ear to me; <br>In the day that I call, answer me speedily.</p><p>But You, O Lord, shall endure forever, <br>And the remembrance of Your name to all generations.</p>",
+            "collect": "Almighty God, we beseech Thee graciously to behold this Thy family, for which our Lord Jesus Christ was contented to be betrayed and given up into the hands of wicked men and to suffer death upon the Cross; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
+            "gradual": "<p>Reproach has broken my heart, and I am full of heaviness <br>I looked for someone to take pity, but there was none; And for comforters, but I  found  none.</p><p>Is it nothing to you, all  you  who  pass  by?<br> Behold and see if there is any sorrow like my sorrow, which has been brought on me, which the Lord has inflicted in the day of His fierce anger.</p><p>But He was wounded for our transgressions, He was bruised for our  iniquities;<br>The chastisement for our peace was upon Him, and by His  stripes  we  are  healed.</p>"
         }
     ],
     "easter": [
@@ -1435,7 +1440,7 @@
                 "gospel": "Mark 16:14-20"
             },
             "color": "white",
-            "collect":"Grant, we beseech Thee, Almighty God, that like as we do believe Thine Only-Begotten Son, our Lord Jesus Christ, to have ascended into the heavens, so may we also in heart and mind thither ascend, and with Him continually dwell; Who liveth and reigneth with Thee and the Holy Ghost, ever One God, world without end."
+            "collect": "Grant, we beseech Thee, Almighty God, that like as we do believe Thine Only-Begotten Son, our Lord Jesus Christ, to have ascended into the heavens, so may we also in heart and mind thither ascend, and with Him continually dwell; Who liveth and reigneth with Thee and the Holy Ghost, ever One God, world without end."
         },
         {
             "display": "Exaudi, Sunday after the Ascension",
@@ -1517,8 +1522,8 @@
             },
             "weekday_display": "WEEKDAY of the week of Pentecost",
             "color": "red",
-            "collect":"O God, Who didst teach the hearts of Thy faithful people by sending to them the light of Thy Holy Spirit: Grant us by the same Spirit to have a right judgment in all things, and evermore to rejoice in His holy comfort; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever One God, world without end.",
-            "introit":"<p> THE SPIrit of the Lord fills the | world.<br> -- | Al- | le- | lu- | ia!</p> <p> || Let the righteous be glad; let them rejoice before | God; | - <br> Yes, let them rejoice exceedingly. Alleluia! | Alle- | lu- | ia! </p> <p> || Let God arise, let His enemies be | scat- | tered; <br> Let those also who hate Him | flee | be- | fore | Him.</p> <p>Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.</p>",
+            "collect": "O God, Who didst teach the hearts of Thy faithful people by sending to them the light of Thy Holy Spirit: Grant us by the same Spirit to have a right judgment in all things, and evermore to rejoice in His holy comfort; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever One God, world without end.",
+            "introit": "<p> THE SPIrit of the Lord fills the | world.<br> -- | Al- | le- | lu- | ia!</p> <p> || Let the righteous be glad; let them rejoice before | God; | - <br> Yes, let them rejoice exceedingly. Alleluia! | Alle- | lu- | ia! </p> <p> || Let God arise, let His enemies be | scat- | tered; <br> Let those also who hate Him | flee | be- | fore | Him.</p> <p>Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.</p>",
             "gradual": "<p>Blessed are You, O Lord, who be- | holds | the | deep, | - <br> And who dwells between the che- | ru- | bim.</p> <p>Blessed are You, O Lord, in the firma- | ment | of | heav- | en, <br> And greatly to be praised for- | ev- | er.</p>"
         },
         {
@@ -1558,8 +1563,8 @@
             },
             "weekday_display": "WEEKDAY in the week of Trinity Sunday",
             "color": "white",
-            "collect":"Almighty and Everlasting God, Who hast given unto us, Thy servants, grace, by the confession of a true faith, to acknowledge the glory of the Eternal Trinity and in the power of the Divine Majesty to worship the Unity, we beseech Thee that Thou wouldst keep us steadfast in this faith and evermore defend us from all adversities; Who livest and reignest, Father, Son, and Holy Ghost, ever one God, world without end.",
-            "introit":"<p>BLESSED be the Holy Trinity and the Undivided Unity: <br>Let us give glory to Him for He has shown mercy un to us.</p><p> O Lord, our Lord,<br>How excellent is Your name in all the earth,</p><p> You have set Your glory above the heavens! *<br>Out of the mouth of babes and nursing infants, You have ordained strength.</p><p> What is man that You are mindful of him, *<br>And the son of man that You visit him?</p><p> For You have made him a little lower than the angels, *<br>And You have crowned him with glory and honor. </p><p>Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.</p>"
+            "collect": "Almighty and Everlasting God, Who hast given unto us, Thy servants, grace, by the confession of a true faith, to acknowledge the glory of the Eternal Trinity and in the power of the Divine Majesty to worship the Unity, we beseech Thee that Thou wouldst keep us steadfast in this faith and evermore defend us from all adversities; Who livest and reignest, Father, Son, and Holy Ghost, ever one God, world without end.",
+            "introit": "<p>BLESSED be the Holy Trinity and the Undivided Unity: <br>Let us give glory to Him for He has shown mercy un to us.</p><p> O Lord, our Lord,<br>How excellent is Your name in all the earth,</p><p> You have set Your glory above the heavens! *<br>Out of the mouth of babes and nursing infants, You have ordained strength.</p><p> What is man that You are mindful of him, *<br>And the son of man that You visit him?</p><p> For You have made him a little lower than the angels, *<br>And You have crowned him with glory and honor. </p><p>Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.</p>"
         },
         {
             "display": "First Sunday after Trinity Sunday",
@@ -1599,7 +1604,7 @@
             },
             "weekday_display": "WEEKDAY in the week of Trinity 1",
             "color": "green",
-            "collect":"O God, the Strength of all them that put their trust in Thee, mercifully accept our prayers; and because through the weakness of our mortal nature we can do no good thing without Thee, grant us the help of Thy grace that in keeping Thy Commandments we may please Thee both in will and deed; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee, and the Holy Ghost, ever one God, world without end."
+            "collect": "O God, the Strength of all them that put their trust in Thee, mercifully accept our prayers; and because through the weakness of our mortal nature we can do no good thing without Thee, grant us the help of Thy grace that in keeping Thy Commandments we may please Thee both in will and deed; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee, and the Holy Ghost, ever one God, world without end."
         },
         {
             "display": "Second Sunday after Trinity Sunday",

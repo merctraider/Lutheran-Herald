@@ -11,7 +11,8 @@ class Core{
         add_action('widgets_init', array(__CLASS__, 'widgets_init'));
 
         if(is_admin()){
-            
+            require_once plugin_dir_path(__FILE__) . 'class-lutherald.Admin.php';
+            Admin::init();
         }
     }
 
