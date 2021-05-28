@@ -196,8 +196,8 @@
             },
             "color": "white",
             "collect": "O God, Who hast made this most holy night to shine with the brightness of the true Light, grant, we beseech Thee, that, as we have known on Earth the mysteries of that Light, we may also come to the fullness of its joys in Heaven; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
-            "introit": "THE LORD has said to Me, “You are My Son, today I have begotten You.”<br>The Lord reigns, He is clothed with majesty; The Lord is clothed; He has girded Himself with strength. <br>Surely the world is established, So that it cannot be moved.<br>Your throne is established from of old; You are from everlasting. <br>The floods have lifted up, O Lord, the floods have lifted up their voice; The floods lift up their waves.<br>The Lord on high is mightier than the noise of many waters, Than the mighty waves of the sea.<br>Your testimonies are very  sure; Holiness adorns Your house, O Lord,  forever. <br>Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
-            "gradual": "Your people shall be volunteers in the day of Your power; <br>In the beauties of holiness, from the womb of the morning,<br>The Lord said to my Lord, “Sit at My right hand,<br>Till I make Your enemies Your footstool.”<br>Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
+            "introit": "THE LORD has said to Me, \u201cYou are My Son, today I have begotten You.\u201d<br>The Lord reigns, He is clothed with majesty; The Lord is clothed; He has girded Himself with strength. <br>Surely the world is established, So that it cannot be moved.<br>Your throne is established from of old; You are from everlasting. <br>The floods have lifted up, O Lord, the floods have lifted up their voice; The floods lift up their waves.<br>The Lord on high is mightier than the noise of many waters, Than the mighty waves of the sea.<br>Your testimonies are very  sure; Holiness adorns Your house, O Lord,  forever. <br>Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
+            "gradual": "Your people shall be volunteers in the day of Your power; <br>In the beauties of holiness, from the womb of the morning,<br>The Lord said to my Lord, \u201cSit at My right hand,<br>Till I make Your enemies Your footstool.\u201d<br>Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
             "psalm": {
                 "matins": "Psalm 19",
                 "vespers": "Psalm 89"
@@ -217,7 +217,7 @@
             "color": "white",
             "collect": "Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
             "introit": "For unto us a Child is born, Unto us a Son is given; And the government will be upon His shoulder. And His name will be called Wonderful, Counselor, Mighty God, Everlasting Father, Prince of Peace. O sing unto the lord a new song: for he hath done marvelous things.",
-            "gradual": "All the ends of the earth have seen the salvation of our God. <br><strong>Shout joyfully to the Lord, all the earth.</strong><br>The Lord has made known His salvation; <br><strong>His righteousness He has revealed in the sight of the nations.</strong>",
+            "gradual": "All the ends of the earth have seen the salvation of our God. <br><strong>Shout joyfully to the Lord, all the earth.<\/strong><br>The Lord has made known His salvation; <br><strong>His righteousness He has revealed in the sight of the nations.<\/strong>",
             "psalm": {
                 "matins": "Psalm 45",
                 "vespers": "Psalm 110"
@@ -236,7 +236,7 @@
             "color": "white",
             "collect": "Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
             "introit": "For unto us a Child is born, Unto us a Son is given; And the government will be upon His shoulder. And His name will be called Wonderful, Counselor, Mighty God, Everlasting Father, Prince of Peace. O sing unto the lord a new song: for he hath done marvelous things.",
-            "gradual": "Blessed is He that cometh in the name of the Lord: God is the Lord which hath showed us light. <br> This is the Lord's doing: it is marvelous in our eyes. Hallelujah! Hallelujah! ",
+            "gradual": "Blessed is He that cometh in the name of the Lord: God is the Lord which hath showed us light. <br> This is the Lord\\'s doing: it is marvelous in our eyes. Hallelujah! Hallelujah! ",
             "psalm": {
                 "matins": "Psalm 85",
                 "vespers": "Psalm 132"
@@ -257,7 +257,9 @@
             "psalm": {
                 "matins": "Psalm 85",
                 "vespers": "Psalm 132"
-            }
+            },
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "Fourth Day after Christmas",
@@ -274,7 +276,9 @@
             "psalm": {
                 "matins": "Psalm 85",
                 "vespers": "Psalm 132"
-            }
+            },
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "Fifth Day after Christmas",
@@ -291,7 +295,9 @@
             "psalm": {
                 "matins": "Psalm 85",
                 "vespers": "Psalm 132"
-            }
+            },
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "Sixth Day after Christmas",
@@ -308,7 +314,9 @@
             "psalm": {
                 "matins": "Psalm 85",
                 "vespers": "Psalm 132"
-            }
+            },
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "Seventh Day after Christmas",
@@ -325,7 +333,9 @@
             "psalm": {
                 "matins": "Psalm 85",
                 "vespers": "Psalm 132"
-            }
+            },
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "Eighth Day after Christmas",
@@ -342,7 +352,9 @@
             "psalm": {
                 "matins": "Psalm 85",
                 "vespers": "Psalm 132"
-            }
+            },
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "Ninth Day after Christmas",
@@ -359,7 +371,9 @@
             "psalm": {
                 "matins": "Psalm 85",
                 "vespers": "Psalm 132"
-            }
+            },
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "Tenth Day after Christmas",
@@ -376,7 +390,9 @@
             "psalm": {
                 "matins": "Psalm 85",
                 "vespers": "Psalm 132"
-            }
+            },
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "Eleventh Day after Christmas",
@@ -393,7 +409,9 @@
             "psalm": {
                 "matins": "Psalm 85",
                 "vespers": "Psalm 132"
-            }
+            },
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "Twelfth Day after Christmas",
@@ -410,7 +428,9 @@
             "psalm": {
                 "matins": "Psalm 85",
                 "vespers": "Psalm 132"
-            }
+            },
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "The First Sunday after Christmas",
@@ -490,7 +510,7 @@
             "weekday_display": "WEEKDAY after Epiphany",
             "color": "white",
             "collect": "O God, who on this day by the leading of a star didst reveal thine only-begotten Son to the Gentiles: Mercifully grant that we, who know thee now by faith, may be brought to contemplate the beauty of thy Majesty; through the same thy Son, Jesus Christ our Lord, who liveth and reigneth with thee and the Holy Ghost, one true God, world without end. Amen.",
-            "introit": "Behold the Lord, the Ruler, hath come: and the kingdom, and the power, and the glory are in His hand. Give the King thy judgements, O God: and thy righteousness unto the King's Son. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
+            "introit": "Behold the Lord, the Ruler, hath come: and the kingdom, and the power, and the glory are in His hand. Give the King thy judgements, O God: and thy righteousness unto the King\\'s Son. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
             "gradual": "All they from Sheba shall come, they shall bring gold and incense: and they shall show forth the praises of the Lord. Arise, shine, for thy light is come: and the glory of the Lord is risen upon thee. Alleluia, alleluia. We have seen his star in the east: and are come to worship him. Alleluia.",
             "psalm": {
                 "matins": "Psalm 96",
@@ -536,7 +556,7 @@
             "weekday_display": "WEEKDAY of Epiphany 1",
             "color": "green",
             "collect": "O Lord, we beseech Thee mercifully to receive the prayers of Thy people who call upon Thee, and grant that they may both perceive and know what things they ought to do and also may have grace and power faithfully to fulfill the same; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
-            "introit": "On a Throne, high and lifted up, I saw a Man sitting, whom the multitude of angels adores, singing together: <br><strong>Behold, His dominion endures forever. </strong><br>Make a joyful shout to the Lord, all you lands! <br><strong>Serve the Lord with gladness;</strong><br>Know that the Lord, He is God; <br><strong>It is He who has made us, and not we ourselves;</strong><br>Enter into His gates with thanksgiving, <br><strong>And into His courts with praise.</strong><br>For the Lord is good; His mercy is everlasting,<br><strong>And His truth endures to all generations.</strong>",
+            "introit": "On a Throne, high and lifted up, I saw a Man sitting, whom the multitude of angels adores, singing together: <br><strong>Behold, His dominion endures forever. <\/strong><br>Make a joyful shout to the Lord, all you lands! <br><strong>Serve the Lord with gladness;<\/strong><br>Know that the Lord, He is God; <br><strong>It is He who has made us, and not we ourselves;<\/strong><br>Enter into His gates with thanksgiving, <br><strong>And into His courts with praise.<\/strong><br>For the Lord is good; His mercy is everlasting,<br><strong>And His truth endures to all generations.<\/strong>",
             "gradual": "Blessed be the Lord God, the God of Israel, who only  does  wondrous  things! And blessed be His glorious  name  forever! The mountains will bring peace to the people, And the little  hills  righteousness. ",
             "psalm": {
                 "matins": "Psalm 13",
@@ -584,7 +604,10 @@
             "psalm": {
                 "matins": "Psalm 14",
                 "vespers": "Psalm 16"
-            }
+            },
+            "collect": "",
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "The Third Sunday After Epiphany",
@@ -627,7 +650,10 @@
             "psalm": {
                 "matins": "Psalm 15",
                 "vespers": "Psalm 33"
-            }
+            },
+            "collect": "",
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "The Fourth Sunday After Epiphany",
@@ -670,7 +696,10 @@
             "psalm": {
                 "matins": "Psalm 2",
                 "vespers": "Psalm 97"
-            }
+            },
+            "collect": "",
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "The Fifth Sunday After Epiphany",
@@ -713,7 +742,10 @@
             "psalm": {
                 "matins": "Psalm 20",
                 "vespers": "Psalm 86"
-            }
+            },
+            "collect": "",
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "The Festival of the Transfiguration of Our Lord",
@@ -755,7 +787,10 @@
             "psalm": {
                 "matins": "Psalm 87",
                 "vespers": "Psalm 8"
-            }
+            },
+            "collect": "",
+            "introit": "",
+            "gradual": ""
         }
     ],
     "lententide": [
@@ -766,7 +801,7 @@
                 "value": "septuagesima"
             },
             "sunday_readings": {
-                "epistle": "1 Cor. 9:24–10:5",
+                "epistle": "1 Cor. 9:24\u201310:5",
                 "gospel": "Matt. 20:1-16"
             },
             "weekday_readings": {
@@ -812,7 +847,7 @@
                 "value": "sexagesima"
             },
             "sunday_readings": {
-                "epistle": "2 Cor. 11:19–12:9",
+                "epistle": "2 Cor. 11:19\u201312:9",
                 "gospel": "Luke 8:4-15"
             },
             "weekday_readings": {
@@ -860,16 +895,16 @@
             "weekday_readings": {
                 "monday": [
                     "Luke 6:1-35",
-                    "Exodus 24:1 – 25:9"
+                    "Exodus 24:1 \u2013 25:9"
                 ],
                 "tuesday": [
                     "Luke 6:33-49",
-                    "Exodus 31:18 – 32:35"
+                    "Exodus 31:18 \u2013 32:35"
                 ]
             },
             "weekday_display": "WEEKDAY in Quinquagesima",
             "color": "violet",
-            "introit": "BE MY rock of refuge, A fortress of defense to save me.For You are my rock and my fortress. Therefore, for Your name’s sake, lead me and guide me.In You, O Lord, I put my trust; let me never be a shamed;  Deliver me in Your righteousness.Into Your hand I commit my spirit;  You have redeemed me, O Lord God of truth.Have mercy on me, O Lord, for I am in trouble;  My eye wastes a way with grief.Make Your face shine upon Your servant;  Save me for Your mercies’sake. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
+            "introit": "BE MY rock of refuge, A fortress of defense to save me.For You are my rock and my fortress. Therefore, for Your name\u2019s sake, lead me and guide me.In You, O Lord, I put my trust; let me never be a shamed;  Deliver me in Your righteousness.Into Your hand I commit my spirit;  You have redeemed me, O Lord God of truth.Have mercy on me, O Lord, for I am in trouble;  My eye wastes a way with grief.Make Your face shine upon Your servant;  Save me for Your mercies\u2019sake. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
             "collect": "O Lord, we beseech Thee, mercifully hear our prayers and, having set us free from the bonds of sin, defend us from all evil; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with the Thee and the Holy Ghost, ever one God, world without end.",
             "gradual": "You are the God who does wonders; You have declared Your strength among the peoples.You have with Your arm redeemed Your people, The sons of Jacob and Joseph. "
         },
@@ -884,7 +919,7 @@
             },
             "weekday_readings": {
                 "thursday": [
-                    "Luke 7:18 – 8:3",
+                    "Luke 7:18 \u2013 8:3",
                     "Exodus 34:1-10"
                 ],
                 "friday": [
@@ -940,7 +975,7 @@
             },
             "weekday_display": "WEEKDAY of the First Week of Lent",
             "color": "violet",
-            "introit": "HE SHALL call upon Me, and I will answer him; I will deliver him and honor him. With long life I will satisfy him, And show him My salvation. He who dwells in the secret place of the Most High Shall abide under the shadow of the Almighty. I will say of the Lord, “He is my refuge and my fortress; My God, In Him I will trust.”Because you have made the Lord, who is my refuge, Even the Most High, your dwelling place, No evil shall befall you, Nor shall any plague come near your dwelling. You shall tread upon the lion and the cobra,The young lion and the serpent you shall trample under foot. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
+            "introit": "HE SHALL call upon Me, and I will answer him; I will deliver him and honor him. With long life I will satisfy him, And show him My salvation. He who dwells in the secret place of the Most High Shall abide under the shadow of the Almighty. I will say of the Lord, \u201cHe is my refuge and my fortress; My God, In Him I will trust.\u201dBecause you have made the Lord, who is my refuge, Even the Most High, your dwelling place, No evil shall befall you, Nor shall any plague come near your dwelling. You shall tread upon the lion and the cobra,The young lion and the serpent you shall trample under foot. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
             "collect": "O Lord, mercifully hear our prayer and stretch forth the right hand of Thy majesty to defend us from them that rise up against us; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
             "gradual": "For He shall give His angels charge over you, To keep you in all your ways. In their hands they shall bear you up, Lest you dash your foot against a stone. "
         },
@@ -982,7 +1017,7 @@
             },
             "weekday_display": "WEEKDAY of the Second Week of Lent",
             "color": "violet",
-            "introit": "REMEMber, O Lord, Your tender mercies and Your loving kindnesses,For they are from of old. Let not my enemies triumph over me. God of Israel, deliver us out of all our troubles! To You, O Lord, I lift up my soul.  O my God, I trust in You; let me not be ashamed; Do not remember the sins of my youth; According to Your mercy remember me for Your goodness’ sake.Good and upright is the Lord; Therefore He teaches sinners in the way. For Your name’s sake, O Lord,  Pardon my iniquity, for it is great. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
+            "introit": "REMEMber, O Lord, Your tender mercies and Your loving kindnesses,For they are from of old. Let not my enemies triumph over me. God of Israel, deliver us out of all our troubles! To You, O Lord, I lift up my soul.  O my God, I trust in You; let me not be ashamed; Do not remember the sins of my youth; According to Your mercy remember me for Your goodness\u2019 sake.Good and upright is the Lord; Therefore He teaches sinners in the way. For Your name\u2019s sake, O Lord,  Pardon my iniquity, for it is great. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
             "gradual": "The troubles of my heart have enlarged; Bring me out of my distresses! Look on my afflicttion and my pain,And forgive all my sins.",
             "collect": "O God, Who seest that of ourselves we have no strength, keep us both outwardly and inwardly that we may be defended from all adversities which may happen to the body and from all evil thoughts which may assault and hurt the soul; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
         },
@@ -1066,8 +1101,8 @@
             },
             "weekday_display": "WEEKDAY of the Fourth Week of Lent",
             "color": "violet",
-            "introit": "REJOICE with Jerusalem, and be glad with her, All you who love her; Rejoice for joy with her, All you who mourn for her. I was glad when they said to me, “Let us go into the house  of the Lord.” Our feet  have  been  standing Within your gates, O Jerusalem! Pray for the peace of Jerusalem: “May they prosper who love you.” For the sake of my brethren and companions,  I will  now  say, “Peace be within you.” Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
-            "gradual": "I was glad when they said to me, “Let us go into the  house of the Lord.” Peace be with in your walls, Prosperity within your palaces.",
+            "introit": "REJOICE with Jerusalem, and be glad with her, All you who love her; Rejoice for joy with her, All you who mourn for her. I was glad when they said to me, \u201cLet us go into the house  of the Lord.\u201d Our feet  have  been  standing Within your gates, O Jerusalem! Pray for the peace of Jerusalem: \u201cMay they prosper who love you.\u201d For the sake of my brethren and companions,  I will  now  say, \u201cPeace be within you.\u201d Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
+            "gradual": "I was glad when they said to me, \u201cLet us go into the  house of the Lord.\u201d Peace be with in your walls, Prosperity within your palaces.",
             "collect": "Grant, we beseech Thee, Almighty God, that we, who for our evil deeds do worthily deserve to be punished, by the comfort of Thy grace may mercifully be relieved; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
         },
         {
@@ -1150,7 +1185,7 @@
             },
             "weekday_display": "Holy WEEKDAY",
             "color": "violet",
-            "introit": "O LORD, do not be far from Me;  O My Strength, hasten to help Me!Save Me from  the lion’s mouth And from the horns of the wild oxen! My God, My God, why have You forsaken Me? Why are You so far  from   helping  Me?All those who see Me  ridicule   Me; They shoot out the lip, they shake the head.They say “He trusted in the Lord, let  Him rescue Him; Let Him deliver Him, since He delights in Him!”Be not far from Me, for trouble is near; For there  is none to help. (From Judica through Holy Saturday the Gloria Patri is omitted).O Lord, do not be far from Me; O My Strength, hasten to help  Me! Save Me from the lion’s mouth And from the horns of the wild oxen! ",
+            "introit": "O LORD, do not be far from Me;  O My Strength, hasten to help Me!Save Me from  the lion\u2019s mouth And from the horns of the wild oxen! My God, My God, why have You forsaken Me? Why are You so far  from   helping  Me?All those who see Me  ridicule   Me; They shoot out the lip, they shake the head.They say \u201cHe trusted in the Lord, let  Him rescue Him; Let Him deliver Him, since He delights in Him!\u201dBe not far from Me, for trouble is near; For there  is none to help. (From Judica through Holy Saturday the Gloria Patri is omitted).O Lord, do not be far from Me; O My Strength, hasten to help  Me! Save Me from the lion\u2019s mouth And from the horns of the wild oxen! ",
             "gradual": "You hold me by my right hand. You will guide me with Your counsel, and afterward receive me to glory.Truly God is good to Israel, to such as are pure in heart. But as for me, my feet had almost stumbled; My steps had nearly slipped. For I was envious of the boastful.",
             "collect": "Almighty and Everlasting God, Who hast sent Thy Son, our Savior Jesus Christ, to take upon Him our flesh and to suffer death upon the cross that all mankind should follow the example of His great humility, mercifully grant that we may both follow the example of His patience and also be made partakers of His Resurrection; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
         },
@@ -1166,7 +1201,7 @@
             "color": "white",
             "introit": "God forbid that I should boast: Except in the cross of our Lord Jesus Christ.<br>In Him is salvation, life, and resurrection from the dead. <br>By Him we are redeemed and set at liberty. <br>God be merciful to  us  and  bless us, And cause His face to  shine up on  us.<br>That Your way may be  known  on earth, Your salvation among all nations.<br>Let the peoples  praise  You,  O God; Let all the  peo ples praise  You.<br>God, our own  God,  shall  bless us. God shall bless us, and all the ends of the  earth shall fear  Him.",
             "collect": "O Lord God, Who hast left unto us in a wonderful Sacrament a memorial of Thy Passion, grant, we beseech Thee, that we may so use this Sacrament of Thy Body and Blood that the fruits of Thy redemption may continually be manifest in us; Thou, Who livest and reignest with the Father and the Holy Ghost, ever one God, world without end.",
-            "gradual": "<p>Christ humbled Himself and became obedient to the  point  of death, Even the  death of the cross.</p><p>Therefore God also has highly exalted Him And given Him the name which is above every name.</p>"
+            "gradual": "<p>Christ humbled Himself and became obedient to the  point  of death, Even the  death of the cross.<\/p><p>Therefore God also has highly exalted Him And given Him the name which is above every name.<\/p>"
         },
         {
             "display": "Good Friday",
@@ -1174,13 +1209,13 @@
                 "function": "get_goodfriday"
             },
             "sunday_readings": {
-                "epistle": "Is 52:13–53:12",
-                "gospel": "John 18:1–19:42"
+                "epistle": "Is 52:13\u201353:12",
+                "gospel": "John 18:1\u201319:42"
             },
             "color": "black",
-            "introit": "<p>SURELY He has borne our griefs and carried our sorrows;<br>He was wounded for our transgressions, He was bruised for our iniquities.</p><p>All we like sheep have gone astray;<br>And the Lord has laid on Him the iniquity of us all. </p><p>Hear my prayer, O Lord, <br>And let my cry come to You.</p><p>Do not hide Your face from me <br> In the day of my trouble;</p><p>Incline Your ear to me; <br>In the day that I call, answer me speedily.</p><p>But You, O Lord, shall endure forever, <br>And the remembrance of Your name to all generations.</p>",
+            "introit": "<p>SURELY He has borne our griefs and carried our sorrows;<br>He was wounded for our transgressions, He was bruised for our iniquities.<\/p><p>All we like sheep have gone astray;<br>And the Lord has laid on Him the iniquity of us all. <\/p><p>Hear my prayer, O Lord, <br>And let my cry come to You.<\/p><p>Do not hide Your face from me <br> In the day of my trouble;<\/p><p>Incline Your ear to me; <br>In the day that I call, answer me speedily.<\/p><p>But You, O Lord, shall endure forever, <br>And the remembrance of Your name to all generations.<\/p>",
             "collect": "Almighty God, we beseech Thee graciously to behold this Thy family, for which our Lord Jesus Christ was contented to be betrayed and given up into the hands of wicked men and to suffer death upon the Cross; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
-            "gradual": "<p>Reproach has broken my heart, and I am full of heaviness <br>I looked for someone to take pity, but there was none; And for comforters, but I  found  none.</p><p>Is it nothing to you, all  you  who  pass  by?<br> Behold and see if there is any sorrow like my sorrow, which has been brought on me, which the Lord has inflicted in the day of His fierce anger.</p><p>But He was wounded for our transgressions, He was bruised for our  iniquities;<br>The chastisement for our peace was upon Him, and by His  stripes  we  are  healed.</p>"
+            "gradual": "<p>Reproach has broken my heart, and I am full of heaviness <br>I looked for someone to take pity, but there was none; And for comforters, but I  found  none.<\/p><p>Is it nothing to you, all  you  who  pass  by?<br> Behold and see if there is any sorrow like my sorrow, which has been brought on me, which the Lord has inflicted in the day of His fierce anger.<\/p><p>But He was wounded for our transgressions, He was bruised for our  iniquities;<br>The chastisement for our peace was upon Him, and by His  stripes  we  are  healed.<\/p>"
         }
     ],
     "easter": [
@@ -1221,9 +1256,9 @@
             },
             "weekday_display": "Easter WEEKDAY",
             "color": "white",
-            "introit": "“HE IS risen!” Alleluia! “Why do you seek the living among the dead?” Alleluia!“Remember how He spoke to you,” Alleluia! “‘The Son of Man must be crucified and the third day rise again.’” Alleluia!  Alleluia! (St. Luke 24:6a, 5b, 6b, 7a, c)You have crowned Him with glory and  honor. You have made Him to have dominion over the works of Your hands;O Lord, our  Lord, How excellent is Your name in all the earth! Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.<br><br>WHEN I  awake, I am still with You. Alleluia!  You have laid Your hand upon me. Alleluia! Such knowledge is too wonderful  for  me;  It is high, I cannot attain it. Alleluia! Alleluia! O Lord, You have searched me and  known me.  You know my sitting down and my  rising up.You comprehend my path and my lying down, And are acquainted with  all my ways.If I ascend into heaven, You are there;    If I make my bed in hell, behold,  You are there.Even there Your hand shall lead me,  And Your right hand  shall hold me. GLORIA PATRI (From Hymnal)When I awake, I am still with You. Alleluia!  You have laid Your hand upon me. Alleluia!Such knowledge is too wonderful for  me;  It is high, I cannot attain it. Alleluia! Alleluia! Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
+            "introit": "\u201cHE IS risen!\u201d Alleluia! \u201cWhy do you seek the living among the dead?\u201d Alleluia!\u201cRemember how He spoke to you,\u201d Alleluia! \u201c\u2018The Son of Man must be crucified and the third day rise again.\u2019\u201d Alleluia!  Alleluia! (St. Luke 24:6a, 5b, 6b, 7a, c)You have crowned Him with glory and  honor. You have made Him to have dominion over the works of Your hands;O Lord, our  Lord, How excellent is Your name in all the earth! Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.<br><br>WHEN I  awake, I am still with You. Alleluia!  You have laid Your hand upon me. Alleluia! Such knowledge is too wonderful  for  me;  It is high, I cannot attain it. Alleluia! Alleluia! O Lord, You have searched me and  known me.  You know my sitting down and my  rising up.You comprehend my path and my lying down, And are acquainted with  all my ways.If I ascend into heaven, You are there;    If I make my bed in hell, behold,  You are there.Even there Your hand shall lead me,  And Your right hand  shall hold me. GLORIA PATRI (From Hymnal)When I awake, I am still with You. Alleluia!  You have laid Your hand upon me. Alleluia!Such knowledge is too wonderful for  me;  It is high, I cannot attain it. Alleluia! Alleluia! Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
             "gradual": "This is the day the Lord has made; We will rejoice and be  glad in it. Oh, give thanks to the Lord, for He is good! For His mercy endures forever.<br><br>This is the day the Lord has made; We will rejoice and be glad in it.Oh, give thanks to the Lord, for He is  good! For His mercy endures forever. ",
-            "collect": "Grant, we beseech Thee, Almighty God, that we who celebrate the solemnities of the Lord’s Resurrection may by the renewal of Thy Holy Spirit rise again from the death of the soul; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.<br><br>Almighty God, Who through Thine Only-Begotten Son Jesus Christ, hast overcome death and opened unto us the gate of everlasting life, we humbly beseech Thee that, as Thou dost put into our minds good desires, so by Thy continual help we may bring the same to good effect; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.<br><br>O God, Who didst enlighten this most holy night with the glory of the Lord’s resurrection, preserve in all Thy people the spirit of adoption which Thou hast given, so that, renewed in body and soul, they may perform unto Thee a pure service; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
+            "collect": "Grant, we beseech Thee, Almighty God, that we who celebrate the solemnities of the Lord\u2019s Resurrection may by the renewal of Thy Holy Spirit rise again from the death of the soul; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.<br><br>Almighty God, Who through Thine Only-Begotten Son Jesus Christ, hast overcome death and opened unto us the gate of everlasting life, we humbly beseech Thee that, as Thou dost put into our minds good desires, so by Thy continual help we may bring the same to good effect; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.<br><br>O God, Who didst enlighten this most holy night with the glory of the Lord\u2019s resurrection, preserve in all Thy people the spirit of adoption which Thou hast given, so that, renewed in body and soul, they may perform unto Thee a pure service; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
         },
         {
             "display": "Quasimodogeniti, First Sunday of Easter",
@@ -1264,7 +1299,8 @@
             "weekday_display": "WEEKDAY of the First Sunday of Easter",
             "color": "white",
             "introit": "AS NEW born babes, Desire the pure milk of the Word.Hear, O My people, and I will admonish you! O Israel, if you will listen to Me! Sing aloud to God our strength;   Make a joyful shout to the God of Jacob. You called in trouble, and I delivered you;  I answered you in the secret place  of  thunder. I am the Lord your  God, Who brought you out of the land of Egypt; Open your mouth wide, and I will fill it. With honey from the rock I would have satisfied you. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
-            "collect": "Grant, we beseech Thee, Almighty God, that we who have celebrated the solemnities of the Lord’s Resurrection may, by the help of Thy grace, bring forth the fruits thereof in our life and conversation; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
+            "collect": "Grant, we beseech Thee, Almighty God, that we who have celebrated the solemnities of the Lord\u2019s Resurrection may, by the help of Thy grace, bring forth the fruits thereof in our life and conversation; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
+            "gradual": ""
         },
         {
             "display": "Misericordias Domini, Second Sunday of Easter",
@@ -1305,7 +1341,8 @@
             "weekday_display": "WEEKDAY of the Second Sunday of Easter",
             "color": "white",
             "introit": "THE EARTH is full of the goodness of the Lord. By the word of the Lord the heavens were made. Rejoice in the Lord, O you righteous! For praise from the upright is  beautiful.Behold, the eye of the Lord is on those who fear Him, On those who hope in His mercy. To deliver their soul from death, And to keep them alive in famine. Our soul waits for the Lord; He is our help and our shield. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
-            "collect": "God, Who by the humiliation of Thy Son didst raise up the fallen world, grant unto Thy faithful ones perpetual gladness, and those whom Thou hast delivered from the danger of everlasting death do Thou make partakers of eternal joys; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
+            "collect": "God, Who by the humiliation of Thy Son didst raise up the fallen world, grant unto Thy faithful ones perpetual gladness, and those whom Thou hast delivered from the danger of everlasting death do Thou make partakers of eternal joys; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
+            "gradual": ""
         },
         {
             "display": "Jubilate, Third Sunday of Easter",
@@ -1345,8 +1382,9 @@
             },
             "weekday_display": "WEEKDAY of the Third Sunday of Easter",
             "color": "white",
-            "introit": "MAKE A joyful shout to God, all the  earth! Sing out the honor of His name; make His praise glorious.Say to God, “How awesome are Your works! Through the greatness of Your power Your enemies shall submit them  selves  to  You. Come and see the works of God; He is awesome in His doing toward the  sons  of  men. Oh, bless our God, you  peoples! And make the voice of His praise  to  be  heard, Who keeps our soul among the living, And does not allow our feet  to  be  moved. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
-            "collect": "Almighty God, Who showest to them that be in error the light of Thy truth to the intent that they may return into the way of righteousness, grant unto all them that are admitted into the fellowship of Christ’s religion that they may avoid those things that are contrary to their profession and to follow all such things as are agreeable to the same; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
+            "introit": "MAKE A joyful shout to God, all the  earth! Sing out the honor of His name; make His praise glorious.Say to God, \u201cHow awesome are Your works! Through the greatness of Your power Your enemies shall submit them  selves  to  You. Come and see the works of God; He is awesome in His doing toward the  sons  of  men. Oh, bless our God, you  peoples! And make the voice of His praise  to  be  heard, Who keeps our soul among the living, And does not allow our feet  to  be  moved. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
+            "collect": "Almighty God, Who showest to them that be in error the light of Thy truth to the intent that they may return into the way of righteousness, grant unto all them that are admitted into the fellowship of Christ\u2019s religion that they may avoid those things that are contrary to their profession and to follow all such things as are agreeable to the same; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
+            "gradual": ""
         },
         {
             "display": "Cantate, Fourth Sunday of Easter",
@@ -1387,7 +1425,8 @@
             "weekday_display": "WEEKDAY of the Fourth Sunday of Easter",
             "color": "white",
             "introit": "OH, SING  to the Lord a new  song! For he has done marvelous things; The Lord has made known His salvation; His righteousness He has revealed in the sight of the nations. His right hand and His holy arm Have gained Him the victory. He has remembered His mercy And His faithfulness to the house of Israel. All the ends of the earth Have seen the salvation of our God. Shout joyfully to the Lord, all the earth; Break forth in song, rejoice, and sing praises. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
-            "collect": "O God, Who makest the minds of the faithful to be of one will, grant unto Thy people that they may love what Thou commandest and desire what Thou dost promise, that among the manifold changes of this world our hearts may there be fixed where true joys are to be found; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
+            "collect": "O God, Who makest the minds of the faithful to be of one will, grant unto Thy people that they may love what Thou commandest and desire what Thou dost promise, that among the manifold changes of this world our hearts may there be fixed where true joys are to be found; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
+            "gradual": ""
         },
         {
             "display": "Rogate, Fifth Sunday of Easter",
@@ -1427,8 +1466,9 @@
             },
             "weekday_display": "WEEKDAY of the Fifth Sunday of Easter",
             "color": "white",
-            "introit": "WITH A voice of singing, declare, proclaim  this, Utter it to the end of the earth. Alleluia! “The Lord has redeemed His servant  Jacob!” Alleluia! Alleluia! Make a joyful shout to God, all the  earth! Sing out the honor of His name; Make His praise  glorious. I cried to Him with my  mouth, And He was extolled  with my tongue. Certainly God has  heard  me;  He has attended to the voice of my prayer. Blessèd be God, who has not turned away my  prayer, Nor His mercy from me! Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
-            "collect": "O God, from Whom all good things do come, grant to us, Thy humble servants, that by Thy holy inspiration we may think those things that be right and by Thy merciful guiding may perform the same; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
+            "introit": "WITH A voice of singing, declare, proclaim  this, Utter it to the end of the earth. Alleluia! \u201cThe Lord has redeemed His servant  Jacob!\u201d Alleluia! Alleluia! Make a joyful shout to God, all the  earth! Sing out the honor of His name; Make His praise  glorious. I cried to Him with my  mouth, And He was extolled  with my tongue. Certainly God has  heard  me;  He has attended to the voice of my prayer. Bless\u00e8d be God, who has not turned away my  prayer, Nor His mercy from me! Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
+            "collect": "O God, from Whom all good things do come, grant to us, Thy humble servants, that by Thy holy inspiration we may think those things that be right and by Thy merciful guiding may perform the same; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
+            "gradual": ""
         },
         {
             "display": "The Festival of the Ascension of our Lord",
@@ -1440,7 +1480,9 @@
                 "gospel": "Mark 16:14-20"
             },
             "color": "white",
-            "collect": "Grant, we beseech Thee, Almighty God, that like as we do believe Thine Only-Begotten Son, our Lord Jesus Christ, to have ascended into the heavens, so may we also in heart and mind thither ascend, and with Him continually dwell; Who liveth and reigneth with Thee and the Holy Ghost, ever One God, world without end."
+            "collect": "Grant, we beseech Thee, Almighty God, that like as we do believe Thine Only-Begotten Son, our Lord Jesus Christ, to have ascended into the heavens, so may we also in heart and mind thither ascend, and with Him continually dwell; Who liveth and reigneth with Thee and the Holy Ghost, ever One God, world without end.",
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "Exaudi, Sunday after the Ascension",
@@ -1450,7 +1492,7 @@
             },
             "sunday_readings": {
                 "epistle": "1 Pet. 4:7-11",
-                "gospel": "John 15:26–16:4"
+                "gospel": "John 15:26\u201316:4"
             },
             "weekday_readings": {
                 "monday": [
@@ -1480,8 +1522,9 @@
             },
             "weekday_display": "WEEKDAY of the Sixth Sunday of Easter",
             "color": "white",
-            "introit": "HEAR, O  Lord, when I cry with my  voice! Alleluia! When You said, “Seek My face,” My heart said to You, “Your face, Lord, I will  seek.” Do not hide Your face from me. Alleluia! The Lord is my light and my salvation; Whom shall I fear? The Lord is the strength of my life; Of whom shall I be afraid? Teach me Your way, O  Lord, Do not deliver me to the will of my adversaries; For false witnesses have risen against me, And such as breathe out violence. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
-            "collect": "Almighty, Everlasting God, make us to have always a devout will toward Thee and to serve Thy Majesty with a pure heart; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end."
+            "introit": "HEAR, O  Lord, when I cry with my  voice! Alleluia! When You said, \u201cSeek My face,\u201d My heart said to You, \u201cYour face, Lord, I will  seek.\u201d Do not hide Your face from me. Alleluia! The Lord is my light and my salvation; Whom shall I fear? The Lord is the strength of my life; Of whom shall I be afraid? Teach me Your way, O  Lord, Do not deliver me to the will of my adversaries; For false witnesses have risen against me, And such as breathe out violence. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
+            "collect": "Almighty, Everlasting God, make us to have always a devout will toward Thee and to serve Thy Majesty with a pure heart; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
+            "gradual": ""
         }
     ],
     "ordinary_time": [
@@ -1523,8 +1566,8 @@
             "weekday_display": "WEEKDAY of the week of Pentecost",
             "color": "red",
             "collect": "O God, Who didst teach the hearts of Thy faithful people by sending to them the light of Thy Holy Spirit: Grant us by the same Spirit to have a right judgment in all things, and evermore to rejoice in His holy comfort; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever One God, world without end.",
-            "introit": "<p> THE SPIrit of the Lord fills the | world.<br> -- | Al- | le- | lu- | ia!</p> <p> || Let the righteous be glad; let them rejoice before | God; | - <br> Yes, let them rejoice exceedingly. Alleluia! | Alle- | lu- | ia! </p> <p> || Let God arise, let His enemies be | scat- | tered; <br> Let those also who hate Him | flee | be- | fore | Him.</p> <p>Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.</p>",
-            "gradual": "<p>Blessed are You, O Lord, who be- | holds | the | deep, | - <br> And who dwells between the che- | ru- | bim.</p> <p>Blessed are You, O Lord, in the firma- | ment | of | heav- | en, <br> And greatly to be praised for- | ev- | er.</p>"
+            "introit": "<p> THE SPIrit of the Lord fills the | world.<br> -- | Al- | le- | lu- | ia!<\/p> <p> || Let the righteous be glad; let them rejoice before | God; | - <br> Yes, let them rejoice exceedingly. Alleluia! | Alle- | lu- | ia! <\/p> <p> || Let God arise, let His enemies be | scat- | tered; <br> Let those also who hate Him | flee | be- | fore | Him.<\/p> <p>Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.<\/p>",
+            "gradual": "<p>Blessed are You, O Lord, who be- | holds | the | deep, | - <br> And who dwells between the che- | ru- | bim.<\/p> <p>Blessed are You, O Lord, in the firma- | ment | of | heav- | en, <br> And greatly to be praised for- | ev- | er.<\/p>"
         },
         {
             "display": "The Feast of the Holy Trinity",
@@ -1564,7 +1607,8 @@
             "weekday_display": "WEEKDAY in the week of Trinity Sunday",
             "color": "white",
             "collect": "Almighty and Everlasting God, Who hast given unto us, Thy servants, grace, by the confession of a true faith, to acknowledge the glory of the Eternal Trinity and in the power of the Divine Majesty to worship the Unity, we beseech Thee that Thou wouldst keep us steadfast in this faith and evermore defend us from all adversities; Who livest and reignest, Father, Son, and Holy Ghost, ever one God, world without end.",
-            "introit": "<p>BLESSED be the Holy Trinity and the Undivided Unity: <br>Let us give glory to Him for He has shown mercy un to us.</p><p> O Lord, our Lord,<br>How excellent is Your name in all the earth,</p><p> You have set Your glory above the heavens! *<br>Out of the mouth of babes and nursing infants, You have ordained strength.</p><p> What is man that You are mindful of him, *<br>And the son of man that You visit him?</p><p> For You have made him a little lower than the angels, *<br>And You have crowned him with glory and honor. </p><p>Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.</p>"
+            "introit": "<p>BLESSED be the Holy Trinity and the Undivided Unity: <br>Let us give glory to Him for He has shown mercy un to us.<\/p><p> O Lord, our Lord,<br>How excellent is Your name in all the earth,<\/p><p> You have set Your glory above the heavens! *<br>Out of the mouth of babes and nursing infants, You have ordained strength.<\/p><p> What is man that You are mindful of him, *<br>And the son of man that You visit him?<\/p><p> For You have made him a little lower than the angels, *<br>And You have crowned him with glory and honor. <\/p><p>Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.<\/p>",
+            "gradual": ""
         },
         {
             "display": "First Sunday after Trinity Sunday",
@@ -1604,7 +1648,9 @@
             },
             "weekday_display": "WEEKDAY in the week of Trinity 1",
             "color": "green",
-            "collect": "O God, the Strength of all them that put their trust in Thee, mercifully accept our prayers; and because through the weakness of our mortal nature we can do no good thing without Thee, grant us the help of Thy grace that in keeping Thy Commandments we may please Thee both in will and deed; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee, and the Holy Ghost, ever one God, world without end."
+            "collect": "O God, the Strength of all them that put their trust in Thee, mercifully accept our prayers; and because through the weakness of our mortal nature we can do no good thing without Thee, grant us the help of Thy grace that in keeping Thy Commandments we may please Thee both in will and deed; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee, and the Holy Ghost, ever one God, world without end.",
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "Second Sunday after Trinity Sunday",
@@ -1643,7 +1689,10 @@
                 ]
             },
             "weekday_display": "WEEKDAY in the week of Trinity 2",
-            "color": "green"
+            "color": "green",
+            "collect": "",
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "Third Sunday after Trinity Sunday",
@@ -1682,7 +1731,10 @@
                 ]
             },
             "weekday_display": "WEEKDAY in the week of Trinity 3",
-            "color": "green"
+            "color": "green",
+            "collect": "",
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "4th Sunday after Trinity Sunday",
@@ -1721,7 +1773,10 @@
                 ]
             },
             "weekday_display": "WEEKDAY in the week of Trinity 4",
-            "color": "green"
+            "color": "green",
+            "collect": "",
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "5th Sunday after Trinity Sunday",
@@ -1760,7 +1815,10 @@
                 ]
             },
             "weekday_display": "WEEKDAY in the week of Trinity 5",
-            "color": "green"
+            "color": "green",
+            "collect": "",
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "6th Sunday after Trinity Sunday",
@@ -1799,7 +1857,10 @@
                 ]
             },
             "weekday_display": "WEEKDAY in the week of Trinity 6",
-            "color": "green"
+            "color": "green",
+            "collect": "",
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "7th Sunday after Trinity Sunday",
@@ -1838,7 +1899,10 @@
                 ]
             },
             "weekday_display": "WEEKDAY in the week of Trinity 7",
-            "color": "green"
+            "color": "green",
+            "collect": "",
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "8th Sunday after Trinity Sunday",
@@ -1877,7 +1941,10 @@
                 ]
             },
             "weekday_display": "WEEKDAY in the week of Trinity 8",
-            "color": "green"
+            "color": "green",
+            "collect": "",
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "9th Sunday after Trinity Sunday",
@@ -1916,7 +1983,10 @@
                 ]
             },
             "weekday_display": "WEEKDAY in the week of Trinity 9",
-            "color": "green"
+            "color": "green",
+            "collect": "",
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "10th Sunday after Trinity Sunday",
@@ -1955,7 +2025,10 @@
                 ]
             },
             "weekday_display": "WEEKDAY in the week of Trinity 10",
-            "color": "green"
+            "color": "green",
+            "collect": "",
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "11th Sunday after Trinity Sunday",
@@ -1970,7 +2043,7 @@
             "weekday_readings": {
                 "monday": [
                     "Ephesians 6:18-24",
-                    "1 Kings 16:29 – 17:24"
+                    "1 Kings 16:29 \u2013 17:24"
                 ],
                 "tuesday": [
                     "Philippians 1:12-2:4",
@@ -1994,7 +2067,10 @@
                 ]
             },
             "weekday_display": "WEEKDAY in the week of Trinity 11",
-            "color": "green"
+            "color": "green",
+            "collect": "",
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "12th Sunday after Trinity Sunday",
@@ -2012,7 +2088,7 @@
                     "2 Kings 4:1-44"
                 ],
                 "tuesday": [
-                    "Colossians 3:18 – 4:18",
+                    "Colossians 3:18 \u2013 4:18",
                     "2 Kings 5:1-27"
                 ],
                 "wednesday": [
@@ -2021,7 +2097,7 @@
                 ],
                 "thursday": [
                     "1 Thessalonians 2:1-20",
-                    "2 Kings 6:24 – 7:20"
+                    "2 Kings 6:24 \u2013 7:20"
                 ],
                 "friday": [
                     "1 Thessalonians 3:1-13",
@@ -2033,7 +2109,10 @@
                 ]
             },
             "weekday_display": "WEEKDAY in the week of Trinity 12",
-            "color": "green"
+            "color": "green",
+            "collect": "",
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "13th Sunday after Trinity Sunday",
@@ -2072,7 +2151,10 @@
                 ]
             },
             "weekday_display": "WEEKDAY in the week of Trinity 13",
-            "color": "green"
+            "color": "green",
+            "collect": "",
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "14th Sunday after Trinity Sunday",
@@ -2106,12 +2188,15 @@
                     "2 Kings 18:1-37"
                 ],
                 "saturday": [
-                    "Titus 2:15 – 3:3",
+                    "Titus 2:15 \u2013 3:3",
                     "2 Kings 19:1-37"
                 ]
             },
             "weekday_display": "WEEKDAY in the week of Trinity 14",
-            "color": "green"
+            "color": "green",
+            "collect": "",
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "15th Sunday after Trinity Sunday",
@@ -2137,8 +2222,8 @@
                     "2 Chronicles 34:1-33"
                 ],
                 "thursday": [
-                    "Hebrews 2:5 – 3:6",
-                    "2 Chronicles 35:20 – 36:10"
+                    "Hebrews 2:5 \u2013 3:6",
+                    "2 Chronicles 35:20 \u2013 36:10"
                 ],
                 "friday": [
                     "Hebrews 4:14-5:14",
@@ -2150,7 +2235,10 @@
                 ]
             },
             "weekday_display": "WEEKDAY in the week of Trinity 15",
-            "color": "green"
+            "color": "green",
+            "collect": "",
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "16th Sunday after Trinity Sunday",
@@ -2189,7 +2277,10 @@
                 ]
             },
             "weekday_display": "WEEKDAY in the week of Trinity 16",
-            "color": "green"
+            "color": "green",
+            "collect": "",
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "17th Sunday after Trinity Sunday",
@@ -2228,7 +2319,10 @@
                 ]
             },
             "weekday_display": "WEEKDAY in the week of Trinity 12",
-            "color": "green"
+            "color": "green",
+            "collect": "",
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "18th Sunday after Trinity Sunday",
@@ -2267,7 +2361,10 @@
                 ]
             },
             "weekday_display": "WEEKDAY in the week of Trinity 18",
-            "color": "green"
+            "color": "green",
+            "collect": "",
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "19th Sunday after Trinity Sunday",
@@ -2306,7 +2403,10 @@
                 ]
             },
             "weekday_display": "WEEKDAY in the week of Trinity 19",
-            "color": "green"
+            "color": "green",
+            "collect": "",
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "20th Sunday after Trinity Sunday",
@@ -2345,7 +2445,10 @@
                 ]
             },
             "weekday_display": "WEEKDAY in the week of Trinity 20",
-            "color": "green"
+            "color": "green",
+            "collect": "",
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "21st Sunday after Trinity Sunday",
@@ -2384,7 +2487,10 @@
                 ]
             },
             "weekday_display": "WEEKDAY in the week of Trinity 21",
-            "color": "green"
+            "color": "green",
+            "collect": "",
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "22nd Sunday after Trinity Sunday",
@@ -2399,7 +2505,7 @@
             "weekday_readings": {
                 "monday": [
                     "Matthew 18:1-22",
-                    "Micah 4:9 – 5:1"
+                    "Micah 4:9 \u2013 5:1"
                 ],
                 "tuesday": [
                     "Mark 9:33-50",
@@ -2423,7 +2529,10 @@
                 ]
             },
             "weekday_display": "WEEKDAY in the week of Trinity 22",
-            "color": "green"
+            "color": "green",
+            "collect": "",
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "23rd Sunday after Trinity Sunday",
@@ -2462,7 +2571,10 @@
                 ]
             },
             "weekday_display": "WEEKDAY in the week of Trinity 23",
-            "color": "green"
+            "color": "green",
+            "collect": "",
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "24th Sunday after Trinity Sunday",
@@ -2480,7 +2592,7 @@
                     "Isaiah 13:1-22"
                 ],
                 "tuesday": [
-                    "2 Thessalonians 1:11 – 2:17",
+                    "2 Thessalonians 1:11 \u2013 2:17",
                     "Isaiah 14:1-27"
                 ],
                 "wednesday": [
@@ -2501,7 +2613,10 @@
                 ]
             },
             "weekday_display": "WEEKDAY in the week of Trinity 24",
-            "color": "green"
+            "color": "green",
+            "collect": "",
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "Third to Last Sunday of the Church Year",
@@ -2516,7 +2631,7 @@
             "weekday_readings": {
                 "monday": [
                     "Matthew 24:29-51",
-                    "Daniel 11:36 – 12:13"
+                    "Daniel 11:36 \u2013 12:13"
                 ],
                 "tuesday": [
                     "Matthew 22:23-33",
@@ -2527,7 +2642,7 @@
                     "Ezekiel 39:1-29"
                 ],
                 "thursday": [
-                    "Hebrews 3:7 – 4:13",
+                    "Hebrews 3:7 \u2013 4:13",
                     "Isaiah 43:14-25"
                 ],
                 "friday": [
@@ -2540,7 +2655,10 @@
                 ]
             },
             "weekday_display": "WEEKDAY in the week of Trinity 25",
-            "color": "green"
+            "color": "green",
+            "collect": "",
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "Second to Last Sunday of the Church Year",
@@ -2558,7 +2676,7 @@
                     "Zephaniah 3:9-20"
                 ],
                 "tuesday": [
-                    "1 Peter 1:13 – 2:10",
+                    "1 Peter 1:13 \u2013 2:10",
                     "Isaiah 34:1-17"
                 ],
                 "wednesday": [
@@ -2579,7 +2697,10 @@
                 ]
             },
             "weekday_display": "WEEKDAY in the week of Trinity 26",
-            "color": "green"
+            "color": "green",
+            "collect": "",
+            "introit": "",
+            "gradual": ""
         },
         {
             "display": "Last Sunday of the Church Year",
@@ -2617,7 +2738,10 @@
                 ]
             },
             "weekday_display": "WEEKDAY in the last week of the Church Year",
-            "color": "green"
+            "color": "green",
+            "collect": "",
+            "introit": "",
+            "gradual": ""
         }
     ]
 }
