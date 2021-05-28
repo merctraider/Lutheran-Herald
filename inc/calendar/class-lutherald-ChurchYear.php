@@ -99,6 +99,17 @@ class ChurchYear{
                 $sunday_entry['readings'][0] = $week['sunday_readings']['epistle']; 
                 $sunday_entry['readings'][1] = $week['sunday_readings']['gospel']; 
                 $sunday_entry['color'] = $week['color'];
+                
+                //Other stuff to look out for
+                $additional_params = ['introit', 'collect', 'gradual'];
+
+                //Check if there is an entry for the additional parameters and include it 
+                foreach($additional_params as $a){
+                    if(\strlen($week[$a]) > 5){
+                        $sunday_entry[$a] = $week[$a];
+                    }
+                }               
+
                 $season_to_modify->register_day( $date_display, $sunday_entry);
 
                 //Register the weekdays
@@ -110,12 +121,17 @@ class ChurchYear{
                         $weekday_date = $start_date->modify('+1 days'); 
                         $weekday_date = $weekday_date->format('Y-m-d');
 
-                        $weekday_name = \ucfirst($key);
+                        $weekday_name = date('l',strtotime($weekday_date));
                         $weekday_entry = [];
 
                         $weekday_entry['display'] = \str_replace('WEEKDAY', $weekday_name, $week['weekday_display']);
                         $weekday_entry['readings'] = $weekday;
                         $weekday_entry['color'] = $week['color'];
+
+                        //If the collect is aite, include it
+                        if(\strlen($week['collect']) > 5){
+                            $weekday_entry['collect'] = $week['collect'];
+                        }
 
                         $season_to_modify->register_day($weekday_date, $weekday_entry);
                     }

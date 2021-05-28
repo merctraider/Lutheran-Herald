@@ -59,14 +59,33 @@ class Widget_Readings extends \WP_Widget
         echo "<$display_header>$title</$display_header>";
         echo '<span class=' . $color . '>' . 'Liturgical Color: ' . \ucfirst($color) . '</span>';
 
+        //Introit
+        if(array_key_exists('introit', $day_info)){
+            $introit = $day_info['introit'];
+            echo "<$readings_tag>Introit</$readings_tag>";
+            echo "<div>$introit</div>";
+        }
+
         echo "<$readings_tag>First Reading: $first_reading</$readings_tag>";
         if ($display_verse) {
             echo '<p>' . BibleGateway::get_verse($first_reading) . '</p>';
         }
 
+        if(array_key_exists('gradual', $day_info)){
+            $gradual = $day_info['gradual'];
+            echo "<$readings_tag>Gradual</$readings_tag>";
+            echo "<div>$gradual</div>";
+        }
+
         echo "<$readings_tag>Second Reading: $second_reading</$readings_tag>";
         if ($display_verse) {
             echo '<p>' . BibleGateway::get_verse($second_reading) . '</p>';
+        }
+
+        if(array_key_exists('collect', $day_info)){
+            $collect = $day_info['collect']; 
+            echo "<$readings_tag>Collect</$readings_tag>";
+            echo "<p>$collect</p>";
         }
 
         if ($display_devotions) {
