@@ -9,6 +9,10 @@ class Core{
         require_once plugin_dir_path(__FILE__) . 'class-Field.php';
         add_action('wp_enqueue_scripts',array(__CLASS__,'enqueue'));
         add_action('widgets_init', array(__CLASS__, 'widgets_init'));
+
+        if(is_admin()){
+            
+        }
     }
 
     // Register all the widgets 
