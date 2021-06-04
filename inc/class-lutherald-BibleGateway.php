@@ -18,15 +18,14 @@ class BibleGateway{
 
     public static function get_verse($lookup){
         $lookup = \urlencode($lookup);
-        
+        $psalm = false; 
+
+        if(strpos($lookup, 'Psalm') !== false){
+            $psalm = true; 
+        }
+
         $ver = self::$version;
         $url = "http://www.biblegateway.com/passage/?search=$lookup&version=$ver";
-        /*
-        $content = self::fetch_url($url);
-        if (preg_match('/<meta property="og:description" content="([^\/]+)"/', $content, $matches)){
-            $verse = $matches[1];
-            return $verse;
-        }*/
         require_once  dirname(__FILE__) .'/simple_html_dom.php';
         $content = file_get_html($url);
         $output = '';
@@ -36,7 +35,12 @@ class BibleGateway{
                 $footnote->innertext = '';
             }
 
-            $output .= $verse->plaintext;
+            if($psalm){
+                $output .= '<p>' . $verse->plaintext . '</p>';
+            } else {
+                $output .= $verse->plaintext;
+            }
+            
         }
         return $output;
         

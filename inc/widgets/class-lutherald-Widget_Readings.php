@@ -57,15 +57,24 @@ class Widget_Readings extends \WP_Widget
         }
 
         echo "<$display_header>$title</$display_header>";
-        echo '<span class=' . $color . '>' . 'Liturgical Color: ' . \ucfirst($color) . '</span>';
+        echo '<p><span class=' . $color . '>' . 'Liturgical Color: ' . \ucfirst($color) . '</span></p>';
 
         //Introit
         if(array_key_exists('introit', $day_info)){
             $introit = $day_info['introit'];
             echo "<$readings_tag>Introit</$readings_tag>";
             echo "<div>$introit</div>";
+        } else if (array_key_exists('daily_psalter', $day_info)){
+            $daily_psalter = $day_info['daily_psalter']; 
+            
+           
+            //Get the daily psalm reading
+            $this->render_psalms($daily_psalter, $readings_tag);
+
         }
 
+
+        //First Reading
         echo "<$readings_tag>First Reading: $first_reading</$readings_tag>";
         if ($display_verse) {
             echo '<p>' . BibleGateway::get_verse($first_reading) . '</p>';
@@ -73,12 +82,14 @@ class Widget_Readings extends \WP_Widget
             echo '<p data-bible="'. $first_reading . '">Loading verse...</p>';
         }
 
+        //Gradual, usually on Sundays or on Feasts
         if(array_key_exists('gradual', $day_info)){
             $gradual = $day_info['gradual'];
             echo "<$readings_tag>Gradual</$readings_tag>";
             echo "<div>$gradual</div>";
         }
 
+        //Second Reading
         echo "<$readings_tag>Second Reading: $second_reading</$readings_tag>";
         if ($display_verse) {
             echo '<p>' . BibleGateway::get_verse($second_reading) . '</p>';
@@ -86,12 +97,14 @@ class Widget_Readings extends \WP_Widget
             echo '<p data-bible="'. $second_reading . '">Loading verse...</p>';
         }
 
+        //Collect
         if(array_key_exists('collect', $day_info)){
             $collect = $day_info['collect']; 
             echo "<$readings_tag>Collect</$readings_tag>";
             echo "<p>$collect</p>";
         }
 
+        //Lutheran Herald stuff
         if ($display_devotions) {
             echo "<$readings_tag>Devotion from the Lutheran Herald</$readings_tag>";
             echo '<div data-date="'. $current_date->format('Y-m-d'). '">The Devotion readings for today are not out yet. Check back later.</div>';
@@ -106,12 +119,44 @@ class Widget_Readings extends \WP_Widget
         echo '</div>';
     }
 
+    public function render_psalms($array, $readings_tag){
+        echo "<$readings_tag>Psalms</$readings_tag>";
+        echo '<div id="psalter-selection">';
+        //matins
+        echo '<p> <strong>Matins: </strong>';
+        foreach($array['morning'] as $psalm){
+            //If it's just a number, add to it
+            if(\is_numeric($psalm)){
+                $psalm = "Psalm $psalm";
+                //Create button 
+                echo '<a href="#">' . $psalm . '</a> ';
+            }
+        }
+        echo '</p>';
+
+        //vespers
+        echo '<p> <strong>Vespers: </strong>';
+        foreach($array['evening'] as $psalm){
+            //If it's just a number, add to it
+            if(\is_numeric($psalm)){
+                $psalm = "Psalm $psalm";
+                //Create button 
+                echo '<a href="#">' . $psalm . '</a> ';
+            }
+        }
+        echo '</p>';
+
+        echo '</div>';
+
+        echo '<div id="psalm-display"><p>Select a Psalm.</p></div>';
+    }
+
     public function get_day_info($current_date)
     {
 
         $date_string = $current_date->format('Y-m-d');
 
-        $cache_path = dirname(__FILE__) . '/cache.json';
+        /*$cache_path = dirname(__FILE__) . '/cache.json';
 
         $cached_array = [];
         if (file_exists($cache_path)) {
@@ -121,19 +166,21 @@ class Widget_Readings extends \WP_Widget
                 $day_info = $cached_array[$date_string];
                 return $day_info;
             }
-        }
+        }*/
 
 
         //Create a new Church Year 
         $calendar_to_use = ChurchYear::create_church_year($current_date);
         $day_info = $calendar_to_use->retrieve_day_info($current_date);
-
+        if(!array_key_exists('introit', $day_info)){
+            $day_info['daily_psalter'] = $calendar_to_use->get_monthly_psalter($current_date);
+        }
         //Cache it
-        $cache_file_handler = fopen($cache_path, 'w');
+        /*$cache_file_handler = fopen($cache_path, 'w');
         $cached_array[$date_string] = $day_info;
         $json = json_encode($cached_array);
         fwrite($cache_file_handler, $json);
-        fclose($cache_file_handler);
+        fclose($cache_file_handler);*/
 
         return $day_info;
     }

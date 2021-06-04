@@ -157,7 +157,27 @@ class ChurchYear{
         return $seasons[$season_of_day]->get_day($date->format('Y-m-d'));
     }
 
+    /**
+     * Get the Psalm appointed for the day from the 31 day psalter
+     * @param DateTime $date The date. 
+     * @return array
+     *
+    */
+    public function get_monthly_psalter($date){
+        if(\is_string($date)){
+            $date = new \DateTime($date);
+        }
+        $day = $date->format('d');
 
+        //Open the json file
+        $json = file_get_contents(dirname(__FILE__) ."/monthly_psalter.json");
+        $psalter = json_decode($json, true);
+
+        if(\is_string($day)){
+            $day = (int)$day;
+        }
+        return $psalter[$day];
+    }
     
 
     public function find_season($date){

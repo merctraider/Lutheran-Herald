@@ -1,5 +1,6 @@
 var biblegateway;
 var lutherald; 
+var psalter; 
 
 jQuery(document).ready(function () {
     biblegateway = new BibleGateway('NKJV');
@@ -7,7 +8,27 @@ jQuery(document).ready(function () {
 
     lutherald = new LutheranHerald(jQuery('[data-date]').attr('data-date')); 
     lutherald.getDevotions(); 
+
+    psalter = new Psalter();
+    psalter.bind(); 
 });
+
+class Psalter{
+    constructor(){
+        
+    }
+
+    bind(){
+        jQuery('#psalter-selection a').click(function(event){
+            event.preventDefault();
+            //Get the psalm value
+            var psalm = jQuery(this).html();
+
+            jQuery('#psalm-display').html('<h4>'+psalm+'</h4><p data-bible="'+psalm + '">Loading Psalm...</p>');
+            biblegateway.getVerse(psalm);
+        });
+    }
+}
 
 class BibleGateway {
 
