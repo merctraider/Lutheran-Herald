@@ -24,6 +24,7 @@ class Widget_Readings extends \WP_Widget
     //Front end
     public function widget($args, $instance)
     {
+        wp_enqueue_script('bibleretriever', LUTHERALD_PLUGIN_URL  . 'inc/js/bibleretriever.js', ['jquery']);
         //Widget settings 
         $display_header = isset($instance['display_header']) ? $instance['display_header'] : 'h2';
         $readings_tag = isset($instance['readings_tag']) ? $instance['readings_tag'] : 'h3';
