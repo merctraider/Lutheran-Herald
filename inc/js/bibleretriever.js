@@ -23,8 +23,8 @@ class Psalter{
             event.preventDefault();
             //Get the psalm value
             var psalm = jQuery(this).html();
-
-            jQuery('#psalm-display').html('<h4>'+psalm+'</h4><p data-bible="'+psalm + '">Loading Psalm...</p>');
+            jQuery('#psalter-title').html(psalm);
+            jQuery('#psalm-display').html('<p data-bible="'+psalm + '">Loading Psalm...</p>');
             biblegateway.getVerse(psalm);
         });
     }
