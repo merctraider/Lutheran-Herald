@@ -56,7 +56,7 @@ class Widget_Readings extends \WP_Widget
             $this->draw_pagination($current_date);
         }
 
-        echo "<$display_header id='psalter-title'>$title</$display_header>";
+        echo "<$display_header>$title</$display_header>";
         echo '<p><span class=' . $color . '>' . 'Liturgical Color: ' . \ucfirst($color) . '</span></p>';
 
         //Introit
@@ -120,7 +120,7 @@ class Widget_Readings extends \WP_Widget
     }
 
     public function render_psalms($array, $readings_tag){
-        echo "<$readings_tag>Psalms</$readings_tag>";
+        echo "<$readings_tag" . ' id="psalter-title"'. ">Psalms</$readings_tag>";
         echo '<div id="psalter-selection">';
         //matins
         echo '<p> <strong>Matins: </strong>';

@@ -36,7 +36,7 @@ class BibleGateway{
             }
 
             if($psalm){
-                $output .= '<p>' . $verse->plaintext . '</p>';
+                $output .= $verse;
             } else {
                 $output .= $verse->plaintext;
             }
