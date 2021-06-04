@@ -1,6 +1,5 @@
 <?php
 namespace Lutherald;
-if(!defined('ABSPATH')) wp_die('Cannot access this file directly.');
 
 class BibleGateway{
 
@@ -28,7 +27,7 @@ class BibleGateway{
             $verse = $matches[1];
             return $verse;
         }*/
-        require_once  plugin_dir_path(__FILE__) .'simple_html_dom.php';
+        require_once  dirname(__FILE__) .'/simple_html_dom.php';
         $content = file_get_html($url);
         $output = '';
         $passage_html = $content->find('div.passage-text', 0);

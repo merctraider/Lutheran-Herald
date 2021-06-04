@@ -24,6 +24,7 @@ class Widget_Readings extends \WP_Widget
     //Front end
     public function widget($args, $instance)
     {
+        
         wp_enqueue_script('bibleretriever', LUTHERALD_PLUGIN_URL  . 'inc/js/bibleretriever.js', ['jquery']);
         //Widget settings 
         $display_header = isset($instance['display_header']) ? $instance['display_header'] : 'h2';
@@ -31,8 +32,6 @@ class Widget_Readings extends \WP_Widget
         $display_verse = isset($instance['display_verse']) ? $instance['display_verse'] : true;
         $display_devotions = isset($instance['display_devotions']) ? $instance['display_devotions'] : false;
         $pagination_position = isset($instance['pagination_position']) ? $instance['pagination_position'] : 'bottom';
-
-
 
         //determine which calendar to use
         $current_date = new \DateTime('now');
@@ -44,7 +43,7 @@ class Widget_Readings extends \WP_Widget
                 echo "Invalid date. Showing today's readings instead.";
             }
         }
-
+        
         $day_info = $this->get_day_info($current_date);
 
         $title = $day_info['display'];
@@ -70,6 +69,8 @@ class Widget_Readings extends \WP_Widget
         echo "<$readings_tag>First Reading: $first_reading</$readings_tag>";
         if ($display_verse) {
             echo '<p>' . BibleGateway::get_verse($first_reading) . '</p>';
+        } else {
+            echo '<p data-bible="'. $first_reading . '">Loading verse...</p>';
         }
 
         if(array_key_exists('gradual', $day_info)){
@@ -81,6 +82,8 @@ class Widget_Readings extends \WP_Widget
         echo "<$readings_tag>Second Reading: $second_reading</$readings_tag>";
         if ($display_verse) {
             echo '<p>' . BibleGateway::get_verse($second_reading) . '</p>';
+        } else {
+            echo '<p data-bible="'. $second_reading . '">Loading verse...</p>';
         }
 
         if(array_key_exists('collect', $day_info)){
@@ -90,11 +93,8 @@ class Widget_Readings extends \WP_Widget
         }
 
         if ($display_devotions) {
-            $devotions = BibleGateway::get_devotions($current_date);
-            if ($devotions != false) {
-                echo "<$readings_tag>Devotion from the Lutheran Herald</$readings_tag>";
-                echo "<div>$devotions</div>";
-            }
+            echo "<$readings_tag>Devotion from the Lutheran Herald</$readings_tag>";
+            echo '<div data-date="'. $current_date->format('Y-m-d'). '">The Devotion readings for today are not out yet. Check back later.</div>';
         }
         if(BibleGateway::$version === 'NKJV'){
             echo '<p><i>Scripture taken from the New King James Version®. Copyright © 1982 by Thomas Nelson. Used by permission. All rights reserved.</i></p>';
@@ -177,7 +177,7 @@ class Widget_Readings extends \WP_Widget
         $readings_tag_field->draw_dropdown($heading_level_args);
 
         $display_verse = isset($instance['display_verse']) ? $instance['display_verse'] : true;
-        $display_verse_field = new \Field($this->get_field_name('display_verse'), 'Display Bible Verses?', $display_verse);
+        $display_verse_field = new \Field($this->get_field_name('display_verse'), 'Load Bible Verses syncronously?', $display_verse);
         $display_verse_field->draw_checkbox();
 
         $display_devotions = isset($instance['display_devotions']) ? $instance['display_devotions'] : false;
