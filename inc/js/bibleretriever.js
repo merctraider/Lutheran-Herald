@@ -2,6 +2,8 @@ var biblegateway;
 var lutherald; 
 var psalter; 
 
+var testerinoss; 
+
 jQuery(document).ready(function () {
     biblegateway = new BibleGateway('NKJV');
     biblegateway.loadAllVerses();
@@ -73,7 +75,8 @@ class LutheranHerald {
 
     getDevotions() {
         var date = this.date;
-        jQuery.getJSON(this.getURL(date), function (data) {
+        var url = this.getURL(date);
+        jQuery.getJSON(url, function (data) {
             if (data.length < 1) { 
                 console.log('No devotions found');
                 return;
@@ -84,7 +87,7 @@ class LutheranHerald {
                 entrydate = entrydate.split('T')[0];
 
                 if(entrydate == date){
-                    LutheranHerald.renderDevotions(val['content']['rendered']);         
+                    LutheranHerald.renderDevotions(val['content']['rendered'], val['link']);         
                 } else {
                     console.log(val);
                 }
@@ -94,23 +97,44 @@ class LutheranHerald {
         });
     }
 
-    static renderDevotions(content){
+    static renderDevotions(content, url){
         var elements = jQuery(content);
-        var header = jQuery('div._1mf strong:first', elements); 
+        var header = jQuery('strong:first', elements);
+        
         var output = '<i>' +header.html() + '</i>';
 
         //Split the content
         var devotionalContent = content.split('<strong>Devotion</strong>')[1];
         var jDContent = jQuery(devotionalContent);
         var paragraphs = jQuery('div._1mf span', jDContent); 
+        
+        if(paragraphs.length === 0){
+            jDContent.each(function(index){
+                if(this.length > 0){
+                    console.log(this);
+                } else {
+                    var p = this.innerHTML; 
+                    if(!p.includes('Scripture taken from the New King James')){
+                        output += "<p>" + this.innerHTML + "</p>";
+                    }
+                    
+                }
+            })
 
-        jQuery.each(paragraphs, function(i, c){
-            var content = jQuery(c).html();
-            if(content.length > 6){
-                output += '<p>' + content + '</p>'; 
+
+        } else{
+            jQuery.each(paragraphs, function(i, c){
+            var para = jQuery(c).html();
+            if(para.length > 6){
+                output += '<p>' + para + '</p>'; 
+            } else{
+                console.log(para);
             }
             
         });
+        }
+
+        output += '<a href="'+ url + '" target="_blank">' + "Read more </a>" ;
         jQuery('[data-date]').html(output);
     }
 
