@@ -130,7 +130,11 @@ class Widget_Readings extends \WP_Widget
                 $psalm = "Psalm $psalm";
                 //Create button 
                 echo '<a href="#">' . $psalm . '</a> ';
+                continue;
             }
+            $psalm = $psalm; 
+            echo '<a href="#">' . $psalm . '</a> ';
+
         }
         echo '</p>';
 
@@ -142,7 +146,10 @@ class Widget_Readings extends \WP_Widget
                 $psalm = "Psalm $psalm";
                 //Create button 
                 echo '<a href="#">' . $psalm . '</a> ';
+                continue;
             }
+            $psalm = $psalm; 
+            echo '<a href="#">' . $psalm . '</a> ';
         }
         echo '</p>';
 
