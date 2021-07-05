@@ -239,7 +239,7 @@
     },
     {
         "display":"Martin Luther, Confessor and Doctor",
-        "date":"",
+        "date":"2-18",
         "rank": "Festival",
         "chief_hymn": "",
         "readings":{
@@ -252,60 +252,60 @@
         "gradual":"<p>|| The mouth of the righteous speaketh wisdom, and his tongue talketh of | judg- | ment:</p> <p><br></p> <p>The law of his God is in his heart; none of | his | steps | shall | slide.</p> <p>|| Hallelujah, Hallelujah, The people will tell of their | wis- | dom:</p> <p><br></p> <p>and the congregation will shew forth their praise. | Hal- | le- | lu- | jah.</p>"
     },
     {
-        "display":"",
-        "date":"",
+        "display":"St. Matthias, Apostle",
+        "date":"2-24",
         "rank": "Festival",
         "chief_hymn": "",
         "readings":{
-            "epistle":"",
-            "gospel":""
+            "epistle":"Acts 1:15-26",
+            "gospel":"Matthew 11:25-30"
         },
         "color": "white",
-        "collect":"",
-        "introit":"",
-        "gradual":""
+        "collect":"O Almighty God, Who by Thy Son Jesus Christ, didst give to Thy holy Apostles many excellent gifts, and commandest them earnestly to feed Thy flock: Make, we beseech Thee, all Pastors diligently to preach Thy holy Word, and the people obediently to follow the same, that they may receive the crown of everlasting glory; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever One God, world without end. Amen.",
+        "introit":"<p>Ant. I KNOW || Whom I have be- | liev- | ed:</p> <p>and am persuaded that He is able to keep that which I have committed unto Him | a- | gainst | that | day.</p> <p><br></p> <p>|| There is laid up for me a crown of | righteous- | ness:</p> <p>which the Lord, the righteous | Judge, | shall | give | me.</p> <p><br></p> <p>Psalm, O Lord, Thou hast searched me and | known | me:</p> <p>Thou knowest my downsitting and | mine | up- | ris- | ing.</p> <p><br></p> <p>GLO-RY || be to the Father and to the | Son | -:</p> <p>and to | the | Ho- | ly | Ghost.</p> <p>AS IT || was in the beginning, is now, and ever | shall | be:</p> <p>world with- | out | end. | A- | men. (Ant. Repeated.)</p>",
+        "gradual":"<p>|| Their sound went forth through all | the | earth:</p> <p>and their words to the | end | of | the | world.</p> <p>|| The heavens declare the glory of | God|-:</p> <p>and the firmament showeth | His | hand- | i- | work.</p> <p>|| Hallelujah. Hallelujah. I have chosen you out of | the | world:</p> <p>that ye should go and bring forth fruit, and your fruit should re-</p> <p>main. | Hal- | le- | lu- | jah.</p>"
     },
     {
-        "display":"",
-        "date":"",
+        "display":"St. Patrick, Bishop and Confessor",
+        "date":"3-17",
         "rank": "Festival",
         "chief_hymn": "",
         "readings":{
-            "epistle":"",
-            "gospel":""
+            "epistle":"Hebrews 7:23-27",
+            "gospel":"Matthew 25:14-23"
         },
         "color": "white",
-        "collect":"",
-        "introit":"",
-        "gradual":""
+        "collect":"O God, who didst call Patrick to preach the Gospel, grant to Thy servants steadfastness in the confession of the true faith that they would preach that unchanging Gospel in the midst of the darkness of this age, through Jesus Christ, Thy Son, our Lord, who liveth and reigneth with Thee and the Holy Ghost, ever One God, world without end. Amen.",
+        "introit":"<p>Ant. LET THY || priests be clothed with righteousness; and let Thy saints</p> <p>shout | for | joy :</p> <p>For Thy servant David&rsquo;s sake turn not away the face of | Thine | a- |</p> <p>noint- | ed.</p> <p>Psalm. || Lord, remember | Da- | vid:</p> <p>and all | his | a- | fflic- | tions.</p> <p>GLO-RY || be to the Father and to the | Son | -:</p> <p>and to | the | Ho- | ly | Ghost.</p> <p>AS IT || was in the beginning, is now, and ever | shall | be:</p> <p>world with- | out | end. | A- | men. (Ant. Repeated.)</p>",
+        "gradual":"<p>|| I will also clothe her priests with sal- | va- | tion:</p> <p>and her saints shall shout | a- | loud | for | joy.</p> <p>|| There will I make the horn of David | to | bud:</p> <p>I have ordained a lamp for | mine | a- | noint- | ed.</p> <p>|| Hallelujah. Hallelujah. The people will tell of their | wis- | dom:</p> <p>and the congregation will shew forth their praise. | Hal- | le- | lu- | jah.</p>"
     },
     {
-        "display":"",
-        "date":"",
+        "display":"St. Joseph, Spouse of the Blessed Virgin Mary and Guardian of our Lord",
+        "date":"3-19",
         "rank": "Festival",
         "chief_hymn": "",
         "readings":{
-            "epistle":"",
-            "gospel":""
+            "epistle":"Ecclesiasticus 45:1-6",
+            "gospel":"Matthew 1:18-21"
         },
         "color": "white",
-        "collect":"",
-        "introit":"",
-        "gradual":""
+        "collect":"O Lord, by the working of the Holy Spirit, Thou didst inspire in St. Joseph a quiet obedience to the Word, guide and direct us emulate such virtue in our life and conversation as shall glorify Thee in faithfulness day and night, through Jesus Christ, Thy Son, our Lord, who liveth and reigneth, ever One God, world without end. Amen.",
+        "introit":"<p>Ant. THE RIGHT- || eous shall flourish like the | palm | tree:</p> <p>he shail grow like a cedar | in | Leb- | a- | non.</p> <p><br></p> <p>|| Those that be planted in the house of the | Lord |-:</p> <p>shall flourish in the | courts | of | our | God.</p> <p><br></p> <p>Psalm. || It is a good thing to give thanks unto the | Lord] -:</p> <p>and to sing praises unto Thy | name, | 0 | Most | High,</p> <p><br></p> <p>GLO-RY || be to the Father and to the | Son |:</p> <p>and to | the | Ho- | ly | Ghost.</p> <p><br></p> <p>AS IT || was in the beginning, is now, and ever | shall | be:</p> <p>world with- |out | end. | A- | men. (Ant. Repeated.)</p> <p><br></p>",
+        "gradual":"<p>|| For Thou preventest him with the blessings of goodness, 0 | Lord |-:</p> <p>Thou settest a crown of pure | gold | on | his | head.</p> <p>|| He asked life of Thee, and Thou gavest | it | him:</p> <p>even length of days for ev- | er | and | ev- | er.</p> <p><br></p>"
     },
     {
-        "display":"",
-        "date":"",
+        "display":"Festival of the Annunciation",
+        "date":"3-25",
         "rank": "Festival",
         "chief_hymn": "",
         "readings":{
-            "epistle":"",
-            "gospel":""
+            "epistle":"Isaiah 7:10-16",
+            "gospel":"Luke 1:26-38"
         },
         "color": "white",
-        "collect":"",
-        "introit":"",
-        "gradual":""
+        "collect":"We beseech Thee, O Lord, pour Thy grace into our hearts; that as we have known the Incarnation of Thy Son Jesus Christ by the message of an an- gel, so by His Cross and Passion we may be brought unto the glory of His Resurrection; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever One God, world without end, Amen.",
+        "introit":"<p>Ant. ALL THE || rich among the people shall entreat Thy | fa- | vor:</p> <p><br></p> <p>she shall be brought unto the King in raiment | of | nee- | dle-| work.</p> <p>|| Her companions shall be brought unto | Thee | -:</p> <p><br></p> <p>with gladness | and | re- | joic- | ing.</p> <p>Psalm. || My heart is inditing a good | mat- | ter:</p> <p><br></p> <p>I speak of the things which I have made | touch- | ing | the | King.</p> <p>GLO-RY || be to the Father and to the | Son | -:</p> <p><br></p> <p>and to | the | Ho- | ly | Ghost.</p> <p>AS IT || was in the beginning, is now, and ever | shall | be:</p> <p><br></p> <p>world with- | out | end. | A- | men, (Ant, Repeated.)</p> <p><br></p>",
+        "gradual":"<p>|| Kings&rsquo; daughters were among thy honourable | wo- | men:</p> <p>upon thy right hand did stand the queen in | gold | of | O- | phir.</p> <p>|| The king&rsquo;s daughter is all glorious | with- | in:</p> <p>her clothing | is | of | wrought | gold.</p> <p>|| She shall be brought unto the king in raiment of | needle- | work:</p> <p>the virgins her companions that follow her shall be | brought | un- |</p> <p>to | thee.</p> <p><br></p>"
     },
     {
         "display":"",
