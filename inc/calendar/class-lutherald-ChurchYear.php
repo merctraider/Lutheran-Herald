@@ -178,6 +178,28 @@ class ChurchYear{
         }
         return $psalter[$day];
     }
+
+    /**
+     * Check if there is a feast
+     */
+    public function get_festival($date){
+        if(\is_string($date)){
+            $date = new \DateTime($date); 
+        }
+        $monthdate = $date->format('n-j'); 
+
+        
+        //Open the json file 
+        $json = file_get_contents(dirname(__FILE__) ."/specialfeasts.json");
+        $feasts = json_decode($json, true);
+        
+        foreach($feasts as $feast){
+            if($feast[ 'date' ] == $monthdate){
+                return $feast;
+            }
+        }
+        return false; 
+    }
     
 
     public function find_season($date){

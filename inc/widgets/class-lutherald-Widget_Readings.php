@@ -43,8 +43,12 @@ class Widget_Readings extends \WP_Widget
                 echo "Invalid date. Showing today's readings instead.";
             }
         }
-        
-        $day_info = $this->get_day_info($current_date);
+        //Create a new Church Year 
+        $calendar_to_use = ChurchYear::create_church_year($current_date);
+
+
+        $day_info = $this->get_day_info($current_date, $calendar_to_use);
+        echo '<script id="lection-data" type="application/json">' . \json_encode($day_info) . '</script>';
 
         $title = $day_info['display'];
 
@@ -56,10 +60,19 @@ class Widget_Readings extends \WP_Widget
             $this->draw_pagination($current_date);
         }
 
-        echo "<$display_header>$title</$display_header>";
-        echo '<p><span class=' . $color . '>' . 'Liturgical Color: ' . \ucfirst($color) . '</span></p>';
+        $feast_day = $calendar_to_use->get_festival($current_date);
+        
+        if( $feast_day != false){
+            echo '<p><script id="festival-data" type="application/json">' . \json_encode($feast_day) . '</script>';
+            echo '<a id="festival-loader" href="#">Load readings for '. $feast_day['display'] .'</a> </p>';
+        }
 
+        echo "<$display_header". ' id="display" ' .">$title</$display_header>";
+        
+        echo '<p><span class=' . $color . ' id="color">' . 'Liturgical Color: ' . \ucfirst($color) . '</span></p>';
+        
         //Introit
+        echo '<div id="introit">';
         if(array_key_exists('introit', $day_info)){
             $introit = $day_info['introit'];
             echo "<$readings_tag>Introit</$readings_tag>";
@@ -72,37 +85,46 @@ class Widget_Readings extends \WP_Widget
             $this->render_psalms($daily_psalter, $readings_tag);
 
         }
+        echo '</div>';
 
 
         //First Reading
+        echo '<div id="first-reading">';
         echo "<$readings_tag>First Reading: $first_reading</$readings_tag>";
         if ($display_verse) {
             echo '<p>' . BibleGateway::get_verse($first_reading) . '</p>';
         } else {
             echo '<p data-bible="'. $first_reading . '">Loading verse...</p>';
         }
-
+        echo '</div>';
+        
         //Gradual, usually on Sundays or on Feasts
+        echo '<div id="gradual">';
         if(array_key_exists('gradual', $day_info)){
             $gradual = $day_info['gradual'];
             echo "<$readings_tag>Gradual</$readings_tag>";
             echo "<div>$gradual</div>";
         }
+        echo '</div>';
 
         //Second Reading
+        echo '<div id="second-reading">';
         echo "<$readings_tag>Second Reading: $second_reading</$readings_tag>";
         if ($display_verse) {
             echo '<p>' . BibleGateway::get_verse($second_reading) . '</p>';
         } else {
             echo '<p data-bible="'. $second_reading . '">Loading verse...</p>';
         }
+        echo '</div>';
 
         //Collect
+        echo '<div id="collect">';
         if(array_key_exists('collect', $day_info)){
             $collect = $day_info['collect']; 
             echo "<$readings_tag>Collect</$readings_tag>";
             echo "<p>$collect</p>";
         }
+        echo '</div>';
 
         //Lutheran Herald stuff
         if ($display_devotions) {
@@ -158,7 +180,7 @@ class Widget_Readings extends \WP_Widget
         echo '<div id="psalm-display"><p>Select a Psalm.</p></div>';
     }
 
-    public function get_day_info($current_date)
+    public function get_day_info($current_date, $calendar_to_use)
     {
 
         $date_string = $current_date->format('Y-m-d');
@@ -176,8 +198,7 @@ class Widget_Readings extends \WP_Widget
         }*/
 
 
-        //Create a new Church Year 
-        $calendar_to_use = ChurchYear::create_church_year($current_date);
+        
         $day_info = $calendar_to_use->retrieve_day_info($current_date);
         if(!array_key_exists('introit', $day_info)){
             $day_info['daily_psalter'] = $calendar_to_use->get_monthly_psalter($current_date);
@@ -191,6 +212,7 @@ class Widget_Readings extends \WP_Widget
 
         return $day_info;
     }
+    
 
     public function draw_pagination($current_date)
     {

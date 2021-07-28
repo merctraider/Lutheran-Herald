@@ -1,8 +1,7 @@
 var biblegateway;
 var lutherald; 
 var psalter; 
-
-var testerinoss; 
+var festivals; 
 
 jQuery(document).ready(function () {
     biblegateway = new BibleGateway('NKJV');
@@ -13,6 +12,9 @@ jQuery(document).ready(function () {
 
     psalter = new Psalter();
     psalter.bind(); 
+
+    festivals = new Festivals();
+    festivals.init();
 });
 
 class Psalter{
@@ -144,3 +146,92 @@ class LutheranHerald {
     }
 }
 
+class Festivals{
+    constructor(){
+        
+    }
+
+    init(){
+        var loaderbutton = jQuery('#festival-loader');
+
+        this.state = 'default'; 
+        let that = this; 
+
+        if(loaderbutton.length){
+            loaderbutton.click(function(event){
+                event.preventDefault();
+
+                var lectionJSON = JSON.parse(document.getElementById('lection-data').textContent);
+                var festivalJSON = JSON.parse(document.getElementById('festival-data').textContent);
+                var json = lectionJSON;
+                var otherJSON = festivalJSON;
+                
+                //If default, button click will load feasts
+                if(that.state == 'default'){
+                    json = festivalJSON;
+                    otherJSON = lectionJSON;
+                    that.state = 'festival';
+                } else {
+                    that.state = 'default';
+                }
+                loaderbutton.html('Load readings for ' + otherJSON.display);
+                
+                Festivals.loadFeast(json);
+            });
+        }
+    }
+
+    static loadFeast(json){
+        console.log(json);
+        var display = json.display; 
+        var firstreading = json.readings['epistle'];
+        var secondreading = json.readings['gospel'];
+        var color = json.color;
+        var collect = json.collect; 
+        var introit = json.introit; 
+        var gradual = json.gradual; 
+
+        var lectionary = '.tlh-lectionary ';
+        //Change title 
+        jQuery(lectionary + '#display').html(display);
+
+        //Change color 
+        var colorElement = jQuery(lectionary + '#color');
+        colorElement.html('Liturgical Color: ' + Festivals.capitalizeFirst(color));
+        colorElement.removeClass();
+        colorElement.addClass(color);
+
+        var headerTag = jQuery(lectionary + '#first-reading').children().eq(0).prop('tagName');
+        headerTag = headerTag.toLowerCase();
+
+        //Set the readings
+        jQuery(lectionary + '#first-reading ' + headerTag).html('First Reading: ' + firstreading);
+        jQuery(lectionary + '#first-reading p').attr('data-bible', firstreading);
+        
+        jQuery(lectionary + '#second-reading ' + headerTag).html('Second Reading: ' + secondreading);
+        jQuery(lectionary + '#second-reading p').attr('data-bible', secondreading);
+
+        //Set the gradual
+        
+        jQuery(lectionary + '#gradual').html('<' + headerTag  +'>Gradual</' + headerTag +'>' + gradual); 
+
+        //Set the collect 
+        jQuery(lectionary + '#collect p').html(collect);
+        
+
+        //Set the introit 
+        jQuery(lectionary + '#introit').html('<' + headerTag + '>Introit</' +headerTag + '><div>' + introit + '</div>');
+        
+
+        biblegateway.loadAllVerses();
+    }
+    
+
+
+    static capitalizeFirst(str) {
+        return str.charAt(0).toUpperCase() + str.slice(1);
+    }
+      
+
+
+}
