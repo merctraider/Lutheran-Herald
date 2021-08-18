@@ -1,28 +1,28 @@
-.violet{
+.violet, .lectionary-table tr.violet{
     background-color: #CBAACB;
     color:black;
     font-weight: 600;
 }
 
-.red{
+.red, .lectionary-table tr.red{
     background-color: #FF968A;
     color:black;
     font-weight: 600;
 }
 
-.green{
+.green, .lectionary-table tr.green{
     background-color: #97C1A9;
     color:black;
     font-weight: 600;
 }
 
-.white{
+.white, .lectionary-table tr.white{
     background-color: white;
     color:black;
     font-weight: 600;
 }
 
-.black{
+.black, .lectionary-table tr.black{
     background-color: black;
     color:white;
     font-weight: 600;
@@ -41,4 +41,8 @@
 
 td.today{
     border: solid #0f5298;
+}
+
+.tlh-calendar td{
+    vertical-align: baseline;
 }

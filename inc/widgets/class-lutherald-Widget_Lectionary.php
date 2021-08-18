@@ -42,7 +42,7 @@ class Widget_Lectionary extends \WP_Widget{
         
         //Draw calendar
         ?>
-        <table>
+        <table class="lectionary-table">
             <tbody>
                 <tr>
                 <th>Date</th>

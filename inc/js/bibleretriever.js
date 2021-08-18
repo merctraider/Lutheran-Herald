@@ -157,6 +157,8 @@ class Festivals{
         this.state = 'default'; 
         let that = this; 
 
+        var introit = jQuery('.tlh-lectionary #introit').prop('outerHTML');
+
         if(loaderbutton.length){
             loaderbutton.click(function(event){
                 event.preventDefault();
@@ -176,16 +178,22 @@ class Festivals{
                 }
                 loaderbutton.html('Load readings for ' + otherJSON.display);
                 
-                Festivals.loadFeast(json);
+                Festivals.loadFeast(json, introit);
             });
         }
     }
 
-    static loadFeast(json){
+    static loadFeast(json, psalms){
         console.log(json);
         var display = json.display; 
         var firstreading = json.readings['epistle'];
         var secondreading = json.readings['gospel'];
+
+        if(!firstreading){
+            firstreading = json.readings[0]; 
+            secondreading = json.readings[1];
+        }
+
         var color = json.color;
         var collect = json.collect; 
         var introit = json.introit; 
@@ -203,24 +211,34 @@ class Festivals{
 
         var headerTag = jQuery(lectionary + '#first-reading').children().eq(0).prop('tagName');
         headerTag = headerTag.toLowerCase();
-
+        
         //Set the readings
         jQuery(lectionary + '#first-reading ' + headerTag).html('First Reading: ' + firstreading);
         jQuery(lectionary + '#first-reading p').attr('data-bible', firstreading);
-        
+
         jQuery(lectionary + '#second-reading ' + headerTag).html('Second Reading: ' + secondreading);
         jQuery(lectionary + '#second-reading p').attr('data-bible', secondreading);
 
         //Set the gradual
+        if(gradual){
+            jQuery(lectionary + '#gradual').html('<' + headerTag  +'>Gradual</' + headerTag +'>' + gradual); 
+        } else {
+            jQuery(lectionary + '#gradual').html('');
+        }
         
-        jQuery(lectionary + '#gradual').html('<' + headerTag  +'>Gradual</' + headerTag +'>' + gradual); 
 
         //Set the collect 
         jQuery(lectionary + '#collect p').html(collect);
         
 
         //Set the introit 
-        jQuery(lectionary + '#introit').html('<' + headerTag + '>Introit</' +headerTag + '><div>' + introit + '</div>');
+        if(introit){
+            jQuery(lectionary + '#introit').html('<' + headerTag + '>Introit</' +headerTag + '><div>' + introit + '</div>');
+        } else{
+            jQuery(lectionary + '#introit').html(psalms);
+            psalter.bind();
+        }
+        
         
 
         biblegateway.loadAllVerses();

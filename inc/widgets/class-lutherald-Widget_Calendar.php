@@ -82,6 +82,9 @@ class Widget_Calendar extends \WP_Widget
 
             $date = $current_date . '-' . $day;
             $day_info = $calendar_to_use->retrieve_day_info($date);
+            
+            $feast_day = $calendar_to_use->get_festival($date);
+
             $day_display = $day_info['display'];
             $color = $day_info['color'];
 
@@ -91,8 +94,11 @@ class Widget_Calendar extends \WP_Widget
                 $week .= '<td class="'.$color.'"><p>' . $day . '</p>';
             }
             //Cell contents
-            
-            $week .= '<a href="' . $entry_url . '?date=' . $date . '">' . $day_display . '</a>';
+            $week .= '<p><a href="' . $entry_url . '?date=' . $date . '">' . $day_display . '</a></p>';
+
+            if($feast_day != false){
+                $week .= '<p><a href='. $entry_url . '?date=' . $date . '>'  . $feast_day['display'] . '</a></p>';
+            }
 
             $week .= '</td>';
 
@@ -114,7 +120,7 @@ class Widget_Calendar extends \WP_Widget
         ?>
             <div class="container">
                 <h3><a href="?date=<?php echo $prev; ?>">&lt;</a> <?php echo $html_title; ?> <a href="?date=<?php echo $next; ?>">&gt;</a></h3>
-                <table class="table table-bordered">
+                <table class="table table-bordered tlh-calendar">
                     <tr>
                         <th>S</th>
                         <th>M</th>
