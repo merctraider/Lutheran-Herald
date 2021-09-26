@@ -7,6 +7,11 @@ class Core{
         require_once plugin_dir_path(__FILE__) . 'calendar/class-lutherald-ChurchYear.php';
         require_once plugin_dir_path(__FILE__) . 'class-lutherald-BibleGateway.php';
         require_once plugin_dir_path(__FILE__) . 'class-Field.php';
+
+        //Initialise shortcodes
+        require_once plugin_dir_path(__FILE__) . 'class-lutherald.Shortcodes.php';
+        Shortcodes::init(); 
+        
         add_action('wp_enqueue_scripts',array(__CLASS__,'enqueue'));
         add_action('widgets_init', array(__CLASS__, 'widgets_init'));
 
