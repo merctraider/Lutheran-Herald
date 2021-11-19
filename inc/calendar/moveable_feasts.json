@@ -219,8 +219,8 @@
             "introit": "<p>For unto us a Child is born, Unto us a Son is given; And the government will be upon His shoulder.<\/p> <p>And His name will be called Wonderful, Counselor, Mighty God, Everlasting Father, Prince of Peace. <\/p><p>O sing unto the lord a new song: for he hath done marvelous things.<\/p>",
             "gradual": "All the ends of the earth have seen the salvation of our God. <br><strong>Shout joyfully to the Lord, all the earth.<\/strong><br>The Lord has made known His salvation; <br><strong>His righteousness He has revealed in the sight of the nations.<\/strong>",
             "psalm": {
-                "matins": "Psalm 45",
-                "vespers": "Psalm 110"
+                "matins": ["Psalm 19", "Psalm 45", "Psalm 85"],
+                "vespers": ["Psalm 89","Psalm 110", "Psalm 132"]
             }
         },
         {
@@ -238,8 +238,8 @@
             "introit": "<p>For unto us a Child is born, Unto us a Son is given; And the government will be upon His shoulder.<\/p> <p>And His name will be called Wonderful, Counselor, Mighty God, Everlasting Father, Prince of Peace. <\/p><p>O sing unto the lord a new song: for he hath done marvelous things.<\/p>",
             "gradual": "Blessed is He that cometh in the name of the Lord: God is the Lord which hath showed us light. <br> This is the Lords doing: it is marvelous in our eyes. Hallelujah! Hallelujah! ",
             "psalm": {
-                "matins": "Psalm 85",
-                "vespers": "Psalm 132"
+                "matins": ["Psalm 19", "Psalm 45", "Psalm 85"],
+                "vespers": ["Psalm 89","Psalm 110", "Psalm 132"]
             }
         },
         {
@@ -255,8 +255,8 @@
             "color": "white",
             "collect": "Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
             "psalm": {
-                "matins": "Psalm 85",
-                "vespers": "Psalm 132"
+                "matins": ["Psalm 19", "Psalm 45", "Psalm 85"],
+                "vespers": ["Psalm 89","Psalm 110", "Psalm 132"]
             },
             "introit": "",
             "gradual": ""
@@ -274,8 +274,8 @@
             "color": "white",
             "collect": "Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
             "psalm": {
-                "matins": "Psalm 85",
-                "vespers": "Psalm 132"
+                "matins": ["Psalm 19", "Psalm 45", "Psalm 85"],
+                "vespers": ["Psalm 89","Psalm 110", "Psalm 132"]
             },
             "introit": "",
             "gradual": ""
@@ -293,8 +293,8 @@
             "color": "white",
             "collect": "Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
             "psalm": {
-                "matins": "Psalm 85",
-                "vespers": "Psalm 132"
+                "matins": ["Psalm 19", "Psalm 45", "Psalm 85"],
+                "vespers": ["Psalm 89","Psalm 110", "Psalm 132"]
             },
             "introit": "",
             "gradual": ""
@@ -312,8 +312,8 @@
             "color": "white",
             "collect": "Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
             "psalm": {
-                "matins": "Psalm 85",
-                "vespers": "Psalm 132"
+                "matins": ["Psalm 19", "Psalm 45", "Psalm 85"],
+                "vespers": ["Psalm 89","Psalm 110", "Psalm 132"]
             },
             "introit": "",
             "gradual": ""
@@ -331,8 +331,8 @@
             "color": "white",
             "collect": "Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
             "psalm": {
-                "matins": "Psalm 85",
-                "vespers": "Psalm 132"
+                "matins": ["Psalm 19", "Psalm 45", "Psalm 85"],
+                "vespers": ["Psalm 89","Psalm 110", "Psalm 132"]
             },
             "introit": "",
             "gradual": ""
@@ -350,8 +350,8 @@
             "color": "white",
             "collect": "Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
             "psalm": {
-                "matins": "Psalm 85",
-                "vespers": "Psalm 132"
+                "matins": ["Psalm 19", "Psalm 45", "Psalm 85"],
+                "vespers": ["Psalm 89","Psalm 110", "Psalm 132"]
             },
             "introit": "",
             "gradual": ""
@@ -369,8 +369,8 @@
             "color": "white",
             "collect": "Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
             "psalm": {
-                "matins": "Psalm 85",
-                "vespers": "Psalm 132"
+                "matins": ["Psalm 19", "Psalm 45", "Psalm 85"],
+                "vespers": ["Psalm 89","Psalm 110", "Psalm 132"]
             },
             "introit": "",
             "gradual": ""
@@ -388,8 +388,8 @@
             "color": "white",
             "collect": "Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
             "psalm": {
-                "matins": "Psalm 85",
-                "vespers": "Psalm 132"
+                "matins": ["Psalm 19", "Psalm 45", "Psalm 85"],
+                "vespers": ["Psalm 89","Psalm 110", "Psalm 132"]
             },
             "introit": "",
             "gradual": ""
@@ -407,8 +407,8 @@
             "color": "white",
             "collect": "Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
             "psalm": {
-                "matins": "Psalm 85",
-                "vespers": "Psalm 132"
+                "matins": ["Psalm 19", "Psalm 45", "Psalm 85"],
+                "vespers": ["Psalm 89","Psalm 110", "Psalm 132"]
             },
             "introit": "",
             "gradual": ""
@@ -426,8 +426,8 @@
             "color": "white",
             "collect": "Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
             "psalm": {
-                "matins": "Psalm 85",
-                "vespers": "Psalm 132"
+                "matins": ["Psalm 19", "Psalm 45", "Psalm 85"],
+                "vespers": ["Psalm 89","Psalm 110", "Psalm 132"]
             },
             "introit": "",
             "gradual": ""
@@ -447,7 +447,7 @@
             "introit": "<p>Thy testimonies are very sure: holiness becometh thine house, O Lord, forever. <\/p> <p>Thy throne is established of old: thou art from everlasting. <\/p> <p>The Lord reigneth, he is clothed with majesty: the Lord is clothed with strength, wherewith he hath girded himself. <\/p> <p>Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.<\/p>",
             "gradual": "Thou art fairer than the children of men: grace is poured into thy lips. My heart is inditing a good matter, I speak of the things which I have made touching the king: my tongue is the pen of a ready writer.",
             "psalm": {
-                "matins": "Psalm 121",
+                "matins": ["Psalm 121", "Psalm 72"],
                 "vespers": "Psalm 111"
             }
         },
@@ -466,8 +466,8 @@
             "introit": "<p>Thy testimonies are very sure: holiness becometh thine house, O Lord, forever. Thy throne is established of old: thou art from everlasting. The Lord reigneth, he is clothed with majesty: the Lord is clothed with strength, wherewith he hath girded himself. Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning is now, and ever shall be, world without end. Amen.",
             "gradual": "<p>Save us, O Lord our God, and gather us from among the Gentiles,<\/p> <p>To give thanks to Your holy name, to triumph in Your praise.<\/p> <p>|You, O Lord, are our Father; Our Redeemer<\/p> <p>From Everlasting is Your name.<\/p>",
             "psalm": {
-                "matins": "Psalm 122",
-                "vespers": "Psalm 90"
+                "matins": ["Psalm 122", "Psalm 72"],
+                "vespers": ["Psalm 90", "Psalm 115"]
             }
         }
     ],
