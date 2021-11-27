@@ -95,10 +95,10 @@ class Widget_Readings extends \WP_Widget
         }
 
         //Psalms div 
-        echo '<div>';
+        echo '<p>';
         //Get the psalm reading for the day with the assembled psalm
         $this->render_psalms($psalm_readings, $readings_tag);
-        echo '</div>';
+        echo '</p>';
 
 
         echo '</div>';
