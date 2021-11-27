@@ -43,10 +43,10 @@ class Widget_Readings extends \WP_Widget
                 echo "Invalid date. Showing today's readings instead.";
             }
         }
+
         //Create a new Church Year 
         $calendar_to_use = ChurchYear::create_church_year($current_date);
-
-
+       
         $day_info = $this->get_day_info($current_date, $calendar_to_use);
         echo '<script id="lection-data" type="application/json">' . \json_encode($day_info) . '</script>';
 
@@ -77,14 +77,25 @@ class Widget_Readings extends \WP_Widget
             $introit = $day_info['introit'];
             echo "<$readings_tag>Introit</$readings_tag>";
             echo "<div>$introit</div>";
-        } else if (array_key_exists('daily_psalter', $day_info)){
-            $daily_psalter = $day_info['daily_psalter']; 
-            
-           
-            //Get the daily psalm reading
-            $this->render_psalms($daily_psalter, $readings_tag);
+        } 
 
+        //Psalm readings
+        $psalm_readings =[];
+        
+        //Check for the appointed psalm for the week
+        if(array_key_exists('psalm', $day_info)){
+            $psalm_readings = $day_info['psalm'];
+            
         }
+
+        //Daily psalter
+        if (array_key_exists('daily_psalter', $day_info)){
+            $daily_psalter = $day_info['daily_psalter']; 
+            $psalm_readings = array_merge($psalm_readings, $daily_psalter);
+        }
+
+        //Get the psalm reading for the day with the assembled psalm
+        $this->render_psalms($psalm_readings, $readings_tag);
         echo '</div>';
 
 
@@ -144,40 +155,86 @@ class Widget_Readings extends \WP_Widget
     public function render_psalms($array, $readings_tag){
         echo "<$readings_tag" . ' id="psalter-title"'. ">Psalms</$readings_tag>";
         echo '<div id="psalter-selection">';
-        //matins
+        
+        //Matins
         echo '<p> <strong>Matins: </strong>';
-        foreach($array['morning'] as $psalm){
-            //If it's just a number, add to it
-            if(\is_numeric($psalm)){
-                $psalm = "Psalm $psalm";
-                //Create button 
-                echo '<a href="#">' . $psalm . '</a> ';
-                continue;
-            }
-            $psalm = $psalm; 
-            echo '<a href="#">' . $psalm . '</a> ';
 
+        //Weekly psalms
+        if(array_key_exists('matins', $array)){
+            echo '<b><em>';
+            $matin_psalm = $array['matins'];
+            //Check if there are multiple psalms 
+            if(is_array($matin_psalm))
+            {
+                foreach($matin_psalm as $psalm){
+                    echo '<a href="#">' . $psalm . '</a> ';
+                }
+            } else {
+                //Just output the appointed psalm
+                echo '<a href="#">' . $matin_psalm . '</a> ';
+
+            }
+            echo '</em></b>';
         }
+
+        //Daily psalms
+        if(array_key_exists('morning', $array)){
+            foreach($array['morning'] as $psalm){
+                //If it's just a number, add to it
+                if(\is_numeric($psalm)){
+                    $psalm = "Psalm $psalm";
+                    //Create button 
+                    echo '<a href="#">' . $psalm . '</a> ';
+                    continue;
+                }
+                $psalm = $psalm; 
+                echo '<a href="#">' . $psalm . '</a> ';
+    
+            }
+        }
+        
         echo '</p>';
 
-        //vespers
+        //Vespers
         echo '<p> <strong>Vespers: </strong>';
-        foreach($array['evening'] as $psalm){
-            //If it's just a number, add to it
-            if(\is_numeric($psalm)){
-                $psalm = "Psalm $psalm";
-                //Create button 
-                echo '<a href="#">' . $psalm . '</a> ';
-                continue;
+
+         //Weekly psalms
+         if(array_key_exists('vespers', $array)){
+            echo '<b><em>';
+            $vespers_psalm = $array['vespers'];
+            //Check if there are multiple psalms 
+            if(is_array($vespers_psalm))
+            {
+                foreach($vespers_psalm as $psalm){
+                    echo '<a href="#">' . $psalm . '</a> ';
+                }
+            } else {
+                //Just output the appointed psalm
+                echo '<a href="#">' . $vespers_psalm . '</a> ';
+
             }
-            $psalm = $psalm; 
-            echo '<a href="#">' . $psalm . '</a> ';
+            echo '</em></b>';
         }
+
+        if(array_key_exists('evening', $array)){
+            foreach($array['evening'] as $psalm){
+                //If it's just a number, add to it
+                if(\is_numeric($psalm)){
+                    $psalm = "Psalm $psalm";
+                    //Create button 
+                    echo '<a href="#">' . $psalm . '</a> ';
+                    continue;
+                }
+                $psalm = $psalm; 
+                echo '<a href="#">' . $psalm . '</a> ';
+            }
+        }
+        
         echo '</p>';
 
         echo '</div>';
 
-        echo '<div id="psalm-display"><p>Select a Psalm.</p></div>';
+        echo '<div id="psalm-display"><p></p></div>';
     }
 
     public function get_day_info($current_date, $calendar_to_use)

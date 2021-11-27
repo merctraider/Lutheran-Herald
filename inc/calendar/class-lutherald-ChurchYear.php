@@ -9,7 +9,7 @@ class ChurchYear{
     private $easter; 
 
     public static function create_church_year($current_date){
-
+        $current_date->setTime(0,0,0);
         //Create variables to work with
         if(\is_string($current_date)){
             $timestamp = strtotime($current_date . '-01');
@@ -22,6 +22,8 @@ class ChurchYear{
         $last_year = new ChurchYear($year - 1);
         $this_year = new ChurchYear($year);
         $calendar_to_use = null;
+
+        
 
         if ($last_year->find_season($current_date) != false) {
             $calendar_to_use = $last_year;
@@ -99,6 +101,10 @@ class ChurchYear{
                 $sunday_entry['readings'][0] = $week['sunday_readings']['epistle']; 
                 $sunday_entry['readings'][1] = $week['sunday_readings']['gospel']; 
                 $sunday_entry['color'] = $week['color'];
+                //Weekly Psalm
+                if(key_exists('psalm', $week)){
+                    $sunday_entry['psalm'] = $week['psalm'];
+                }
                 
                 //Other stuff to look out for
                 $additional_params = ['introit', 'collect', 'gradual'];
@@ -127,6 +133,12 @@ class ChurchYear{
                         $weekday_entry['display'] = \str_replace('WEEKDAY', $weekday_name, $week['weekday_display']);
                         $weekday_entry['readings'] = $weekday;
                         $weekday_entry['color'] = $week['color'];
+
+                        //Weekly Psalm
+                        if(key_exists('psalm', $week)){
+                            $weekday_entry['psalm'] = $week['psalm'];
+                        }
+                       
 
                         //If the collect is aite, include it
                         if(\strlen($week['collect']) > 5){
