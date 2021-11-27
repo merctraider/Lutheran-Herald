@@ -94,8 +94,13 @@ class Widget_Readings extends \WP_Widget
             $psalm_readings = array_merge($psalm_readings, $daily_psalter);
         }
 
+        //Psalms div 
+        echo '<div>';
         //Get the psalm reading for the day with the assembled psalm
         $this->render_psalms($psalm_readings, $readings_tag);
+        echo '</div>';
+
+
         echo '</div>';
 
 
@@ -153,7 +158,7 @@ class Widget_Readings extends \WP_Widget
     }
 
     public function render_psalms($array, $readings_tag){
-        echo "<$readings_tag" . ' id="psalter-title"'. ">Psalms</$readings_tag>";
+        echo "<$readings_tag" . ' id="psalter-title"'. ">Psalm Readings</$readings_tag>";
         echo '<div id="psalter-selection">';
         
         //Matins
