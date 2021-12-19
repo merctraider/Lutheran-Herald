@@ -1,0 +1,15 @@
+{
+    "TLH":{
+        "display": "The Lutheran Hymnal (1941)", 
+        "hymnary_code": "LH1941"
+    }, 
+    "ELHB":{
+        "display": "The Evangelical Lutheran Hymn-Book (1912)",
+        "hymnary_code": "ELHB1912"
+    },
+    "ELH":{
+        "display": "The Lutheran Hymnary (1913)",
+        "hymnary_code": "LHPN1913"
+    }
+
+}

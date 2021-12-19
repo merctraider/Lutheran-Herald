@@ -44,6 +44,10 @@
             "psalm": {
                 "matins": "Psalm 1",
                 "vespers": "Psalm 143"
+            },
+            "hymn":{
+                "hymnal":"TLH",
+                "index": 95
             }
         },
         {
