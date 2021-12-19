@@ -10,6 +10,10 @@
     "ELH":{
         "display": "The Lutheran Hymnary (1913)",
         "hymnary_code": "LHPN1913"
+    },
+    "ELHB1918":{
+        "display": "Evangelical Lutheran Hymn-book (1918)",
+        "hymnary_code": "ELHL1918"
     }
 
 }

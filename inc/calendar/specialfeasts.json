@@ -11,7 +11,11 @@
         "color": "red",
         "collect":"O Lord, we humbly implore Thee that as Thine Apostle Saint Andrew did heed the call of Thy Son Jesus Christ, Thou wouldst grant us Thy grace to serve Thee faithfully in our various vocations, through Jesus Christ, Thy Son, our Lord, who liveth and reigneth with Thee and the Holy Ghost, ever One God, world without end, Amen.",
         "introit":"Ant. I KNOW || Whom I have be- | liev- | ed: and am persuaded that He is able to keep that which 1 have com- mitted unto Him | a- | gainst | that | day. || There is laid up for me a crown of | righteous- | ness: which the Lord, the righteous | Judge, | shall | give | me. Psalm. O Lord, Thou hast searched me and | known | me: Thou knowest my downsitting and | mine | up- | ris- | ing. GLO-RY || be to the Father and to the | Son |-: and to | the | Ho- | ly | Ghost. AS IT || was in the beginning, is now, and ever | shall | be: world with- | out | end. | A- | men. (Ant. Repeated.)",
-        "gradual":"|| Their sound went forth through all | the | earth: and their words to the | end [ of | the | world. || The heavens declare the glory of | God|-: and the firmament showeth | His | hand- | i- | work. || Hallelujah. Hallelujah, I have chosen you out of | the | world: that ye should go and bring forth fruit, and your fruit should re- main. | Hal- | le- | lu- | jah."
+        "gradual":"|| Their sound went forth through all | the | earth: and their words to the | end [ of | the | world. || The heavens declare the glory of | God|-: and the firmament showeth | His | hand- | i- | work. || Hallelujah. Hallelujah, I have chosen you out of | the | world: that ye should go and bring forth fruit, and your fruit should re- main. | Hal- | le- | lu- | jah.",
+        "hymn":{
+            "hymnal":"TLH",
+            "index": 270
+        }
     },
     {
         "display":"St. Nicholas, Bishop and Confessor",
@@ -109,7 +113,11 @@
         "color": "white",
         "collect":"Merciful Lord, we beseech Thee to cast the bright beams of Thy light upon Thy Church, that it being instructed by the doctrine of the blessed Apos- tles, may so walk in the light of Thy truth, that it may at length attain tot he light of everlasting life; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever One God, world without end, Amen.",
         "introit":"Ant. I KNOW || Whom I have be- | liev- | ed: and am persuaded that He is able to keep that which I have com- mitted unto Him against that day. || There is laid up for me a crown of | righteous- | ness: which the Lord, the righteous Judge, shall give me. Psalm. O Lord, Thou hast searched me and | known | me: Thou knowest my downsitting and | mine | up- | ris- | ing. GLO-RY || be to the Father and to the | Son |-: and to | the | Ho- | ly | Ghost. AS IT || was in the beginning, is now, and ever | shall | be: world with- | out | end. | A- | men. (Ant. Repeated.)",
-        "gradual":"|| Their sound went forth through all | the | earth: and their words to the | end | of | the | world. || The heavens declare the glory of | God |-: and the firmament showeth | His | hand- | i- | work. || Hallelujah. Hallelujah. I have chosen you out of | the | world: that ye should go and bring forth fruit, and your fruit should re- main. | Hal- le- | lu- | jah."
+        "gradual":"|| Their sound went forth through all | the | earth: and their words to the | end | of | the | world. || The heavens declare the glory of | God |-: and the firmament showeth | His | hand- | i- | work. || Hallelujah. Hallelujah. I have chosen you out of | the | world: that ye should go and bring forth fruit, and your fruit should re- main. | Hal- le- | lu- | jah.",
+        "hymn":{
+            "hymnal":"TLH",
+            "index": 271
+        }
     }, 
     {
         "display":"Festival of the Holy Innocents",
@@ -123,7 +131,11 @@
         "color": "white",
         "collect":"O God, whose praise the martyred Innocents confessed, not by speaking, but by dying: destroy in us all wickedness, that our life may proclaim the faith in word and deed, through Jesus Christ, Thy Son, our Lord, who liveth and reigneth, ever One God, world without end. Amen.",
         "introit":"Ant. OUT OF || the mouth of babes and sucklings hast thou ordained strength because of thine | ene- | mies: that thou mightest still the enemy and | the | a- | veng- | er. Psalm. || O Lord, our Lord, how excellent is thy name in all | the | earth: who hast set thy glory a- | bove | the | heav- | ens. GLO-RY |] be to the Father and to the | Son | -: and to | the | Ho- | ly | Ghost. AS IT || was in the beginning, is now, and ever | shall | be: world with- | out | end. | A- | men. (Ant. Repeated.)",
-        "gradual":"<p>|| Our soul is escaped as a bird out of the snare of the | fow- | lers:</p> <p>the snare is broken, and we | are | es- | cap- | ed.</p> <p>|| Our help is in the name of the | Lord | -:</p> <p>who made | heav- | en | and | earth.</p> <p>|| Hallelujah. Hallelujah. Praise ye the Lord. Praise, O ye servants of the |</p> <p>Lord |-:</p> <p>praise the name of the Lord. Hal- | le- | lu- | jah.</p>"
+        "gradual":"<p>|| Our soul is escaped as a bird out of the snare of the | fow- | lers:</p> <p>the snare is broken, and we | are | es- | cap- | ed.</p> <p>|| Our help is in the name of the | Lord | -:</p> <p>who made | heav- | en | and | earth.</p> <p>|| Hallelujah. Hallelujah. Praise ye the Lord. Praise, O ye servants of the |</p> <p>Lord |-:</p> <p>praise the name of the Lord. Hal- | le- | lu- | jah.</p>",
+        "hymn":{
+            "hymnal":"TLH",
+            "index": 273
+        }
     },
     {
         "display":"The Circumcision and Name of Jesus",
@@ -137,7 +149,11 @@
         "color": "white",
         "collect":"<p>O merciful and eternal God, heavenly Father, who didst cause Thy Son to endure circumcision and to be made subject to the Law, that we might be redeemed from the curse of the Law: We beseech Thee, grant us grace to be- come partakers of this redemption and thus obtain eternal salvation, through the same, Thy beloved Son, Jesus Christ, our Lord, who liveth and reigneth with Thee and the Holy Ghost, one true God, world without end. Amen.</p> <p>O Lord God, who for our sakes, hast made Thy blessed Son our Sav- ior subject to the Law, and caused Him to endure the circumcision of the flesh: Grant us the true circumcision of the spirit, that our hearts may be pure from all sinful desires and lusts; through the same, Thy Son, our Lord Jesus Christ, who liveth and reigneth with Thee and the Holy Ghost, ever One God, world without end. Amen.</p> <p>Almighty and everlasting God, from whom cometh down every good and perfect gift: We give Thee thanks for all Thy benefits, temporal and spiritual, bestowed upon us in the year past, and we beseech Thee of Thy goodness, grant us a favorable and joyful year, defend us from all dangers and adversities, and send upon us the fullness of Thy blessing; through jesus Christ, Thy Son, our Lord, who liveth and reigneth with Thee and the Holy Ghost, one true God, world without end. Amen.</p>",
         "introit":"<p>Ant. O LORD, || our Lord, who excellent is Thy Name | in | all | the | earth:</p> <p>Who has set Thy glory above | the | heav- | ens.</p> <p></p> <p>|| What is man that Thou art | mind- | ful | of | him:</p> <p>and the son of man that Thou | vis- | itest- | him?</p> <p></p> <p>Psalm. || Thou, O Lord, art our Father and | our | Re- | deem- | er:</p> <p>from everlasting | is | Thy | name.</p> <p></p> <p>GLO- RY || be to the Father and | to | the | Son:</p> <p>and to | the | Ho- | ly | Ghost.</p> <p></p> <p>AS IT || was in the beginning, is now, and ev- | er | shall | be:</p> <p>world without | end. | A- | men. (Ant. repeated.)</p>",
-        "gradual":"<p>|| Save us, &copy; Lord our God, and gather us from among the heathen:</p> <p>to give thanks unto Thy holy name, and to triumph in Thy praise.</p> <p>|| Thou, O Lord, art our Father, our Redeemer:</p> <p>Thy name is from everlasting.</p> <p>|| Hallelujah. Hallelujah. My mouth shall speak the praise of the Lord:</p> <p>and let all flesh bless his holy name for ever and ever. Hallelujah.</p>"
+        "gradual":"<p>|| Save us, &copy; Lord our God, and gather us from among the heathen:</p> <p>to give thanks unto Thy holy name, and to triumph in Thy praise.</p> <p>|| Thou, O Lord, art our Father, our Redeemer:</p> <p>Thy name is from everlasting.</p> <p>|| Hallelujah. Hallelujah. My mouth shall speak the praise of the Lord:</p> <p>and let all flesh bless his holy name for ever and ever. Hallelujah.</p>",
+        "hymn":{
+            "hymnal":"TLH",
+            "index": 116
+        }
     },
     {
         "display":"St. Henry of Finland, Bishop and Martyr",
@@ -179,7 +195,11 @@
         "color": "white",
         "collect":"Merciful Lord, we beseech Thee to cast the bright beams of Thy light upon Thy Church, that it being instructed by the doctrine of the blessed Apos- tles, may so walk in the light of Thy truth, that it may at length attain tot he light of everlasting life; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever One God, world without end. Amen.",
         "introit":"<p>Ant. [KNOW || Whom I have be- | liev- | ed:</p> <p></p> <p>and am persuaded that He is able to keep that which I have com-</p> <p>mitted unto Him | a- | gainst | that | day.</p> <p>|| There is laid up for me a crown of | righteous- | ness:</p> <p></p> <p>which the Lord, the righteous | Judge, | shall | give | me.</p> <p>Psalm. O Loro, Thou hast searched me and | known | me:</p> <p></p> <p>Thou knowest my downsitting and | mine | up- | ris- | ing.</p> <p>GLO-RY || be to the Father and to the | Son | - :</p> <p></p> <p>and to | the | Ho- | ly | Ghost.</p> <p>AS IT || was in the beginning, is now, and ever | shall | be:</p> <p></p> <p>world with- jout | end. | A- | men. (Ant. Repeated.)</p>",
-        "gradual":"<p>|| Their sound went forth through all | the | earth:</p> <p>and their words to the | end | of | the | world.</p> <p>|| The heavens declare the glory of | God | -:</p> <p>and the firmament showeth | His | hand- | i- | work.</p> <p>|| Hallelujah. Hallelujah. I have chosen you out of | the | world:</p> <p>that ye should go and bring forth fruit, and your fruit should re-</p> <p>main. | Hal- | le- | lu- | jah.</p>"
+        "gradual":"<p>|| Their sound went forth through all | the | earth:</p> <p>and their words to the | end | of | the | world.</p> <p>|| The heavens declare the glory of | God | -:</p> <p>and the firmament showeth | His | hand- | i- | work.</p> <p>|| Hallelujah. Hallelujah. I have chosen you out of | the | world:</p> <p>that ye should go and bring forth fruit, and your fruit should re-</p> <p>main. | Hal- | le- | lu- | jah.</p>",
+        "hymn":{
+            "hymnal":"ELH",
+            "index": 356
+        }
     },
     {
         "display":"St. Titus, Bishop and Confessor",
@@ -193,7 +213,11 @@
         "color": "white",
         "collect":"O God, who didst adorn St. Titus with apostolic virtues, increase in us spirit directed to a life of duty and justice which is the fruit of a faith which trusts in our Savior, Jesus Christ, who liveth and reigneth with Thee and the Holy Ghost, ever One God, world without end, Amen.",
         "introit":"<p>Ant. LET THY || priests be clothed with righteousness; and let thy saints</p> <p>shout | for | joy :</p> <p>For thy servant David&rsquo;s sake turn not away the face of | thine | a- |</p> <p>noint- | ed.</p> <p>Psalm. || Lord, remember | Da- | vid:</p> <p>and all | his | a- | fflic- | tions.</p> <p>GLO-RY || be to the Father and to the [ Son |-:</p> <p>and to | the | Ho- | ly | Ghost.</p> <p>AS IT || was in the beginning, is now, and ever | shall | be:</p> <p>world with- lout | end. | A- | men. (Ant. Repeated.)</p>",
-        "gradual":"<p>|| I will also clothe her priests with sal- | va- | tion:</p> <p>and her saints shall shout | a- | loud | for | joy.</p> <p>|| There will I make the horn of David | to | bud:</p> <p>I have ordained a lamp for | mine | a- | noint- | ed.</p> <p>|| Hallelujah. Hallelujah. The people will tell of their | wis- | dom:</p> <p>and the congregation will shew forth their praise. | Hal- | le- | lu- jah.</p>"
+        "gradual":"<p>|| I will also clothe her priests with sal- | va- | tion:</p> <p>and her saints shall shout | a- | loud | for | joy.</p> <p>|| There will I make the horn of David | to | bud:</p> <p>I have ordained a lamp for | mine | a- | noint- | ed.</p> <p>|| Hallelujah. Hallelujah. The people will tell of their | wis- | dom:</p> <p>and the congregation will shew forth their praise. | Hal- | le- | lu- jah.</p>",
+        "hymn":{
+            "hymnal":"TLH",
+            "index": 489
+        }
     },
     {
         "display":"The Presentation of our Lord and the Purification of St. Mary",
@@ -207,7 +231,11 @@
         "color": "white",
         "collect":"Almighty and Everliving God, we humbly beseech Thy Majesty, that as Thine Only-Begotten Son was this day presented in the Temple in the substance of our flesh, so we may be presented unto Thee with pure and clean hearts; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever One God, world without end. Amen.",
         "introit":"<p>Ant. WE HAVE || thought of Thy lovingkindness, 0 | God | -:</p> <p>in the midst | of | Thy | tem- | ple.</p> <p>|| According to Thy Name, O God, so is Thy praise unto the ends of | the |</p> <p>earth:</p> <p>Thy right hand is full | of | right- | eous- | ness.</p> <p>Psalm. || Great is the Lord, and greatly to be | praised | -:</p> <p>in the city of our God, in the mountain of | His | ho- | li- | ness.</p> <p>397</p> <p></p> <p>GLO-RY |] be to the Father and to the | Son |-:</p> <p>and to | the | Ho- | ly | Ghost.</p> <p></p> <p>AS IT || was in the beginning, is now, and ever | shall | be:</p> <p>world with- | out | end. | A- | men. (Ant. Repeated.)</p>",
-        "gradual":"<p>|| We have thought of thy lovingkindness, 0 | God |-:</p> <p>in the midst | of | Thy | tem- | ple.</p> <p>|| According to Thy name, O God, so is Thy praise unto the ends of | the | earth:</p> <p>Thy right hand is full | of | right- | eous- | ness.</p> <p>|| As we have heard, so have we seen in the city of the Lord of hosts, in the city of our | God|-:</p> <p>God will establish | it | for | ev- | er.</p> <p>|| Hallelujah. Hallelujah. An old man was carrying a | Child, |-:</p> <p>but the Child was the old man&rsquo;s Lord. | Hal- | le- | lu- | jah.</p>"
+        "gradual":"<p>|| We have thought of thy lovingkindness, 0 | God |-:</p> <p>in the midst | of | Thy | tem- | ple.</p> <p>|| According to Thy name, O God, so is Thy praise unto the ends of | the | earth:</p> <p>Thy right hand is full | of | right- | eous- | ness.</p> <p>|| As we have heard, so have we seen in the city of the Lord of hosts, in the city of our | God|-:</p> <p>God will establish | it | for | ev- | er.</p> <p>|| Hallelujah. Hallelujah. An old man was carrying a | Child, |-:</p> <p>but the Child was the old man&rsquo;s Lord. | Hal- | le- | lu- | jah.</p>",
+        "hymn":{
+            "hymnal":"TLH",
+            "index": 137
+        }
     },
     {
         "display":"St. Cyril of Alexandria, Bishop, Confessor, and Doctor",

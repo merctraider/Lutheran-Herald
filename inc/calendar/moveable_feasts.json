@@ -94,6 +94,10 @@
             "psalm": {
                 "matins": "Psalm 42",
                 "vespers": "Psalm 91"
+            },
+            "hymn":{
+                "hymnal":"TLH",
+                "index": 611
             }
         },
         {
@@ -140,6 +144,10 @@
             "psalm": {
                 "matins": "Psalm 4",
                 "vespers": "Psalm 98"
+            },
+            "hymn":{
+                "hymnal":"ELH",
+                "index": 167
             }
         },
         {
@@ -186,6 +194,10 @@
             "psalm": {
                 "matins": "Psalm 5",
                 "vespers": "Psalm 145"
+            },
+            "hymn":{
+                "hymnal":"TLH",
+                "index": 58
             }
         },
         {
@@ -225,6 +237,10 @@
             "psalm": {
                 "matins": ["Psalm 19", "Psalm 45", "Psalm 85"],
                 "vespers": ["Psalm 89","Psalm 110", "Psalm 132"]
+            },
+            "hymn":{
+                "hymnal":"ELH",
+                "index": 184
             }
         },
         {
@@ -453,6 +469,10 @@
             "psalm": {
                 "matins": ["Psalm 121", "Psalm 72"],
                 "vespers": "Psalm 111"
+            },
+            "hymn":{
+                "hymnal":"TLH",
+                "index": 112
             }
         },
         {
@@ -472,6 +492,10 @@
             "psalm": {
                 "matins": ["Psalm 122", "Psalm 72"],
                 "vespers": ["Psalm 90", "Psalm 115"]
+            },
+            "hymn":{
+                "hymnal":"TLH",
+                "index": 131
             }
         }
     ],
@@ -519,7 +543,12 @@
             "psalm": {
                 "matins": "Psalm 96",
                 "vespers": "Psalm 72"
+            }, 
+            "hymn":{
+                "hymnal":"TLH",
+                "index": 92
             }
+            
         },
         {
             "display": "The First Sunday After Epiphany",
@@ -565,6 +594,10 @@
             "psalm": {
                 "matins": "Psalm 13",
                 "vespers": "Psalm 86"
+            },
+            "hymn":{
+                "hymnal":"ELHB1918",
+                "index": 446
             }
         },
         {
@@ -611,7 +644,11 @@
             },
             "collect": "Almighty and Everlasting God, Who dost govern all things in Heaven and Earth, mercifully hear the supplications of Thy people and grant us Thy peace all the days of our life; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
             "introit": "<p>ALL <strong>THE<\/strong> - || earth | shall | wor- | ship | You, *<\/p> <p>And sing praises | to | You, | <strong>O<\/strong> - | God.<\/p> <p>|| They will sing | praise | to | Your | name; *<\/p> <p>- | O | \u2014 | <strong>Most<\/strong> - | High. <em>(Psalm 66:4; 9:2 paraphrase)<\/em><\/p> <p>|| Make a joyful shout to | God, | all | the | earth! *<\/p> <p>Sing out the honor of His name; make | His | praise | <strong>glo<\/strong>- - <em>ri-<\/em> \u2219 | ous.<\/p> <p>|| Say to God, \u201cHow awe- | some | are | Your | works! * <\/p> <p>All the earth shall sing | prais- | es | <strong>to<\/strong> - | You.\u201d<\/p> <p>|| Come and see | the | works | of | God; * <\/p> <p>He is awesome in His doing toward | the | sons | <strong>of<\/strong> - | men. <\/p> <p>|| Bless\u00e8d be God, who has not turned | a- | way | my | <em>pray-er,<\/em> <strong>\u2219<\/strong> * <\/p> <p>Nor His | mer- | cy | <strong>from<\/strong> - | me! <em>(Psalm 66:1\u20135, 20)<\/em><\/p> <p><strong>GLORIA PATRI (From Hymnal)<\/strong><\/p> <p>|| All the earth | shall | wor- | ship | You, *<\/p> <p>And sing praises | to | You, | <strong>O<\/strong> - | God.<\/p> <p>|| They will sing | praise | to | Your | name; *<\/p> <p>- | O | \u2014 | <strong>Most<\/strong> - | High. <em>(Psalm 66:4; 9:2 paraphrase)<\/em><\/p>",
-            "gradual": "<p>|| The Lord sent His | word | and | healed | them, *<\/p> <p>And delivered them from | their | de- | <strong>struc<\/strong>- - | tions. <\/p> <p>|| Oh, that men would give thanks to the Lord | for | His | good- | ness, * <\/p> <p>And for His wonderful works to the | child- | ren | <strong>of<\/strong> - | men! <em>(Psalm 107:20\u201321 paraphrase)<\/em><\/p>"
+            "gradual": "<p>|| The Lord sent His | word | and | healed | them, *<\/p> <p>And delivered them from | their | de- | <strong>struc<\/strong>- - | tions. <\/p> <p>|| Oh, that men would give thanks to the Lord | for | His | good- | ness, * <\/p> <p>And for His wonderful works to the | child- | ren | <strong>of<\/strong> - | men! <em>(Psalm 107:20\u201321 paraphrase)<\/em><\/p>",
+            "hymn":{
+                "hymnal":"TLH",
+                "index": 625
+            }
         },
         {
             "display": "The Third Sunday After Epiphany",
@@ -794,7 +831,11 @@
             },
             "collect": "O God, Who in the glorious Transfiguration of Thine Only-Begotten Son hast confirmed the mysteries of the faith by the testimony of the Fathers, and Who, in the Voice that came from the bright cloud, didst in a wonderful manner foreshow the adoption of sons, mercifully vouchsafe to make us coheirs with the King of His glory and bring us to the enjoyment of the same; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
             "introit": "<p>THE <strong>LIGHT<\/strong>- - || nings | lit | up | the | world; * <\/p> <p>The earth | trem- | bled | <strong>and<\/strong> - | shook. <em>(Psalm 77:18b)<\/em><\/p> <p>|| How lovely is Your tabernacle, | O | Lord | of | hosts! * <\/p> <p>My soul longs, yes, even faints for the | courts | of | <strong>the<\/strong> - | Lord.<\/p> <p>|| Bless\u00e8d are those who | dwell | in | Your | house; *<\/p> <p>They will still | be | prais- | <strong>ing<\/strong> - | You.<\/p> <p>|| O God, | be- | hold | our | shield, *<\/p> <p>And look upon the face of | Your | a- | <strong>noint<\/strong>- - | ed<\/p> <p>|| For the Lord God is | a | sun | and | shield; *<\/p> <p>The Lord will give | grace | and | <strong>glo<\/strong>- - | ry.<em> (Psalm 84:1\u20132a, 4, 10\u201311)<\/em><\/p> <p><strong>GLORIA PATRI (From Hymnal)<\/strong><\/p> <p>|| The lightnings | lit | up | the | world; * <\/p> <p>The earth | trem- | bled | <strong>and<\/strong> - | shook. <em>(Psalm 77:18b)<\/em><\/p>",
-            "gradual": "<p>|| You are fairer than | the | sons | of | men; *<\/p> <p>Grace is poured | up- | on | <strong>Your<\/strong> - | lips.<\/p> <p>|| The Lord said to my Lord, \u201cSit | at | My | right | hand, *<\/p> <p>Till I make Your ene- | mies | Your | <strong>foot<\/strong>- - | stool.\u201d <em>(Psalm 45:2a, 110:1)<\/em><\/p> <p><strong>Verse<\/strong><\/p> <p>|| Al- | \u2014 | le- | lu- | ia! *<\/p> <p>Al- | \u2014 | le- | <strong>lu<\/strong>- - | ia!<\/p> <p>|| Sing to the Lord, bless His name; Proclaim the good news of His salvation | from | day | to | day. * <\/p> <p>Declare His glory among the nations. | Al- | le- | <strong>lu<\/strong>- - | ia!<em>(Psalm 96:2\u20133a)<\/em><\/p>"
+            "gradual": "<p>|| You are fairer than | the | sons | of | men; *<\/p> <p>Grace is poured | up- | on | <strong>Your<\/strong> - | lips.<\/p> <p>|| The Lord said to my Lord, \u201cSit | at | My | right | hand, *<\/p> <p>Till I make Your ene- | mies | Your | <strong>foot<\/strong>- - | stool.\u201d <em>(Psalm 45:2a, 110:1)<\/em><\/p> <p><strong>Verse<\/strong><\/p> <p>|| Al- | \u2014 | le- | lu- | ia! *<\/p> <p>Al- | \u2014 | le- | <strong>lu<\/strong>- - | ia!<\/p> <p>|| Sing to the Lord, bless His name; Proclaim the good news of His salvation | from | day | to | day. * <\/p> <p>Declare His glory among the nations. | Al- | le- | <strong>lu<\/strong>- - | ia!<em>(Psalm 96:2\u20133a)<\/em><\/p>",
+            "hymn":{
+                "hymnal":"ELH",
+                "index": 253
+            }
         }
     ],
     "lententide": [
@@ -842,6 +883,10 @@
             "psalm": {
                 "matins": "Psalm 23",
                 "vespers": "Psalm 114"
+            },
+            "hymn":{
+                "hymnal":"TLH",
+                "index": 377
             }
         },
         {
@@ -888,6 +933,10 @@
             "psalm": {
                 "matins": "Psalm 24",
                 "vespers": "Psalm 25"
+            },
+            "hymn":{
+                "hymnal":"TLH",
+                "index": 500
             }
         },
         {
@@ -918,6 +967,10 @@
             "psalm": {
                 "matins": "Psalm 26",
                 "vespers": "Psalm 27"
+            },
+            "hymn":{
+                "hymnal":"TLH",
+                "index": 375
             }
         },
         {
@@ -951,6 +1004,10 @@
             "psalm": {
                 "matins": "Psalm 6",
                 "vespers": "Psalm 51"
+            },
+            "hymn":{
+                "hymnal":"TLH",
+                "index": 152
             }
         },
         {
@@ -997,6 +1054,10 @@
             "psalm": {
                 "matins": "Psalm 32",
                 "vespers": "Psalm 16"
+            },
+            "hymn":{
+                "hymnal":"TLH",
+                "index": 559
             }
         },
         {
@@ -1043,6 +1104,10 @@
             "psalm": {
                 "matins": "Psalm 130",
                 "vespers": "Psalm 25"
+            },
+            "hymn":{
+                "hymnal":"TLH",
+                "index": 329
             }
         },
         {
