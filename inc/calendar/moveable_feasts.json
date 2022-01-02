@@ -1154,6 +1154,10 @@
             "psalm": {
                 "matins": "Psalm 43",
                 "vespers": "Psalm 86"
+            },
+            "hymn":{
+                "hymnal":"TLH",
+                "index": 262
             }
         },
         {
@@ -1200,6 +1204,10 @@
             "psalm": {
                 "matins": "Psalm 46",
                 "vespers": "Psalm 139"
+            },
+            "hymn":{
+                "hymnal":"TLH",
+                "index": 151
             }
         },
         {
@@ -1246,6 +1254,10 @@
             "psalm": {
                 "matins": "Psalm 54",
                 "vespers": "Psalm 27"
+            },
+            "hymn":{
+                "hymnal":"ELH",
+                "index": 587
             }
         },
         {
@@ -1292,7 +1304,12 @@
             "psalm": {
                 "matins": "Psalm 116",
                 "vespers": "Psalm 70"
+            },
+            "hymn":{
+                "hymnal":"TLH",
+                "index": 146
             }
+            
         },
         {
             "display": "Maundy Thursday",
@@ -1310,6 +1327,10 @@
             "psalm": {
                 "matins": "Psalm 116",
                 "vespers": "Psalm 70"
+            },
+            "hymn":{
+                "hymnal":"TLH",
+                "index": 163
             }
         },
         {
@@ -1328,6 +1349,10 @@
             "psalm": {
                 "matins": ["Psalm 22","Psalm 40", "Psalm 54"],
                 "vespers": ["Psalm 88", "Psalm 69"]
+            },
+            "hymn":{
+                "hymnal":"TLH",
+                "index": 172
             }
         }
     ],
@@ -1375,6 +1400,10 @@
             "psalm": {
                 "matins": ["Psalm 2","Psalm 57","Psalm 111","Psalm 62"],
                 "vespers": ["Psalm 113","Psalm 114","Psalm 118","Psalm 30"]
+            },
+            "hymn":{
+                "hymnal":"TLH",
+                "index": 195
             }
         },
         {
@@ -1421,6 +1450,10 @@
             "psalm": {
                 "matins": "Psalm 111",
                 "vespers": "Psalm 4"
+            },
+            "hymn":{
+                "hymnal":"TLH",
+                "index": 208
             }
         },
         {
@@ -1467,6 +1500,10 @@
             "psalm": {
                 "matins": "Psalm 70",
                 "vespers": "Psalm 23"
+            },
+            "hymn":{
+                "hymnal":"TLH",
+                "index": 436
             }
         },
         {
@@ -1513,6 +1550,10 @@
             "psalm": {
                 "matins": "Psalm 75",
                 "vespers": "Psalm 146"
+            },
+            "hymn":{
+                "hymnal":"TLH",
+                "index": 268
             }
         },
         {
@@ -1559,6 +1600,10 @@
             "psalm": {
                 "matins": "Psalm 82",
                 "vespers": "Psalm 126"
+            },
+            "hymn":{
+                "hymnal":"TLH",
+                "index": 260
             }
         },
         {
@@ -1605,6 +1650,10 @@
             "psalm": {
                 "matins": "Psalm 84",
                 "vespers": "Psalm 124"
+            },
+            "hymn":{
+                "hymnal":"TLH",
+                "index": 458
             }
         },
         {
@@ -1623,6 +1672,10 @@
             "psalm": {
                 "matins": "Psalm 8, Psalm 15, Psalm 21, Psalm 47",
                 "vespers": "Psalm 24, Psalm 68, Psalm 148"
+            },
+            "hymn":{
+                "hymnal":"TLH",
+                "index": 387
             }
         },
         {
@@ -1669,6 +1722,10 @@
             "psalm": {
                 "matins": "Psalm 93",
                 "vespers": "Psalm 97"
+            },
+            "hymn":{
+                "hymnal":"TLH",
+                "index": 267
             }
         }
     ],
@@ -1716,6 +1773,10 @@
             "psalm": {
                 "matins": ["Psalm 68","Psalm 48","Psalm 45"],
                 "vespers": ["Psalm 104","Psalm 145"]
+            },
+            "hymn":{
+                "hymnal":"TLH",
+                "index": 224
             }
         },
         {
