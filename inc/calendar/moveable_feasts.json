@@ -798,7 +798,11 @@
             },
             "collect": "Almighty and Everlasting God, mercifully look upon our infirmities, and in all our dangers and necessities stretch forth the right hand of Thy majesty to help and defend us; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
             "introit": "<p>WOR- SHIP || Him, all | you | His | an- - | gels.*<br \/>\u00a0 \u00a0 Zion hears | and | is | glad. -<br \/>|| And the Daughters of | Ju- | dah | re- - | joice *<br \/>\u00a0 \u00a0 \u00a0Because of your judg- | ments, | O | Lord. -<br \/>|| The Lord reigns; let | the | earth | re- - | joice; *<br \/>\u00a0 \u00a0 Let the multitude of | isles | be | glad! - (Psalm 97:7b, 8, 1)<\/p>",
-            "gradual": "<p>|| The nations shall fear the | name | of | the - | Lord, *<br \/>\u00a0 \u00a0 And all the kings of the earth | Your | glo- | ry. -<br \/>|| For the Lord shall | build | up | Zi- - | on; *<br \/>\u00a0 \u00a0 He shall appear in | His | glo- | ry. -<br \/>|| Alleluia! Alleluia! The Lord reigns; let | the | earth | re- - | joice, *<br \/>\u00a0 \u00a0 Let the multitude of isles be glad! Al- | le- | lu- | ia! - (Psalms 102:15-16; 97:1)<\/p>"
+            "gradual": "<p>|| The nations shall fear the | name | of | the - | Lord, *<br \/>\u00a0 \u00a0 And all the kings of the earth | Your | glo- | ry. -<br \/>|| For the Lord shall | build | up | Zi- - | on; *<br \/>\u00a0 \u00a0 He shall appear in | His | glo- | ry. -<br \/>|| Alleluia! Alleluia! The Lord reigns; let | the | earth | re- - | joice, *<br \/>\u00a0 \u00a0 Let the multitude of isles be glad! Al- | le- | lu- | ia! - (Psalms 102:15-16; 97:1)<\/p>",
+            "hymn": {
+                "hymnal": "TLH",
+                "index": 429
+            }
         },
         {
             "display": "The Fourth Sunday After Epiphany",
@@ -844,7 +848,11 @@
             },
             "collect": "Almighty God, Who knowest us to be set in the midst of so many and great dangers that by reason of the frailty of our nature we cannot always stand upright, grant to us such strength and protection as may support us in all dangers and carry us through all temptations; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end.",
             "introit": "<p>WOR- SHIP || Him, all | you | His | an- - | gels.*<br \/>\u00a0 \u00a0 Zion hears | and | is | glad. -<br \/>|| And the Daughters of | Ju- | dah | re- - | joice *<br \/>\u00a0 \u00a0 \u00a0Because of your judg- | ments, | O | Lord. -<br \/>|| The Lord reigns; let | the | earth | re- - | joice; *<br \/>\u00a0 \u00a0 Let the multitude of | isles | be | glad! - (Psalm 97:7b, 8, 1)<\/p>",
-            "gradual": "<p>|| The nations shall fear the | name | of | the - | Lord, *<br \/>\u00a0 \u00a0 And all the kings of the earth | Your | glo- | ry. -<br \/>|| For the Lord shall | build | up | Zi- - | on; *<br \/>\u00a0 \u00a0 He shall appear in | His | glo- | ry. -<br \/>|| Alleluia! Alleluia! The Lord reigns; let | the | earth | re- - | joice, *<br \/>\u00a0 \u00a0 Let the multitude of isles be glad! Al- | le- | lu- | ia! - (Psalms 102:15-16; 97:1)<\/p>"
+            "gradual": "<p>|| The nations shall fear the | name | of | the - | Lord, *<br \/>\u00a0 \u00a0 And all the kings of the earth | Your | glo- | ry. -<br \/>|| For the Lord shall | build | up | Zi- - | on; *<br \/>\u00a0 \u00a0 He shall appear in | His | glo- | ry. -<br \/>|| Alleluia! Alleluia! The Lord reigns; let | the | earth | re- - | joice, *<br \/>\u00a0 \u00a0 Let the multitude of isles be glad! Al- | le- | lu- | ia! - (Psalms 102:15-16; 97:1)<\/p>",
+            "hymn": {
+                "hymnal": "TLH",
+                "index": 353
+            }
         },
         {
             "display": "The Fifth Sunday After Epiphany",

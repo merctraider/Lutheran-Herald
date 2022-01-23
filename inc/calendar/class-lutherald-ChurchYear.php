@@ -101,10 +101,14 @@ class ChurchYear{
                 $sunday_entry['readings'][0] = $week['sunday_readings']['epistle']; 
                 $sunday_entry['readings'][1] = $week['sunday_readings']['gospel']; 
                 $sunday_entry['color'] = $week['color'];
-                //Weekly Psalm
-                if(key_exists('psalm', $week)){
-                    $sunday_entry['psalm'] = $week['psalm'];
-                }
+                
+                //Array parameters to add 
+                $array_parameters = ['psalm', 'hymn'];
+                foreach($array_parameters as $array_param){
+                    if(\key_exists($array_param, $week)){
+                        $sunday_entry[$array_param] = $week[$array_param];
+                    }
+                } 
                 
                 //Other stuff to look out for
                 $additional_params = ['introit', 'collect', 'gradual'];

@@ -68,6 +68,9 @@ class Widget_Readings extends \WP_Widget
         }
 
         echo "<$display_header". ' id="display" ' .">$title</$display_header>";
+        if(array_key_exists('hymn', $day_info)){
+            echo '<span><strong>Chief Hymn:</strong> ' . BibleGateway::get_hymn($day_info['hymn']) . '</span>';
+        }
         
         echo '<p><span class=' . $color . ' id="color">' . 'Liturgical Color: ' . \ucfirst($color) . '</span></p>';
         

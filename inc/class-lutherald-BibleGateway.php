@@ -88,4 +88,38 @@ class BibleGateway{
         return false;
         
     }
+
+    public static function get_hymn($hymn){
+        $output = ''; 
+        //Hymnal information
+        $hymnal_json = file_get_contents(dirname(__FILE__) ."/calendar/hymnals.json");
+        $hymnal_directory = \json_decode($hymnal_json, true); 
+        
+
+        //Validate hymn parameter
+        if(array_key_exists('hymnal', $hymn) && array_key_exists('index', $hymn)){
+
+            //Get the hymnal id 
+            $hymnal_id = $hymn['hymnal'];
+            
+
+            //Validate hymn index
+            if(array_key_exists($hymnal_id, $hymnal_directory)){
+                $hymn_index = $hymn['index'];
+
+                $hymnal = $hymnal_directory[$hymnal_id];
+
+                $output .= $hymnal['display'] . " #$hymn_index";
+
+                //Place hymnary.org link on the text
+                $href_value = 'https://hymnary.org/hymn/' . $hymnal['hymnary_code'] . '/' . $hymn_index;
+
+                $output = "<a href='$href_value' target='_blank'>$output</a>";
+
+            }
+        }
+
+        return $output;
+
+    }
 }
