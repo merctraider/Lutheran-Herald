@@ -23,17 +23,8 @@ class Widget_Lectionary extends \WP_Widget{
         $current_date = new \DateTime('now');
         $year=$current_date->format('Y');
 
-        $last_year = new ChurchYear($year-1);
-        $this_year = new ChurchYear($year);
-        $calendar = null;
+        $calendar = ChurchYear::create_church_year($current_date);
 
-        if($last_year->find_season($current_date)!= false){
-            $calendar = $last_year;
-        } 
-
-        if($this_year->find_season($current_date) != false){
-            $calendar = $this_year;
-        }
         
         $dates = $this->get_dates($calendar); 
 
