@@ -46,3 +46,20 @@ td.today{
 .tlh-calendar td{
     vertical-align: baseline;
 }
+@media only screen and (max-device-width: 480px) {
+    .tlh-calendar {
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+
+    .tlh-calendar table,
+    .tlh-calendar th,
+    .tlh-calendar td,
+    .tlh-calendar tr {
+        display: block;
+    }
+
+    .tlh-calendar th, .tlh-calendar td:empty {
+        display: none;
+    }
+}
