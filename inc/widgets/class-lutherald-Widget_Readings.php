@@ -106,6 +106,14 @@ class Widget_Readings extends \WP_Widget
 
         echo '</div>';
 
+        //Collect
+        echo '<div id="collect">';
+        if(array_key_exists('collect', $day_info)){
+            $collect = $day_info['collect']; 
+            echo "<$readings_tag>Collect</$readings_tag>";
+            echo "<p>$collect</p>";
+        }
+        echo '</div>';
 
         //First Reading
         echo '<div id="first-reading">';
@@ -136,14 +144,7 @@ class Widget_Readings extends \WP_Widget
         }
         echo '</div>';
 
-        //Collect
-        echo '<div id="collect">';
-        if(array_key_exists('collect', $day_info)){
-            $collect = $day_info['collect']; 
-            echo "<$readings_tag>Collect</$readings_tag>";
-            echo "<p>$collect</p>";
-        }
-        echo '</div>';
+        
 
         //Lutheran Herald stuff
         if ($display_devotions) {
