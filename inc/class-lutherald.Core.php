@@ -32,6 +32,6 @@ class Core{
     }
 
     public static function enqueue(){
-        wp_enqueue_style('lutherald', plugin_dir_url(LUTHERALD_PLUGIN_DIR . 'css/style.css').'style.css');
+        wp_enqueue_style('lutherald', plugin_dir_url(LUTHERALD_PLUGIN_DIR . 'css/style.css').'style.css', array(), LUTHERALD_PLUGIN_VERSION);
     }
 }

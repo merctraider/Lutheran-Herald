@@ -12,5 +12,6 @@ if(!defined('ABSPATH')) wp_die('Cannot access this file directly.');
 
 define('LUTHERALD_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('LUTHERALD_PLUGIN_URL', plugin_dir_url(__FILE__));
+define('LUTHERALD_PLUGIN_VERSION', get_file_data(__FILE__, array('Version' => 'Version'), false));
 require_once LUTHERALD_PLUGIN_DIR . 'inc/class-lutherald.Core.php';
 add_action( 'after_setup_theme', array('\Lutherald\Core','after_setup_theme') );
