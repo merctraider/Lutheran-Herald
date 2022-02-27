@@ -3,7 +3,7 @@
  * Plugin Name: Lutheran Herald
  * Description: A plugin made for ELDoNA.
  * Author: merctraider
- * Version: 1.4.0
+ * Version: 1.4.1
  * Requires PHP: 5.4
  * Author URI: http://merctraider.me
  */
@@ -16,7 +16,7 @@ define('LUTHERALD_PLUGIN_VERSION', get_file_data(__FILE__, array('Version' => 'V
 
 //Updater
 require_once LUTHERALD_PLUGIN_DIR . 'inc/class-GithubRepo.Updater.php';
-$updater = new GithubRepo/Updater(__FILE__);
+$updater = new \GithubRepo\Updater(__FILE__);
 $updater->set_username('merctraider');
 $updater->set_repository('Lutheran-Herald');
 $updater->initialize();
