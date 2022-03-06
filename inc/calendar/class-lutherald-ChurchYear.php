@@ -41,6 +41,7 @@ class ChurchYear{
         $this->year = $year; 
         $this->easter = $this->get_easter_datetime($this->year+1);
         $this->set_up_seasons();
+        $this->load_ember_days();
     }
 
 
@@ -159,6 +160,13 @@ class ChurchYear{
                 
             }
         }
+    }
+
+    public function load_ember_days(){
+        require_once 'class-lutherald.EmberDays.php';
+        $ember_days = new EmberDays($this, $this->year);
+        $ember_days->write_ember_days($this->seasons);
+
     }
 
     public function retrieve_day_info($date){

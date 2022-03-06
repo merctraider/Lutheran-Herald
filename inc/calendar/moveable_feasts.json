@@ -8,7 +8,8 @@
             },
             "sunday_readings": {
                 "epistle": "Rom 13:11-14",
-                "gospel": "Matt 21:1-9"
+                "gospel": "Matt 21:1-9",
+                "OT": "Jer 33:14-18"
             },
             "weekday_readings": {
                 "monday": [
@@ -58,7 +59,8 @@
             },
             "sunday_readings": {
                 "epistle": "Rom 15:4-13",
-                "gospel": "Luke 21:25-36"
+                "gospel": "Luke 21:25-36",
+                "OT": "Micah 4:1-7"
             },
             "weekday_readings": {
                 "monday": [
@@ -108,7 +110,8 @@
             },
             "sunday_readings": {
                 "epistle": "1 Cor 4:1-5",
-                "gospel": "Matt 11:2-10"
+                "gospel": "Matt 11:2-10",
+                "OT": "Mal 3:1-6"
             },
             "weekday_readings": {
                 "monday": [
@@ -158,7 +161,8 @@
             },
             "sunday_readings": {
                 "epistle": "Phil 4:4-7",
-                "gospel": "John 1:19-28"
+                "gospel": "John 1:19-28",
+                "OT": "Is. 40:1-8"
             },
             "weekday_readings": {
                 "monday": [
