@@ -232,7 +232,8 @@
             },
             "sunday_readings": {
                 "epistle": "Heb 1:1-12",
-                "gospel": "John 1:1-14"
+                "gospel": "John 1:1-14",
+                "OT": "Is 7:10-14"
             },
             "color": "white",
             "collect": "Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end. Amen.",
@@ -263,7 +264,8 @@
             },
             "sunday_readings": {
                 "epistle": "Titus 3:4-7",
-                "gospel": "Luke 2:15-20"
+                "gospel": "Luke 2:15-20",
+                "OT": "Micah 3:2-4"
             },
             "color": "white",
             "collect": "Grant, we beseech Thee, Almighty God, that the new birth of Thine Only Begotten Son in the flesh may set us free, who are held in the old bondage under the yoke of sin; through the same Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end. Amen.",
@@ -560,7 +562,8 @@
             },
             "sunday_readings": {
                 "epistle": "Gal 4:1-7",
-                "gospel": "Luke 2:33-40"
+                "gospel": "Luke 2:33-40",
+                "OT":"Isaiah 11:1-5"
             },
             "color": "white",
             "collect": "Almighty and everlasting God, direct our actions according to thy good pleasure, that in the Name of thy beloved Son, we may be made to abound in good works; through the same thy Son, Jesus Christ our Lord, who liveth and reigneth with thee and the Holy Ghost, one true God, world without end. Amen.",
@@ -586,7 +589,8 @@
             },
             "sunday_readings": {
                 "epistle": "1 Pet. 4:12-19",
-                "gospel": "Matt. 2:13-23"
+                "gospel": "Matt. 2:13-23",
+                "OT":"Isaiah 42:1-9"
             },
             "color": "white",
             "collect": "Almighty and everlasting God, direct our actions according to thy good pleasure, that in the Name of thy beloved Son, we may be made to abound in good works; through the same thy Son, Jesus Christ our Lord, who liveth and reigneth with thee and the Holy Ghost, one true God, world without end. Amen.",
@@ -616,7 +620,8 @@
             },
             "sunday_readings": {
                 "epistle": "Is. 60:1-6",
-                "gospel": "Matt. 2:1-12"
+                "gospel": "Matt. 2:1-12",
+                "OT": "Isaiah 49:1-7"
             },
             "weekday_readings": {
                 "monday": [
@@ -666,7 +671,8 @@
             },
             "sunday_readings": {
                 "epistle": "Rom. 12:1-5",
-                "gospel": "Luke 2:41-52"
+                "gospel": "Luke 2:41-52",
+                "OT": "Isaiah 61:1-3"
             },
             "weekday_readings": {
                 "monday": [
@@ -716,7 +722,8 @@
             },
             "sunday_readings": {
                 "epistle": "Rom. 12:6-16",
-                "gospel": "John 2:1-11"
+                "gospel": "John 2:1-11",
+                "OT": "Deut 18:15-19"
             },
             "weekday_readings": {
                 "monday": [
@@ -766,7 +773,8 @@
             },
             "sunday_readings": {
                 "epistle": "Rom. 12:16-21",
-                "gospel": "Matt. 8:1-13"
+                "gospel": "Matt. 8:1-13",
+                "OT": "Jer 33:6-9"
             },
             "weekday_readings": {
                 "monday": [
@@ -816,7 +824,8 @@
             },
             "sunday_readings": {
                 "epistle": "Rom. 13:8-10",
-                "gospel": "Matt. 8:23-27"
+                "gospel": "Matt. 8:23-27",
+                "OT": "Isaiah 43:1-3"
             },
             "weekday_readings": {
                 "monday": [
@@ -866,7 +875,8 @@
             },
             "sunday_readings": {
                 "epistle": "Col. 3:12-17",
-                "gospel": "Matt. 13:24-30"
+                "gospel": "Matt. 13:24-30",
+                "OT": "Jer 17:5-10"
             },
             "weekday_readings": {
                 "monday": [
@@ -898,7 +908,8 @@
             "color": "green",
             "psalm": {
                 "matins": "Psalm 20",
-                "vespers": "Psalm 86"
+                "vespers": "Psalm 86",
+                "OT": "Jer 33:6-9"
             },
             "collect": "O Lord, we beseech Thee to keep Thy Church and household continually in Thy true religion that they who do lean upon the hope of Thy heavenly grace may evermore be defended by Thy mighty power; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever one God, world without end. Amen.",
             "introit": "<p>WOR- SHIP || Him, all | you | His | an- - | gels.*<br \/>\u00a0 \u00a0 Zion hears | and | is | glad. -<br \/>|| And the Daughters of | Ju- | dah | re- - | joice *<br \/>\u00a0 \u00a0 \u00a0Because of your judg- | ments, | O | Lord. -<br \/>|| The Lord reigns; let | the | earth | re- - | joice; *<br \/>\u00a0 \u00a0 Let the multitude of | isles | be | glad! - (Psalm 97:7b, 8, 1)<\/p>",
@@ -911,7 +922,8 @@
             },
             "sunday_readings": {
                 "epistle": "2 Peter 1:16-21",
-                "gospel": "Matt. 17:1-9"
+                "gospel": "Matt. 17:1-9",
+                "OT": "Isaiah 61:1-11"
             },
             "weekday_readings": {
                 "monday": [
@@ -963,7 +975,8 @@
             },
             "sunday_readings": {
                 "epistle": "1 Cor. 9:24\u201310:5",
-                "gospel": "Matt. 20:1-16"
+                "gospel": "Matt. 20:1-16",
+                "OT": "Jer 1:4-10"
             },
             "weekday_readings": {
                 "monday": [
@@ -1013,7 +1026,8 @@
             },
             "sunday_readings": {
                 "epistle": "2 Cor. 11:19\u201312:9",
-                "gospel": "Luke 8:4-15"
+                "gospel": "Luke 8:4-15",
+                "OT":"Is 55:10-13"
             },
             "weekday_readings": {
                 "monday": [
@@ -1063,7 +1077,8 @@
             },
             "sunday_readings": {
                 "epistle": "1 Cor. 13",
-                "gospel": "Luke 18:31-43"
+                "gospel": "Luke 18:31-43",
+                "OT": "Is 35:3-7"
             },
             "weekday_readings": {
                 "monday": [
@@ -1096,7 +1111,8 @@
             },
             "sunday_readings": {
                 "epistle": "Joel 2:12-19",
-                "gospel": "Matt. 6:16-21"
+                "gospel": "Matt. 6:16-21",
+                "OT":"Jonah 3:1-10"
             },
             "weekday_readings": {
                 "thursday": [
@@ -1134,7 +1150,8 @@
             },
             "sunday_readings": {
                 "epistle": "2 Cor. 6:1-10",
-                "gospel": "Matt. 4:1-11"
+                "gospel": "Matt. 4:1-11",
+                "OT": "Genesis 3:1-24"
             },
             "weekday_readings": {
                 "monday": [
@@ -1184,7 +1201,8 @@
             },
             "sunday_readings": {
                 "epistle": "1 Thess. 4:1-7",
-                "gospel": "Matt. 15:21-28"
+                "gospel": "Matt. 15:21-28",
+                "OT":"Isaiah 45:20-25"
             },
             "weekday_readings": {
                 "monday": [
@@ -1234,7 +1252,8 @@
             },
             "sunday_readings": {
                 "epistle": "Eph. 5:1-9",
-                "gospel": "Luke 11:14-28"
+                "gospel": "Luke 11:14-28",
+                "OT": "2 Sam 22:1-7"
             },
             "weekday_readings": {
                 "monday": [
@@ -1284,7 +1303,8 @@
             },
             "sunday_readings": {
                 "epistle": "Gal. 4:21-31",
-                "gospel": "John 6:1-15"
+                "gospel": "John 6:1-15",
+                "OT":"Isaiah 49:8-13"
             },
             "weekday_readings": {
                 "monday": [
@@ -1334,7 +1354,8 @@
             },
             "sunday_readings": {
                 "epistle": "Heb 9:11-15",
-                "gospel": "John 8:46-59"
+                "gospel": "John 8:46-59",
+                "OT":"Genesis 7:1-3"
             },
             "weekday_readings": {
                 "monday": [
@@ -1384,7 +1405,8 @@
             },
             "sunday_readings": {
                 "epistle": "Phil. 2:5-11",
-                "gospel": "Matt. 21:1-9"
+                "gospel": "Matt. 21:1-9",
+                "OT":"Zech. 9:9-10"
             },
             "weekday_readings": {
                 "monday": [
@@ -1433,7 +1455,8 @@
             },
             "sunday_readings": {
                 "epistle": "1 Cor. 11:23-32",
-                "gospel": "John 13:1-15"
+                "gospel": "John 13:1-15",
+                "OT":"Ex. 12:1-14"
             },
             "color": "white",
             "introit": "<p>GOD <strong>FOR<\/strong>- - || bid | that | I | <strong>should<\/strong> - | boast *<br \/>\u00a0 \u00a0 Except in the cross of our | <strong>Lord<\/strong> - | <strong>Je<\/strong>- - | sus | Christ.<br \/>|| In Him is salvation, life, and resurrec- | tion | from | <strong>the<\/strong> - | dead. *<br \/>\u00a0 \u00a0 By Him we are redeemed and set | <strong>at -<\/strong> | <strong>lib<\/strong>- - | er- | ty<em>.<\/em> <em> (Galatians 6:14; Liturgical text)<br \/><\/em>|| God be merciful to | us | and | <strong>bless<\/strong> - | us, *<br \/>\u00a0 \u00a0 And cause His face to | <strong>shine -<\/strong> | <strong>up<\/strong>- - | on | us.<br \/>|| That Your way may | be | known | <strong>on<\/strong> - | earth, *<br \/>\u00a0 \u00a0 Your salvation a- | <strong>mong<\/strong> - | <strong>all -<\/strong> | na- | tions.<br \/>|| Let the peoples | praise | You, | <strong>O<\/strong> - | God; *<br \/>\u00a0 \u00a0 Let all the | <strong>peo<\/strong>- - | <strong>ples -<\/strong> | praise | You.<br \/>|| God, our own | God, | shall | <strong>bless<\/strong> - | us. *<br \/>\u00a0 \u00a0 God shall bless us, and all the ends of the | <strong>earth -<\/strong> | <strong>shall -<\/strong> | fear | Him. <em>(Psalm 67:1, 2, 5\u20137)<\/em><\/p>",
@@ -1455,7 +1478,8 @@
             },
             "sunday_readings": {
                 "epistle": "Is 52:13\u201353:12",
-                "gospel": "John 18:1\u201319:42"
+                "gospel": "John 18:1\u201319:42",
+                "OT":"Is 50:6-9"
             },
             "color": "black",
             "introit": "<p>SURE- <strong>LY<\/strong> - || He has borne our griefs and car- | ried | our | <strong>sor<\/strong>- - | rows; *<br \/>\u00a0 \u00a0 He was wounded for our transgressions, He was bruised for our | <strong>in<\/strong>- - | <strong>i<\/strong>- - | qui- | ties.<br \/>|| All we like sheep | have | gone | <strong>a<\/strong>- - | stray; *<br \/>\u00a0 \u00a0 And the Lord has laid on Him the iniqui- | <strong>ty<\/strong> - | <strong>of -<\/strong> | us | all<em>. (Isaiah 53:4a, 5a, 6)<br \/><\/em>|| Hear | my | <em>pray-er,<\/em> <strong>\u2219<\/strong> | <strong>O<\/strong> - | Lord, *<br \/>\u00a0 \u00a0 And let my | <strong>cry -<\/strong> | <strong>come -<\/strong> | to | You.<br \/>|| Do not hide | Your | face | <strong>from<\/strong> - | me *<br \/>\u00a0 \u00a0 In the day | <strong>of -<\/strong> | <strong>my -<\/strong> | trou- | ble;<br \/>|| Incline | Your | ear | <strong>to<\/strong> - | me; *<br \/>\u00a0 \u00a0 In the day that I call, answer | <strong>me<\/strong> - | <strong>speed<\/strong>- - | i- | ly.<br \/>|| But You, O Lord, shall en- | dure | for- | <strong>ev<\/strong>- - | er, *<br \/>\u00a0 \u00a0 And the remembrance of Your name to all | <strong>gen<\/strong>- - | <strong>er<\/strong>- - | a- | tions. <em>(Psalm 102:1\u20132, 13)<\/em><\/p> <p><em>(From Judica through Holy Saturday the Gloria Patri is omitted.)<\/em><\/p> <p>|| Surely He has borne our griefs and car- | ried | our | <strong>sor<\/strong>- - | rows; *<br \/>\u00a0 \u00a0 He was wounded for our transgressions, he was bruised for our | <strong>in<\/strong>- - | <strong>i<\/strong>- - | qui- | ties.<br \/>|| All we like sheep | have | gone | <strong>a<\/strong>- - | stray; *<br \/>\u00a0 \u00a0 And the Lord has laid on Him the iniqui- | <strong>ty<\/strong> - | <strong>of -<\/strong> | us | all<em>. (Isaiah 53:4a, 5a, 6)<\/em><\/p>",
@@ -1486,7 +1510,8 @@
             },
             "sunday_readings": {
                 "epistle": "1 Cor. 5:6-8",
-                "gospel": "Mark 16:1-8"
+                "gospel": "Mark 16:1-8",
+                "OT": "52:13-15"
             },
             "weekday_readings": {
                 "monday": [
@@ -1546,7 +1571,8 @@
             },
             "sunday_readings": {
                 "epistle": "1 John 5:4-10",
-                "gospel": "John 20:19-31"
+                "gospel": "John 20:19-31",
+                "OT": "Job 19:25-27"
             },
             "weekday_readings": {
                 "monday": [
@@ -1596,7 +1622,8 @@
             },
             "sunday_readings": {
                 "epistle": "1 Peter 2:21-25",
-                "gospel": "John 10:11-16"
+                "gospel": "John 10:11-16",
+                "OT": "Ezek. 34:11-16"
             },
             "weekday_readings": {
                 "monday": [
@@ -1646,7 +1673,8 @@
             },
             "sunday_readings": {
                 "epistle": "1 Pet. 2:11-20",
-                "gospel": "John 16:16-23a"
+                "gospel": "John 16:16-23a",
+                "OT":"Lam. 3:18-26"
             },
             "weekday_readings": {
                 "monday": [
@@ -1696,7 +1724,8 @@
             },
             "sunday_readings": {
                 "epistle": "James 1:16-21",
-                "gospel": "John 16:5-15"
+                "gospel": "John 16:5-15",
+                "OT":"Is. 12:1-6"
             },
             "weekday_readings": {
                 "monday": [
@@ -1746,7 +1775,8 @@
             },
             "sunday_readings": {
                 "epistle": "James 1:22-27",
-                "gospel": "John 16:23-30"
+                "gospel": "John 16:23-30",
+                "OT":"Jer. 29:11-14"
             },
             "weekday_readings": {
                 "monday": [
@@ -1795,7 +1825,8 @@
             },
             "sunday_readings": {
                 "epistle": "Acts 1:1-11",
-                "gospel": "Mark 16:14-20"
+                "gospel": "Mark 16:14-20",
+                "OT":"Is. 57:15"
             },
             "color": "white",
             "collect": "Grant, we beseech Thee, Almighty God, that like as we do believe Thine Only-Begotten Son, our Lord Jesus Christ, to have ascended into the heavens, so may we also in heart and mind thither ascend, and with Him continually dwell; Who liveth and reigneth with Thee and the Holy Ghost, ever One God, world without end. Amen.",
@@ -1818,7 +1849,8 @@
             },
             "sunday_readings": {
                 "epistle": "1 Pet. 4:7-11",
-                "gospel": "John 15:26\u201316:4"
+                "gospel": "John 15:26\u201316:4",
+                "OT":"Ezek. 36:25-27"
             },
             "weekday_readings": {
                 "monday": [
@@ -1869,7 +1901,8 @@
             },
             "sunday_readings": {
                 "epistle": "Acts 2:1-13",
-                "gospel": "John 14:23-31"
+                "gospel": "John 14:23-31",
+                "OT":"Joel 2:28-32"
             },
             "weekday_readings": {
                 "monday": [
@@ -1925,7 +1958,8 @@
             },
             "sunday_readings": {
                 "epistle": "Rom. 11:33-36",
-                "gospel": "John 3:1-15"
+                "gospel": "John 3:1-15",
+                "OT":"Ezek. 18:30-32"
             },
             "weekday_readings": {
                 "monday": [
@@ -1978,7 +2012,8 @@
             },
             "sunday_readings": {
                 "epistle": "1 John 4:16-21",
-                "gospel": "Luke 16:19-31"
+                "gospel": "Luke 16:19-31",
+                "OT":"Jer 9:23-24"
             },
             "weekday_readings": {
                 "monday": [
@@ -2024,7 +2059,8 @@
             },
             "sunday_readings": {
                 "epistle": "1 John 3:13-18",
-                "gospel": "Luke 14:16-24"
+                "gospel": "Luke 14:16-24",
+                "OT":"Is 25:6-9"
             },
             "weekday_readings": {
                 "monday": [
@@ -2070,7 +2106,8 @@
             },
             "sunday_readings": {
                 "epistle": "1 Peter 5:6-11",
-                "gospel": "Luke 15:1-10"
+                "gospel": "Luke 15:1-10",
+                "OT":"Micah 7:18-20"
             },
             "weekday_readings": {
                 "monday": [
@@ -2116,7 +2153,8 @@
             },
             "sunday_readings": {
                 "epistle": "Rom. 8:18-23",
-                "gospel": "Luke 6:36-42"
+                "gospel": "Luke 6:36-42",
+                "OT":"Is. 58:6-12"
             },
             "weekday_readings": {
                 "monday": [
@@ -2162,7 +2200,8 @@
             },
             "sunday_readings": {
                 "epistle": "1 Peter 3:8-15",
-                "gospel": "Luke 5:1-11"
+                "gospel": "Luke 5:1-11",
+                "OT":"Jer 16:14-21"
             },
             "weekday_readings": {
                 "monday": [
@@ -2208,7 +2247,8 @@
             },
             "sunday_readings": {
                 "epistle": "Rom. 6:3-11",
-                "gospel": "Matt. 5:20-26"
+                "gospel": "Matt. 5:20-26",
+                "OT":"Ex. 20:1-17"
             },
             "weekday_readings": {
                 "monday": [
@@ -2254,7 +2294,8 @@
             },
             "sunday_readings": {
                 "epistle": "Rom. 6:19-23",
-                "gospel": "Mark 8:1-9"
+                "gospel": "Mark 8:1-9",
+                "OT":"Jer. 31:23-25"
             },
             "weekday_readings": {
                 "monday": [
@@ -2300,7 +2341,8 @@
             },
             "sunday_readings": {
                 "epistle": "Rom. 8:12-17",
-                "gospel": "Matt. 7:15-23"
+                "gospel": "Matt. 7:15-23",
+                "OT":"Jer 15:19-21"
             },
             "weekday_readings": {
                 "monday": [
@@ -2346,7 +2388,8 @@
             },
             "sunday_readings": {
                 "epistle": "1 Cor. 10:6-13",
-                "gospel": "Luke 16:1-9"
+                "gospel": "Luke 16:1-9",
+                "OT":"1 Chron. 29:10-13"
             },
             "weekday_readings": {
                 "monday": [
@@ -2392,7 +2435,8 @@
             },
             "sunday_readings": {
                 "epistle": "1 Cor. 12:1-11",
-                "gospel": "Luke 19:41-48"
+                "gospel": "Luke 19:41-48",
+                "OT":"Jer. 7:1-7"
             },
             "weekday_readings": {
                 "monday": [
@@ -2438,7 +2482,8 @@
             },
             "sunday_readings": {
                 "epistle": "1 Cor. 15:1-10",
-                "gospel": "Luke 18:9-14"
+                "gospel": "Luke 18:9-14",
+                "OT":"2 Sam. 22:21-29"
             },
             "weekday_readings": {
                 "monday": [
@@ -2484,7 +2529,8 @@
             },
             "sunday_readings": {
                 "epistle": "2 Cor. 3:4-11",
-                "gospel": "Mark 7:31-37"
+                "gospel": "Mark 7:31-37",
+                "OT": "Is. 29:18-19"
             },
             "weekday_readings": {
                 "monday": [
@@ -2530,7 +2576,8 @@
             },
             "sunday_readings": {
                 "epistle": "Gal. 3:15-22",
-                "gospel": "Luke 10:23-37"
+                "gospel": "Luke 10:23-37",
+                "OT":"Lev. 18:1-5"
             },
             "weekday_readings": {
                 "monday": [
@@ -2576,7 +2623,8 @@
             },
             "sunday_readings": {
                 "epistle": "Gal. 5:16-24",
-                "gospel": "Luke 17:11-19"
+                "gospel": "Luke 17:11-19",
+                "OT":"Jer. 17:13-14"
             },
             "weekday_readings": {
                 "monday": [
@@ -2622,7 +2670,8 @@
             },
             "sunday_readings": {
                 "epistle": "Gal. 5:25-6:10",
-                "gospel": "Matt. 6:24-34"
+                "gospel": "Matt. 6:24-34",
+                "OT": "Deut. 4:4-7"
             },
             "weekday_readings": {
                 "monday": [
@@ -2668,7 +2717,8 @@
             },
             "sunday_readings": {
                 "epistle": "Eph. 3:13-21",
-                "gospel": "Luke 7:11-17"
+                "gospel": "Luke 7:11-17",
+                "OT": "Deut 32:39-40"
             },
             "weekday_readings": {
                 "monday": [
@@ -2714,7 +2764,8 @@
             },
             "sunday_readings": {
                 "epistle": "Eph. 4:1-6",
-                "gospel": "Luke 14:1-11"
+                "gospel": "Luke 14:1-11",
+                "OT":"1 Sam 2:1-10"
             },
             "weekday_readings": {
                 "monday": [
@@ -2760,7 +2811,8 @@
             },
             "sunday_readings": {
                 "epistle": "1 Cor. 1:4-9",
-                "gospel": "Matt. 22:34-46"
+                "gospel": "Matt. 22:34-46",
+                "OT":"Deut. 10:12-21"
             },
             "weekday_readings": {
                 "monday": [
@@ -2806,7 +2858,8 @@
             },
             "sunday_readings": {
                 "epistle": "Eph. 4:22-28",
-                "gospel": "Matt. 9:1-8"
+                "gospel": "Matt. 9:1-8",
+                "OT":"Is. 44:21-23"
             },
             "weekday_readings": {
                 "monday": [
@@ -2852,7 +2905,8 @@
             },
             "sunday_readings": {
                 "epistle": "Eph. 5:15-21",
-                "gospel": "Matt. 22:1-14"
+                "gospel": "Matt. 22:1-14",
+                "OT": "Is. 65:1-2"
             },
             "weekday_readings": {
                 "monday": [
@@ -2898,7 +2952,8 @@
             },
             "sunday_readings": {
                 "epistle": "Eph. 6:10-17",
-                "gospel": "John 4:46-54"
+                "gospel": "John 4:46-54",
+                "OT":"Hos. 13:14"
             },
             "weekday_readings": {
                 "monday": [
@@ -2944,7 +2999,8 @@
             },
             "sunday_readings": {
                 "epistle": "Phil. 1:3-11",
-                "gospel": "Matt. 18:23-35"
+                "gospel": "Matt. 18:23-35",
+                "OT": "Deut. 7:8-11"
             },
             "weekday_readings": {
                 "monday": [
@@ -2990,7 +3046,8 @@
             },
             "sunday_readings": {
                 "epistle": "Phil. 3:17-21",
-                "gospel": "Matt. 22:15-22"
+                "gospel": "Matt. 22:15-22",
+                "OT": "Is. 32:1-8"
             },
             "weekday_readings": {
                 "monday": [
@@ -3036,7 +3093,8 @@
             },
             "sunday_readings": {
                 "epistle": "Col. 1:9-14",
-                "gospel": "Matt. 9:18-26"
+                "gospel": "Matt. 9:18-26",
+                "OT":"Is. 51:9-16"
             },
             "weekday_readings": {
                 "monday": [
@@ -3082,7 +3140,8 @@
             },
             "sunday_readings": {
                 "epistle": "1 Thess. 4:13-18",
-                "gospel": "Matt. 24:15-28"
+                "gospel": "Matt. 24:15-28",
+                "OT": "Is. 49:12-17"
             },
             "weekday_readings": {
                 "monday": [
@@ -3128,7 +3187,8 @@
             },
             "sunday_readings": {
                 "epistle": "2 Thess. 1:3-10",
-                "gospel": "Matt. 25:31-46"
+                "gospel": "Matt. 25:31-46",
+                "OT":"Is. 40:9-11"
             },
             "weekday_readings": {
                 "monday": [
@@ -3173,7 +3233,8 @@
             },
             "sunday_readings": {
                 "epistle": "1 Thess. 5:1-11",
-                "gospel": "Matt. 25:1-13"
+                "gospel": "Matt. 25:1-13",
+                "OT": "Is. 65:17-19"
             },
             "weekday_readings": {
                 "monday": [

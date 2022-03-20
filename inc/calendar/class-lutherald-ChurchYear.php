@@ -101,6 +101,12 @@ class ChurchYear{
                 $sunday_entry['display'] = $week['display'];
                 $sunday_entry['readings'][0] = $week['sunday_readings']['epistle']; 
                 $sunday_entry['readings'][1] = $week['sunday_readings']['gospel']; 
+                
+                //OT Reading
+                if(\key_exists('OT', $week['sunday_readings'])){
+                    $sunday_entry['readings'][2] = $week['sunday_readings']['OT'];
+                }
+
                 $sunday_entry['color'] = $week['color'];
                 
                 //Array parameters to add 

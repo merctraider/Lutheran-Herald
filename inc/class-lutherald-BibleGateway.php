@@ -4,6 +4,9 @@ namespace Lutherald;
 class BibleGateway{
 
     public static $version = 'NKJV'; 
+    public static $apocrypha_version = 'DRA';
+    public static $apocryphal_books = ['Ecclesiasticus', 'Tobit', 'Judith', 'Baruch', 'Wisdom', 'Maccabees'];
+    
 
     public static function fetch_url($url){
         //Initialise the curl
@@ -17,6 +20,15 @@ class BibleGateway{
     }
 
     public static function get_verse($lookup){
+        $output = '';
+        //Check if book belongs to the apocrypha
+        if(self::is_apocrypha($lookup)){
+            $ver = self::$apocrypha_version;
+            $output = '<strong>('. self::$apocrypha_version . ') </strong>';
+        } else {
+            $ver = self::$version;
+        }
+        
         $lookup = \urlencode($lookup);
         $psalm = false; 
 
@@ -24,11 +36,11 @@ class BibleGateway{
             $psalm = true; 
         }
 
-        $ver = self::$version;
+        
         $url = "http://www.biblegateway.com/passage/?search=$lookup&version=$ver";
         require_once  dirname(__FILE__) .'/simple_html_dom.php';
         $content = file_get_html($url);
-        $output = '';
+        
         $passage_html = $content->find('div.passage-text', 0);
         foreach($passage_html->find('p') as $verse){
             foreach($verse->find('sup') as $footnote){
@@ -46,6 +58,19 @@ class BibleGateway{
         
         return false;      
         
+    }
+    
+    public static function is_apocrypha($lookup){
+        
+        foreach(self::$apocryphal_books as $book){
+
+            if(\strpos($lookup, $book) !== false){
+                return true; 
+            }
+        }
+        
+
+        return false; 
     }
 
     public static function get_devotions($date){
