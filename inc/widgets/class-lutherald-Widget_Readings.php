@@ -115,6 +115,20 @@ class Widget_Readings extends \WP_Widget
         }
         echo '</div>';
 
+
+        if(count((array) $day_info['readings']) > 2){
+            $OT_reading = $day_info['readings'][2];
+            //OT Reading
+            echo '<div id="third-reading">';
+            echo "<$readings_tag>Old Testament Reading (TLH): $OT_reading</$readings_tag>";
+            if ($display_verse) {
+                echo '<p>' . BibleGateway::get_verse($OT_reading) . '</p>';
+            } else {
+                echo '<p data-bible="'. $OT_reading . '">Loading verse...</p>';
+            }
+            echo '</div>';
+        }
+
         //First Reading
         echo '<div id="first-reading">';
         echo "<$readings_tag>First Reading: $first_reading</$readings_tag>";
@@ -144,18 +158,6 @@ class Widget_Readings extends \WP_Widget
         }
         echo '</div>';
 
-        if(count((array) $day_info['readings']) > 2){
-            $OT_reading = $day_info['readings'][2];
-            //OT Reading
-            echo '<div id="third-reading">';
-            echo "<$readings_tag>Old Testament Reading (TLH): $OT_reading</$readings_tag>";
-            if ($display_verse) {
-                echo '<p>' . BibleGateway::get_verse($OT_reading) . '</p>';
-            } else {
-                echo '<p data-bible="'. $OT_reading . '">Loading verse...</p>';
-            }
-            echo '</div>';
-        }
 
         
 
