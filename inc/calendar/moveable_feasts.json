@@ -2002,6 +2002,10 @@
                     "Psalm 143",
                     "Psalm 115"
                 ]
+            },
+            "hymn": {
+                "hymnal": "TLH",
+                "index": 247
             }
         },
         {
@@ -2049,6 +2053,10 @@
             "psalm": {
                 "matins": "Psalm 119:1-8",
                 "vespers": "Psalm 34"
+            },
+            "hymn": {
+                "hymnal": "TLH",
+                "index": 393
             }
         },
         {
@@ -2096,6 +2104,10 @@
             "psalm": {
                 "matins": "Psalm 119:9-16",
                 "vespers": "Psalm 28"
+            },
+            "hymn": {
+                "hymnal": "ELHL1918",
+                "index": 277
             }
         },
         {
@@ -2143,6 +2155,10 @@
             "psalm": {
                 "matins": "Psalm 119:17-24",
                 "vespers": "Psalm 34"
+            },
+            "hymn": {
+                "hymnal": "TLH",
+                "index": 319
             }
         },
         {
@@ -2190,6 +2206,10 @@
             "psalm": {
                 "matins": "Psalm 119:25-32",
                 "vespers": "Psalm 92"
+            },
+            "hymn": {
+                "hymnal": "LHPN1913",
+                "index": 98
             }
         },
         {
