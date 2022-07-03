@@ -291,7 +291,11 @@
         "color": "white",
         "collect":"O God, who didst call Patrick to preach the Gospel, grant to Thy servants steadfastness in the confession of the true faith that they would preach that unchanging Gospel in the midst of the darkness of this age, through Jesus Christ, Thy Son, our Lord, who liveth and reigneth with Thee and the Holy Ghost, ever One God, world without end. Amen.",
         "introit":"<p>Ant. LET THY || priests be clothed with righteousness; and let Thy saints</p> <p>shout | for | joy :</p> <p>For Thy servant David&rsquo;s sake turn not away the face of | Thine | a- |</p> <p>noint- | ed.</p> <p>Psalm. || Lord, remember | Da- | vid:</p> <p>and all | his | a- | fflic- | tions.</p> <p>GLO-RY || be to the Father and to the | Son | -:</p> <p>and to | the | Ho- | ly | Ghost.</p> <p>AS IT || was in the beginning, is now, and ever | shall | be:</p> <p>world with- | out | end. | A- | men. (Ant. Repeated.)</p>",
-        "gradual":"<p>|| I will also clothe her priests with sal- | va- | tion:</p> <p>and her saints shall shout | a- | loud | for | joy.</p> <p>|| There will I make the horn of David | to | bud:</p> <p>I have ordained a lamp for | mine | a- | noint- | ed.</p> <p>|| Hallelujah. Hallelujah. The people will tell of their | wis- | dom:</p> <p>and the congregation will shew forth their praise. | Hal- | le- | lu- | jah.</p>"
+        "gradual":"<p>|| I will also clothe her priests with sal- | va- | tion:</p> <p>and her saints shall shout | a- | loud | for | joy.</p> <p>|| There will I make the horn of David | to | bud:</p> <p>I have ordained a lamp for | mine | a- | noint- | ed.</p> <p>|| Hallelujah. Hallelujah. The people will tell of their | wis- | dom:</p> <p>and the congregation will shew forth their praise. | Hal- | le- | lu- | jah.</p>",
+        "hymn":{
+            "hymnal":"TLH",
+            "index": 499
+        }
     },
     {
         "display":"St. Joseph, Spouse of the Blessed Virgin Mary and Guardian of our Lord",
@@ -356,7 +360,7 @@
         "rank": "Festival",
         "chief_hymn": "",
         "readings":{
-            "epistle":"Now, therefore, you are no longer strangers and foreigners, but fellow citizens with the saints and members of the household of God, having been built on the foundation of the apostles and prophets, Jesus Chris Himself being the chief cornerstone, in whom the whole building, being fitted together, grows into a holy temple in the Lord, in whom you also are being built together for a dwelling place of God in the Spirit.",
+            "epistle":"Ephesians 2:19-22",
             "gospel":"John 14:1-14"
         },
         "color": "red",
@@ -370,7 +374,7 @@
         "rank": "Festival",
         "chief_hymn": "",
         "readings":{
-            "epistle":"For we do not preach ourselves, but Christ Jesus the Lord, and ourselves your bond servants for Jesus’ sake. For it is the God who commanded light to shine out of darkness, who has shone in our hearts to give the light of the knowledge of the glory of God in the face of Jesus Christ. But we have this treasure in earthen vessels, that the excellence of the power may be of God and not of us. We are hard-pressed on every side, yet not crushed; we are perplexed, but not in despair; persecuted, but not forsaken; struck down, but not destroyed— always carrying about in the body the dying of the Lord Jesus, that the life of Jesus also may be manifested in our body. For we who live are always delivered to death for Jesus’ sake, that the life of Jesus also may be manifested in our mortal flesh, So then death is working in us, but life in you. And since we have the same spirit of faith,",
+            "epistle":"2 Corinthians 4:5-14",
             "gospel":"Matthew 10:23-28"
         },
         "color": "white",
@@ -586,7 +590,11 @@
         "color": "white",
         "collect":"O everlasting God, Who hast ordained and constituted the services of angels and men in a wonderful order: Mercifully grant, that as Thy holy angels always do Thee service in Heaven, so by Thy appointment they may succor and defend us on earth; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever One God, world without end. Amen.",
         "introit":"<p>Ant. BLESS THE || Lord, ye His angels, that excel in | strength | -:</p>  <p>that do His commandments, hearkening unto the | voice | of | His | word</p>  <p>|| Bless ye the Lord, all ye | His | hosts:</p>  <p>ye ministers of His that | do | His | plea- | sure.</p>  <p>Psalm. || Bless the Lord, O | my | soul:</p>  <p>and all that is within me bless | His | ho- | ly | Name.</p>  <p>GLO-RY || be to the Father and to the | Son | -:</p>  <p>and to | the | Ho- | ly | Ghost.</p>  <p>AS IT || was in the beginning, is now, and ever | shall | be:</p>  <p>world with- | out | end. | A- | men. (Ant. Repeated.)</p> ",
-        "gradual":"<p>|| Bless the Lord, ye His angels, that excel | in | strength:</p>  <p>that do His commandments, hearkening unto the | voice | of | His | word.</p>  <p>|| God hath given His angels charge over | thee | -:</p>  <p>to keep thee | in | all | thy | ways.</p>  <p>|| Hallelujah. Hallelujah. Bless the Lord, O | my | soul:</p>  <p>and all that is within me, bless His Holy Name. | Hal- le- | lu- | jah.</p> "
+        "gradual":"<p>|| Bless the Lord, ye His angels, that excel | in | strength:</p>  <p>that do His commandments, hearkening unto the | voice | of | His | word.</p>  <p>|| God hath given His angels charge over | thee | -:</p>  <p>to keep thee | in | all | thy | ways.</p>  <p>|| Hallelujah. Hallelujah. Bless the Lord, O | my | soul:</p>  <p>and all that is within me, bless His Holy Name. | Hal- le- | lu- | jah.</p> ",
+        "hymn": {
+            "hymnal": "TLH",
+            "index": 548
+        }
     },
     {
         "display":"St. Ignatius of Antioch, Bishop and Martyr",
@@ -642,7 +650,11 @@
         "color": "red",
         "collect":"Almighty God, merciful Father, who madest the light to shine out of darkness, we thank Thee that Thou hast shown mercy unto us and our fathers, and by means of Thy servant Martin Luther hast restored the pure light of Thy Gospel: keep us, we beseech Thee, in sound doctrine, that we may steadfastly believe and worthily follow Thy saving Word, and finally, by its holy comfort, depart in peace and joy; through Jesus Christ, Thy Son, our Lord, who liveth and reigneth with Thee and the Holy Ghost, ever One God, world without end. Amen. ¥ The Collect for the Presentation of the Augsburg Confession may also be used.",
         "introit":"<p>Ant. THE LORD || of Hosts is | with | us:</p>  <p>the God of Jacob | is | our | Re- | fuge.</p>  <p>|| Therefore will not we fear, though the earth be re- | moved |-:</p>  <p>and though the mountains be carried into the | midst | of | the | sea.</p>  <p>Psalm. || God is our Refuge and | Strength | -:</p>  <p>a very present | help | in | trou- | ble.</p>  <p>GLO-RY || be to the Father and to the | Son | -:</p>  <p>and to | the | Ho- | ly | Ghost.</p>  <p>AS IT || was in the beginning, is now, and ever | shall | be:</p>  <p>world with- | out | end. | A- | men. (Ant. Repeated.)</p> ",
-        "gradual":"<p>|| Great is the Lord, and greatly to | be | praised:</p>  <p>in the city of our God, in the mountain of | His | hol- | i- | ness.</p>  <p>|| Walk about Zion; tell the towers thereof, mark well her bulwarks, con-</p>  <p>sider her | palac- | es:</p>  <p>that ye may tell it to the genera- | tion | fol- | low- | ing.</p>  <p>|| Hallelujah. Hallelujah. For this God is our God for ever and | ev- | er:</p>  <p>He will be our guide even unto death, | Hal- | le- | lu- jah.</p> "
+        "gradual":"<p>|| Great is the Lord, and greatly to | be | praised:</p>  <p>in the city of our God, in the mountain of | His | hol- | i- | ness.</p>  <p>|| Walk about Zion; tell the towers thereof, mark well her bulwarks, con-</p>  <p>sider her | palac- | es:</p>  <p>that ye may tell it to the genera- | tion | fol- | low- | ing.</p>  <p>|| Hallelujah. Hallelujah. For this God is our God for ever and | ev- | er:</p>  <p>He will be our guide even unto death, | Hal- | le- | lu- jah.</p> ",
+        "hymn": {
+            "hymnal": "TLH",
+            "index": 262
+        }
     },
     {
         "display":"All Saints' Day",
@@ -656,7 +668,11 @@
         "color": "white",
         "collect":"O Almighty God, Who hast knit together Thine elect in one communion and fellowship in the mystical Body of Thy Son, Christ our Lord: Grant us grace so to follow Thy blessed Saints in all virtuous and godly living, that we may come to those unspeakable joys which Thou hast prepared for those who unfeignedly love Thee; through Jesus Christ, Thy Son, our Lord, Who liveth and reigneth with Thee and the Holy Ghost, ever One God, world without end. Amen.",
         "introit":"<p>Ant, THESE ARE || they which have come out of the great tribu- | la- | tion:</p>  <p>and have washed their robes and made them white in the | Blood | of | the | Lamb.</p>  <p>|| Therefore are they before the Throne of | God |-:</p>  <p>and serve Him day and night | in | His | tem- | ple.</p>  <p>Psalm. || Rejoice in the Lord, O ye | right- | eous:</p>  <p>for praise is comely | for | the | up- | right.</p>  <p>GLO-RY || be to the Father and to the | Son | -:</p>  <p>and to | the | Ho- | ly | Ghost.</p>  <p>AS IT || was in the beginning, is now, and ever | shall | be:</p>  <p>world with- | out | end. | A- | men. (Ant. Repeated.)</p> ",
-        "gradual":"<p>|| O fear the Lord, ye | His | saints:</p>  <p>for there is no want to | them | that | fear | Him.</p>  <p>|| They that seek the | Lord | -:</p>  <p>shall not want | an- | y | good | thing.</p>  <p>|| Hallelujah. Hallelujah. Come unto Me, all ye that labor and are heavy |</p>  <p>la- | den:</p>  <p>and I will give you rest. | Hal- | le- | lu- | jah.</p> "
+        "gradual":"<p>|| O fear the Lord, ye | His | saints:</p>  <p>for there is no want to | them | that | fear | Him.</p>  <p>|| They that seek the | Lord | -:</p>  <p>shall not want | an- | y | good | thing.</p>  <p>|| Hallelujah. Hallelujah. Come unto Me, all ye that labor and are heavy |</p>  <p>la- | den:</p>  <p>and I will give you rest. | Hal- | le- | lu- | jah.</p> ",
+        "hymn": {
+            "hymnal": "TLH",
+            "index": 465
+        }
     },
     {
         "display":"St. Martin of Tours, Bishop and Confessor",

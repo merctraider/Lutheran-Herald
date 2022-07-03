@@ -149,7 +149,7 @@
                 "vespers": "Psalm 98"
             },
             "hymn": {
-                "hymnal": "ELH",
+                "hymnal": "LHPN1913",
                 "index": 167
             }
         },
@@ -252,7 +252,7 @@
                 ]
             },
             "hymn": {
-                "hymnal": "ELH",
+                "hymnal": "LHPN1913",
                 "index": 184
             }
         },
@@ -961,7 +961,7 @@
             "introit": "<p>THE LIGHT- - || nings | lit | up | the | world; *<br \/>\u00a0 \u00a0 The earth | trem- | bled | and - | shook. (Psalm 77:18b)<br \/>|| How lovely is Your tabernacle, | O | Lord | of | hosts! *<br \/>\u00a0 \u00a0 My soul longs, yes, even faints for the | courts | of | the - | Lord.<br \/>|| Bless\u00e8d are those who | dwell | in | Your | house; *<br \/>\u00a0 \u00a0 They will still | be | prais- | ing - | You.<br \/>|| O God, | be- | hold | our | shield, *<br \/>\u00a0 \u00a0 And look upon the face of | Your | a- | noint- - | ed<br \/>|| For the Lord God is | a | sun | and | shield; *<br \/>C: The Lord will give | grace | and | glo- - | ry. (Ps. 84:1-2a, 4, 10-11)<\/p>",
             "gradual": "<p>You are fairer than | the | sons | of | men; *<br \/>\u00a0 \u00a0 Grace is poured | up- | on | Your - | lips.<br \/>|| The Lord said to my Lord, \u201cSit | at | My | right | hand, *<br \/>\u00a0 \u00a0 Till I make Your ene- | mies | Your | foot- - | stool.\u201d (Psalm 45:2a, 110:1)<br \/>|| Al- | \u2014 | le- | lu- | ia! *<br \/>\u00a0 \u00a0 Al- | \u2014 | le- | lu- - | ia!<br \/>|| Sing to the Lord, bless His name; Proclaim the good news of His salvation | from | day | to | day. *<br \/>\u00a0 \u00a0 \u00a0Declare His glory among the nations. | Al- | le- | lu- - | ia!<\/p>",
             "hymn": {
-                "hymnal": "ELH",
+                "hymnal": "LHPN1913",
                 "index": 253
             }
         }
@@ -1393,7 +1393,7 @@
                 "vespers": "Psalm 27"
             },
             "hymn": {
-                "hymnal": "ELH",
+                "hymnal": "LHPN1913",
                 "index": 587
             }
         },
@@ -2257,6 +2257,10 @@
             "psalm": {
                 "matins": "Psalm 119:33-40",
                 "vespers": "Psalm 113"
+            },
+            "hymn": {
+                "hymnal": "TLH",
+                "index": 548
             }
         },
         {
@@ -2304,6 +2308,10 @@
             "psalm": {
                 "matins": "Psalm 119:41-48",
                 "vespers": "Psalm 114"
+            },
+            "hymn": {
+                "hymnal": "TLH",
+                "index": 287
             }
         },
         {
@@ -2351,6 +2359,10 @@
             "psalm": {
                 "matins": "Psalm 119:49-56",
                 "vespers": "Psalm 125"
+            },
+            "hymn": {
+                "hymnal": "TLH",
+                "index": 41
             }
         },
         {
@@ -2398,6 +2410,10 @@
             "psalm": {
                 "matins": "Psalm 119:57-64",
                 "vespers": "Psalm 126"
+            },
+            "hymn": {
+                "hymnal": "TLH",
+                "index": 517
             }
         },
         {
@@ -2445,6 +2461,10 @@
             "psalm": {
                 "matins": "Psalm 119:65-72",
                 "vespers": "Psalm 139"
+            },
+            "hymn": {
+                "hymnal": "TLH",
+                "index": 625
             }
         },
         {
@@ -2492,6 +2512,10 @@
             "psalm": {
                 "matins": "Psalm 119:73-80",
                 "vespers": "Psalm 143"
+            },
+            "hymn": {
+                "hymnal": "TLH",
+                "index": 420
             }
         },
         {
@@ -2539,6 +2563,10 @@
             "psalm": {
                 "matins": "Psalm 119:81-88",
                 "vespers": "Psalm 147"
+            },
+            "hymn": {
+                "hymnal": "TLH",
+                "index": 369
             }
         },
         {
@@ -2586,6 +2614,10 @@
             "psalm": {
                 "matins": "Psalm 119:89-96",
                 "vespers": "Psalm 104"
+            },
+            "hymn": {
+                "hymnal": "TLH",
+                "index": 34
             }
         },
         {
@@ -2633,6 +2665,10 @@
             "psalm": {
                 "matins": "Psalm 119:97-104",
                 "vespers": "Psalm 84"
+            },
+            "hymn": {
+                "hymnal": "TLH",
+                "index": 347
             }
         },
         {
@@ -2680,6 +2716,10 @@
             "psalm": {
                 "matins": "Psalm 119:105-112",
                 "vespers": "Psalm 66"
+            },
+            "hymn": {
+                "hymnal": "TLH",
+                "index": 25
             }
         },
         {
@@ -2727,6 +2767,10 @@
             "psalm": {
                 "matins": "Psalm 119:113-120",
                 "vespers": "Psalm 34"
+            },
+            "hymn": {
+                "hymnal": "TLH",
+                "index": 443
             }
         },
         {
@@ -2774,6 +2818,10 @@
             "psalm": {
                 "matins": "Psalm 119:121-128",
                 "vespers": "Psalm 36"
+            },
+            "hymn": {
+                "hymnal": "TLH",
+                "index": 596
             }
         },
         {
@@ -2821,6 +2869,10 @@
             "psalm": {
                 "matins": "Psalm 119:129-136",
                 "vespers": "Psalm 56"
+            },
+            "hymn": {
+                "hymnal": "TLH",
+                "index": 524
             }
         },
         {
@@ -2915,6 +2967,10 @@
             "psalm": {
                 "matins": "Psalm 119:145-152",
                 "vespers": "Psalm 61"
+            },
+            "hymn": {
+                "hymnal": "TLH",
+                "index": 251
             }
         },
         {
@@ -2962,6 +3018,10 @@
             "psalm": {
                 "matins": "Psalm 119:153-160",
                 "vespers": "Psalm 57"
+            },
+            "hymn": {
+                "hymnal": "TLH",
+                "index": 343
             }
         },
         {
@@ -3009,6 +3069,10 @@
             "psalm": {
                 "matins": "Psalm 119:161-168",
                 "vespers": "Psalm 31:1-8"
+            },
+            "hymn": {
+                "hymnal": "TLH",
+                "index": 373
             }
         },
         {
@@ -3056,6 +3120,10 @@
             "psalm": {
                 "matins": "Psalm 119:169-176",
                 "vespers": "Psalm 31:9-18"
+            },
+            "hymn": {
+                "hymnal": "TLH",
+                "index": 329
             }
         },
         {
@@ -3197,6 +3265,10 @@
             "psalm": {
                 "matins": "Psalm 116",
                 "vespers": "Psalm 18:20-45"
+            },
+            "hymn": {
+                "hymnal": "TLH",
+                "index": 522
             }
         },
         {
@@ -3244,6 +3316,10 @@
             "psalm": {
                 "matins": "Psalm 111",
                 "vespers": "Psalm 18:46-50"
+            },
+            "hymn": {
+                "hymnal": "TLH",
+                "index": 36
             }
         },
         {
@@ -3293,6 +3369,10 @@
                     "Psalm 27",
                     "Psalm 97"
                 ]
+            },
+            "hymn": {
+                "hymnal": "TLH",
+                "index": 67
             }
         }
     ]
