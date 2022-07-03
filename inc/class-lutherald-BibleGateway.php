@@ -115,18 +115,17 @@ class BibleGateway{
     }
 
     public static function get_hymn($hymn){
+
         $output = ''; 
         //Hymnal information
         $hymnal_json = file_get_contents(dirname(__FILE__) ."/calendar/hymnals.json");
         $hymnal_directory = \json_decode($hymnal_json, true); 
         
-
         //Validate hymn parameter
         if(array_key_exists('hymnal', $hymn) && array_key_exists('index', $hymn)){
-
+            
             //Get the hymnal id 
             $hymnal_id = $hymn['hymnal'];
-            
 
             //Validate hymn index
             if(array_key_exists($hymnal_id, $hymnal_directory)){
