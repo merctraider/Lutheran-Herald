@@ -83,6 +83,13 @@ class Widget_Calendar extends \WP_Widget
             $date = $current_date . '-' . $day;
             $day_info = $calendar_to_use->retrieve_day_info($date);
             
+            //If the day info is false, the calendar is next year
+            if(!$day_info){
+                
+                $calendar_to_use =  $this_year;
+                $day_info = $calendar_to_use->retrieve_day_info($date);
+            }
+            
             $feast_day = $calendar_to_use->get_festival($date);
 
             $day_display = $day_info['display'];
