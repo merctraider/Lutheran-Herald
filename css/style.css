@@ -63,3 +63,8 @@ td.today{
         display: none;
     }
 }
+
+.bible-icon svg{
+    width: 1em;
+    height: 1em;
+}
