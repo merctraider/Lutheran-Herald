@@ -101,10 +101,10 @@ class Widget_Calendar extends \WP_Widget
                 $week .= '<td class="'.$color.'"><p>' . $day . '</p>';
             }
             //Cell contents
-            $week .= '<p><a href="' . $entry_url . '?date=' . $date . '">' . $day_display . '</a></p>';
+            $week .= '<p><a rel="nofollow" href="' . $entry_url . '?date=' . $date . '">' . $day_display . '</a></p>';
 
             if($feast_day != false){
-                $week .= '<p><a href='. $entry_url . '?date=' . $date . '>'  . $feast_day['display'] . '</a></p>';
+                $week .= '<p><a rel="nofollow" href='. $entry_url . '?date=' . $date . '>'  . $feast_day['display'] . '</a></p>';
             }
 
             $week .= '</td>';
@@ -126,7 +126,7 @@ class Widget_Calendar extends \WP_Widget
 
         ?>
             <div class="container">
-                <h3><a href="?date=<?php echo $prev; ?>">&lt;</a> <?php echo $html_title; ?> <a href="?date=<?php echo $next; ?>">&gt;</a></h3>
+                <h3><a rel="nofollow" href="?date=<?php echo $prev; ?>">&lt;</a> <?php echo $html_title; ?> <a rel="nofollow" href="?date=<?php echo $next; ?>">&gt;</a></h3>
                 <table class="table table-bordered tlh-calendar">
                     <tr>
                         <th>S</th>

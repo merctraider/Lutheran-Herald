@@ -303,9 +303,9 @@ class Widget_Readings extends \WP_Widget
         $yesterday = clone $current_date;
         $yesterday->modify('yesterday');
         echo '<div class="pagination">';
-        echo '<div class="nav-previous">' . '<a href="' . $url . '?date=' . $yesterday->format('Y-m-d') . '">&larr;' . $yesterday->format('M d Y') . '</a>' . '</div>';
+        echo '<div class="nav-previous">' . '<a rel="nofollow" href="' . $url . '?date=' . $yesterday->format('Y-m-d') . '">&larr;' . $yesterday->format('M d Y') . '</a>' . '</div>';
         echo '<div class="current">' . $current_date->format('M d Y') . '</div>';
-        echo '<div class="nav-next">' . '<a href="' . $url . '?date=' . $tomorrow->format('Y-m-d') . '">' . $tomorrow->format('M d Y') . '&rarr;</a>' . '</div>';
+        echo '<div class="nav-next">' . '<a rel="nofollow" href="' . $url . '?date=' . $tomorrow->format('Y-m-d') . '">' . $tomorrow->format('M d Y') . '&rarr;</a>' . '</div>';
         echo '</div>';
     }
 
