@@ -58,36 +58,52 @@ class Shortcodes
         //Today's date day
         $today_day = date('j', time());
 
-        for ($day = $today_day-1; $day < $today_day + 3; $day++) {
+        for ($day = $today_day - 1; $day < $today_day + 3; $day++) {
+            // Fix: Validate the day before creating the date string
+            $month = date('m', $timestamp);
+            $year = date('Y', $timestamp);
+            $days_in_month = date('t', $timestamp);
+
+            // Skip invalid days
+            if ($day <= 0 || $day > $days_in_month) {
+                continue;
+            }
+
             $date = $current_date . '-' . $day;
-            $day_info = $calendar_to_use->retrieve_day_info($date);
 
-            //If the day info is false, the calendar is next year
-            if (!$day_info) {
-
-                $calendar_to_use =  $this_year;
+            try {
                 $day_info = $calendar_to_use->retrieve_day_info($date);
-            }
 
-            $day_display = $day_info['display'];
-            $feast_day = $calendar_to_use->get_festival($date);
-            $output .= '<div class="mini-calendar-lectionary-date">';
-            $output .= '<small>';
-            //Format the date to Day, Month Date 
-            $output .=  date('D, M j', strtotime($date));
-            $output .= '</small>';
-            $output .= '</div>';
-            $output .= '<a href=" ' . $atts['entry_url'] . '?date=' . $date . '">';
-            $output .= '<div class="mini-calendar-lectionary-day">';
-            $output .= $day_display;
-            if ($feast_day != false) {
-                $output .= '<span>';
-                $output .=', ' . $feast_day['display'];
-                $output .= '</span>';
+                //If the day info is false, the calendar is next year
+                if (!$day_info) {
+                    $calendar_to_use = $this_year;
+                    $day_info = $calendar_to_use->retrieve_day_info($date);
+                }
+
+                $day_display = $day_info['display'];
+                $feast_day = $calendar_to_use->get_festival($date);
+                $output .= '<div class="mini-calendar-lectionary-date">';
+                $output .= '<small>';
+                //Format the date to Day, Month Date 
+                $output .= date('D, M j', strtotime($date));
+                $output .= '</small>';
+                $output .= '</div>';
+                $output .= '<a href=" ' . $atts['entry_url'] . '?date=' . $date . '">';
+                $output .= '<div class="mini-calendar-lectionary-day">';
+                $output .= $day_display;
+                if ($feast_day != false) {
+                    $output .= '<span>';
+                    $output .= ', ' . $feast_day['display'];
+                    $output .= '</span>';
+                }
+
+                $output .= '</div>';
+                $output .= '</a>';
+            } catch (\Exception $e) {
+                // Log the error but continue processing
+                error_log('Lutheran Herald plugin error: ' . $e->getMessage());
+                continue;
             }
-            
-            $output .= '</div>';
-            $output .= '</a>';
         }
 
         return $output;
